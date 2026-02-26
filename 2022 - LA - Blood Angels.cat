@@ -3066,6 +3066,9 @@
           <description>Any friendly units that are locked in combat and have at least one model within 6&quot; of Sanguinius, as well as Sanguinius and any unit he has joined, may add +1 to the total number of successful Wounds caused for the purposes of resolving which side has won a combat (this does not stack with any other rules that increase the
 Assault result).</description>
         </rule>
+        <rule id="a1b2-c3d4-e5f6-7890" name="Legion Warhawk Jump Pack" hidden="false">
+          <description>Sanguinius counts as having a Legion Warhawk Jump Pack for the purposes of joining units and movement.</description>
+        </rule>
         <rule id="1703-b985-b67c-004c" name="Great Wings" hidden="false">
           <description>At the start of the controlling player’s Movement phase, or when deployed as part of a Deep Strike Assault, Sanguinius’ Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn (referred to as ‘activating’ this special rule). This allows Sanguinius to move up to 14&quot;, regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, Sanguinius may move over Impassable Terrain, vertical terrain or friendly and enemy models or units without penalty while using this special rule, but may not end his movement in Impassable Terrain or within 1&quot; of any model from a unit Sanguinius is not part of. If Sanguinius ends or begins his movement or a Charge in Dangerous Terrain he must take a Dangerous Terrain test when employing this special rule, and treats all Difficult Terrain as Dangerous Terrain.
 Sanguinius may still Run on a turn when his wings have been activated. When making a Run move after having activated his wings, add Sanguinius’ Initiative Characteristic to 14 to determine how far he may move – ignoring terrain and other models while making a Run move with activated wings as noted above, but he may not make Shooting Attacks or declare a Charge in the same turn in which Sanguinius has Run as per the normal rules for Running. Sanguinius’ wings may not be activated to gain any bonus to Sanguinius’ Movement Characteristic during a Reaction.</description>
@@ -5620,7 +5623,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
               </costs>
               <infoLinks>
                 <infoLink id="e7de-3ade-8f9a-9c0c" name="Dawnbreaker" targetId="13ce-3207-bb2e-eaf0" type="profile"/>
@@ -5630,7 +5633,7 @@ A unit selected in this manner is considered a &apos;Retinue Squad? The Retinue 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c117-96cb-919f-f806" name="Equinox Power Blade Case" hidden="false" collective="true" import="true" type="upgrade">
