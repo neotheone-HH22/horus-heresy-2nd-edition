@@ -14401,12 +14401,11 @@ Limitations
             <rule id="6b38-468a-0ddf-5dec" name="Terror Assault" publicationId="09c5-eeae-f398-b653" page="197" hidden="false">
               <description>Effects
 • When any Detachment in a battle is using this Rite of War, the Night Fighting rules are always in effect at the start of the first Game Turn of the battle and remain in play until the end of the second Game Turn. At the start of the third Game Turn, before any Reserves rolls are made or any models are moved, the controlling player of a Detachment using this Rite of War may have the Night Fighting rules automatically end, or may roll a D6. If the result of the roll is a ‘4’ or greater, then the Night Fighting rules remain in effect for the duration of the third Game Turn. If the result of the roll is a ‘3’ or less, then the Night Fighting rules end immediately. At the start of the fourth turn the Night Fighting rules are automatically removed from play, regardless of the effect of any other special rule.
-• Terror Squads and Night Raptor Squads may be taken as Troops choices in a Detachment using this Rite of War.
+• Terror Squads and Night Raptor Squads may be taken as Troops choices in a Detachment using this Rite of War. When Terror Squads are selected as Compulsory Troops choices, they gain the Line Sub-type.
 • Any model with the Legiones Astartes (Night Lords) special rule and the Character Unit Sub-type in a Detachment using this Rite of War gains the Fear (1) special rule.
 Limitations
 • This Rite of War may only be selected for a Primary Detachment.
-• Detachments using this Rite of War may only take a single Heavy Support choice as part of their Force Organisation chart.
-• An army whose Primary Detachment has this Rite of War may not include any Lords of War choices or models with the Super-heavy Sub-type.</description>
+• Detachments using this Rite of War may only take a single Heavy Support choice as part of their Force Organisation chart.</description>
             </rule>
           </rules>
           <infoLinks>
