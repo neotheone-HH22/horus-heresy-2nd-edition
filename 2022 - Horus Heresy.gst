@@ -14079,6 +14079,31 @@ Limitations
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d4e5-f6a7-b8c9-0003" name="The Logos Lectora (IH)" publicationId="817a-6288-e016-7469" page="278" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c0df-c1fa-5ddc-9ee5" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="d4e5-f6a7-b8c9-0004" name="The Logos Lectora" publicationId="817a-6288-e016-7469" page="278" hidden="false">
+              <description>Effects
+• A Detachment using this Rite of War must include two Compulsory HQ choices (one additional Compulsory HQ choice beyond that usually required by their Force Organisation chart) and one non-Compulsory HQ choice.
+Limitations
+• A Detachment using this Rite of War may not include any unit with the Deep Strike special rule as its sole method of deployment.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="b23c-e41d-1ffe-1a38" name="The Logos Lectora (UM)" publicationId="817a-6288-e016-7469" page="293" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
