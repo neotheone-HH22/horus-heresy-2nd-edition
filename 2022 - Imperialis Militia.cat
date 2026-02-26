@@ -1142,6 +1142,11 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <categoryLinks>
+                    <categoryLink id="fc01-9d27-a1b2-c3d4" name="Cavalry Unit Type" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
+                    <categoryLink id="fd01-9d27-b2c3-d4e5" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
+                    <categoryLink id="fe01-9d27-c3d4-e5f6" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
+                  </categoryLinks>
                   <infoLinks>
                     <infoLink id="5106-bae3-8a4c-fc47" name="Militia Cavalry Mount" hidden="false" targetId="ac7b-72f5-82f9-23d6" type="rule"/>
                     <infoLink id="ff11-dd34-f376-f8e3" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
@@ -1985,6 +1990,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                       </conditionGroups>
                     </modifier>
                   </modifiers>
+                  <categoryLinks>
+                    <categoryLink id="ff01-8593-a2b3-c4d5" name="Cavalry Unit Type" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
+                    <categoryLink id="fe02-8593-b3c4-d5e6" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
+                    <categoryLink id="fd03-8593-c4d5-e6f7" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
+                  </categoryLinks>
                   <infoLinks>
                     <infoLink id="055c-da57-fce5-7abd" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
@@ -6285,6 +6295,25 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c16-a692-1008-296b" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3f2a-1b4c-8d7e-9f01" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Pintle Mounted Heavy Stubber"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f5a-6b7c-8d9e-0f1a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5a6b-7c8d-9e0f-1a2b" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b7c-8d9e-0f1a-2b3c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
@@ -8118,6 +8147,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </profiles>
       <infoLinks>
         <infoLink id="5ee1-217d-bbbf-01be" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="7a1b-2c3d-4e5f-6a7b" name="Independent Fire Control" hidden="false" targetId="64ca-719e-b563-e3df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8e8-f90f-b0b0-d692" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -8308,7 +8338,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <entryLink id="de9d-b6b4-e0c4-dd51" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
             <entryLink id="a640-b637-4baf-009a" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
               </costs>
             </entryLink>
             <entryLink id="c6a6-13c7-3267-7c49" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry"/>
@@ -10211,7 +10241,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       <profiles>
         <profile id="bf68-2f8c-e803-967b" name="Militia Standard" publicationId="48c2-d023-0069-001a" page="37" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule and the Line Unit Sub-type.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11592,7 +11622,7 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
       <description>Provenance</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="48c2-d023-0069-001a" page="24" hidden="false">
-      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties.</description>
+      <description>A unit that includes any models with this special rule may only make the Suppress Core Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
