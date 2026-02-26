@@ -1782,6 +1782,36 @@
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </selectionEntry>
+                    <selectionEntry id="tc-ccw-submenu-001" name="Pistol and Close Combat Weapon (Sub-menu)" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="tc-ccw-group-001" name="Close Combat" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tc-ccw-min-001" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tc-ccw-max-001" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="tc-ccw-link-001" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="3d50-2f85-06ff-6aee" type="selectionEntry"/>
+                            <entryLink id="tc-csword-link-001" name="Chainsword" hidden="false" collective="false" import="true" targetId="06e7-a6ae-ed1c-eb03" type="selectionEntry">
+                              <costs>
+                                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                              </costs>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup id="tc-pistol-group-001" name="Pistol" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tc-pistol-min-001" type="min"/>
+                            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tc-pistol-max-001" type="max"/>
+                          </constraints>
+                          <entryLinks>
+                            <entryLink id="tc-las-pistol-001" name="Laspistol" hidden="false" collective="false" import="true" targetId="654d-be88-b0a8-7ae5" type="selectionEntry"/>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                      </costs>
+                    </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
                     <entryLink id="a0e2-cf54-398f-00b1" name="Lasrifle" hidden="false" collective="false" import="true" targetId="15f9-817e-275b-c13d" type="selectionEntry"/>
@@ -7116,7 +7146,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
                             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
                             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
-                            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
                             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
                             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
                             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
