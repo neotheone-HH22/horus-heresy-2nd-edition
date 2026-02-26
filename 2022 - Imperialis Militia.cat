@@ -9219,6 +9219,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <condition field="selections" scope="e6d5-9f6a-b62b-c477" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7be-47b8-3add-1d38" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="add" field="category" value="9231-183c-b97b-63f9">
+          <conditions>
+            <condition field="selections" scope="e6d5-9f6a-b62b-c477" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c0f-f751-cc4e-4951" type="atLeast"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink id="a267-278d-ac71-f973" name="Slow and Purposeful" hidden="false" targetId="d69a-cfb3-db43-32c5" type="rule">

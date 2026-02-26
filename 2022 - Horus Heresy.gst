@@ -1271,6 +1271,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 • A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • A model with the Mechanised Unit Sub-type is affected by the Haywire, Detonation and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• Close Combat attacks made by a model with the Mechanised Unit Sub-type are resolved as if made by a model with the Dreadnought Unit Type.
 • No model that does not also have the Mechanised Unit Sub‑type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
