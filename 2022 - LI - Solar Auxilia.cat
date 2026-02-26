@@ -165,6 +165,17 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb23-904e-59ed-677f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Heavy Stubber" hidden="false" id="arvus-stub-hull-001" collective="false" targetId="f227-a61a-3215-932b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" value="Hull (Front) Mounted Heavy Stubber" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="arvus-stub-c-001" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Flare Launcher" hidden="false" id="bfc7-4472-0329-ebc4">
@@ -420,7 +431,7 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="11f9-5738-0e51-2256" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="3159-eaff-3539-97e4" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="3159-eaff-3539-97e4" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b543-b159-6b24-a64b" name="Stormhammer" hidden="false" collective="false" import="false" targetId="19c9-f8e8-edff-fa8e" type="selectionEntry">
@@ -1307,7 +1318,7 @@
                   <characteristics>
                     <characteristic name="Unit Type" id="bc75-1a50-dbad-100f" hidden="false" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                     <characteristic name="Move" id="f10e-7724-2f5f-369d" hidden="false" typeId="893e-2d76-8f04-44e5">6</characteristic>
-                    <characteristic name="WS" id="7aa2-c8af-b1fe-94ca" hidden="false" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                    <characteristic name="WS" id="7aa2-c8af-b1fe-94ca" hidden="false" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                     <characteristic name="BS" id="18e2-451e-943a-ce0e" hidden="false" typeId="74ae-c840-0036-d244">4</characteristic>
                     <characteristic name="S" id="69ba-ce11-81d1-3381" hidden="false" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" id="e6c4-b9db-d740-4ec4" hidden="false" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
@@ -1531,6 +1542,7 @@
             </infoLink>
             <infoLink name="Stubborn" id="f040-df01-1e41-c795" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
             <infoLink name="Chosen Warriors" id="668f-863e-cb55-5cde" hidden="false" type="rule" targetId="13d1-9270-6539-08ed"/>
+            <infoLink name="Relentless" id="relentless-lifeward-001" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -1690,6 +1702,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink id="chosen-warriors-tactical-001" name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="5498-5ff9-0191-5ca1" name="Auxilia Companion" hidden="false" collective="false" import="true" type="model">
@@ -2360,6 +2373,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink id="chosen-warriors-companion-001" name="Chosen Warriors" hidden="false" type="rule" targetId="13d1-9270-6539-08ed"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="dfa9-eca3-1edb-7732" name="Auxilia Companion" hidden="false" collective="false" import="true" type="model">
@@ -3107,12 +3121,12 @@
             <selectionEntryGroup id="092d-2397-8f02-c431" name="Veletarii" hidden="false" collective="false" import="true" defaultSelectionEntryId="c39a-711f-3566-712d">
               <constraints>
                 <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1168-de26-e5bc-3a25" type="min"/>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ed-c168-0aa5-e59a" type="max"/>
+                <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ed-c168-0aa5-e59a" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="0e92-6f2e-8f92-40bf" name="Veletarii w/ Power Sword" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1011-7d26-c096-6d0c" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1011-7d26-c096-6d0c" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="d55c-a815-fca3-ee7a" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3141,7 +3155,7 @@
                 </selectionEntry>
                 <selectionEntry id="6e26-de36-1442-bf11" name="Veletarii w/ Power Lance" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff05-f5f1-0f4d-d019" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff05-f5f1-0f4d-d019" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="c3fa-1bf1-90fe-5ff3" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3170,7 +3184,7 @@
                 </selectionEntry>
                 <selectionEntry id="2ccc-2dc8-9580-f134" name="Veletarii w/ Power Maul" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af2-bcc2-ec38-96e0" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af2-bcc2-ec38-96e0" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="e672-dd79-0784-b7ec" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3199,7 +3213,7 @@
                 </selectionEntry>
                 <selectionEntry id="c39a-711f-3566-712d" name="Veletarii w/ Volkite Charger" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ff-babf-7da4-a70a" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ff-babf-7da4-a70a" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="b46b-492a-7e17-61de" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3228,7 +3242,7 @@
                 </selectionEntry>
                 <selectionEntry id="0797-e0e8-65b9-9a4a" name="Veletarii w/ Power Axe" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd6-dd94-5d41-dfcf" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acd6-dd94-5d41-dfcf" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="f81e-a329-ec72-2a89" name="Veletarii" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -3295,7 +3309,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-87f4-1ad8-9ce2" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a240-87f4-1ad8-9ce2" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="d542-cb70-04d1-4169" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3331,7 +3345,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="280a-f343-5c76-96be" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="280a-f343-5c76-96be" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="bea6-1566-1daa-d125" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3367,7 +3381,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c4-2ecd-2399-57b3" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33c4-2ecd-2399-57b3" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="6ff5-6ca2-b290-6622" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3403,7 +3417,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad4-ac3d-65f6-873f" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad4-ac3d-65f6-873f" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="5dcb-b922-a27e-c565" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3439,7 +3453,7 @@
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9153-294f-4c90-b9c8" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9153-294f-4c90-b9c8" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="dbae-36d4-0282-452f" name="Veletarii" hidden="false" targetId="f81e-a329-ec72-2a89" type="profile"/>
@@ -3491,7 +3505,7 @@
             <entryLink id="6d79-07e1-b369-3180" name="Fear (Feral Cohort)" hidden="false" collective="false" import="true" targetId="aefe-eff6-2961-a445" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="58"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c51e-5dce-2d97-4a99" name="Veletaris Storm Section" hidden="false" collective="false" import="true" type="unit">
@@ -5117,7 +5131,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">10</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One Access Point on each side of the hull and one at the rear.</characteristic>
           </characteristics>
         </profile>
@@ -5192,7 +5206,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
       <profiles>
         <profile id="ae05-0bdd-574e-b386" name="Dracosan Armoured Transport" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
           <modifiers>
-            <modifier type="set" field="0c90-79e2-f768-e547" value="10">
+            <modifier type="set" field="0c90-79e2-f768-e547" value="12">
               <conditions>
                 <condition field="selections" scope="496b-a01b-3726-0a44" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d4a-05a3-1589-915d" type="equalTo"/>
               </conditions>
@@ -5225,7 +5239,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <entryLink id="a2de-e36e-920f-ed49" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry"/>
             <entryLink id="0ac0-2320-b38c-ff37" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="1d4a-05a3-1589-915d" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -5308,7 +5322,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5041-9403-02b7-af14" name="Arvus Transport" hidden="false" collective="false" import="true" type="upgrade">
@@ -5454,7 +5468,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
-                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
                   </characteristics>
                 </profile>
@@ -5710,12 +5724,12 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <selectionEntryGroup id="1eaf-bbe0-04a5-22c1" name="Auxilia Veterans" hidden="false" collective="false" import="true" defaultSelectionEntryId="38fa-8a5c-8183-737e">
               <constraints>
                 <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-57f3-1211-43fb" type="min"/>
-                <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac8-ebed-57d9-9346" type="max"/>
+                <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac8-ebed-57d9-9346" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="38fa-8a5c-8183-737e" name="Auxilia Veteran w/ Lasrifle" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a5-bdd1-9156-35d0" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a5-bdd1-9156-35d0" type="max"/>
                   </constraints>
                   <profiles>
                     <profile id="1588-db82-569c-00c0" name="Auxilia Veteran" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
@@ -5755,7 +5769,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="846b-a82e-4b8d-94d6" name="Infantry Unit Type" primary="false"/>
@@ -5765,7 +5779,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 </selectionEntry>
                 <selectionEntry id="88a5-af55-4a9b-63bf" name="Auxilia Veteran w/ Lasrifle and Bayonet" hidden="false" collective="false" import="true" type="model">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c02b-237d-2b57-034f" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c02b-237d-2b57-034f" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="3afc-f5af-1577-970a" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5785,7 +5799,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="9"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="db2d-d153-4567-a527" name="Infantry Unit Type" primary="false"/>
@@ -5802,7 +5816,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-5136-f4bf-a5af" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed1-5136-f4bf-a5af" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="4f7d-da15-e34f-7825" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5816,7 +5830,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4d30-2332-4684-8a69" name="Infantry Unit Type" primary="false"/>
@@ -5833,7 +5847,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-1aa4-adfe-35d8" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-1aa4-adfe-35d8" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="c792-4200-5e45-8947" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5847,7 +5861,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="bae6-0272-4b1a-9f0d" name="Infantry Unit Type" primary="false"/>
@@ -5864,7 +5878,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e1-ac80-a81a-8e6c" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e1-ac80-a81a-8e6c" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="5f1e-dade-67d6-13c8" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5878,7 +5892,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c113-d488-46c6-a7a9" name="Infantry Unit Type" primary="false"/>
@@ -5895,7 +5909,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8688-4f80-c216-97d9" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8688-4f80-c216-97d9" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="f119-5753-9ded-4a5c" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5909,7 +5923,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4b89-4817-431d-8c0a" name="Infantry Unit Type" primary="false"/>
@@ -5926,7 +5940,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5cb-f801-c441-0f24" type="max"/>
+                    <constraint field="selections" scope="parent" value="14" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5cb-f801-c441-0f24" type="max"/>
                   </constraints>
                   <infoLinks>
                     <infoLink id="a5d1-730e-57e4-45e0" name="Auxilia Veteran" hidden="false" targetId="1588-db82-569c-00c0" type="profile"/>
@@ -5940,7 +5954,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="6"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="19a3-2c49-42b2-b40f" name="Infantry Unit Type" primary="false"/>
@@ -5973,7 +5987,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <entryLink id="ad70-8d7f-026a-3523" name="Fear (Feral Cohort)" hidden="false" collective="false" import="true" targetId="aefe-eff6-2961-a445" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="33"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
           <categoryLinks>
             <categoryLink name="SA or IM Unit" hidden="false" id="5255-f80d-d455-17e3" targetId="4aca-2849-7f41-0200" primary="false"/>
@@ -7185,7 +7199,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="185"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="145"/>
                       </costs>
                       <categoryLinks>
                         <categoryLink targetId="e2b6-b770-784c-9e95" id="5c0b-faa9-4959-ae28" name="Vehicle:" primary="false"/>
@@ -7218,7 +7232,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3fce-bf1a-6369-a386" name="Leman Russ Strike Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -8518,12 +8532,12 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 <entryLink id="fb66-453c-bc5f-3d1f" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
                 <entryLink id="4927-c9e2-22b1-5aec" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="dc68-bfa9-7008-eb02" name="Demolisher Cannon" hidden="false" collective="false" import="true" targetId="1d4a-05a3-1589-915d" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -8750,6 +8764,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
     <selectionEntry id="087d-b4d7-7770-7c07" name="Valdor Tank Destroyer Squadron" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6f81-5b55-03b5-e1d2" name="Containment Breach" hidden="false" targetId="2bf6-9fcb-fb98-a11d" type="rule"/>
+        <infoLink id="ifc-valdor-001" name="Independent Fire Control" hidden="false" targetId="64ca-719e-b563-e3df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="877d-1506-c333-394d" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -9093,6 +9108,9 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
       </costs>
     </selectionEntry>
     <selectionEntry id="b0a8-0f45-9999-b893" name="Malcador Infernus Squadron" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ifc-malcador-inf-001" name="Independent Fire Control" hidden="false" targetId="64ca-719e-b563-e3df" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="2be0-c1f0-c1aa-8dee" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="e099-bd75-a34a-7a25" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
@@ -9291,7 +9309,7 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10&quot;</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -12203,7 +12221,7 @@ Limitations
             <rule name="Reconnaissance Pattern Cohorts" id="7e04-8329-9f52-1bc1" hidden="false" publicationId="d882-d2a-5da1-92c4" page="179">
               <description>Effects
 • A Detachment using this Cohort Doctrine may select Solar Auxilia Hermes Light Sentinel Squadrons as Troops choices. Solar Auxilia Hermes Light Sentinel Squadrons selected as Compulsory Troops choices gain the Line Unit Sub-type.
-• Solar Auxilia Veletaris Assault Squadrons in this Detachment gain the Outflank special rule.
+• Solar Auxilia Hermes Veletaris Squadrons in this Detachment gain the Outflank special rule.
 • Aethon Heavy Sentinel Squadrons may include up to 4 additional Aethon Heavy Sentinels instead of up to 2 additional Aethon Heavy Sentinels.
 
 Limitations
@@ -12212,7 +12230,7 @@ Limitations
 
 
 NOTE
-The 2nd bullet point about Veletaris Assault Squadrons getting Outflank is not implemented as no unit exists with that name, so it is unclear which unit it should go on.</description>
+The 2nd bullet point has been interpreted as Solar Auxilia Hermes Veletaris Squadrons gaining the Outflank special rule.</description>
             </rule>
             <rule name="Outflank (Ambiguous Recon Cohorts)" id="bdd0-1f0c-cf43-37fb" hidden="false">
               <description>In Recon Cohort it says &quot;Solar Auxilia Veletaris Assault Squadrons in this Detachment gain the Outflank special rule.&quot; This seems to be the closest unit to this description as it is a sentinel based Cohort and this is the only Veletaris one.</description>
