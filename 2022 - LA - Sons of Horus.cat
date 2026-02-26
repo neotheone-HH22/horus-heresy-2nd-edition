@@ -6118,6 +6118,7 @@ In addition, an army whose Warlord has this trait may make an additional Reactio
           </modifiers>
         </infoLink>
         <infoLink id="38e8-188d-6089-fde3" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+        <infoLink id="c6d7-e8f9-a0b1-2345" name="Outflank" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="507f-c9cb-6d01-afea" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
