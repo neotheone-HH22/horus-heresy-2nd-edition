@@ -5879,7 +5879,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <profiles>
         <profile id="268c-b736-7743-67b1" name="Scout Armour" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Scout armour provides a 4+ Armour Save.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Scout armour provides a 4+ Armour Save. A model equipped with Scout Armour gains the Light Sub-type.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5933,7 +5933,9 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <profile id="457c-1f2c-ca90-1bf3" name="Suspensor Web" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A heavy weapon with a suspensor web may be treated as having the type Assault rather than Heavy when used to attack as part of any Shooting Attack at targets at up to half the weapon’s usual maximum range.
-Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; Heavy 4 weapon, can instead be used as if it were a Range 18&quot; Assault 4 weapon if the controlling player wishes.</characteristic>
+Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; Heavy 4 weapon, can instead be used as if it were a Range 18&quot; Assault 4 weapon if the controlling player wishes.
+
+If the weapon also has the Armourbane (Melta) special rule, Armourbane (Melta) is applied at the weapon’s original maximum range rather than the halved range.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7483,6 +7485,7 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
         <infoLink id="02f1-88d2-d3e6-2164" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
         <infoLink id="81bb-d70b-debf-9d17" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink id="aee2-5411-5923-8b3e" name="Lightning Claw" hidden="false" targetId="00a9-04d4-17d3-3442" type="profile"/>
+        <infoLink id="c4d5-2a3e-7f8b-1c09" name="Note: Paired Lightning Claws +2 Attacks" hidden="false" targetId="f2e4-1c3d-8b7a-9e05" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -13258,7 +13261,7 @@ An army whose Warlord has this Trait counts any Allied Detachment that has any v
           <rules>
             <rule id="fa96-5f74-c1e8-e38d" name="Recon Company" publicationId="a716-c1c4-7b26-8424" page="97" hidden="false">
               <description>Effects
-• Legion Reconnaissance Squads and Legion Scout Squads in a Detachment using this Rite of War do not have the Support Squad special rule.
+• Legion Reconnaissance Squads and Legion Scout Squads in a Detachment using this Rite of War do not have the Support Squad special rule and gain the Line Sub-type.
 • Legion Seeker Squads may be taken as non-Compulsory Troops choices in a Detachment using this Rite of War.
 • A player whose army includes at least one Detachment using this Rite of War may re-roll any dice they roll to see which player takes the first turn or when attempting to Seize the Initiative.
 Limitations
@@ -13282,7 +13285,7 @@ Limitations
           <rules>
             <rule id="b1c3-5494-add9-d9bf" name="Angel&apos;s Wrath^" publicationId="a716-c1c4-7b26-8424" page="97" hidden="false">
               <description>Effects
-• Any unit in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead take a Legion Storm Eagle Gunship as a Dedicated Transport.
+• Any unit in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead take a Legion Storm Eagle Gunship as a Dedicated Transport. In addition, any unit in a Detachment using this Rite of War that exceeds the transport capacity of a Legion Rhino Transport may take a Legion Storm Eagle Gunship as a Dedicated Transport.
 • For any model with the Vehicle Unit Type and both the Flyer and Transport Sub-types from a Detachment that is using this Rite of War, and that is in Reserve, the controlling player may choose to automatically have them enter play at the start of their first turn without making a Reserves roll. If they are not brought into play on Turn One then Reserves rolls are made for the models normally from Turn Two onwards.
 Limitations
 • All models with the Infantry Unit Type in a Detachment using this Rite of War that do not have jump packs of any kind must begin the battle Embarked upon a model with the Vehicle Unit Type and both the Flyer and Transport Sub-types.
@@ -13455,9 +13458,9 @@ Limitations
             <rule id="a1d0-0e6a-db7e-bbcd" name="Armoured Spearhead^" publicationId="a716-c1c4-7b26-8424" page="102" hidden="false">
               <description>Effects
 • All units in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead select a Legion Land Raider Proteus Carrier as a Dedicated Transport if they number ten models or less.
-• Legion Predator Squadrons in a Detachment using this Rite of War may be selected as Troops choices.
+• Legion Predator Squadrons in a Detachment using this Rite of War may be selected as Troops choices. Legion Predator Squadrons taken as Compulsory Troops choices gain the Line Sub-type.
 • Legion Sicaran Squadrons in a Detachment using this Rite of War may be selected as Elites choices.
-• In a Detachment using this Rite of War, a single Legion Sicaran Squadron or Legion Predator Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion special rule and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
+• In a Detachment using this Rite of War, a single Legion Sicaran Squadron, Legion Predator Squadron or Legion Kratos Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion special rule and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
 
 Limitations
 • All units in a Detachment using this Rite of War with the Infantry Type must begin the battle Embarked upon a model with the Transport Sub-type; any Infantry models in a Detachment using this Rite of War, both those deployed on the battlefield and in Reserves, that are not Embarked upon a model with the Transport Subtype at the beginning of the battle must be removed as casualties.
@@ -13478,6 +13481,7 @@ Limitations
               <description>Effects
 • Castellax Battle-automata Maniples* may be taken as non-Compulsory Troops choices, Vorax Battleautomata Maniples* may be taken as non-Compulsory Fast Attack choices and Domitar Battle-automata Maniples* may be taken as non-Compulsory Elites choices in a Detachment using this Rite of War. In addition, a single Thanatar Siege-automata Maniple* of no more than one model may be taken as a non-Compulsory Heavy Support choice in a Detachment using this Rite of War.
 • Any Legion Techmarine in a Detachment using this Rite of War may be upgraded to have a cortex controller at +20 points.
+• Automata units in a Detachment using this Rite of War gain the Legiones Astartes (X) special rule, where X is the same Legion as the army’s Warlord.
 * Note that rules for these units are found in the Liber Mechanicum book.
 Limitations
 • A Detachment using this Rite of War may not have more units that include one or more models with the Automata Unit Type than the total number of units it includes that do not include any models with the Automata Unit Type.
@@ -13517,7 +13521,7 @@ Limitations
             <rule id="9329-1a60-d5b6-b939" name="Fury Of The Ancients" hidden="false">
               <description>Effects
 • In a Detachment using this Rite of War, Legion Contemptor Dreadnought Talons may be taken as Troops choices.
-• Legion Contemptor Dreadnought Talons taken as Compulsory Troops in the Detachment gain the Line Sub-type.
+• Legion Contemptor Dreadnought Talons taken as Compulsory Troops in the Detachment gain the Line Sub-type. When a Dreadnought unit with the Line Sub-type from this Rite of War is destroyed, the opposing player gains an additional +1 Victory Point.
 • A single Legion Contemptor Dreadnought Talon in the Detachment, composed of only one Dreadnought, must be selected as the Detachment’s Compulsory HQ choice. A Legion Contemptor Dreadnought Talon selected in this manner must take the Venerable Ancient upgrade for +30 points.
 Limitations
 • All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Contemptor Dreadnought Talons.
@@ -17745,7 +17749,7 @@ Once all units are deployed, any enemy units within line of sight and range may 
 Once all units from the Area Denial Drop have been deployed and any Interceptor Reactions have been resolved, the turn proceeds as normal. Units that have been deployed as part of an Area Denial Drop may not Move or Run in the same Movement phase as they are deployed, but may Shoot and declare Charges as normal (if the models deployed as part of the Area Denial Drop are allowed to make Charges).</description>
     </rule>
     <rule id="8837-14e8-344a-1f39" name="Auxiliary Vehicle Bay" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
-      <description>Models with the Vehicle Unit Type may Embark on a model with this special rule, Embarking and Disembarking as per the normal rules for Embarking/Disembarking. A model with this special rule may carry one model with the Vehicle Unit Type whose starting Hull Points Characteristic is 4 or less. A model with the Vehicle Unit Type Embarking or Disembarking from a model with this special rule may do so from any point on the model’s base, or its hull if it has no base.</description>
+      <description>Models with the Vehicle Unit Type may Embark on a model with this special rule, Embarking and Disembarking as per the normal rules for Embarking/Disembarking. A model with this special rule may carry one model with the Vehicle Unit Type whose starting Hull Points Characteristic is 4 or less. A model with the Vehicle Unit Type Embarking or Disembarking from a model with this special rule may do so from any point on the model’s base, or its hull if it has no base. Models with the Flyer Sub-type or a Movement Characteristic of 0 or ‘-’ may not Embark on a model with this special rule.</description>
     </rule>
     <rule id="d1b8-31da-c53c-4fe2" name="Bitter Duty" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
       <description>A unit that includes any models with this special rule may not be joined by any model that does not also have this special rule (this includes Legion Techmarines and Legion Apothecaries, which may not be assigned to a unit with this special rule unless they also have this special rule).</description>
@@ -17771,7 +17775,7 @@ For example, a model with the Breaching (5+) special rule that rolls To Wound an
       <description>A weapon with this special rule may only be used to attack models of the Vehicle, Dreadnought or Automata Unit Types, any model with a Movement Characteristic of 0 or ‘-’, or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Assault phase may only make a single attack in the Fight sub-phase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
     </rule>
     <rule id="a924-2634-73fd-aa96" name="Dreadnought Talon" publicationId="a716-c1c4-7b26-8424" page="118" hidden="false">
-      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.</description>
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. When a model with this special rule separates from its Talon and operates as its own unit, it counts as its own unit for the purposes of Victory Points.</description>
     </rule>
     <rule id="a0bf-fb7c-a9dc-72f0" name="Dreadnought Transport" publicationId="a716-c1c4-7b26-8424" page="118" hidden="false">
       <description>A model with this special rule may transport a single model with the Dreadnought Unit Type with no more than 8 Wounds instead of any other models. A Dreadnought model may not Embark upon a model with this special rule if any other models are already Embarked on it, and while a Dreadnought model is Embarked on a model with this special rule then no other models may Embark.</description>
@@ -17804,7 +17808,7 @@ In addition, when moving in Hover mode, the controlling player may choose to inf
 Once assigned to a unit, the Legion Techmarine is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Legion Techmarine is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Legion Techmarine as a casualty. When assigned to a unit, a Legion Techmarine gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
     </rule>
     <rule id="c503-f5b8-3da0-16e6" name="Void Shields" publicationId="a716-c1c4-7b26-8424" page="127" hidden="false">
-      <description>A model with this special rule has a number of void shields, as listed on its profile. Shooting Attacks which Hit a model with this special rule instead target this model’s void shields while at least one remains active. Void shields have an Armour Value of 12. A successful Glancing Hit, Penetrating Hit or any successful Hit from a Destroyer weapon which targets a void shield causes it to collapse, reducing the number ‘X’ by -1. When the number of void shields is reduced to 0, this special rule has no further effect and subsequent Shooting Attacks target the model instead. Void shields have no effect on close combat attacks, and may not be affected by close combat attacks.</description>
+      <description>A model with this special rule has a number of void shields, as listed on its profile. Shooting Attacks which Hit a model with this special rule instead target this model’s void shields while at least one remains active. Void shields have an Armour Value of 12. A successful Glancing Hit, Penetrating Hit or any successful Hit from a Destroyer weapon which targets a void shield causes it to collapse, reducing the number ‘X’ by -1. When the number of void shields is reduced to 0, this special rule has no further effect and subsequent Shooting Attacks target the model instead. Void shields have no effect on close combat attacks, and may not be affected by close combat attacks. All Shooting Attacks must target void shields before they can target the model itself while void shields are active. Furthermore, a model with void shields may not benefit from the Flare Shield special rule while at least one void shield is active.</description>
     </rule>
     <rule id="0662-8b8d-38e8-60f8" name="Transport Bay" publicationId="a716-c1c4-7b26-8424" page="126" hidden="false">
       <description>A model with this special rule may carry models of the Dreadnought and Automata Unit Types, as well as models with the Cavalry Unit Type but not the Antigrav Sub-type. Each Dreadnought model uses 10 points of Transport Capacity, while each Automata and Cavalry model uses up a number of Transport Capacity points equal to twice its starting Wounds Characteristic.</description>
@@ -17876,7 +17880,7 @@ Once this first unit has been deployed, roll a dice. On the roll of a ‘1’ th
 
 Once all units taking part in the Drop Pod Assault have Disembarked, any enemy units that are neither Pinned or Falling Back and are within line of sight may choose to make the Interceptor Reaction (See page 309 of the Horus Heresy: Age of Darkness rulebook) targeting any one of the units deployed as part of the Drop Pod Assault or that has Disembarked from a model deployed as part of the Drop Pod Assault. Note that no Reaction other than Interceptor may be made against the deployment of a unit as part of a Drop Pod Assault.
 
-Once all units from the Drop Pod Assault have been deployed and any Interceptor Reactions have been resolved, the turn proceeds as normal. Units that have been deployed as part of a Drop Pod Assault may not Move or Run in the same turn as they are deployed, but may make Shooting Attacks as normal in the Shooting phase. During the Assault phase, only units deployed from a model with the Transport Sub-type with the Assault Vehicle special rule may declare and resolve a Charge and Assault as normal, other units deployed as part of a Drop Pod Assault may not declare or resolve a Charge on the same turn as they are deployed.</description>
+Once all units from the Drop Pod Assault have been deployed and any Interceptor Reactions have been resolved, the turn proceeds as normal. Units that have been deployed as part of a Drop Pod Assault may not Move or Run in the same turn as they are deployed, but may make Shooting Attacks as normal in the Shooting phase. During the Assault phase, only units deployed from a model with the Transport Sub-type with the Assault Vehicle special rule may declare and resolve a Charge and Assault as normal, other units deployed as part of a Drop Pod Assault may not declare or resolve a Charge on the same turn as they are deployed. Legion Drop Pods, Legion Dreadnought Drop Pods, Legion Dreadclaw Drop Pods and Legion Kharybdis Assault Claws count as arriving by Deep Strike for the purposes of the Orbital Assault Vehicle special rule.</description>
     </rule>
     <rule id="a03c-5d6f-c219-4f3f" name="Battlements" publicationId="e77a-823a-da94-16b9" page="225" hidden="false">
       <description>Battlements are treated as an Access Point for their Building, meaning a unit inside the building can disembark onto the Battlements, or vice versa. Note that buildings without Transport Capacity that have battlements may still not be entered, although units can use their battlements.
@@ -18173,6 +18177,9 @@ When assigning additional models to units using the Among the Ranks and Militia 
 
 Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
     </rule>
+      <rule id="f2e4-1c3d-8b7a-9e05" name="Note: Paired Lightning Claws +2 Attacks" hidden="false">
+      <description>Note: The additional +2 Attacks bonus from Paired Lightning Claws only applies when the model is making attacks with the Lightning Claws. When the model uses another weapon to attack, the bonus attacks from the Paired Lightning Claws do not apply.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f52c-1f37-acd2-703c" name="Tartaros Terminator Armour" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -18204,7 +18211,7 @@ Attacks with this special rule have no effect on models with the Vehicle or Prim
     <profile id="0ab2-3765-d019-2730" name="Advanced Reaction: Combat Air Patrol" publicationId="a716-c1c4-7b26-8424" page="123" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
       <characteristics>
         <characteristic name="Description" typeId="c627-4637-8de5-65fb">Combat Air Patrol – This Advanced Reaction may be made whenever any enemy model that has the Vehicle Unit Type and the Flyer Sub-type enters the battlefield from Reserves. The Reactive player may nominate any one model that has been assigned to Combat Air Patrol. Once the enemy model with the Vehicle Unit Type and Flyer Sub-type that triggered this Reaction has finished any and all Movement as it is brought into play, the chosen model assigned to Combat Air Patrol is brought into play from any point on the edge of the battlefield, moving into play as if it had entered play from Reserves. Once the Combat Air Patrol model has finished its Movement it may immediately make a Shooting Attack targeting the enemy model that triggered this Reaction – as long as it has finished its Movement with line of sight to that model.
-Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Air Patrol Reaction.</characteristic>
+Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Air Patrol Reaction. This Reaction is resolved during the Movement Phase. Models making the Combat Air Patrol Reaction do not benefit from the Skyfire special rule when making their Shooting Attack.</characteristic>
       </characteristics>
     </profile>
     <profile id="ab48-605d-a6cc-7ad6" name="Legion Rhino Transport" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
