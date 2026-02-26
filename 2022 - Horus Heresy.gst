@@ -1956,6 +1956,11 @@ If that test is failed, the unit suffers one Wound, allocated by the controlling
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="increment" field="e335-2401-dec4-2d28" value="1">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b23c-e41d-1ffe-1a38" type="equalTo"/>
+              </conditions>
+            </modifier>
             <modifier type="increment" value="1" field="e335-2401-dec4-2d28">
               <conditions>
                 <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bf10-c83b-b8ed-aaf1" type="atLeast"/>
@@ -14091,7 +14096,7 @@ Limitations
 • At the beginning of each turn in which the controlling player of a Detachment using this Rite of War is the Active player, that player may select one of the Logos Lectora Commands that follow, but may not select the same Command twice in a row (however, each command may be selected more than once in a single battle as long as it is not selected twice in a row, without a different Logos Lectora Command being selected before any command is repeated). The effects of this Command are applied to all models in the army with both the Legiones Astartes (Ultramarines) special rule and the Infantry Unit Type, and last until the start of the controlling player’s next turn as the Active player:
 
 Limitations
-• Detachments using this Rite of War must take an additional Compulsory HQ choice in addition to that usually required by their Force Organisation chart, and this additional Compulsory choice must be either a Master of Signal Consul or a Legion Damocles Command Rhino.
+• Detachments using this Rite of War must include two Compulsory HQ choices (one of which must be either a Master of Signal Consul or a Legion Damocles Command Rhino) and one additional non-Compulsory HQ choice in their Force Organisation chart.
 • Detachments using this Rite of War must take an additional Compulsory Troops choice in addition to that usually required by their Force Organisation chart.
 • Units which are part of a Detachment using this Rite of War may not deploy using the Infiltrate special rule or enter play via a Deep Strike Assault, Subterranean Assault or Flanking Assault (normal Reserves are, however, allowed). This means that certain units which may only enter play in this fashion, such as Legion Drop Pods, may not be taken as part of the Detachment.
 
@@ -17308,6 +17313,11 @@ However, units containing one or more models with the Fearless special rule cann
 Feel No Pain rolls may not be taken against unsaved Wounds that have the Instant Death special rule.
 Roll a D6 each time an unsaved Wound is suffered. On a result that is equal to or greater than the value in brackets, the unsaved Wound is discounted - treat it as having been saved. On any other result the Wound is taken as normal.
 For example, a unit with the special rule Feel No Pain (5+) would need to score a 5 or 6 in order to discount a Wound inflicted upon it.
+This is a Damage Mitigation roll - any model may make only a single Damage Mitigation roll of any type for any given Wound (see page 174).</description>
+    </rule>
+    <rule id="a7b3-1d62-9e04-5f18" name="Augmetics (X)" publicationId="817a-6288-e016-7469" page="282" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Augmetics roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
+Roll a D6 each time an unsaved Wound is suffered. On a result that is equal to or greater than the value in brackets, the unsaved Wound is discounted - treat it as having been saved. On any other result the Wound is taken as normal.
 This is a Damage Mitigation roll - any model may make only a single Damage Mitigation roll of any type for any given Wound (see page 174).</description>
     </rule>
     <rule id="32a3-f599-5c92-2945" name="Firing Protocols (X)" publicationId="e77a-823a-da94-16b9" page="239" hidden="false">

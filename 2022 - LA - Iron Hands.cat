@@ -3003,9 +3003,9 @@
   <sharedSelectionEntries>
     <selectionEntry id="ea50-6315-7a52-f560" name="Gorgon Terminator Squad" publicationId="817a-6288-e016-7469" page="282" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="beee-48f0-ef0e-6867" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+        <infoLink id="beee-48f0-ef0e-6867" name="Augmetics (X)" hidden="false" targetId="a7b3-1d62-9e04-5f18" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+            <modifier type="set" field="name" value="Augmetics (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="2cee-c3e5-a53d-c618" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
@@ -3428,6 +3428,7 @@
         </infoLink>
         <infoLink id="1cc4-f0ab-2ffb-ad30" name="Bitter Duty" hidden="false" targetId="d1b8-31da-c53c-4fe2" type="rule"/>
         <infoLink id="68c9-ea5b-8dbf-55ce" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
+        <infoLink id="c5e1-84b2-3f71-9d04" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
         <infoLink id="764f-9319-004c-f300" name="Heart of the Legion" hidden="false" targetId="c0dd-9002-2ebd-f96d" type="rule">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -3738,6 +3739,19 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="b3f2-7d1a-4c9e-8521" name="Termite Assault Drill" hidden="false" collective="false" import="true" targetId="cb30-307a-f0d7-3b13" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="f9e4-0da2-5049-df81" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="a1a3-3528-69d6-45ed" name="1) Immortals" hidden="false" collective="false" import="true" defaultSelectionEntryId="2329-ea89-f938-82e1">
@@ -3995,7 +4009,7 @@
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Exoshock (3+), Brutal (3)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Exoshock (3+), Brutal (3), Two-Handed</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
