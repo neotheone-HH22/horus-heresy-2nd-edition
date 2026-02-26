@@ -196,6 +196,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink id="cf0d-80f5-9ec0-dfba" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+        <infoLink id="5e6f-7a8b-9c0d-1e2f" name="Lords of the Ruinstorm" hidden="false" targetId="1a2b-3c4d-5e6f-7a8b" type="rule"/>
         <infoLink id="dd33-d57c-23f8-763d" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
           <modifiers>
             <modifier type="set" value="Bulky (7)" field="name"/>
@@ -1520,7 +1521,7 @@
             <modifier type="set" field="name" value="Æthereal Invulnerability (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Swarm" hidden="false" type="rule" id="eea2-a8c-2c72-49ba" targetId="0bc2-fcb2-dd25-c10a"/>
+        <infoLink name="Daemonic Hordes" hidden="false" type="rule" id="eea2-a8c-2c72-49ba" targetId="4d5e-6f7a-8b9c-0d1e"/>
         <infoLink name="Support Squad" hidden="false" type="rule" id="8282-b9ea-e72a-3905" targetId="768e-56d6-ca52-24ae"/>
       </infoLinks>
       <modifiers>
@@ -1970,6 +1971,7 @@
             <modifier type="set" value="Bulky (5)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink id="6f7a-8b9c-0d1e-2f3a" name="Feeding Frenzy" hidden="false" targetId="3c4d-5e6f-7a8b-9c0d" type="rule"/>
       </infoLinks>
       <modifiers>
         <modifier type="add" field="category" value="9231-183c-b97b-63f9">
@@ -2333,6 +2335,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="20df-2bd-59c2-ae77" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+        <infoLink id="7a8b-9c0d-1e2f-3a4b" name="Warp Resplendent" hidden="false" targetId="2b3c-4d5e-6f7a-8b9c" type="rule"/>
         <infoLink name="Hammer of Wrath (X)" id="49f2-61f9-7a5d-df07" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" value="Hammer of Wrath (" field="name"/>
@@ -3373,6 +3376,18 @@ During a Reaction made in any Phase, a player may not choose to activate a model
     <catalogueLink type="catalogue" name="LI - Assassins and Agents" id="8e51-2e3c-9a19-fa1" targetId="4c88-1a81-7e53-0a67"/>
   </catalogueLinks>
   <sharedRules>
+    <rule name="Lords of the Ruinstorm" hidden="false" id="1a2b-3c4d-5e6f-7a8b" publicationId="8775-88f5-cfdd-24f6" page="6">
+      <description>See Liber Panoptica.</description>
+    </rule>
+    <rule name="Warp Resplendent" hidden="false" id="2b3c-4d5e-6f7a-8b9c" publicationId="8775-88f5-cfdd-24f6" page="17">
+      <description>See Liber Panoptica.</description>
+    </rule>
+    <rule name="Feeding Frenzy" hidden="false" id="3c4d-5e6f-7a8b-9c0d" publicationId="8775-88f5-cfdd-24f6" page="15">
+      <description>See Liber Panoptica.</description>
+    </rule>
+    <rule name="Daemonic Hordes" hidden="false" id="4d5e-6f7a-8b9c-0d1e" publicationId="8775-88f5-cfdd-24f6" page="12">
+      <description>See Liber Panoptica.</description>
+    </rule>
     <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="8775-88f5-cfdd-24f6" page="22">
       <description>When rolling To Wound for a model that has the Immaterial Blades (X) special rule, or is attacking with a weapon that has the Immaterial Blades (X) special rule, for each To Wound roll or Armour Penetration roll of 6 or higher, the controlling player resolves these Wounds or any Penetrating Hits at the AP value listed in brackets, instead of the weapon’s normal AP value.</description>
     </rule>
