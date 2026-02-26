@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="129" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="130" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -1368,10 +1368,22 @@ Panoptica Changes:
 - Any model with the Knight or Titan Unit Type gains the Hammer of Wrath (3) Special Rule.</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" id="f4d4-9a7a-3b57-bb48" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="4280-2d8-16c6-d60b" name="Titan Sub-type" hidden="false">
       <infoLinks>
         <infoLink name="Knights and Titans" hidden="false" type="rule" id="400b-3ae9-44d5-6df1" targetId="d0e-e683-6ab9-4f0"/>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" id="78d3-fc6c-6e15-3a01" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="Unique Sub-type" hidden="false" id="aa94-5c65-d1f1-46a4"/>
