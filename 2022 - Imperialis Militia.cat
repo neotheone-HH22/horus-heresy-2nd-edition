@@ -5246,7 +5246,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5537-0c68-4499-972c" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="868b-2ec9-4231-a6e0" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="2a09-7ca6-43fa-879a" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="a1b2-c3d4-e5f6-a7b8" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="a1b2-c3d4-e5f6-a7b8" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="9643-3e33-55ed-e9f1" name="Militia Fire Team w/ Autocannon" hidden="false" collective="false" import="true" type="model">
@@ -5291,7 +5291,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2b1f-3565-4790-861f" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="95c8-b9f1-4ebd-93fe" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="ba52-9558-49bd-b8ac" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="b2c3-d4e5-f6a7-b8c9" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="b2c3-d4e5-f6a7-b8c9" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="5ff1-5b17-ca8b-0676" name="Militia Fire Team w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
@@ -5380,7 +5380,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="5dcb-25b5-487b-9ebc" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="eb2f-8d44-4b2d-9e59" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="c3d4-e5f6-a7b8-c9d0" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="c3d4-e5f6-a7b8-c9d0" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="ffb6-7ae4-9f04-7c7d" name="Militia Fire Team w/ Missile Launcher Frag/Krak" hidden="false" collective="false" import="true" type="model">
@@ -5426,7 +5426,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="53cf-4e7c-4b0f-b16e" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="3dc5-e564-4ef9-a4d5" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="d5c5-5d8f-44f3-8425" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="d4e5-f6a7-b8c9-d0e1" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="d4e5-f6a7-b8c9-d0e1" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="237e-5215-928f-a38f" name="Militia Fire Team w/ Mortar" hidden="false" collective="false" import="true" type="model">
@@ -5469,7 +5469,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6849-022b-4f86-a5dc" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="1212-8194-4301-a810" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="6f7d-c4dd-45b1-8de0" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="e5f6-a7b8-c9d0-e1f2" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="e5f6-a7b8-c9d0-e1f2" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="e5fc-9d18-110f-569b" name="Militia Fire Team w/ Multilaser" hidden="false" collective="false" import="true" type="model">
@@ -5509,7 +5509,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7d70-7d41-41d5-963e" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="45ad-fe95-48c7-985a" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="150c-1f22-47ce-8335" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="f6a7-b8c9-d0e1-f2a3" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="f6a7-b8c9-d0e1-f2a3" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="0170-77fa-0994-bbe7" name="Militia Fire Team w/ Heavy Bolter" hidden="false" collective="false" import="true" type="model">
@@ -5544,7 +5544,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7758-9588-4f1e-9fd7" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="d928-1eac-4c4d-90b5" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="b2b2-2c94-439e-bc1c" name="Militia Unit Sub-type" primary="false"/>
-                 <categoryLink targetId="59a4-7b61-600a-c457" id="a7b8-c9d0-e1f2-a3b4" name="Skirmish Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="a7b8-c9d0-e1f2-a3b4" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -7374,11 +7374,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="e2d2-7e4b-3098-6344" name="Militia Handler" hidden="false" targetId="cdf4-cc09-70bf-647d" type="profile"/>
-                 <infoLink id="a9b0-c1d2-e3f4-a5b6" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
-                   <modifiers>
-                     <modifier type="set" field="name" value="Fleet (1)"/>
-                   </modifiers>
-                 </infoLink>
+                <infoLink id="a9b0-c1d2-e3f4-a5b6" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fleet (1)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <entryLinks>
                 <entryLink id="7d0b-c992-17b5-bdd3" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
@@ -7407,7 +7407,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b4fc-b544-4e3c-b7a6" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="bf00-1592-48f8-b030" name="Militia Unit Sub-type" primary="false"/>
                 <categoryLink targetId="59a4-7b61-600a-c457" id="75db-0f24-431a-9a5f" name="Skirmish Sub-type" primary="false"/>
-                 <categoryLink targetId="bff2-ae16-74a8-8712" id="a8b9-c0d1-e2f3-a4b5" name="Light Sub-type" primary="false"/>
+                <categoryLink targetId="bff2-ae16-74a8-8712" id="a8b9-c0d1-e2f3-a4b5" name="Light Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="fcc4-81ff-34ab-4fda" name="Handler w/ Autopistol" hidden="false" collective="false" import="true" type="model">
@@ -7504,7 +7504,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="f838-57ef-4763-bbff" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="0082-f9cb-4705-9748" name="Militia Unit Sub-type" primary="false"/>
                 <categoryLink targetId="59a4-7b61-600a-c457" id="b5cc-4d26-4231-b12b" name="Skirmish Sub-type" primary="false"/>
-                 <categoryLink targetId="bff2-ae16-74a8-8712" id="b9c0-d1e2-f3a4-b5c6" name="Light Sub-type" primary="false"/>
+                <categoryLink targetId="bff2-ae16-74a8-8712" id="b9c0-d1e2-f3a4-b5c6" name="Light Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="0aad-ede5-6b66-7ee4" name="Handler w/ Auitopistol &amp; Chainaxe" hidden="false" collective="false" import="true" type="model">
@@ -7520,11 +7520,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="4d73-db28-5a6d-a83a" name="Militia Handler" hidden="false" targetId="cdf4-cc09-70bf-647d" type="profile"/>
-                 <infoLink id="b0c1-d2e3-f4a5-b6c7" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
-                   <modifiers>
-                     <modifier type="set" field="name" value="Fleet (1)"/>
-                   </modifiers>
-                 </infoLink>
+                <infoLink id="b0c1-d2e3-f4a5-b6c7" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fleet (1)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <entryLinks>
                 <entryLink id="5b91-99ea-ecb9-fd94" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
@@ -7556,7 +7556,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="d8d3-a1e0-425d-aeac" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="ceb7-95da-4ab3-bfc8" name="Militia Unit Sub-type" primary="false"/>
                 <categoryLink targetId="59a4-7b61-600a-c457" id="152c-c64b-4fd5-a945" name="Skirmish Sub-type" primary="false"/>
-                 <categoryLink targetId="bff2-ae16-74a8-8712" id="c0d1-e2f3-a4b5-c6d7" name="Light Sub-type" primary="false"/>
+                <categoryLink targetId="bff2-ae16-74a8-8712" id="c0d1-e2f3-a4b5-c6d7" name="Light Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="7c34-c649-ca22-2b7f" name="Handler w/ Laspistol &amp; Chainaxe" hidden="false" collective="false" import="true" type="model">
@@ -7572,11 +7572,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="e75a-332a-68b8-9a2f" name="Militia Handler" hidden="false" targetId="cdf4-cc09-70bf-647d" type="profile"/>
-                 <infoLink id="c1d2-e3f4-a5b6-c7d8" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
-                   <modifiers>
-                     <modifier type="set" field="name" value="Fleet (1)"/>
-                   </modifiers>
-                 </infoLink>
+                <infoLink id="c1d2-e3f4-a5b6-c7d8" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fleet (1)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <entryLinks>
                 <entryLink id="42e3-6418-0fa4-049a" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
@@ -7608,7 +7608,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c9d8-1024-4e55-a722" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="c85e-7a30-43a0-816a" name="Militia Unit Sub-type" primary="false"/>
                 <categoryLink targetId="59a4-7b61-600a-c457" id="216f-20a7-4f71-bae5" name="Skirmish Sub-type" primary="false"/>
-                 <categoryLink targetId="bff2-ae16-74a8-8712" id="d1e2-f3a4-b5c6-d7e8" name="Light Sub-type" primary="false"/>
+                <categoryLink targetId="bff2-ae16-74a8-8712" id="d1e2-f3a4-b5c6-d7e8" name="Light Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
           </selectionEntries>
