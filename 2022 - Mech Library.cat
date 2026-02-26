@@ -5285,7 +5285,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="467a-4d09-3317-b057" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
                       </modifiers>
                     </infoLink>
                     <infoLink name="It Will Not Die (X)" id="60af-21f5-e83e-5103" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -5395,7 +5395,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="47a6-bf07-a5c0-fa73" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
                       </modifiers>
                     </infoLink>
                     <infoLink name="It Will Not Die (X)" id="58b1-c993-2204-1e62" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
