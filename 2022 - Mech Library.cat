@@ -1402,7 +1402,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="eeba-8a20-d62c-cacb" name="Void Shields" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Void Shields (6)"/>
+                <modifier type="set" field="name" value="Void Shields (8)"/>
               </modifiers>
             </infoLink>
             <infoLink id="5b96-ad84-3640-2604" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
@@ -1706,7 +1706,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <infoLink id="2904-26b0-61bf-20c2" name="Catastrophic Explosion" hidden="false" targetId="a13f-e697-6017-5a04" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8f56-23e7-36bc-47ca" name="Hull (Front) Mounted Twin-Linked Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f56-23e7-36bc-47ca" name="Hull (Front) Mounted Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5557-d98a-72c1-c698" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb0-9d27-cf87-d08c" type="max"/>
@@ -1714,7 +1714,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="d466-e7c9-b31a-a118" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
             <infoLink id="3fb0-bdb9-2497-6ed0" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
-            <infoLink id="7d6c-1807-4bb6-0ae3" name="Twin-Linked Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile"/>
+            <infoLink id="7d6c-1807-4bb6-0ae3" name="Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9259,7 +9259,7 @@ Treat Archmagos Anarcharis Scoria as an Archmagos Prime on Abeyant.</description
         <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Sunder, Wrecker</characteristic>
       </characteristics>
     </profile>
-    <profile id="2af9-d755-936d-0fa8" name="Twin-Linked Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+    <profile id="2af9-d755-936d-0fa8" name="Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
