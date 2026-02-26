@@ -3697,6 +3697,7 @@
         </infoLink>
         <infoLink id="3d6b-8698-77f8-dddd" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
         <infoLink id="7332-ee1c-1ce2-0d4b" name="Legiones Astartes (Iron Warriors)" hidden="false" targetId="c77b-f3fc-5dc8-1330" type="rule"/>
+        <infoLink id="a2b3-c4d5-e6f7-8901" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7a42-24a0-f251-742d" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
