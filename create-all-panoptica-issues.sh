@@ -1,6 +1,6 @@
 #!/bin/bash
 # =============================================================
-# Create all 28 Panoptica tracking issues for
+# Create all 32 Panoptica tracking issues for
 # neotheone-HH22/horus-heresy-2nd-edition
 # =============================================================
 # Prerequisites: Install GitHub CLI (gh) and authenticate:
@@ -62,6 +62,10 @@ _Update with issue numbers once all sub-issues are created_
 - [ ] Imperialis Militia
 - [ ] Daemons of the Ruinstorm
 - [ ] Legacies & Exemplary Battles
+- [ ] Death Guard
+- [ ] Blackshields
+- [ ] Shattered Legions
+- [ ] Bound Daemons
 
 ---
 
@@ -1137,9 +1141,137 @@ echo "Created: Legacies & Exemplary Battles"
 sleep 2
 
 # =============================================================
+# SUB-ISSUE 28: Death Guard
+# =============================================================
+gh issue create --repo "$REPO" \
+  --title "Panoptica Update: Death Guard (2022 - LA - Death Guard.cat)" \
+  --label "Panoptica update" --label "BattleScribe" --label "Legion" \
+  --assignee neotheone-HH22 \
+  --body "## Apply Panoptica changes to \`2022 - LA - Death Guard.cat\`
+
+### Points/Stat Changes
+- [ ] Grave Warden Terminator Squad: Add Heavy Sub-type; add Chosen Warriors; Terminator Armour grants 4+ save not 3+; Grenade Harness replaces pistol
+- [ ] Mortus Poisoner Squad: Add Skirmish Sub-type; various stat/cost updates
+- [ ] Mortalis Destroyer Squad: Add Skirmish Sub-type; update wargear options
+- [ ] Typhon Squadron: Update weapon profiles (Dreadhammer Siege Cannon per Panoptica)
+
+### Named Character Changes
+- [ ] Mortarion: Primarch stat updates; Silence and Silence (Unbound) weapon profile updates; Death's Voice aura update
+- [ ] Calas Typhon: Add Psyker (1); Manreaper weapon profile update; Psychic Contagion ability update
+- [ ] Crysos Morturg: Update stat profile; Shrouded ability update
+- [ ] Marshal Durak Rask: W3; 3 Phosphex Bombs (update in DG catalog entry)
+- [ ] Nathaniel Garro: Add Shattered Legionary
+
+### Rite of War Changes
+- [ ] The Reaping: Grave Warden Terminator Squads as Compulsory Elites gain Line; Mortus Poisoner Squad access update
+- [ ] Death Comes on Swift Wings: Update transport/jump pack access restrictions
+- [ ] Orbital Assault: Deep Strike Assault interaction per Panoptica global changes
+
+### Wargear / Special Rule Changes
+- [ ] Legiones Astartes (Death Guard): Immunity to Shell Shock and Fear – update for new rules interactions
+- [ ] Contagion of Nurgle: Update Poison interaction with Panoptica Poison rule changes
+- [ ] Phosphex weapons: Update profiles per Panoptica (Phosphex Bomb, Phosphex Discharger)
+
+---
+**Search tips:** Search for Grave Warden, Mortus Poisoner, Mortalis Destroyer, Typhon, Mortarion, Calas Typhon, Crysos Morturg, Durak Rask, Nathaniel Garro, Death Guard, Reaping, Contagion, Phosphex
+**Reference:** Master tracking issue"
+
+echo "Created: Death Guard"
+sleep 2
+
+# =============================================================
+# SUB-ISSUE 29: Blackshields
+# =============================================================
+gh issue create --repo "$REPO" \
+  --title "Panoptica Update: Blackshields (2022 - BG - Blackshields.cat)" \
+  --label "Panoptica update" --label "BattleScribe" \
+  --assignee neotheone-HH22 \
+  --body "## Apply Panoptica changes to \`2022 - BG - Blackshields.cat\`
+
+### Named Character Changes
+- [ ] Endryd Haar: W4; add Hatred (all); update Charged Attacks special rule interaction; Adamantine Mantle update
+
+### Warlord Trait Changes
+- [ ] Bloody Tyrant: Update Fear (1) interaction with Panoptica Fear rule changes; Reaction update
+- [ ] Forgotten Hero: Update bonus condition and Reaction wording
+- [ ] Twisted Strategist: Update selectable special rules list per Panoptica
+
+### Special Rule / Allegiance Changes
+- [ ] Oaths of Vengeance and Wrath: Update for multi-objective use; interaction with Panoptica Blood Feud targets (Armigers, Knights, Titans, Super-Heavy/Lumbering)
+- [ ] Blackshields Allegiance: Access to Legion-specific rites and special rules update
+
+### Other
+- [ ] Any shared Legiones Astartes wargear cost/profile updates that appear in the Blackshields file
+
+---
+**Search tips:** Search for Endryd Haar, Bloody Tyrant, Forgotten Hero, Twisted Strategist, Oaths of Vengeance, Blackshields
+**Reference:** Master tracking issue"
+
+echo "Created: Blackshields"
+sleep 2
+
+# =============================================================
+# SUB-ISSUE 30: Shattered Legions
+# =============================================================
+gh issue create --repo "$REPO" \
+  --title "Panoptica Update: Shattered Legions (Shattered Legions.cat)" \
+  --label "Panoptica update" --label "BattleScribe" \
+  --assignee neotheone-HH22 \
+  --body "## Apply Panoptica changes to \`Shattered Legions.cat\`
+
+### Named Character Changes
+- [ ] Shadrak Meduson: WS 6; update stat profile (cross-listed with Solar Auxilia)
+
+### Special Rule / Rite of War Changes
+- [ ] Shattered Legions Rite of War: Update multi-legion mixing restrictions; Compulsory unit access changes
+- [ ] Shattered Legionary Sub-type: Interaction with Panoptica Legiones Astartes special rule changes
+- [ ] Mixed Legion rules: Update for any Panoptica changes affecting cross-legion unit access
+
+### Other
+- [ ] Verify all shared Legiones Astartes links resolve correctly after Panoptica updates to the shared catalog
+
+---
+**Search tips:** Search for Shattered Legions, Shadrak Meduson, Shattered Legionary, Mixed Legion
+**Reference:** Master tracking issue"
+
+echo "Created: Shattered Legions"
+sleep 2
+
+# =============================================================
+# SUB-ISSUE 31: Bound Daemons
+# =============================================================
+gh issue create --repo "$REPO" \
+  --title "Panoptica Update: Bound Daemons (2022 - Daemons - Bound Daemons.cat)" \
+  --label "Panoptica update" --label "BattleScribe" \
+  --assignee neotheone-HH22 \
+  --body "## Apply Panoptica changes to \`2022 - Daemons - Bound Daemons.cat\`
+
+### Named Daemon Changes
+- [ ] Bound Ka'bandha: Update stat profile; Wings movement update; Skull Keeper Warlord Trait update; Incarnadine Wings interaction
+- [ ] Bound Samus: Update stat profile; Blades of Samus weapon profile update; End and the Death Warlord Trait update
+
+### Unit Changes
+- [ ] Bound Daemon Brutes: Stat update; Brute Armaments weapon profiles per Panoptica
+- [ ] Bound Daemon Regent: Stat update; Regent Blade weapon profile update; Daemon Attendant model update
+
+### Special Rule Changes
+- [ ] Bound Daemon Sub-type: Update interaction with Daemon unit-type rules per Panoptica global changes
+- [ ] Ætheric Dominion: Verify Bound Daemons access to Dominion correctly after Panoptica Daemon changes
+
+### Other
+- [ ] Note: Cor'Bax Utterblight (Bound) changes are tracked in issue #78 (Daemons of the Ruinstorm)
+
+---
+**Search tips:** Search for Ka'bandha, Samus, Bound Daemon, Brute Armaments, Regent Blade, Ætheric Dominion
+**Reference:** Master tracking issue"
+
+echo "Created: Bound Daemons"
+sleep 2
+
+# =============================================================
 echo ""
 echo "============================================="
-echo "All 28 issues created successfully!"
+echo "All 32 issues created successfully!"
 echo "============================================="
 echo ""
 echo "Next steps:"

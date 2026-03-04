@@ -30,6 +30,7 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [x] Salamanders - Issue: #69 | PR: #95 (Open)
 - [x] Raven Guard - Issue: #70 | PR: TBD
 - [x] Alpha Legion - Issue: #71 | PR: #97 (Open)
+- [ ] Death Guard - Issue: TBD
 
 ### Other Armies
 - [ ] Mechanicum - Issue: #72
@@ -40,6 +41,11 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [x] Imperialis Militia - Issue: #77 | PR: #90, #103 (Open)
 - [ ] Daemons of the Ruinstorm - Issue: #78
 - [ ] Legacies & Exemplary Battles - Issue: #79
+
+### Additional Army Lists
+- [ ] Blackshields - Issue: TBD
+- [ ] Shattered Legions - Issue: TBD
+- [ ] Bound Daemons - Issue: TBD
 
 ---
 
@@ -68,7 +74,13 @@ _None yet_
 ## Remaining Work
 
 ### Missing Sub-Issues
-All sub-issues have been created. No sub-issues are missing.
+The following catalog files exist in the repository but were not included in the original `create-all-panoptica-issues.sh` script. Sub-issues have been added to the script and need to be created in GitHub:
+- Death Guard (`2022 - LA - Death Guard.cat`) — the XIV Legion was omitted from the original script
+- Blackshields (`2022 - BG - Blackshields.cat`)
+- Shattered Legions (`Shattered Legions.cat`)
+- Bound Daemons (`2022 - Daemons - Bound Daemons.cat`)
+
+Note: `2022 - Mech Library.cat` and `Daemon Library.cat` are shared library files (`library="true"`) and are covered by the Mechanicum and Daemons issues respectively.
 
 ### Pending PRs
 The following issues have been created but don't have PRs yet:
@@ -78,6 +90,12 @@ The following issues have been created but don't have PRs yet:
 - #70: Raven Guard
 - #73: Questoris Knights & Titan Legions
 - #74: Custodes & Sisters of Silence
+
+The following issues need to be created first (via the updated `create-all-panoptica-issues.sh`):
+- TBD: Death Guard
+- TBD: Blackshields
+- TBD: Shattered Legions
+- TBD: Bound Daemons
 
 ---
 
@@ -135,5 +153,5 @@ The following issues have been created but don't have PRs yet:
 
 ---
 
-**Last Updated:** 2026-02-26
-**Status:** Implementation in progress across multiple PRs
+**Last Updated:** 2026-03-04
+**Status:** Implementation in progress across multiple PRs; 4 additional catalog files identified and sub-issues added to tracking script
