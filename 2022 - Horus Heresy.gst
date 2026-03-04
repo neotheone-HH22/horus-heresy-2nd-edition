@@ -14861,6 +14861,7 @@ Limitations
 • Models with the Legiones Astartes (Sons of Horus) special rule taken as part of a Detachment using this Rite of War gain the Rage (2) special rule when they successfully Charge an enemy unit which is already locked in combat with one or more units or an enemy unit that is the target of at least one other Charge in the same Charge sub-phase.
 • Reaver Attack Squads may be chosen as Troops choices for Detachments using this Rite of War, and when chosen as Troops choices gain the Line Unit Sub-type. 
 • Justaerin Terminators chosen as part of a Detachment using this Rite of War gain the Deep Strike special rule.
+• Any Independent Character that joins a unit that has gained the Deep Strike or Outflank special rule through this Rite of War also gains the corresponding special rule for as long as they remain part of that unit.
 Limitations
 • Detachments using this Rite of War must take a Legion Centurion with the Master of Signal upgrade as a HQ choice, in addition to the Legion Praetor or other characters whose presence allows for the use of a Rite of War.
 • A Detachment using this Rite of War must include more Fast Attack choices than Heavy Support choices.</description>

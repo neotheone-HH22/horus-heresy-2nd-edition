@@ -3575,6 +3575,7 @@
             <modifier type="set" field="name" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="e7b3-4f92-a581-d409" name="Shattered Legionary" hidden="false" targetId="3206-30c9-84d0-4c7b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6018-e91b-ef03-2ee3" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
