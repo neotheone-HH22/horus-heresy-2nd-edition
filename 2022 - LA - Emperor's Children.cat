@@ -3318,6 +3318,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
         </infoLink>
         <infoLink name="Stubborn" hidden="false" type="rule" id="cff0-6431-d93a-dc2d" targetId="7989-1f2c-a43d-82ae"/>
         <infoLink id="dff4-89f0-a334-fbb9" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
+        <infoLink id="a3c7-12df-4b58-9e01" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="99d4-024f-39b9-f2dd" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -3333,7 +3334,7 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           <profiles>
             <profile id="ea6e-bc7f-81d0-a05c" name="Phoenix Champion" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Champion Infantry (Character)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -4260,6 +4261,9 @@ A unit with this special rule gains +1 to the score used to calculate the winner
             </profile>
           </profiles>
           <rules>
+            <rule id="7e2d-4c9a-3b5f-1e08" name="The Shattered IIIrd" hidden="false" publicationId="d882-d2a-5da1-92c4" page="195">
+              <description>You can include this model in a Shattered Legions Detachment that includes models representing the Emperor&apos;s Children Legion. When you do so, replace this model&apos;s Legiones Astartes (Emperor&apos;s Children) special rule with the Legiones Astartes (Shattered Legions) special rule. This is an exception to the normal rules for Legiones Astartes (Shattered Legions). When included in a Shattered Legions Detachment, this model must represent the Emperor&apos;s Children Legion.</description>
+            </rule>
             <rule id="abd6-aa34-8bbe-a4c8" name="A Brother Betrayed" hidden="false">
               <description>Captain Saul Tarvitz gains +1 Weapon Skill, +1 Strength and +1 Toughness while locked in combat with any enemy model that has both the Independent Character and Legiones Astartes (Emperor’s Children) special rules or any unit that such a model has joined. If an enemy model that has both the Independent Character and Legiones Astartes (Emperor’s Children) special rules is removed as a casualty whilst locked in combat with Captain Saul Tarvitz or any unit he has joined then Saul Tarvitz controlling player gains +1 bonus Victory point in addition to any others that might be gained from this, this bonus is increased to +2 bonus Victory points if Captain Lucius is removed as a casualty while engaged in a Challenge with Captain Saul Tarvitz.</description>
             </rule>
@@ -4290,6 +4294,13 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           <categoryLinks>
             <categoryLink targetId="4f07-3d45-4f28-a0c6" id="a1f6-b92a-78c8-b51f" primary="false" name="Independent Character"/>
           </categoryLinks>
+          <modifiers>
+            <modifier type="add" value="865a-38ce-75bc-88df" field="category">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="9950-2cd2-fd88-9bb1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="6abf-3890-79c3-759d" name="Charnabal broadsword" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4679,6 +4690,13 @@ If any of these are true then Captain Saul Tarvitz and any friendly units with a
         <categoryLink targetId="aa94-5c65-d1f1-46a4" id="ba67-2d9d-478f-ab37" name="Unique Sub-type" primary="false"/>
         <categoryLink targetId="f75a-d5c1-59ba-5c5a" id="5e6f-7a8b-9c0d-1e2f" name="Character" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="add" value="865a-38ce-75bc-88df" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="9950-2cd2-fd88-9bb1" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <entryLinks>
         <entryLink id="53b4-68bd-0941-24e4" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
           <constraints>
@@ -6099,6 +6117,9 @@ A model with Resplendent Wings may still Run if it would normally be able to Run
 
 
 During a Reaction made in any Phase, a player may not choose to activate a model’s Resplendent Wings to gain any bonus to its Movement Characteristic.</description>
+            </rule>
+            <rule id="d5a7-3e9c-2b4f-6c01" name="Legion Warhawk Jump Pack" hidden="false">
+              <description>Fulgrim Transfigured counts as having a Legion Warhawk Jump Pack for the purposes of all rules.</description>
             </rule>
           </rules>
           <infoLinks>
