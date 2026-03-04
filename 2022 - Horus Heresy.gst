@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="129" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022)" revision="130" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -1030,7 +1030,9 @@ In addition, when a Fast Vehicle moves, it may choose to move at Flat-out:</desc
           <description>• Models with the Assassin Sub-type ignore all movement penalties when moving or Charging through terrain of any kind and automatically pass all Dangerous Terrain tests they are called upon to make.
 • Models with the Independent Character special rule may not join a unit composed only of models with the Assassin Sub-type.
 • Models with the Assassin Sub-type may not Embark on any model with the Transport Sub-type.
-• Models with the Assassin Sub-type may never be selected as an army&apos;s Warlord</description>
+• Models with the Assassin Sub-type may never be selected as an army&apos;s Warlord
+• All models with the Assassin Sub-type have the Precision Shots (2+) and Precision Strikes (2+) special rules.
+• All models with the Assassin Sub-type have the Predator&apos;s Gaze special rule: Wounds caused by Precision Shots and Precision Strikes attacks made by models with the Assassin Sub-type may not be intercepted by a model with the Guardian Unit Sub-type.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -1368,10 +1370,22 @@ Panoptica Changes:
 - Any model with the Knight or Titan Unit Type gains the Hammer of Wrath (3) Special Rule.</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" id="f4d4-9a7a-3b57-bb48" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="4280-2d8-16c6-d60b" name="Titan Sub-type" hidden="false">
       <infoLinks>
         <infoLink name="Knights and Titans" hidden="false" type="rule" id="400b-3ae9-44d5-6df1" targetId="d0e-e683-6ab9-4f0"/>
+        <infoLink name="Hammer of Wrath (X)" hidden="false" type="rule" id="78d3-fc6c-6e15-3a01" targetId="aec0-c3aa-1e4e-1779">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="Unique Sub-type" hidden="false" id="aa94-5c65-d1f1-46a4"/>
@@ -1468,7 +1482,7 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
       <rules>
         <rule id="e2d9-fe0d-1717-3a37" name="Anathema Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
           <description>• A unit that includes at least one model with the Anathema Sub-type may not be directly targeted by any Psychic Power or use any Psychic power or make attacks with a Psychic Weapon, Psychic Powers whose effects would otherwise be applied to a unit that includes at least one model with the Anathema Sub-type (due to area of effect, scattering or other rules) have no effect, but are not cancelled and may continue to affect other units.
-• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon gain no benefit from the Force special rules, but are otherwise resolved as normal. These effects do not apply to a model with the Transport Sub-type that has models with the Anathema Sub-type Embarked within, unless the model with the Transport Sub-type also has the Anathema Sub-type.
+• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon, a weapon with the Achean Force special rule, or a weapon with the Soul Tear special rule gain no benefit from those special rules, but are otherwise resolved as normal. These effects do not apply to a model with the Transport Sub-type that has models with the Anathema Sub-type Embarked within, unless the model with the Transport Sub-type also has the Anathema Sub-type.
 • All models that no not have the Anathema Sub-type but are part of a unit that includes one of more models with the Anathema Sub-type, suffer a penalty of -2 to their Leadership Characteristic. Any unit with at least one model within 6&quot; of a model with the Anathema Sub-type suffers a penalty of -1 to the Leadership of all models in the unit that do not also have the Anathema Sub-type, or -2 if that unit includes one of more models with the Corrupted Unit Sub-type. Note that these two penalties are not cumulative; they apply only the more severe penalty. However, they do stack with other special that modify Leadership (such as Fear (X)).
 • A unit that is Embarked on a Vehicle, Fortification or Building suffers no penalties to its Leadership Characteristic due to the Anathema Sub-type, However, units with the Stubborn special rule do suffer penalties to their Leadership from the effects of this Sub-type (note that this only applies to the Stubborn special rule, and other special rules that ignore penalties to Leadership ignore the effects of the Anathema Sub-type).
 
@@ -8657,6 +8671,18 @@ A. No.</description>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0da1-3e1d-c05b-b828" name="Missile Launcher - Flak" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c6-d7e8-f9a0-1235" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d7-e8f9-a0b1-2346" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d7e8-f9a0-b1c2-3457" name="Missile Launcher - Flak" hidden="false" targetId="effc-0075-a2bf-f664" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11367,7 +11393,7 @@ The Better Part of Valour – This Advanced Reaction may be made once per battle
                 <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with the Legiones Astartes (Blood Angels) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
 
-The Wrath of Angels – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy player declares a Shooting Attack targeting a unit composed entirely of models with the Infantry Unit Type and the Legiones Astartes (Blood Angels) special rule under the Reactive player’s control. All models in the unit targeted by the Shooting Attack that triggers this Reaction gain the Shrouded (5+) special rule against all Wounds inflicted as part of the Shooting Attack that triggered this Reaction – if the Reacting unit already has a version of the Shrouded (X) special rule then this does not stack or increase that rule, and the Reacting player may choose to use any one of the Shrouded rules available to them. Once the Shooting Attack has been completely resolved, the Reacting unit may have a Charge declared for it, following all the normal rules for Charging and targeting the enemy unit that made the Shooting Attack. The enemy unit may not make a Reaction to this Charge, and it is fully resolved immediately after it is declared. If the Charge is successful, the units are locked in combat and fight in the Assault phase as normal, with the Charging unit benefiting from any Charge bonuses, Hammer of Wrath (X), etc. If the Charge fails, no Surge Move is made.</characteristic>
+The Wrath of Angels – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy player declares a Shooting Attack targeting a unit composed entirely of models with the Infantry or Cavalry Unit Type and the Legiones Astartes (Blood Angels) special rule under the Reactive player’s control. All models in the unit targeted by the Shooting Attack that triggers this Reaction gain the Shrouded (5+) special rule against all Wounds inflicted as part of the Shooting Attack that triggered this Reaction – if the Reacting unit already has a version of the Shrouded (X) special rule then this does not stack or increase that rule, and the Reacting player may choose to use any one of the Shrouded rules available to them. Once the Shooting Attack has been completely resolved, the Reacting unit may have a Charge declared for it, following all the normal rules for Charging and targeting the enemy unit that made the Shooting Attack. The enemy unit may not make a Reaction to this Charge, and it is fully resolved immediately after it is declared. If the Charge is successful, the units are locked in combat and fight in the Assault phase as normal, with the Charging unit benefiting from any Charge bonuses, Hammer of Wrath (X), etc. If the Charge fails, no Surge Move is made.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11406,9 +11432,9 @@ The Gorgon’s Spite – This Advanced Reaction may be made once per battle duri
           <profiles>
             <profile name="World Eaters Advanced Reaction" typeId="90b9-7fab-87db-aed3" typeName="Reactions" hidden="false" id="5fbc-9c03-178f-6a02" publicationId="09c5-eeae-f398-b653" page="215">
               <characteristics>
-                <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units composed entirely of models with the Legiones Astartes (World Eaters) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
+                <characteristic name="Description" typeId="c627-4637-8de5-65fb">This Advanced Reaction is available only to units with the Infantry or Cavalry Unit Type composed entirely of models with the Legiones Astartes (World Eaters) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
 
-The Savage Tide – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit with the Infantry Unit Type under the Reactive player’s control with the Legiones Astartes (World Eaters) special rule. All models in the Reacting unit gain the Feel No Pain (5+) special rule against all Wounds inflicted as part of the Shooting Attack that triggered this Reaction. If the Reacting unit already has a version of the Feel No Pain (X) special rule, then this does not stack or increase that rule, and the Reacting player may choose to use any one of the Feel No Pain (X) special rules available to them. Once the Shooting Attack has been completely resolved, the Reacting unit may make a Charge, following all the normal rules for Charging, targeting the enemy unit that made the Shooting Attack. The enemy unit may not make a Reaction to this Charge.</characteristic>
+The Savage Tide – This Advanced Reaction may be made once per battle during the opposing player’s Shooting phase when any enemy unit declares a Shooting Attack targeting a friendly unit with the Infantry or Cavalry Unit Type under the Reactive player’s control with the Legiones Astartes (World Eaters) special rule. All models in the Reacting unit gain the Feel No Pain (5+) special rule against all Wounds inflicted as part of the Shooting Attack that triggered this Reaction. If the Reacting unit already has a version of the Feel No Pain (X) special rule, then this does not stack or increase that rule, and the Reacting player may choose to use any one of the Feel No Pain (X) special rules available to them. Once the Shooting Attack has been completely resolved, the Reacting unit may make a Charge, following all the normal rules for Charging, targeting the enemy unit that made the Shooting Attack. The enemy unit may not make a Reaction to this Charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14079,6 +14105,31 @@ Limitations
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="d4e5-f6a7-b8c9-0003" name="The Logos Lectora (IH)" publicationId="817a-6288-e016-7469" page="278" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c0df-c1fa-5ddc-9ee5" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="d4e5-f6a7-b8c9-0004" name="The Logos Lectora" publicationId="817a-6288-e016-7469" page="278" hidden="false">
+              <description>Effects
+• A Detachment using this Rite of War must include two Compulsory HQ choices (one additional Compulsory HQ choice beyond that usually required by their Force Organisation chart) and one non-Compulsory HQ choice.
+Limitations
+• A Detachment using this Rite of War may not include any unit with the Deep Strike special rule as its sole method of deployment.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="b23c-e41d-1ffe-1a38" name="The Logos Lectora (UM)" publicationId="817a-6288-e016-7469" page="293" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -14188,7 +14239,7 @@ Limitations
             <rule id="86e7-b1d4-247c-f314" name="Decapitation Strike" publicationId="817a-6288-e016-7469" page="329" hidden="false">
               <description>Effects
 • All models with the Legiones Astartes (Raven Guard) special rule in a Detachment using this Rite of War gain the Preferred Enemy (Independent Characters) special rule.
-• All models in any unit from a Detachment using this Rite of War assigned to a Deep Strike Assault or Flanking Assault gain the Shrouded (5+) special rule for the duration of the Game Turn in which they are deployed to the battlefield.
+• All models in any unit from a Detachment using this Rite of War assigned to a Deep Strike Assault or Flanking Assault gain the Shrouded (5+) special rule until the start of the controlling player's next turn.
 • In missions that use Victory points, an army that includes a Detachment using this Rite of War gains an additional 2 Victory points for the Slay the Warlord Secondary Objective.
 Limitations
 • A Detachment using this Rite of War may only include a single Heavy Support choice. 
@@ -14376,12 +14427,11 @@ Limitations
             <rule id="6b38-468a-0ddf-5dec" name="Terror Assault" publicationId="09c5-eeae-f398-b653" page="197" hidden="false">
               <description>Effects
 • When any Detachment in a battle is using this Rite of War, the Night Fighting rules are always in effect at the start of the first Game Turn of the battle and remain in play until the end of the second Game Turn. At the start of the third Game Turn, before any Reserves rolls are made or any models are moved, the controlling player of a Detachment using this Rite of War may have the Night Fighting rules automatically end, or may roll a D6. If the result of the roll is a ‘4’ or greater, then the Night Fighting rules remain in effect for the duration of the third Game Turn. If the result of the roll is a ‘3’ or less, then the Night Fighting rules end immediately. At the start of the fourth turn the Night Fighting rules are automatically removed from play, regardless of the effect of any other special rule.
-• Terror Squads and Night Raptor Squads may be taken as Troops choices in a Detachment using this Rite of War.
+• Terror Squads and Night Raptor Squads may be taken as Troops choices in a Detachment using this Rite of War. When Terror Squads are selected as Compulsory Troops choices, they gain the Line Sub-type.
 • Any model with the Legiones Astartes (Night Lords) special rule and the Character Unit Sub-type in a Detachment using this Rite of War gains the Fear (1) special rule.
 Limitations
 • This Rite of War may only be selected for a Primary Detachment.
-• Detachments using this Rite of War may only take a single Heavy Support choice as part of their Force Organisation chart.
-• An army whose Primary Detachment has this Rite of War may not include any Lords of War choices or models with the Super-heavy Sub-type.</description>
+• Detachments using this Rite of War may only take a single Heavy Support choice as part of their Force Organisation chart.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -14478,7 +14528,7 @@ Limitations
 • Rampager Squads may be taken as Troops choices in a Detachment using this Rite of War.
 • Legion Predator Squadrons may be taken as Fast Attack choices in a Detachment using this Rite of War.
 Limitations
-• All units in a Detachment using this Rite of War must declare a Charge in any of the controlling player’s Assault phases where there is at least one model from any enemy unit within 12&quot; and line of sight of a unit selected as part of a Detachment using this Rite of War, and must always target the closest enemy unit if possible. This Charge may not initiate a Multiple Combat.
+• All units in a Detachment using this Rite of War must declare a Charge in any of the controlling player’s Assault phases where there is at least one model from any enemy unit within 12&quot; and line of sight of a unit selected as part of a Detachment using this Rite of War, and must always target the closest enemy unit if possible. This Charge may not initiate a Multiple Combat (though units may still be engaged in a Multiple Combat if charged by multiple enemy units).
 • An army that includes a Detachment using this Rite of War may not also include an Allied Detachment.</description>
             </rule>
           </rules>
@@ -14704,7 +14754,7 @@ Limitations
             <rule id="ae21-7325-51fd-225b" name="The Dark Brethren" publicationId="09c5-eeae-f398-b653" page="305" hidden="false">
               <description>Effects
 • At the start of the battle, after both sides have deployed their entire army, excepting only those units deploying by means of the Infiltrate special rule, but before the start of the first turn, one unit in the enemy army that has been deployed onto the battlefield must be selected as the Sacrifice by the player of the Detachment using this Rite of War. If no enemy units are deployed on the battlefield at that point, the controlling player of the Detachment using this Rite of War must select an enemy unit from Reserves or otherwise off the battlefield as the Sacrifice. If all models in the Sacrifice unit, including any models that are assigned or have joined the unit, are destroyed or otherwise removed as casualties then the player controlling this Detachment gains one Favour of the Dark Gods and another Sacrifice unit is selected from among those enemy units deployed on the battlefield at the end of that turn by the player of the Detachment using this Rite of War. If no enemy units are deployed on the battlefield at that point then the player that controls the Detachment using this Rite of War must select one enemy unit that is in Reserves to be the Sacrifice.
-• The controlling player of the Detachment using this Rite of War must assign each point of Favour of the Dark Gods to one of the units under their control as soon as it is earned. For each point of Favour of the Dark Gods assigned to a unit, its Strength, Movement and Weapon Skill are increased by +1. A unit may have no more than 3 points of Favour of the Dark Gods assigned to it (so a unit with 2 points of Favour of the Dark Gods would increase the Strength, Movement and Weapon Skill of the chosen unit by +2).
+• The controlling player of the Detachment using this Rite of War must assign each point of Favour of the Dark Gods to one of the units in the Detachment using this Rite of War as soon as it is earned. For each point of Favour of the Dark Gods assigned to a unit, its Strength, Movement and Weapon Skill are increased by +1. A unit may have no more than 3 points of Favour of the Dark Gods assigned to it (so a unit with 2 points of Favour of the Dark Gods would increase the Strength, Movement and Weapon Skill of the chosen unit by +2).
 Limitations
 • Any one unit from the Detachment using this Rite of War must inflict at least one unsaved Wound or Hull Point of damage on the Sacrifice unit in each of their turns or one of the units in the Detachment using this Rite of War, selected at random, suffers Perils of the Warp. 
 • An army that includes a Detachment using this Rite of War must have the Traitor Allegiance.</description>
@@ -14725,7 +14775,7 @@ Limitations
           <rules>
             <rule id="82c3-5d96-e8fd-4a9e" name="The Coils Of The Hydra" publicationId="09c5-eeae-f398-b653" page="333" hidden="false">
               <description>Effects
-• A Detachment using this Rite of War may include up to three of the units selected as part of the Rewards of Treachery special rule. Each of these units is paid for as normal and uses up the normal Force Organisation slots for a unit of that type as per the restrictions of the Rewards of Treachery special rule.
+• A Detachment using this Rite of War may include up to three of the units selected as part of the Rewards of Treachery special rule. All units selected via the Rewards of Treachery special rule must be from the same Legiones Astartes variant, and any such units change their Allegiance to match the Detachment using this Rite of War. Each of these units is paid for as normal and uses up the normal Force Organisation slots for a unit of that type as per the restrictions of the Rewards of Treachery special rule.
 • All units selected as part of a Detachment using this Rite of War by means of the Rewards of Treachery special rule gain the Fearless special rule until at least one other friendly unit has been deployed from Reserves onto the battlefield.
 • All units selected as part of the Detachment using this Rite of War without the use of the Rewards of Treachery special rule gain a bonus of +1 to all To Hit rolls made for them in all attacks (both Shooting and Melee) made during the player turn in which they are deployed onto the battlefield.
 Limitations
@@ -14778,10 +14828,10 @@ Limitations
               <description>Effects
 • Phalanx Warder Squads may be taken as Troops choices for a Detachment using this Rite of War.
 • All models selected as part of a Phalanx Warder Squad in a Detachment using this Rite of War gain the Line Sub-type and Heart of the Legion special rule.
-• Any model in a Detachment using this Rite of War, and with the Legiones Astartes (Imperial Fists) special rule, with a boarding shield, which is in unit coherency with at least two other models that also fit these criteria, may reroll all failed Invulnerable Saves made against Shooting Attacks or attacks made during the Fight sub-phase. This bonus may not be claimed if the unit the model is part of has made a Run move, Charge or a Sweeping Advance move in the current player turn, or is Falling Back.
+• Any model in a Detachment using this Rite of War, and with the Legiones Astartes (Imperial Fists) special rule, with a boarding shield, which is in unit coherency with at least two other models that also fit these criteria, may reroll failed Invulnerable Saves of 1 made against Shooting Attacks or attacks made during the Fight sub-phase. This bonus may not be claimed if the unit the model is part of has made a Run move, Charge or a Sweeping Advance move in the current player turn, or is Falling Back.
 • Any model in a Detachment using this Rite of War with the Legiones Astartes (Imperial Fists) special rule, with a boarding shield, which is in unit coherency with at least two other models that also fit these criteria, gains the Hammer of Wrath (1) special rule for the duration of any Assault phase in which a Charge is declared for the unit that model is part of (whether or not the Charge is successful).
 Limitations
-• A Detachment using this Rite of War must select Phalanx Warder Squads to fill all Compulsory Troops choices in the Detachment.
+• A Detachment using this Rite of War must select Phalanx Warder Squads or Breacher Siege Squads to fill all Compulsory Troops choices in the Detachment.
 • A Detachment using this Rite of War may not deploy models using the Deep Strike special rule or otherwise as part of a Deep Strike Assault, Subterranean Assault or Flanking Assault (and units which must deploy by these methods therefore cannot be chosen as part of the Detachment).
 • A Detachment using this Rite of War cannot take more Elites and Fast Attack choices in total than they have Troops choices in the Detachment. So, for example, a Detachment with three Troops choices could take three choices made up of Fast Attack, Elites, or a combination of the two.</description>
             </rule>
@@ -15172,7 +15222,7 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
           </constraints>
           <rules>
             <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Strength Characteristic but also lower their Ballistic Skill by -1 (to a minimum of 1) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Hammer of Wrath (1) special rule, or if they also have the Independent Character special rule or the Monstrous Unit Sub-type gain the Hammer of Wrath (2) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+              <description>All eligible units and models receive an increase of +1 to their Strength and Movement Characteristics but also lower their Ballistic Skill by -1 (to a minimum of 1) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Hammer of Wrath (1) special rule, or if they also have the Independent Character special rule or the Monstrous Unit Sub-type gain the Hammer of Wrath (2) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
             </rule>
           </rules>
           <costs>
@@ -15392,13 +15442,13 @@ A unit with this special rule that has been joined by a model after or during de
               <description>All eligible models in a Detachment with this Provenance may upgrade lasguns to lasrifles for no additional cost.
 
 
-• Option – Blessed Arms: Eligible models in Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres may upgrade lasguns to laslocks and may upgrade sniper rifles to arc rifles at a cost of +45 points per unit, regardless of the number of models or types of weapons upgraded in a given unit.
+• Option – Blessed Arms: Eligible models in Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres may upgrade lasguns to laslocks and may upgrade sniper rifles to arc rifles at a cost of +25 points per unit, regardless of the number of models or types of weapons upgraded in a given unit.
 
 
 • Option – Sanctified Weapons: A Force Commander in a Detachment with this Provenance may exchange a close combat weapon for a corposant stave for +5 points and/or a laspistol for a radium pistol for +5 points. A Force Commander may take a servo-arm for +10 points.
 
 
-This Provenance cannot be taken in conjunction with the Armoury of Old Night Provenance.</description>
+This Provenance may not be chosen in conjunction with the Armoury of Old Night Provenance. All units in a Detachment with this Provenance are treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -15426,7 +15476,7 @@ This Provenance cannot be taken in conjunction with the Armoury of Old Night Pro
           </constraints>
           <rules>
             <rule name="Augmented Levy" hidden="false" id="b147-7837-b14b-8006" publicationId="bc5c-e6fb-985f-81be" page="6">
-              <description>All Imperialis Militia Levy Squads in a Detachment with this Provenance receive +1 to their Leadership Characteristic and gain the Stubborn and The Rite of Pure Thought special rules (see page 108 of Liber Mechanicum). However, the Detachment’s Compulsory Troops choices must be filled by Imperialis Militia Levy Squads, and it may not have more Infantry units, excepting HQ choices, of other types than it has Imperialis Militia Levy Squads in total. For example, if it has three Imperialis Militia Levy Squads, it can have a maximum of three additional Infantry squads of other kinds. Imperialis Militia Levy Squads in an army with this Provenance may  not be joined by a Discipline Master.
+              <description>All Imperialis Militia Levy Squads in a Detachment with this Provenance receive +1 to their Leadership Characteristic and gain the Stubborn and The Rite of Pure Thought special rules (see page 108 of Liber Mechanicum). However, the Detachment’s Compulsory Troops choices must be filled by Imperialis Militia Levy Squads, and it may not have more Infantry units, excepting HQ choices, of other types than it has Imperialis Militia Levy Squads in total. For example, if it has three Imperialis Militia Levy Squads, it can have a maximum of three additional Infantry squads of other kinds. Imperialis Militia Levy Squads in an army with this Provenance may  not be joined by a Discipline Master. All units in a Detachment with this Provenance are treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.
 
 
 This Provenance cannot be taken in conjunction with the Abhuman Muster, Tainted Flesh, Gene-crafted, Unending Hordes, Feral Warriors or Ogryn Conscripts Provenances.</description>
@@ -18025,7 +18075,7 @@ Scatter dice.
 The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.</description>
     </rule>
     <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
-      <description>A model may only attack with this weapon on a turn in which it makes a successful Charge, but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
+      <description>A model may only attack with this weapon on a turn in which it makes a successful Charge (including a Disordered Charge), but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
     </rule>
     <rule name="Impale" hidden="false" id="2dfc-b3cc-7ede-2827" publicationId="4934-46f7-208b-b4af" page="132">
       <description>A unit may re-roll Charge Rolls when attempting to Charge an enemy unit that has suffered one or more Hits from a weapon with the Impale special rule caused by one or more models in the unit for which the Charge was declared in the same player turn. This takes effect even if no Wounds are caused by the Hits.
@@ -18059,7 +18109,7 @@ While Embarked on any model, a unit gains no benefit from any Hexagrammaton Unit
       <description>Flawless Execution: On a Turn in which they make a successful Charge, even if that Charge is considered a Disordered Charge, models with the Legiones astartes (Emperor&apos;s children) special rule make their attacks in an assault at on initiative step higher than normal - after any initiative modifiers from other special rules have been taken into account. Models with the Legiones Astartes (Emperor&apos;s Children) special rule and Vehicle unit type gain a bonus of +1 to all To Hit rolls made for Defensive Weapons when making a Shooting Attack as part of a reaction.</description>
     </rule>
     <rule id="405d-019f-9ef6-423c" name="Legiones Astartes (World Eaters)" publicationId="09c5-eeae-f398-b653" page="214" hidden="false">
-      <description>Violence Incarnate: On any turn in which a unit with this special rule makes a successful Charge it gains +1 Attack for the remainder of that turn in addition to any other bonuses, even if that Charge is considered a Disordered Charge.</description>
+      <description>Violence Incarnate: On any turn in which a unit with this special rule makes a successful Charge, each model in the unit gains +1 Attack for the remainder of that turn in addition to any other bonuses, even if that Charge is considered a Disordered Charge.</description>
     </rule>
     <rule id="e876-4f8f-a30f-8b22" name="Legiones Astartes (Imperial Fists)" publicationId="817a-6288-e016-7469" page="224" hidden="false">
       <description>Discipline and Resolve: Models with this special rule gain a bonus of +1 to all To Hit rolls with any Auto weapon or Bolt weapon as part of any Shooting Attack (including as part of any Reaction).</description>
@@ -18085,7 +18135,7 @@ Models with the Legiones Astartes (Raven Guard) special rule gain one of the fol
 
 Talons – If a unit composed entirely of models with the Talons special rule is targeted by a Shooting Attack, all models in the unit gain the Shrouded (6+) special rule if the attacking unit is more than 8&quot; from any model in the target unit. In addition, all models with this special rule also gain the Infiltrate special rule.
 
-Falcons – Any models with this special rule may re-roll all failed To Wound rolls of ‘1’ in any Assault phase in which they make a successful Charge – even if that Charge is considered Disordered.
+Falcons – Any models with this special rule may re-roll all failed To Hit rolls of ‘1’ in any Assault phase in which they make a successful Charge – even if that Charge is considered Disordered.
 
 Hawks – Any models with this special rule gain the Shrouded (6+) special rule on any turn in which they Run, Move Flat Out or move as a Zooming Flyer, with this benefit lasting until the start of the controlling player’s next turn – or if that model would already gain the Shrouded (6+) special rule, it instead gains the Shrouded (5+) special rule (if the unit already has the Shrouded (5+) or better then it gains no additional benefit).</description>
     </rule>

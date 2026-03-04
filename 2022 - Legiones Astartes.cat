@@ -953,7 +953,7 @@ Additional rules are given to units based on Legion and Unit.</description>
         <profile id="8c5c-8a63-e20a-e7e8" name="Graviton Crusher" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Two-handed, Haywire</characteristic>
           </characteristics>
@@ -1281,7 +1281,9 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <profiles>
         <profile id="721f-029b-84cb-ad49" name="Shamshir Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
+
+A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 19, gains 2 Wounds, and gains the Firing Protocols (2), Hammer of Wrath (1), Battle-Hardened (1) and Skilled Rider special rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1294,6 +1296,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink id="e9ff-9f4a-0607-1626" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6499-5504-ce06-4ca7" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1502,7 +1509,7 @@ A model with the Infantry Unit Type that selects a Legion Spatha combat bike as 
       <profiles>
         <profile id="c404-06d0-257b-4814" name="Vigil Storm Shield" publicationId="817a-6288-e016-7469" page="228" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Vigil storm shield gains a 3+ Invulnerable Save – Invulnerable Saves granted by a Vigil storm shield do not stack with other Invulnerable Saves and cannot be modified by any other special rule. If a model has another Invulnerable Save then the controlling player must choose one to use. A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Vigil storm shield gains a 5+ Invulnerable Save, or if the model already has an Invulnerable Save, improves that Invulnerable Save by 1 step (to a maximum of 3+). A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2265,7 +2272,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Shred, Murderous Strike (5+), Unwieldy</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Shred, Murderous Strike (5+), Unwieldy, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2278,6 +2285,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           </modifiers>
         </infoLink>
         <infoLink id="9fe6-a3ce-3122-885f" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="ee1d-3f2a-b7c4-9d5e" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2297,15 +2309,15 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Rending (4+), Duellist’s Edge (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Breaching (5+), Duellist’s Edge (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="757e-b301-f965-1db0" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
-        <infoLink id="caeb-bf11-c0eb-8bc2" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="f1a2-3b4c-5d6e-7f8a" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="d409-8bbc-ddeb-7178" name="Duellist’s Edge (X)" hidden="false" targetId="7bf3-86ce-04c2-e6ba" type="rule">
@@ -2403,23 +2415,13 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       </modifiers>
       <profiles>
         <profile id="b80f-8244-f02a-a4f3" name="Frost Claw" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <modifiers>
-            <modifier type="set" field="2f86-c8b4-b3b4-3ff9" value="Melee, Specialist weapon, Shred, Reaping blow (2)">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="075a-c65e-c1eb-2ca9" childId="e919-d961-d007-ad34" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                    <condition type="atLeast" value="2" field="selections" scope="9977-8907-aebb-d864" childId="e919-d961-d007-ad34" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Shred, Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Shred, Reaping blow (1)
+
+When a model has two Frost Claws, that model gains +2 Attacks instead of the usual +1 Attack for using an additional weapon in combat.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2429,16 +2431,6 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink id="a71c-0c8d-1d63-f974" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Reaping Blow (1)"/>
-            <modifier type="set" field="name" value="Reaping Blow (2)">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="2" field="selections" scope="075a-c65e-c1eb-2ca9" childId="e919-d961-d007-ad34" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                    <condition type="atLeast" value="2" field="selections" scope="9977-8907-aebb-d864" childId="e919-d961-d007-ad34" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3843,7 +3835,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
       <profiles>
         <profile id="acfc-b1b5-7a79-f3bd" name="Stormwrought" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, the controlling player of a Psyker with this Psychic Power may select a single friendly unit with at least one model within 6&quot; of the Psyker that is composed entirely of models with the Infantry, Cavalry or Dreadnought Unit-types. When using this power the Psyker must take a Psychic Check; if the Psychic Check is successful, the chosen unit gains the Shrouded (3+) special rule until the beginning of the controlling player&apos;s next Shooting Phase. If the Psychic Check is failed, the chosen unit gains the Shrouded (5+) special rule until the beginning of the controlling player&apos;s next Shooting Phase and the Psyker suffers Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, the controlling player of a Psyker with this Psychic Power may select a single friendly unit with at least one model within 6&quot; of the Psyker that is composed entirely of models with the Infantry, Cavalry or Dreadnought Unit-types. The Psyker must take a Psychic Check. If the Check is successful the unit gains the Shrouded (3+) special rule until the beginning of the controlling player&apos;s next Shooting Phase. If the Check is failed the Shrouded (5+) special rule is applied to the target unit and the Psyker suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="95b7-634c-5271-5a8e" name="Wrath of the Death Wolf" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
@@ -13172,7 +13164,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9455-7121-ce77-4083" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="cdc4-b3bc-c6e6-3ced" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -13918,7 +13910,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82bd-9546-c501-f5d1" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="d90f-15a5-e5a4-abb7" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -14547,7 +14539,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c11b-ad06-8b5f-51e7" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c858-fd51-ffe1-4ff8" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -16859,7 +16851,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f737-d56d-e879-aa05" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="0a16-329a-6eeb-8a1b" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -21630,6 +21622,8 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
+              <description>• Unit Sub-type: All models in a unit modified by the Blood Angels Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Blood Angels Legion Inductii template must replace the Spite of the Legion special rule with the The Revenant Legion special rule and gain the Rage (2) special rule.</description>
             </rule>
             <rule id="618e-6c11-1eb8-49af" name="Salamanders Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="233" hidden="false">
               <modifiers>
@@ -21800,6 +21794,16 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   </conditions>
                 </modifier>
                 <modifier type="set" field="name" value="Furious Charge (1) (Creed of Brutality)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="ba01-0201-0301-0401" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="296e-301e-3ce1-1c15" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="Rage (2)"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -27652,7 +27656,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcef-efa6-3ab2-7e8b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="01b2-b6e5-6586-7789" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -33727,7 +33731,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f90-c70a-fae1-9a5d" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="aa97-9a38-9dec-4ebf" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -47841,21 +47845,21 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
       <profiles>
         <profile id="a0a6-77b4-1932-4a4a" name="Gorgon Terminator Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gorgon Terminator armour confers a 2+ Armour Save, a 5+ Invulnerable Save and the Feel No Pain (5+) special rule (this does not stack with any other variant of the Feel No Pain (X) special rule a model may have – if a model has more than one variant of this special rule the controlling player must choose one to use).
-Additionally, at the end of any Phase in which a model with Gorgon Terminator armour has passed at least one Armour Save or Invulnerable Save, roll a D6. On the result of a 4+, all enemy units with at least one model within 6&quot; of the model with Gorgon Terminator armour must test as if they had been hit by a weapon with the Blind special rule. Any unit that is composed entirely of models with Gorgon Terminator armour are immune to this effect.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gorgon Terminator armour confers a 2+ Armour Save, a 5+ Invulnerable Save and the Augmetics (5+) special rule (this does not stack with any other variant of the Feel No Pain (X) special rule a model may have – if a model has more than one variant of this special rule the controlling player must choose one to use).
+Additionally, whenever a model with Gorgon Terminator armour passes an Armour Save or Invulnerable Save, all enemy units with at least one model within 6&quot; of the model with Gorgon Terminator armour must test as if they had been hit by a weapon with the Blind special rule. Any unit that is composed entirely of models with Gorgon Terminator armour are immune to this effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="941f-1987-4128-9de1" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
-        <infoLink id="2962-d497-a0de-d397" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+        <infoLink id="2962-d497-a0de-d397" name="Augmetics (5+)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+            <modifier type="set" field="name" value="Augmetics (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97ad-7991-5b27-c031" name="Two Falax Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -47865,7 +47869,7 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Rending (4+), Duellist’s Edge (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Breaching (5+), Duellist’s Edge (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -47875,9 +47879,9 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
             <modifier type="set" field="name" value="Duellist’s Edge (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4e1a-8a14-8b2e-472d" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="b2c3-d4e5-f6a7-b8c9" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="cf09-a07e-3b32-f40d" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
@@ -64816,7 +64820,7 @@ If the Psychic check is successful then until that Shooting Attack is resolved, 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41d6-acf0-4567-341" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" id="f177-acf2-637c-2122" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" id="f177-acf2-637c-2122" hidden="false" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Teleport Strike" hidden="false" id="234-21ef-fb0e-446f" collective="false" targetId="4bb4-46d4-6cdd-4cd8" type="selectionEntry">
@@ -70737,7 +70741,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
         </entryLink>
         <entryLink id="f97e-0b57-8c13-3070" name="Vigil Storm Shield" hidden="false" collective="false" import="true" targetId="ec3d-1f0c-d195-a006" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="d2ee-04cb-5f8a-2642" value="15">
+            <modifier type="set" field="d2ee-04cb-5f8a-2642" value="10">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>

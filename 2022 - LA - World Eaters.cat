@@ -3124,22 +3124,22 @@
                 </entryLink>
                 <entryLink id="536f-1fd0-81a4-f484" name="Barb-Hook Lash" hidden="false" collective="false" import="true" targetId="e711-ab63-4899-8b00" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="24b5-c521-b05a-2311" name="Excoriator Chainaxe" hidden="false" collective="false" import="true" targetId="269e-ff0b-faec-d067" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="5404-b439-8e2a-41a6" name="Meteor Hammer" hidden="false" collective="false" import="true" targetId="314b-febc-93e8-a2e9" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="7bd3-eae3-1290-01f0" name="Two Falax Blades" hidden="false" collective="false" import="true" targetId="97ad-7991-5b27-c031" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="95c1-7144-167b-55e4" name="Chainaxe" hidden="false" collective="false" import="true" targetId="ed76-dace-31e4-b174" type="selectionEntry">
@@ -3310,7 +3310,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44c0-7ca2-9d2e-58bb" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink id="8ce0-1cb3-e3bb-f470" name="Barb-Hook Lash" hidden="false" collective="false" import="true" targetId="e711-ab63-4899-8b00" type="selectionEntry">
@@ -3318,7 +3318,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5c3a-d930-db9a-9f37" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="9556-6b3c-8af5-ac29" name="Excoriator Chainaxe" hidden="false" collective="false" import="true" targetId="269e-ff0b-faec-d067" type="selectionEntry">
@@ -3326,7 +3326,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="09af-b999-2e5f-3d07" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink id="8745-6bc7-db08-cf76" name="Chainaxe" hidden="false" collective="false" import="true" targetId="ed76-dace-31e4-b174" type="selectionEntry">
@@ -3342,7 +3342,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddc1-2231-ad64-e2a7" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -4505,7 +4505,7 @@
       </profiles>
       <rules>
         <rule id="9566-305a-70c3-4a11" name="Red Sands" hidden="false">
-          <description>In any given turn Angron may make as many Challenges as there are enemy models with the Character sub-type or Primarch Unit Type locked in combat with him, up to his current number of Attacks. Pull out all the challengers and fight them in an order decided by Angron’s controlling player during the Challenge part of the Fight sub-phase, save that any enemy model with the Primarch Unit Type must be fought first. Angron must divide his attacks between them and must devote at least one attack to each Challenge he fights in. All models challenged by Angron, and Angron himself, count as being in a Challenge and follow all the rules for Challenges and any models that are not removed as Casualties remain in a Challenge with Angron until either all the Challengers are removed as Casualties, Angron is removed as a Casualty or the challenge is ended by the effect of another rule.</description>
+          <description>In a single combat phase, Angron may issue as many Challenges as there are enemy models with the Character sub-type or Primarch Unit Type locked in combat with him, up to his current number of Attacks. Pull out all the challengers and fight them in an order decided by Angron’s controlling player during the Challenge part of the Fight sub-phase, save that any enemy model with the Primarch Unit Type must be fought first. Angron must divide his attacks between them and must devote at least one attack to each Challenge he fights in. All models challenged by Angron, and Angron himself, count as being in a Challenge and follow all the rules for Challenges and any models that are not removed as Casualties remain in a Challenge with Angron until either all the Challengers are removed as Casualties, Angron is removed as a Casualty or the challenge is ended by the effect of another rule.</description>
         </rule>
       </rules>
       <infoLinks>
