@@ -14122,7 +14122,7 @@ LOGOS LECTORA COMMANDS
           <rules>
             <rule id="3539-1b96-b11b-15aa" name="The Covenant Of Fire" publicationId="817a-6288-e016-7469" page="310" hidden="false">
               <description>Effects
-• Pyroclast Squads and Legion Tactical Support Squads that include any models with Dragon’s Breath flamers may be chosen as Troops choices in a Detachment using this Rite of War and gain the Line Unit Sub-type.
+• Pyroclast Squads and Legion Tactical Support Squads that include any models with Dragon’s Breath flamers may be chosen as Troops choices in a Detachment using this Rite of War and gain the Line Unit Sub-type. In addition, Legion Tactical Support Squads that include any models with Dragon’s Breath flamers gain the Heart of the Legion special rule.
 • Legion Predator Squadrons composed entirely of models with only Dragon’s Breath cannon and Dragon’s Breath heavy flamers as weapons may be chosen as non-Compulsory Troops choices in a Detachment using this Rite of War.
 Limitations
 • Detachments using this Rite of War may not make a Deep Strike Assault (and units which must deploy by this method, or any other deployment method which requires the Deep Strike special rule, therefore cannot be chosen as part of the Detachment – however, units from a Detachment using this Rite of War may be assigned to a Subterranean Assault or Flanking Assault as normal).
@@ -14152,6 +14152,7 @@ Limitations
               <description>Effects
 • All models with both the Infantry Unit Type and the Legiones Astartes (Salamanders) in a unit selected as part of a Detachment using this Rite of War may be given the Fear (1) special rule for +20 points per unit.
 • All models with both the Infantry Unit Type and the Legiones Astartes (Salamanders) in a Detachment using this Rite of War ignore all modifiers to their Leadership when making Pinning tests.
+• Salamanders Adherents Squads may be included as Troops choices in a Detachment using this Rite of War. If so, they lose the Support Squad special rule and gain the Line Unit Sub-type.
 • All models in a Detachment using this Rite of War with the Psyker unit sub-type may choose to have the Fury of the Salamander Discipline instead of any one other Psychic Discipline they could normally select.
 • A Detachment using this Rite of War gains a single additional non-Compulsory HQ choice, which may only be used to select a Legion Centurion with the Chaplain Consul upgrade.
 Limitations
