@@ -45,7 +45,7 @@ This document tracks the progress of applying Liber Panoptica changes across all
 ### Additional Army Lists
 - [ ] Blackshields - Issue: TBD
 - [ ] Shattered Legions - Issue: TBD
-- [ ] Bound Daemons - Issue: TBD
+- [x] Bound Daemons - Issue: TBD | PR: #128
 
 ---
 
