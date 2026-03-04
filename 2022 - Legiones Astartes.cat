@@ -67713,7 +67713,7 @@ In addition, if Xiaphas Jurr is selected as the army’s Warlord in a Blackshiel
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Breaching (5+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Breaching (5+), Murderous Strike (5+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -67724,6 +67724,11 @@ In addition, if Xiaphas Jurr is selected as the army’s Warlord in a Blackshiel
                   </modifiers>
                 </infoLink>
                 <infoLink id="a96f-cef1-3a9c-6aa5" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
+                <infoLink id="apg1-mrds-tr00-0001" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Murderous Strike (5+)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

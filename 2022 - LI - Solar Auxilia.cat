@@ -5097,9 +5097,9 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 <profile id="6573-9a7d-f256-722e" name="Charonite Claws" publicationId="15a4-fc68-502d-48a9" page="150" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Rending (6+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Rending (5+), Murderous Strike (6+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5107,7 +5107,12 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                 <infoLink id="b3d1-aa5a-19e8-07da" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
                 <infoLink id="6eed-a41b-73e9-6cd5" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
                   <modifiers>
-                    <modifier type="set" field="name" value="Rending (6+)"/>
+                    <modifier type="set" field="name" value="Rending (5+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="cc01-mrds-tr00-0001" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Murderous Strike (6+)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>

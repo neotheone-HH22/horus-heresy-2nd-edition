@@ -2186,6 +2186,14 @@
                         <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Tarsus Buckler reduces the Strength of Shooting Attacks targeting it by -2 (to a minimum of 1). In addition, a model with a Tarsus Buckler gains a 6+ Invulnerable Save against Shooting Attacks.</characteristic>
                       </characteristics>
                     </profile>
+                    <profile id="tb01-weap-on00-0001" name="Tarsus Buckler" publicationId="15a4-fc68-502d-48a9" page="158" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+                        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+                        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
+                      </characteristics>
+                    </profile>
                   </profiles>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3110,13 +3118,18 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Sunder, Brutal (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="5af8-74d5-7765-899d" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
             <infoLink id="d9cc-aa8c-ffda-00ee" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+            <infoLink id="tc01-brut-al00-0001" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Brutal (3)"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

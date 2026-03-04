@@ -3336,7 +3336,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Sunder, Lance, Exoshock (5+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Sunder, Immaterial Blades (AP1), Lance, Exoshock (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3347,6 +3347,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           </modifiers>
         </infoLink>
         <infoLink name="Sunder" hidden="false" type="rule" id="1bb8-473a-43d6-6e42" targetId="20e2-75cf-bc16-cd8f"/>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="9b0a-c5c0-f2a9-6467" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Lance" hidden="false" type="rule" id="o5p6-q7r8-s9t0-u1v2" targetId="3d6b-9e0b-56f0-8a1e"/>
         <infoLink name="Exoshock (X)" hidden="false" type="rule" id="w3x4-y5z6-a7b8-c9d0" targetId="69ca-318a-b47a-7a3c">
           <modifiers>

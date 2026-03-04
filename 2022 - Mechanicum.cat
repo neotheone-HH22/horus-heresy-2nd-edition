@@ -3206,13 +3206,17 @@ This unit may be upgraded freely as described in their profile, though they may 
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Unwieldy</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Makeshift Weapon, Murderous Strike (4+)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="a2fc-783e-0a6d-fc31" name="Cumbersome" hidden="false" targetId="d89a-c10e-8a7a-92c3" type="rule"/>
-                <infoLink id="8e23-d54c-53b8-0bba" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+                <infoLink id="sca1-mksw-ep00-0001" name="Makeshift Weapon" hidden="false" targetId="92a2-9ddf-ffef-491b" type="rule"/>
+                <infoLink id="sca1-mrds-tr00-0001" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Murderous Strike (4+)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -7172,18 +7176,14 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <profile name="Arlatax Power Claw" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="909d-e3f3-25be-a060" publicationId="bde1-6db1-163b-3b76" page="122">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+)</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Breaching (X)" id="50f6-4bb0-0816-6d49" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
-          <modifiers>
-            <modifier type="set" value="Breaching (5+)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Shred" id="apc1-shrd-e000-0001" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
