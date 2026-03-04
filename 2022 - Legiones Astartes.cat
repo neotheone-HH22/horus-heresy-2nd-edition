@@ -13119,7 +13119,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="413d-09f7-2898-5d16" name="Mantle of the Elder Drake" hidden="false" collective="false" import="true" targetId="bba6-42e4-5147-fe4f" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
                 <entryLink id="63e4-7f4f-70e7-64fd" name="Surgical Augment" hidden="true" collective="false" import="true" targetId="ffa3-1a57-1eb4-1818" type="selectionEntryGroup"/>
@@ -13865,7 +13865,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <entryLinks>
                 <entryLink id="1f9e-637f-409f-3183" name="Mantle of the Elder Drake" hidden="false" collective="false" import="true" targetId="bba6-42e4-5147-fe4f" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
                 <entryLink id="b8e0-dc95-36b4-0a3f" name="Surgical Augment" hidden="true" collective="false" import="true" targetId="ffa3-1a57-1eb4-1818" type="selectionEntryGroup"/>
@@ -14502,7 +14502,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <entryLinks>
                 <entryLink id="a7c3-6621-283f-13e2" name="Mantle of the Elder Drake" hidden="false" collective="false" import="true" targetId="bba6-42e4-5147-fe4f" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3a9d-a0b7-4e30-3f78" name="Surgical Augment" hidden="false" collective="false" import="true" targetId="ffa3-1a57-1eb4-1818" type="selectionEntryGroup"/>
