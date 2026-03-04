@@ -17472,6 +17472,9 @@ A model that causes Fear is not itself immune to Fear and will still suffer a pe
 
 However, units containing one or more models with the Fearless special rule cannot use any Reactions that grant a Cover Save, Armour Save or Invulnerable Save, and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule (see page 188). If a unit has become Pinned and then gains the Fearless special rule all the effects of being Pinned are immediately cancelled.</description>
     </rule>
+    <rule id="b8c2-f3e5-1a9d-4c72" name="Immobile" hidden="false">
+      <description>A unit with this special rule cannot move and has a Move characteristic of '-'. A unit that includes one or more models with this special rule may not Run, declare or make Charge moves, and may not make Sweeping Advances. A unit with this special rule may not embark upon or disembark from any Transport. This unit cannot be the target of any special rule or effect that moves it involuntarily unless it has been destroyed.</description>
+    </rule>
     <rule id="ec46-ff29-32e0-c2aa" name="Feel No Pain (X)" publicationId="e77a-823a-da94-16b9" page="238" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
 Feel No Pain rolls may not be taken against unsaved Wounds that have the Instant Death special rule.
@@ -18344,6 +18347,12 @@ Attacks with this special rule have no effect on models with the Vehicle or Prim
     </rule>
       <rule id="f2e4-1c3d-8b7a-9e05" name="Note: Paired Lightning Claws +2 Attacks" hidden="false">
       <description>Note: The additional +2 Attacks bonus from Paired Lightning Claws only applies when the model is making attacks with the Lightning Claws. When the model uses another weapon to attack, the bonus attacks from the Paired Lightning Claws do not apply.</description>
+    </rule>
+    <rule id="a3b4-c5d6-e7f8-9012" name="Tank Desant (X)" hidden="false">
+      <description>A number of Infantry models up to the value shown in brackets may be carried on the outside of this Vehicle. These models are treated as Embarked but are considered to be in an Open-topped vehicle and may fire their weapons while being transported. They may disembark at any point during the Vehicle's movement (including on the turn the Vehicle arrives from Reserves) and may declare a Charge on the turn they disembark, but may not do so if the Vehicle moved Flat Out.</description>
+    </rule>
+    <rule id="b4c5-d6e7-f890-1234" name="Exposed Compartment" hidden="false">
+      <description>Any shooting attack that targets this vehicle may instead target any unit embarked within it. Attacks targeting the embarked unit in this way are resolved at AP 5 regardless of the attacking weapon's AP value, and are resolved against the embarked unit's Armour Save.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

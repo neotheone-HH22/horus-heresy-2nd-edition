@@ -43254,7 +43254,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -43504,7 +43504,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="b031-3409-ff82-a945" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="550"/>
       </costs>
       <infoLinks>
         <infoLink id="2cc8-57d3-4905-bcc9" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -45197,6 +45197,11 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink id="cf47-9a38-2d51-bb1e" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d276-79d0-2989-80dd" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f35-46b7-e7fb-9d8d">
@@ -45287,11 +45292,16 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink id="7e14-4f87-9a2c-dd0e" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -45570,6 +45580,23 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a74-f0c5-1ee9-7130" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8f4c-2b97-3e51-a7d6" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a1c-3d8e-b294-5f60" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -48065,6 +48092,8 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="4a2c-7f83-9e16-b50d" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="d9b3-1e74-8c25-f60a" name="Hit &amp; Run" hidden="false" targetId="5986-e960-d432-affd" type="rule"/>
         <infoLink id="5e82-a996-267f-b524" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -48109,7 +48138,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
@@ -48366,11 +48395,11 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy, Transport)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">1</characteristic>
           </characteristics>
         </profile>
@@ -48616,9 +48645,14 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         <entryLink id="8c81-a3e6-9add-ed99" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
       </costs>
       <infoLinks>
+        <infoLink id="e7f8-9012-3456-7890" name="Tank Desant (X)" hidden="false" targetId="a3b4-c5d6-e7f8-9012" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Tank Desant (10)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="f4d5-f2f1-471f-1257" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -48671,7 +48705,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -48947,7 +48981,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         <entryLink id="cce3-dd36-7ffb-f2f5" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
       <infoLinks>
         <infoLink id="a092-a4d7-5daa-92ff" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -49002,7 +49036,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -49180,6 +49214,15 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
+        <entryLink id="1234-5678-9012-3456" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull (Front) Mounted Heavy Bolter"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2345-6789-0123-4567" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3456-7890-1234-5678" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="5cb2-f95d-29e3-5fe1" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f67-6343-9d1a-ddeb" type="min"/>
@@ -49208,7 +49251,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         <entryLink id="99be-62e6-a504-bc70" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
       </costs>
       <infoLinks>
         <infoLink id="66c7-d07e-a557-f3cd" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -49268,11 +49311,11 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy, Transport)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">20</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">32</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">1</characteristic>
           </characteristics>
         </profile>
@@ -49489,9 +49532,15 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         <entryLink id="9422-7df5-f3f2-1a1f" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
       <infoLinks>
+        <infoLink id="c5d6-e7f8-9012-3456" name="Assault Vehicle" hidden="false" targetId="aa61-11f6-2bb5-7c0e" type="rule"/>
+        <infoLink id="d6e7-f890-1234-5678" name="Tank Desant (X)" hidden="false" targetId="a3b4-c5d6-e7f8-9012" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Tank Desant (10)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="f0df-44cc-c40e-aa81" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -49544,7 +49593,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -49779,7 +49828,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         <entryLink id="6f4f-67ff-c119-b133" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="525"/>
       </costs>
       <infoLinks>
         <infoLink id="26de-ed1b-2bd8-eb87" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -51279,11 +51328,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="9afa-cfc0-dc04-767c" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="3e7c-9b4a-2f65-0d18" name="Immobile" hidden="false" targetId="b8c2-f3e5-1a9d-4c72" type="rule"/>
         <infoLink id="927c-e77d-16c5-ba78" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
         <infoLink name="Fearless" hidden="false" type="rule" id="23fc-16e6-aa35-a363" targetId="b48c-d7e1-2a83-2f5b"/>
         <infoLink name="Support Squad" id="a0d1-f134-b09d-38da" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>
@@ -51669,7 +51714,7 @@ Pinning, One Use</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
       </costs>
       <rules>
         <rule name="Sentry Gun" id="6cf7-b278-0b65-11c8" hidden="false">
@@ -52679,7 +52724,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <categoryLink id="4740-ca67-2937-0722" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
         <categoryLink id="901e-f757-8434-fc68" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
         <categoryLink id="1375-f0fe-bf93-3d8a" name="Super-heavy Sub-type" hidden="false" targetId="7381-1130-ca6e-1806" primary="false"/>
-        <categoryLink id="e60e-88e3-4204-f7b3" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
+        <categoryLink id="e60e-88e3-4204-f7b3" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e41f-865b-9859-5eea" name="Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
@@ -52899,7 +52944,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="380"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c023-8a35-a044-8a5" name="Additional Macharius Heavy Tank" hidden="false" collective="false" import="true" type="model">
@@ -53119,7 +53164,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="580"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="335"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -61278,6 +61323,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
       </profiles>
       <infoLinks>
         <infoLink id="afde-172b-93dd-3f84" name="Volatile Plasma Containment" hidden="false" targetId="564b-25f0-6bae-949e" type="rule"/>
+        <infoLink id="f890-1234-5678-9012" name="Exposed Compartment" hidden="false" targetId="b4c5-d6e7-f890-1234" type="rule"/>
         <infoLink id="1aa5-d48c-527e-5f4d" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -61285,7 +61331,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <categoryLink id="1ab1-822c-bec8-16ea" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="5b31-4f2e-b6cf-2d2c" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
         <categoryLink id="8403-715d-947c-00da" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
-        <categoryLink id="a146-4468-7b37-c95e" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
+        <categoryLink id="a146-4468-7b37-c95e" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ba7f-1983-eb26-3761" name="Omega-pattern Plasma Blastgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -61446,7 +61492,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">8</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">35</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">48</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One at the rear of the hull.</characteristic>
           </characteristics>
         </profile>
@@ -61655,6 +61701,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
       </costs>
       <infoLinks>
+        <infoLink id="0123-4567-8901-2345" name="Transport Bay" hidden="false" targetId="0662-8b8d-38e8-60f8" type="rule"/>
         <infoLink id="2677-d6ef-a785-7aca" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
     </selectionEntry>
@@ -61889,7 +61936,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <entryLink id="3817-2a6b-c4ec-597c" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="475"/>
       </costs>
       <infoLinks>
         <infoLink id="788b-1e97-326b-6ed5" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>

@@ -9,11 +9,11 @@ This document tracks the progress of applying Liber Panoptica changes across all
 ## Implementation Status
 
 ### Core Files
-- [ ] Core Game File (`2022 - Horus Heresy.gst`) - Issue: TBD
-- [ ] Legiones Astartes Shared (`2022 - Legiones Astartes.cat`) - Issue: TBD
+- [ ] Core Game File (`2022 - Horus Heresy.gst`) - Issue: #53
+- [ ] Legiones Astartes Shared (`2022 - Legiones Astartes.cat`) - Issue: #54
 
 ### Legiones Astartes (Space Marine Legions)
-- [ ] Dark Angels - Issue: TBD
+- [ ] Dark Angels - Issue: #55
 - [x] White Scars - Issue: #56 | PR: #83 (Open)
 - [x] Space Wolves - Issue: #57 | PR: #84, #107 (Open)
 - [x] Imperial Fists - Issue: #58 | PR: #85 (Open)
@@ -22,24 +22,24 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [x] World Eaters - Issue: #61 | PR: TBD
 - [x] Ultramarines - Issue: #62 | PR: TBD
 - [x] Night Lords - Issue: #63 | PR: TBD
-- [ ] Emperor's Children - Issue: TBD
+- [ ] Emperor's Children - Issue: #64
 - [x] Iron Warriors - Issue: #65 | PR: #90 (Open)
 - [x] Thousand Sons - Issue: #66 | PR: #92 (Open)
-- [ ] Sons of Horus - Issue: TBD
+- [ ] Sons of Horus - Issue: #67
 - [x] Word Bearers - Issue: #68 | PR: #94 (Open)
 - [x] Salamanders - Issue: #69 | PR: #95 (Open)
 - [x] Raven Guard - Issue: #70 | PR: TBD
 - [x] Alpha Legion - Issue: #71 | PR: #97 (Open)
 
 ### Other Armies
-- [ ] Mechanicum - Issue: TBD
+- [ ] Mechanicum - Issue: #72
 - [x] Questoris Knights & Titan Legions - Issue: #73
 - [x] Custodes & Sisters of Silence - Issue: #74
-- [ ] Solar Auxilia - Issue: TBD
+- [ ] Solar Auxilia - Issue: #75
 - [x] Assassins - Issue: #76 | PR: #102 (Open)
 - [x] Imperialis Militia - Issue: #77 | PR: #90, #103 (Open)
-- [ ] Daemons of the Ruinstorm - Issue: TBD
-- [ ] Legacies & Exemplary Battles - Issue: TBD
+- [ ] Daemons of the Ruinstorm - Issue: #78
+- [ ] Legacies & Exemplary Battles - Issue: #79
 
 ---
 
@@ -68,16 +68,7 @@ _None yet_
 ## Remaining Work
 
 ### Missing Sub-Issues
-The following catalog files still need sub-issues created:
-1. Core Game File (`2022 - Horus Heresy.gst`)
-2. Legiones Astartes Shared (`2022 - Legiones Astartes.cat`)
-3. Dark Angels
-4. Emperor's Children
-5. Sons of Horus
-6. Mechanicum
-7. Solar Auxilia
-8. Daemons of the Ruinstorm
-9. Legacies & Exemplary Battles
+All sub-issues have been created. No sub-issues are missing.
 
 ### Pending PRs
 The following issues have been created but don't have PRs yet:
