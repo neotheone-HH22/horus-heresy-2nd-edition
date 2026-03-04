@@ -3781,6 +3781,21 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="6cc0-c3e3-3118-d1b8" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="dd7b-fe21-cf53-0ebc" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="642c-6f66-621d-0f77" name="Termite Assault Drill" hidden="false" collective="false" import="true" targetId="cb30-307a-f0d7-3b13" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -4187,6 +4202,24 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d230-5938-5cd2-f065" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5dd4-454d-eadf-e4da" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="be32-77c9-fe55-7dc0" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6f5-495d-8b90-e58a" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="53c9-c731-cc61-c1c1" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
@@ -4696,6 +4729,21 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
           </constraints>
           <entryLinks>
             <entryLink id="3e33-cab3-8ed7-0970" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="b71b-7986-41ac-71b3" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>

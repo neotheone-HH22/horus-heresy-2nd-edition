@@ -3200,6 +3200,21 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="018c-9864-bc1a-9eb6" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f5d5-440f-9caf-ae9f" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="1732-82da-0741-d0ef" name="Storm Eagle Gunship" hidden="true" collective="false" import="true" targetId="8aa5-ff31-7de7-19d4" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -4549,6 +4564,21 @@ Selenite Shard-bolt Pistol</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="41dc-4e48-7fb1-49fb" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="041e-d501-774a-a54b" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="8b2f-53d9-b881-c30b" name="Dreadclaw Drop Pod" hidden="true" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -4867,6 +4897,21 @@ Selenite Shard-bolt Pistol</description>
               </modifiers>
             </entryLink>
             <entryLink id="2fd6-2384-079c-d4fe" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2ae-5fac-436a-c4f6" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="6296-5fe4-8d5a-d67a" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -5629,6 +5674,21 @@ Selenite Shard-bolt Pistol</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="79e9-2489-ea37-8ddf" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a621-2c8c-3df0-89d3" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="7486-37bd-24a8-5fb9" name="Storm Eagle Gunship" hidden="true" collective="false" import="true" targetId="8aa5-ff31-7de7-19d4" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -6036,6 +6096,20 @@ Selenite Shard-bolt Pistol</description>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="104d-d57a-8319-2cc6" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="ba7e-5533-1e87-9057" name="Dreadclaw Drop Pod" hidden="true" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
@@ -6343,6 +6417,20 @@ Legion and Legiones Astartes (Dark Angels) special rules is referred to as the r
           </constraints>
           <entryLinks>
             <entryLink id="20f9-b23a-dbef-eb52" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0aa4-9536-4c80-622a" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>

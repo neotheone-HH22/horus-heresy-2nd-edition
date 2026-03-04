@@ -3695,6 +3695,19 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="e99b-5c54-d88b-e8ed" name="Land Raider Phobos" hidden="true" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccb7-6c5c-76ce-5b77" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d8a1-97ef-defe-e30c" name="Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
@@ -4730,6 +4743,27 @@ In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dcfc-f313-6ea2-2133" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
+              </costs>
+            </entryLink>
+            <entryLink id="410d-5186-ff89-0e66" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="837e-c3ca-437e-dfbf" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3640-6cce-b040-51d7" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6997-edef-2af0-49be" type="max"/>
               </constraints>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
