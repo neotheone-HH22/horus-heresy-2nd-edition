@@ -1274,6 +1274,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 • A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • A model with the Mechanised Unit Sub-type is affected by the Haywire, Detonation and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• Close combat attacks made by and against a model with the Mechanised Unit Sub-type are resolved as if that model had the Dreadnought Unit Type.
 • No model that does not also have the Mechanised Unit Sub‑type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
@@ -14988,7 +14989,7 @@ Until Fulgrim Transfigured is placed on the battlefield in this manner, all mode
           </constraints>
           <rules>
             <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads, with all models in Imperialis Militia Cavalry Squads selected as Compulsory Troops choices gaining a bonus of +1 to their Leadership Characteristic (this does not allow Imperialis Militia Cavalry Squads to be selected as non-Compulsory Troops choices). In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
+              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads, with all models in Imperialis Militia Cavalry Squads selected as Compulsory Troops choices gaining a bonus of +1 to their Leadership Characteristic and the Line Unit Sub-type (this does not allow Imperialis Militia Cavalry Squads to be selected as non-Compulsory Troops choices). In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
             </rule>
           </rules>
           <costs>
@@ -15078,7 +15079,7 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Cyber-augment o
           </constraints>
           <rules>
             <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
-              <description>All eligible units and models gain the Feel No Pain (6+) and Slow and Purposeful special rules. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
+              <description>All eligible units and models gain the Feel No Pain (6+) and Slow and Purposeful special rules. A unit that includes a Militia Medicae with this Provenance improves its Feel No Pain to (5+). This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
             </rule>
           </rules>
           <infoLinks>

@@ -651,6 +651,16 @@
                 <condition field="selections" scope="b79a-6c4b-cea3-6732" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce01-5fca-9d27-590b" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="add" field="category" value="59a4-7b61-600a-c457">
+              <conditions>
+                <condition field="selections" scope="b79a-6c4b-cea3-6732" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce01-5fca-9d27-590b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="bff2-ae16-74a8-8712">
+              <conditions>
+                <condition field="selections" scope="b79a-6c4b-cea3-6732" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce01-5fca-9d27-590b" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b7-2304-d9fe-3545" type="min"/>
@@ -1654,6 +1664,16 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </conditions>
             </modifier>
             <modifier type="add" field="category" value="6d79-a3e4-381f-7b0f">
+              <conditions>
+                <condition field="selections" scope="d621-f543-cdc5-cdc3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173-00e3-8593-2e0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="59a4-7b61-600a-c457">
+              <conditions>
+                <condition field="selections" scope="d621-f543-cdc5-cdc3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173-00e3-8593-2e0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="bff2-ae16-74a8-8712">
               <conditions>
                 <condition field="selections" scope="d621-f543-cdc5-cdc3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0173-00e3-8593-2e0a" type="equalTo"/>
               </conditions>
@@ -8162,6 +8182,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </profiles>
       <infoLinks>
         <infoLink id="5ee1-217d-bbbf-01be" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="d0e1-f2a3-b4c5-6789" name="Independent Fire Control" hidden="false" targetId="64ca-719e-b563-e3df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8e8-f90f-b0b0-d692" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
