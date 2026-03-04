@@ -14640,6 +14640,7 @@ Limitations
 • Models with the Legiones Astartes (Sons of Horus) special rule taken as part of a Detachment using this Rite of War gain the Rage (2) special rule when they successfully Charge an enemy unit which is already locked in combat with one or more units or an enemy unit that is the target of at least one other Charge in the same Charge sub-phase.
 • Reaver Attack Squads may be chosen as Troops choices for Detachments using this Rite of War, and when chosen as Troops choices gain the Line Unit Sub-type. 
 • Justaerin Terminators chosen as part of a Detachment using this Rite of War gain the Deep Strike special rule.
+• Any Independent Character that joins a unit that has gained the Deep Strike or Outflank special rule through this Rite of War also gains the corresponding special rule for as long as they remain part of that unit.
 Limitations
 • Detachments using this Rite of War must take a Legion Centurion with the Master of Signal upgrade as a HQ choice, in addition to the Legion Praetor or other characters whose presence allows for the use of a Rite of War.
 • A Detachment using this Rite of War must include more Fast Attack choices than Heavy Support choices.</description>
@@ -18172,6 +18173,28 @@ When assigning additional models to units using the Among the Ranks and Militia 
       <description>An attack that has this special rule does not roll to Wound using the normal rules, instead roll To Wound by comparing the Attack’s Strength to the target’s Strength Characteristic, using the Strength Characteristic in place of Toughness on the To Wound table. If any Attacks with this special rule inflict Wounds, do not make Armour Saves or Damage Mitigation rolls for those Wounds – instead for each Wound inflicted by an Attack with this special rule, reduce the Movement Characteristic of all models in the target unit by the number in brackets that is included as part of this special rule (to a minimum of 1) until the end of the controlling player’s next turn. The Wounds caused by Attacks with this special rule are then discarded and neither reduce the target model’s Wounds Characteristic nor cause any models to be removed as casualties (this does not affect Wounds inflicted by Attacks without this special rule that are part of the same Shooting Attack).
 
 Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
+    </rule>
+    <rule id="9615-d404-fbe9-48d8" name="Broken Soul" hidden="false">
+      <description>For those who had already given themselves to the darkness, it was only
+a small step to invite the evil within themselves…
+A model with this Special Rule may be given the Corrupted
+Sub-type at no additional cost in points - this must be decided at
+the start of the battle before any models are deployed and may not
+be changed during the battle.</description>
+    </rule>
+    <rule id="3206-30c9-84d0-4c7b" name="Shattered Legionary" hidden="false">
+      <description>Whether by betrayal or attrition, many Astartes were separated from
+their wider Legions during the chaos of the Horus Heresy and forced to
+band together with warriors outside their own ranks.
+You can include this model in a Shattered Legion Detachment that
+includes models representing the same Legion as this model&apos;s
+corresponding variant of Legiones Astartes (X). When you do so,
+replace this model&apos;s Legiones Astartes (X) Special Rule with the
+Legiones Astartes (Shattered Legions) Special Rule. This is an
+exception to the normal rules for Legiones Astartes (Shattered
+Legions). When included in a Shattered Legions Detachment, this
+model must represent the same Legion as the variant of Legiones
+Astartes (X) that is being replaced.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
