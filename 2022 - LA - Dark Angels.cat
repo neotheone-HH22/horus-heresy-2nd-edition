@@ -1676,7 +1676,7 @@
         <categoryLink id="e1bf-3b3d-4d2c-9711" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="539c-334b-a731-94b8" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="539c-334b-a731-94b8" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -3456,7 +3456,7 @@
         </profile>
         <profile id="aef2-c8df-6a1a-fb48" name="Internal Refractor Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+4&quot; suffer a Str 8 AP - hit.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+8&quot; suffer a Str 8 AP - hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3690,9 +3690,15 @@
         </entryLink>
         <entryLink id="42cc-cf88-b137-d2de" name="Animatus Excindor (Cybertheurgic Weapon)" hidden="false" collective="false" import="true" targetId="caa2-99d2-b7a0-21b7" type="selectionEntry"/>
         <entryLink id="a7b4-ef3e-9d9e-eae0" name="Shackled Artificia - Unit Type" hidden="false" collective="false" import="true" targetId="26ab-ceec-f2da-8bfb" type="selectionEntry"/>
+        <entryLink id="c1d2-e3f4-a5b6-c7d8" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2e3-f4a5-b6c7-d8e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3f4-a5b6-c7d8-e9f0" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28ab-ad48-d8b3-0d5d" name="Farith Redloss" publicationId="d0df-7166-5cd3-89fd" page="45" hidden="false" collective="false" import="true" type="unit">
