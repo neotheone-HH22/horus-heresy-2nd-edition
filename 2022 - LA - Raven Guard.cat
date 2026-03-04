@@ -946,7 +946,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ba69-754d-6eb5-4bbd" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="ba69-754d-6eb5-4bbd" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -2998,6 +2998,9 @@
               <description>If Corvus Corax chooses to use the Hit &amp; Run special rule, the controlling player rolls an additional dice when determining the distance moved and discards any one dice of that player’s choice before determining the final result.
 In addition, the controlling player may re-roll all failed Shrouded rolls of a ‘1’ made for Corvus Corax and all models in any unit he has joined after using the Hit &amp; Run special rule to remove Corvus Corax from an ongoing combat – this effect continues until the start of the controlling player’s next turn.</description>
             </rule>
+            <rule id="rg01-wjp0-c0ra-x001" name="Legion Warhawk Jump Pack" hidden="false">
+              <description>Corvus Corax counts as having a Legion Warhawk Jump Pack for all rules purposes.</description>
+            </rule>
           </rules>
           <infoLinks>
             <infoLink id="da1b-f556-115f-cf7f" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
@@ -3215,6 +3218,19 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
               </constraints>
             </entryLink>
             <entryLink id="7785-b269-ea32-7d1a" name="Land Raider Proteus Carrier" hidden="true" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccb7-6c5c-76ce-5b77" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="bf6e-d892-ad11-808c" name="Land Raider Phobos" hidden="true" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -4124,6 +4140,12 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb14-d36a-d5d2-0fde" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="rg02-rfam-alv0-x002" name="Refractor Field" hidden="false" collective="false" import="true" targetId="a06a-55a5-070b-1d0e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rg03-rfam-alv0-x003" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rg04-rfam-alv0-x004" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4178,7 +4200,7 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
       </constraints>
       <rules>
         <rule id="e61b-37aa-0364-68da" name="Corax&apos;s Shame" publicationId="09b3-d525-cdea-260c" page="15" hidden="false">
-          <description>If selected as part of an army with the Loyalist Allegiance, models with this special rule gain the Battle-hardened (1) special rule. If selected as part of an army with the Traitor Allegiance, models with this special rule gain the Hatred (Corvus Corax) special rule. 
+          <description>Models with this special rule gain the Battle-hardened (1) special rule.
 
 Additionally, if selected as part of an army that includes Corvus Corax, no models with this special rule may be deployed within 18&quot; of Corvus Corax (including when models from this unit enter play from Reserves) and Corvus Corax may never join a unit that has any models with this special rule.</description>
         </rule>
@@ -4192,24 +4214,14 @@ Additionally, if selected as part of an army that includes Corvus Corax, no mode
           </modifiers>
         </infoLink>
         <infoLink id="15c7-f900-d1ff-d769" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="8b0a-d314-b356-2768" name="Hatred (X)" hidden="false" targetId="dc0b-fe69-6b71-e0a4" type="rule">
+        <infoLink id="8b0a-d314-b356-2768" name="Hatred (X)" hidden="true" targetId="dc0b-fe69-6b71-e0a4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hatred (Corvus Corax)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9c0-0c5a-3e24-58c7" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="38e6-a330-126a-ca5f" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Battle-hardened (1)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0b6-712f-0b12-a308" type="equalTo"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
