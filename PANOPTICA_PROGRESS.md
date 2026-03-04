@@ -43,9 +43,9 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [ ] Legacies & Exemplary Battles - Issue: #79
 
 ### Additional Army Lists
-- [x] Blackshields - Issue: TBD | PR: #126 (Open)
-- [ ] Shattered Legions - Issue: TBD
-- [x] Bound Daemons - Issue: TBD | PR: #128
+- [ ] Blackshields - Issue: TBD
+- [x] Shattered Legions - Issue: N/A | PR: #117 (Merged)
+- [ ] Bound Daemons - Issue: TBD
 
 ---
 
@@ -77,7 +77,6 @@ _None yet_
 The following catalog files exist in the repository but were not included in the original `create-all-panoptica-issues.sh` script. Sub-issues have been added to the script and need to be created in GitHub:
 - Death Guard (`2022 - LA - Death Guard.cat`) — the XIV Legion was omitted from the original script
 - Blackshields (`2022 - BG - Blackshields.cat`)
-- Shattered Legions (`Shattered Legions.cat`)
 - Bound Daemons (`2022 - Daemons - Bound Daemons.cat`)
 
 Note: `2022 - Mech Library.cat` and `Daemon Library.cat` are shared library files (`library="true"`) and are covered by the Mechanicum and Daemons issues respectively.
@@ -94,7 +93,6 @@ The following issues have been created but don't have PRs yet:
 The following issues need to be created first (via the updated `create-all-panoptica-issues.sh`):
 - TBD: Death Guard
 - TBD: Blackshields
-- TBD: Shattered Legions
 - TBD: Bound Daemons
 
 ---
