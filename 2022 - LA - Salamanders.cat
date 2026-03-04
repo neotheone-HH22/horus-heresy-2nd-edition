@@ -1085,7 +1085,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fea4-16d5-7648-03a8" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="fea4-16d5-7648-03a8" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -3314,9 +3314,10 @@
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
-            <conditionGroup type="and">
+            <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d56-d960-0687-7fee" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41b5-73f0-cdc9-1f83" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3325,6 +3326,7 @@
       <categoryLinks>
         <categoryLink id="709f-111e-17a2-a0ed" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="55f5-d260-064c-aa32" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="1e4a-9c3b-7f2d-8e05" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="The Awakening Fire - Fear (1)" hidden="true" id="31f3-9e51-dd96-0c3a" collective="false" targetId="34b6-77c4-4929-001c" type="selectionEntry">
@@ -3389,7 +3391,7 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Two-handed, Armourbane (Melee), Instant Death</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Master-crafted, Two-handed, Armourbane (Melee), Instant Death, Brutal (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3402,6 +3404,11 @@
               </modifiers>
             </infoLink>
             <infoLink id="5a92-5530-1be3-6d87" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+            <infoLink id="rg05-dawn-brig-x005" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Brutal (2)"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3669,6 +3676,20 @@
               </modifiers>
             </entryLink>
             <entryLink id="15c8-31e7-c135-afe9" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="131d-10c8-f0d7-534c" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
@@ -4111,6 +4132,21 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="3edf-d787-3719-99c0" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="6775-8379-8d6b-9614" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink import="true" name="Dreadclaw Drop Pod" hidden="true" id="13d9-deb0-6592-22c6" collective="false" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -4176,6 +4212,11 @@
             <modifier type="set" field="name" value="Hatred (Everything)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="b7d3-5e9f-2c4a-8f16" name="It Will Not Die (X)" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="It Will Not Die (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f22c-47a5-ca44-ccdc" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -4194,13 +4235,13 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two handed, Unwieldy</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Master-Crafted</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="7d13-8a2a-aa1c-b384" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-            <infoLink id="d978-604d-a917-e108" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+            <infoLink id="d978-604d-a917-e108" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4222,7 +4263,7 @@
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Unique)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
-                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
@@ -4610,6 +4651,21 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f8-4549-bfa4-62f7" type="max"/>
           </constraints>
           <entryLinks>
+            <entryLink id="b8d1-4e2f-7c3a-9f05" name="Rhino Transport" hidden="false" collective="false" import="true" targetId="03f1-8ed9-9867-8d18" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a621-2c8c-3df0-89d3" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink id="d0dc-e847-fcd4-7133" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -4618,6 +4674,34 @@
                       <conditions>
                         <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
                         <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e746-5058-60b6-5b6d" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c7e2-5f3a-9b4d-1e06" name="Termite Assault Drill" hidden="false" collective="false" import="true" targetId="cb30-307a-f0d7-3b13" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -4840,15 +4924,7 @@
                       </entryLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f21-ec64-f803-96bd"/>
-                        <constraint type="max" value="0" field="selections" scope="3720-9b50-f599-76ea" shared="true" id="9b92-8d89-15af-a7db" includeChildSelections="true"/>
                       </constraints>
-                      <modifiers>
-                        <modifier type="increment" value="1" field="9b92-8d89-15af-a7db">
-                          <repeats>
-                            <repeat value="5" repeats="1" field="selections" scope="3720-9b50-f599-76ea" childId="model" shared="true" roundUp="false" id="675c-c57a-e464-ed28" includeChildSelections="true"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
