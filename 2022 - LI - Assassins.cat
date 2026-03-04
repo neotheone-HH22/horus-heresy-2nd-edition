@@ -1325,7 +1325,7 @@
                     <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">Template</characteristic>
                     <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">2</characteristic>
                     <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">-</characteristic>
-                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Pinning, Force</characteristic>
+                    <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Pinning, Force, Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1333,6 +1333,7 @@
                 <infoLink id="4fdf-64b9-78d8-1471" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
                 <infoLink id="bb66-6671-11a4-e688" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
                 <infoLink id="6f2c-346d-1604-43bf" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+                <infoLink id="4fdf-64b9-78d8-1472" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

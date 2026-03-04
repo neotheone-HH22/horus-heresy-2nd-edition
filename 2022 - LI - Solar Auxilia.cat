@@ -10288,7 +10288,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
                             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
                             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Twin-linked, Exoshock (6+), Gets Hot</characteristic>
+                            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Twin-Linked, Exoshock (5+), Sunder, Gets Hot</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -10296,7 +10296,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                         <infoLink name="Twin-linked" hidden="false" id="3e8d-571d-9615-97e0" type="rule" targetId="8542-ee9d-e2fa-52fe"/>
                         <infoLink name="Exoshock (X)" hidden="false" id="ba09-3c43-6460-2b5b" type="rule" targetId="69ca-318a-b47a-7a3c">
                           <modifiers>
-                            <modifier type="set" value="Exoshock (6+)" field="name"/>
+                            <modifier type="set" value="Exoshock (5+)" field="name"/>
                           </modifiers>
                         </infoLink>
                         <infoLink name="Gets Hot" hidden="false" id="d96b-f5f2-2a89-af93" type="rule" targetId="679f-9d97-5ace-a652"/>
@@ -11847,7 +11847,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                         <characteristic name="Range" typeId="95ba-cda7-b831-6066">30&quot;</characteristic>
                         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
                         <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Barrage, Twin-linked</characteristic>
+                        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Barrage, Twin-linked, Pinning</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -11981,7 +11981,7 @@ If a Weapon Destroyed result is repaired, that weapon may not be used to attack 
                         <characteristic name="Range" id="dba6-b007-f145-48b3" hidden="false" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
                         <characteristic name="Strength" id="88f0-cd1a-8e7d-da06" hidden="false" typeId="24d9-b8e1-a355-2458">6</characteristic>
                         <characteristic name="AP" id="b591-5f5c-28a5-b10" hidden="false" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                        <characteristic name="Type" id="259a-38ee-a78c-f199" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Assault 2</characteristic>
+                        <characteristic name="Type" id="259a-38ee-a78c-f199" hidden="false" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Rupture (6+)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

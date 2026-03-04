@@ -47414,10 +47414,10 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
           <profiles>
             <profile id="9cd1-a767-040d-a4a2" name="Kratos Battlecannon - AP Shells" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, Brutal (2)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -47439,7 +47439,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Ranged), Gets Hot</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Ranged), Wrecker, Gets Hot</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -47463,10 +47463,10 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
           <profiles>
             <profile id="5657-ad47-a153-1a44" name="Kratos Battlecannon - HE Shells" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Rupture (4+), Breaching (6+), Pinning</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -61730,12 +61730,20 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f01-c941-6928-b2fc" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f0c2-1df2-e588-c4d1" name="Praetor Launcher" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+            <profile id="f0c2-1df2-e588-c4d1" name="Praetor Launcher - Firestorm Munitions" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Massive Blast (7&quot;), Pinning, Rending (6+)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Barrage, Massive Blast (7&quot;), Pinning, Shell Shock (2), Rending (5+), Ignores Cover</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f0c2-1df2-e588-c4d2" name="Praetor Launcher - Foehammer Munitions" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire, Breaching (5+), Ignores Cover</characteristic>
               </characteristics>
             </profile>
           </profiles>
