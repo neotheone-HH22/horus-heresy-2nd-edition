@@ -1,0 +1,156 @@
+RANGED WEAPONS
+Weapon Range Str AP Type
+Avenger Gatling Cannon 36“ 6 4 Heavy 12, Rending (5+)
+Baneblade Cannon 72“ 9 3 Ordnance 1, Massive Blast (7“), Pinning, Rending (6+)
+Battle Cannon 48“ 8 4 Heavy 1, Large Blast (5“), Rupture (4+), Breaching (6+), Pinning
+Exterminator Autocannon 48“ 7 4 Heavy 6, Rending (5+), Twin-Linked
+Fellblade Accelerator Cannon
+- AE Shell 100“ 10 2 Ordnance 2, Armourbane (Ranged), Exoshock (4+), Blast (3“), Brutal (3)
+- HE Shell 100“ 8 3 Ordnance 1, Massive Blast (7“), Pinning, Rending (6+)
+Hellhammer Cannon 36“ 12 3 Ordnance 1, Large Blast (5”), Sunder, Rending (4+), Brutal (3),
+Wrecker
+Macharius Battle Cannon 48“ 8 4 Heavy 2, Large Blast (5“), Rupture (4+), Breaching (6+), Pinning,
+Shell Shock (1)
+Macharius Vanquisher Cannon 72“ 9 2 Heavy 2, Sunder, Brutal (2), Twin-Linked, Exoshock (4+)
+Rapid-Fire Battle Cannon 48“ 8 3 Ordnance 2, Large Blast (5“), Breaching (6+), Pinning
+Stormhammer Cannon 72“ 8 3 Ordnance 1, Massive Blast (7”), Shred, Rending (6+)
+Tremor Cannon 48“ 8 4 Ordnance 1, Massive Blast (7”), Pinning, Shell Shock (2)
+Kratos Battlecannon
+- HE Shells 48“ 8 4 Heavy 1, Large Blast (5“), Rupture (4+), Breaching (6+), Pinning
+- AP Shells 60“ 8 2 Heavy 2, Sunder, Brutal (2)
+- Flashburn Shells 24“ 10 1 Heavy 1, Armourbane (Ranged), Wrecker, Gets Hot
+Phaeton Autocannon
+- AP Rounds 64“ 7 3 Heavy 3, Sunder, Rending (6+)
+- Ignis Rounds 64“ 7 3 Heavy 3, Ignores Cover, Rending (6+)
+Auto Weapons
+Whether they fire great armour-piercing rounds, huge explosive shells, or a hail of simple bullets, auto weapons are generally grouped by their
+use of chemical explosives to gain their initial propulsion.
+All weapons listed here are counted as ‘Auto’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Adrathic Destructor 12“ 5 3 Assault 1, Instant Death, Armourbane (Ranged), Breaching (4+),
+Gets Hot, Ejector Blowout
+Adrathic Devastor 18“ 6 3 Heavy 2, Instant Death, Armourbane (Ranged), Breaching (4+),
+Gets Hot, Ejector Blowout
+Adrasite Spear
+- Shooting 12“ 5 3 Assault 1, Instant Death, Armourbane (Ranged), Breaching (4+),
+Gets Hot, Ejector Blowout
+
+Weapon Range Str AP Type
+Demolisher Cannon 24“ 12 3 Ordnance 1, Blast (3"), Sunder, Rending (5+), Brutal (3), Wrecker
+Despoiler Cannon 24“ 10 3 Ordnance 1, Blast (3"), Sunder, Rending (5+), Brutal (3), Wrecker
+Dreadhammer Siege Cannon 24“ 12 3 Ordnance 1, Large Blast (5"), Sunder, Rending (4+), Brutal (4),
+Wrecker
+Earthshaker Battery 12” - 240” 9 4 Ordnance 2, Barrage, Large Blast (5“), Shred, Pinning, Breaching (5+)
+Earthshaker Cannon 12” - 240” 9 4 Ordnance 1, Barrage, Large Blast (5“), Shred, Pinning, Breaching (5+)
+Mars-Colossus Bombard 12” - 72” 7 3 Ordnance 1, Barrage, Large Blast (5”), Pinning, Shell Shock (1),
+Ignores Cover, Wrecker
+Medusa Mortar 36” 9 4 Ordnance 1, Barrage, Large Blast (5”), Pinning, Rending (5+),
+Brutal (2)
+Morbus Bombard 36” 10 4 Ordnance 1, Barrage, Large Blast (5”), Pinning, Rending (5+)
+Mori Quake Cannon 24” - 360” 10/8/6 3 Destroyer 1, Apocalyptic Mega-Blast, Barrage, Breaching (4+),
+Seismic Shock, Concussive (1)
+Nemesis Quake Cannon 24” - 480” 10/8/6 3 Destroyer 1, Apocalyptic Mega-Blast, Barrage, Breaching (4+),
+Seismic Shock, Concussive (1)
+Praetor Launcher
+- Firestorm Munitions 72” 7 4 Ordnance 2, Barrage, Massive Blast (7”), Pinning, Shell Shock (2),
+Rending (5+), Ignores Cover
+- Foehammer Munitions 12” - 72” 8 3 Heavy 12, Guided Fire, Breaching (5+), Ignores Cover
+Thunderblast Cannon 72” 7 4 Heavy 1, Blast (3”), Barrage, Pinning, Rupture (5+)
+Artillery Weapons
+Firing enormous, unguided shells, these weapons have been largely the same since the inception of mechanised warfare - although the size of
+their munitions has grown ever more…
+Weapon Range Str AP Type
+Adrastus Bolt Caliver
+- Bolt Volley 36“ 5 4 Assault 4, Shred, Pinning
+Macharius Rotary Bolt Cannon 36” 6 3 Heavy 15, Pinning, Shell Shock (1), Twin-Linked
+Mortifier Bolter 18“ 4 5 Assault 2, Harrower, Breaching (6+)
+Vulcan Mega Bolter 60” 6 3 Heavy 15, Pinning, Shell Shock (1), Reactor Overload
+Bolt Weapons
+Bolt weapons rely on two stages - their first, a conventional explosive to propel the bolt from the weapon itself, before the second stage’s
+rocket motor ignites, driving the bolt deep into a target before it detonates.
+All weapons listed here are counted as ‘Bolt’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Grenade Launcher (Secondary)
+- Krak 24” 6 4 Assault 1, Rupture (6+)
+Combi Weapons
+Combi-Weapons are an ancient innovation, pairing a reliable bolt weapon with a secondary armament that is useful for a variety of tasks.
+Weapon Range Str AP Type
+Conversion Destructor
+0“- 18“ 8 3 Ordnance 1, Large Blast (5”), Blind
+18“- 42“ 10 2 Ordnance 1, Large Blast (5”), Blind, Sunder
+42“- 80“ 12 1 Ordnance 1, Large Blast (5”), Blind, Sunder
+Conversion Beam Weapons
+Conversion Beamers launch a stream of exotic particles and waves of energy at a target, the beam growing in potency until it strikes a target
+and unleashes its gathered power.
+
+Weapon Range Str AP Type
+Grav-Flux Bombard 18“ † 4 Heavy 1, Large Blast (5”), †Graviton Collapse, Torsion Crusher,
+Ignores Cover, Concussive (1), Haywire
+Graviton Weapons
+Graviton weapons are both feared and respected among all who walk the battlefields of the 31st millenium - for they harness the strength of
+arms and armour their victim bears against them.
+All weapons listed here are counted as ‘Graviton’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Infernus Firepike Template 6 4 Heavy 1, Torrent (9”)
+Flame Weapons
+Propelling great gouts of chemical flame, Flame weapons were often of primitive design - though nevertheless they still struck fear into the
+hearts of those who witnessed the horror of their effects on flesh.
+All weapons listed here are counted as ‘Flame’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Vratine Grenade Launcher
+- Krak 24” 6 4 Assault 1, Rupture (6+)
+Grenade Launcher
+- Krak 24” 6 4 Assault 1, Rupture (6+)
+Hermes Grenade Launcher
+- Krak 18” 6 4 Assault 2, Rupture (6+)
+
+Weapon Range Str AP Type
+Arachnus Storm Cannon 24“ 8 1 Heavy 3, Lance, Exoshock (6+)
+Belicosa Volcano Cannon 120“ 14 1 Destroyer 1, Apocalyptic Blast (10“), Ignores Cover
+Gravis Heavy Lascannon 48“ 10 2 Heavy 2, Sunder
+Laser Blaster 96“ 12 2 Destroyer 2, Large Blast (5”), Twin-Linked, Ignores Cover
+Nemesis Volcano Cannon 36“ - 180“ 14 1 Destroyer 1, Apocalyptic Blast (10“), Ignores Cover
+Proteus Laser Destroyer 36“ 9 1 Ordnance 2, Twin-Linked, Exoshock (5+), Sunder, Gets Hot
+Las Weapons
+Utilising the raw, searing power of light itself, las weapons blind and burn their targets.
+All weapons listed here are counted as ‘Las’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Magna-Melta Array 18“ 8 1 Heavy 6, Armourbane (Melta), Twin-Linked
+Pyrithite Spear
+- Shooting 12“ 8 1 Assault 1, Armourbane (Melta
+
+Weapon Range Str AP Type
+Hellfire Plasma Missiles 36“ 7 4 Heavy 2, Breaching (4+)
+Plasma Blastgun 72” 9 3 Ordnance 1, Massive Blast (7”), Rending (4+), Reactor Overload,
+Plasma Burn
+Plasma Weapons
+The super-heated plasma ejected by various weapons burns hotter than a star for a fraction of a second - but that is often enough…
+All weapons listed here are counted as ‘Plasma’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Volkite Carronade 45“ 8 3 Ordnance 1, Heavy Beam, Deflagrate, Rending (5+), Pinning,
+Wrecker
+Volkite Chieorovile
+- Heat-Blast 45“ 7 3 Heavy 10, Deflagrate, Breaching (5+), Pinning
+- Concentrated Beam 30“ 8 3 Ordnance 1, Heavy Beam, Deflagrate, Breaching (5+), Pinning,
+Wrecker
+Volkite Macro-Saker 45“ 6 5 Heavy 8, Deflagrate, Pinning
+Volkite Veuglaire 30“ 6 4 Heavy 8, Deflagrate
+Volkite Weapons
+Those struck by volkite beams are bathed in pulsing red light - and, mere seconds later, raging flames that consume them from the inside out.
+All weapons listed here are counted as ‘Volkite’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Aethon Missile Battery 30“ 4 5 Assault 1, Large Blast (5"), Barrage, Twin-Linked, Pinning
+Aiolos Missile Launcher 60“ 6 3 Heavy 3, Pinning, Guided Fire, Auto-Servo Tracking
+Spicula Rocket System 72” 7 4 Ordnance 1, Massive Blast (7”), Rending (5+), Limited Ammunition,
+Pinning, Shell Shock (1)
+Terrebrax Rocket Battery 48“ 7 5 Heavy 12, Guided Fire
+Whirlwind Missile Launcher
+- Talonis HE Missile 48” 6 6 Ordnance 1, Barrage, Large Blast (5”), Ignores Cover, Pinning,
+Shell Shock (1)
+Missile Weapons
+Whether guided by laser, satellite, or targeting computer, missiles are a reliable - if antiquated - weapon of war.
+All weapons listed here are counted as ‘Missile’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Animus Blast Template 4 4 Assault 1, Rending (6+), Psy-Shock, Soul-Death
+Exitus Rifle 100” 7 2 Heavy 1, Murderous Strike (5+), Rending (6+), Sniper, Brutal (2)
+Lidless Stare (Psychic Weapon) Template 2 - Assault 1, Pinning, Force, Instant Death
