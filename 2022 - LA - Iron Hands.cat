@@ -4200,8 +4200,8 @@
         <categoryLink id="e9f0-a1b2-c3d4-e5f6" name="Terminators:" hidden="false" targetId="bab3-f50d-3e5f-2f78" primary="false"/>
       </categoryLinks>
       <rules>
-        <rule id="f0a1-b2c3-d4e5-f6a7" name="Nemesis of the Emperor&apos;s Children" publicationId="d0df-7166-5cd3-89fd" hidden="false">
-          <description>Crysos Mortug and any unit he has joined gains the Hatred (Emperor&apos;s Children) special rule. In addition, once per game, Crysos Mortug may re-roll all failed To Hit and To Wound rolls in the Fight sub-phase of a single Assault phase in which his unit is in combat with a unit from the Emperor&apos;s Children Legion.</description>
+        <rule id="f0a1-b2c3-d4e5-f6a7" name="Nemesis of the Emperor’s Children" publicationId="d0df-7166-5cd3-89fd" hidden="false">
+          <description>Crysos Mortug and any unit he has joined gains the Hatred (Emperor’s Children) special rule. In addition, once per game, Crysos Mortug may re-roll all failed To Hit and To Wound rolls in the Fight sub-phase of a single Assault phase in which his unit is in combat with a unit from the Emperor’s Children Legion.</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -4267,7 +4267,7 @@
           <profiles>
             <profile id="e3f4-a5b6-c7d8-e9f0-warlord" name="Cold Steel and Bloody Iron" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Trait, and all units with the Legiones Astartes (Iron Hands) special rule in any Detachment that this Warlord is also part of, gains the Hatred (Emperor&apos;s Children) special rule. In addition, models in the same unit as this Warlord may re-roll failed Armour Saves.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Trait, and all units with the Legiones Astartes (Iron Hands) special rule in any Detachment that this Warlord is also part of, gains the Hatred (Emperor’s Children) special rule. In addition, models in the same unit as this Warlord may re-roll failed Armour Saves.</characteristic>
               </characteristics>
             </profile>
           </profiles>
