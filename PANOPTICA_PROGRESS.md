@@ -43,7 +43,7 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [ ] Legacies & Exemplary Battles - Issue: #79
 
 ### Additional Army Lists
-- [ ] Blackshields - Issue: TBD
+- [x] Blackshields - Issue: TBD | PR: #126 (Open)
 - [ ] Shattered Legions - Issue: TBD
 - [ ] Bound Daemons - Issue: TBD
 

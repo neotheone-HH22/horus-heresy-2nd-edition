@@ -2173,7 +2173,7 @@ In addition, an army whose Warlord has this trait may make an additional reactio
             <infoLink name="Relentless" id="2891-ea46-28b6-4961" hidden="false" type="rule" targetId="7adf-ac9a-5035-522d"/>
             <infoLink name="Hatred (X)" id="e52a-dab0-9d73-1232" hidden="false" type="rule" targetId="dc0b-fe69-6b71-e0a4">
               <modifiers>
-                <modifier type="set" value="Hatred (World Eaters)" field="name"/>
+                <modifier type="set" value="Hatred (Everything)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Battle-Hardened (X)" id="8245-51c9-2aea-65ba" hidden="false" type="rule" targetId="5c3b-ed0b-4ad0-d547">
