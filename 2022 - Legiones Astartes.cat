@@ -68162,10 +68162,16 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b26b-7c40-6fd5-3cb6" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3c7d-0bfb-4659-8923" name="Power Armour" hidden="false" collective="false" import="true" targetId="2d9d-480e-7c14-1a6f" type="selectionEntry">
+        <entryLink id="3c7d-0bfb-4659-8923" name="Artificer Armour" hidden="false" collective="false" import="true" targetId="583e-62cb-53f1-f952" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3501-201a-7425-4932" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ec-7c1a-0b6b-7bfe" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f1a2-b3c4-d5e6-f7a8" name="Moritat" hidden="false" collective="false" import="true" targetId="384d-df82-14cb-f918" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b3-c4d5-e6f7-a8b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3c4-d5e6-f7a8-b9c0" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="ae64-aacb-dabe-01f5" name="Refractor Field" hidden="false" collective="false" import="true" targetId="a06a-55a5-070b-1d0e" type="selectionEntry">
@@ -69262,8 +69268,8 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
           </categoryLinks>
         </selectionEntry>
         <selectionEntry id="d71e-10a6-216f-d796" name="Primus Nullificator" publicationId="d0df-7166-5cd3-89fd" page="9" hidden="true" collective="false" import="true" type="upgrade">
-          <comment>This is WIP cause we need to format the 0-1 change and the Psyker sub-type being added</comment>
           <modifiers>
+            <modifier type="set" field="e8a6-1da9-d384-8727" value="10"/>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
                 <conditionGroup type="and">
@@ -69300,6 +69306,12 @@ A Legion Primus Nullificator Consul gains the Psyker Sub-type and has only the P
             <infoLink id="8bb6-1ca9-a362-8c2a" name="Hexagrammatic Wards" hidden="false" targetId="5529-bb7a-9448-b1f5" type="rule"/>
           </infoLinks>
           <entryLinks>
+            <entryLink id="a1b2-c3d4-e5f6-7890-maul" name="Aether-shock Maul" hidden="false" collective="false" import="true" targetId="a696-4b44-8abe-771a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-d4e5-f6a7-8901-maul" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d4-e5f6-a7b8-9012-maul" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="dc0f-492a-3d5c-1872" name="Psychic Discipline: Aetherbane" hidden="false" collective="false" import="true" targetId="1080-1799-5629-c98c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80bd-5d57-e6f6-cbdc" type="min"/>

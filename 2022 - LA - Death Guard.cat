@@ -4477,7 +4477,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
@@ -4555,8 +4555,8 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
         </entryLink>
         <entryLink id="0bdb-a45f-78c2-64e9" name="Phosphex Bomb" hidden="false" collective="false" import="true" targetId="4188-13ff-cb03-109e" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46fd-fe67-5427-3aa5" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38e4-4d93-6eff-0ca8" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46fd-fe67-5427-3aa5" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38e4-4d93-6eff-0ca8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Master of the Legion" hidden="false" type="selectionEntry" id="d79f-1e64-6976-8583" targetId="0068-6b0a-0086-3d6b">
