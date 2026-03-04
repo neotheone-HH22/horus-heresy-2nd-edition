@@ -69032,7 +69032,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     </modifier>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="131f-91c5-9c96-c84e" name="Frost Claw" hidden="false" collective="false" import="true" targetId="e919-d961-d007-ad34" type="selectionEntry">
@@ -69049,7 +69049,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     </modifier>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="5dde-5cf3-c174-2374" name="Frost Sword" hidden="false" collective="false" import="true" targetId="ee1c-6b24-699a-ef1e" type="selectionEntry">
@@ -69066,7 +69066,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     </modifier>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="17b7-27fe-7477-851a" name="Great Frost Blade" hidden="false" collective="false" import="true" targetId="49f0-b021-37b6-fc8a" type="selectionEntry">
@@ -70349,7 +70349,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </entryLink>
         <entryLink id="1976-b51d-5eeb-ff85" name="Frost Claw" hidden="true" collective="false" import="true" targetId="e919-d961-d007-ad34" type="selectionEntry">
@@ -70373,7 +70373,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </entryLink>
         <entryLink id="2716-a340-b9b4-635a" name="Frost Sword" hidden="true" collective="false" import="true" targetId="ee1c-6b24-699a-ef1e" type="selectionEntry">
@@ -70397,7 +70397,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </entryLink>
         <entryLink id="b89e-4a0d-bedc-dcbb" name="Great Frost Blade" hidden="true" collective="false" import="true" targetId="49f0-b021-37b6-fc8a" type="selectionEntry">
