@@ -11273,7 +11273,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="0b38-1fde-4d2a-0f26" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3e62-a69c-f114-7e8a" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -11298,7 +11298,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="4a0d-5c7f-74ad-bcf0" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c0ea-6da3-9def-1e46" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -35935,11 +35935,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c83-69fb-8066-a773" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="add" field="category" value="d5df-57ac-8f3c-097b">
-          <conditions>
-            <condition field="selections" scope="1345-e0db-2fcb-dcc8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-          </conditions>
-        </modifier>
         <modifier type="remove" value="11f2-472f-c1d1-9ae9" field="category">
           <conditionGroups>
             <conditionGroup type="or">
@@ -35962,6 +35957,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
       <categoryLinks>
         <categoryLink id="4456-9ae8-88cc-ba12" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
         <categoryLink id="0b13-a329-b6f4-2e83" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="c5e2-9b4d-3d7a-1e09" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8c66-d5df-654f-e9e8" name="Sicaran Venator" hidden="false" collective="false" import="true" type="model">
@@ -35977,14 +35973,9 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01e-5cdd-e512-8353" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="append" field="e555-4aed-dfcc-c0b4" value="(Bombard)">
-                  <conditions>
-                    <condition field="selections" scope="1345-e0db-2fcb-dcc8" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ad4-c4dd-7845-f74d" type="greaterThan"/>
-                  </conditions>
-                </modifier>
               </modifiers>
               <characteristics>
-                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard)</characteristic>
                 <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
                 <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
                 <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
@@ -36177,53 +36168,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </costs>
             </entryLink>
           </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9789-a988-b8f4-0fea" name="?? Bombard Sub-type ?? (Ambiguity)" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47af-9b95-c336-ddb1" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f79-3040-68fe-a105" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0ad4-c4dd-7845-f74d" name="Bombard Sub-type (Yes)" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="3687-0183-f93a-d2af" value="1">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ad4-c4dd-7845-f74d" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3687-0183-f93a-d2af" type="min"/>
-              </constraints>
-              <rules>
-                <rule id="964f-e6a4-10cf-68a3" name="?? Bombard Sub-type ?? (Ambiguity)" hidden="false">
-                  <description>In French and German versions of both the LA books the Sicaran Venator has the Bombard Sub-type.
-It is not known if this is a mistake or not, as previously like with the Mech book, the non-English versions had the correct profile for other misprints.</description>
-                </rule>
-              </rules>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cd3e-1108-34ff-bde5" name="Bombard Sub-type (No)" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="d29f-2fb7-c66e-4b19" value="1">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd3e-1108-34ff-bde5" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d29f-2fb7-c66e-4b19" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="f042-a239-ae5f-b1eb" name="?? Bombard Sub-type ?? (Ambiguity)" hidden="false" targetId="964f-e6a4-10cf-68a3" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -42338,7 +42282,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="685"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="575"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c3c-f15a-9a1f-c0d0" name="Fellblade" hidden="false" collective="false" import="true" type="unit">
@@ -42972,7 +42916,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="9930-324f-c2c6-5e0b" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="690"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="600"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1fe8-7386-9509-d2d8" name="Falchion" hidden="false" collective="false" import="true" type="unit">
@@ -47987,7 +47931,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             <entryLink id="f8ec-6097-895c-4599" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="285"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

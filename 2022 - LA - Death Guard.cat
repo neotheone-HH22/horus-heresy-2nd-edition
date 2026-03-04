@@ -3454,6 +3454,11 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
         </infoLink>
         <infoLink id="4f41-d770-ace8-28d9" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
         <infoLink id="4a9d-1f85-27d1-18c0" name="Legiones Astartes (Death Guard)" hidden="false" targetId="48a9-493f-e255-5070" type="rule"/>
+        <infoLink id="a1b2-c3d4-e5f6-7a8b" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8781-fa3a-a2f2-bfea" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -3476,7 +3481,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
@@ -3556,7 +3561,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
                 </entryLink>
                 <entryLink id="74a6-dbb2-4ff9-58c5" name="Power Scythe" hidden="false" collective="false" import="true" targetId="2166-369e-0757-6f98" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3691,7 +3696,7 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
                     <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c674-d17c-e67c-ecd8" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
               </entryLinks>
