@@ -74579,7 +74579,7 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
       <description>All models in a unit under the effect of this Hexagrammaton Unit Sub-type, other than models with the Vehicle Unit Type, add +1 to the distance moved when the unit Runs, and models with the Cavalry Unit Type may also re-roll any failed Shrouded Damage Mitigation rolls. Models with this Unit Sub-type and the Vehicle Unit Type instead add +2 to their Movement Characteristic when moving at Cruising Speed.</description>
     </rule>
     <rule id="655c-988f-74b5-7e17" name="Dragon&apos;s Breath" publicationId="817a-6288-e016-7469" page="312" hidden="false">
-      <description>When attacking using the Wall of Death special rule, a weapon with this special rule Inflicts D6 Hits instead of D3.</description>
+      <description>When attacking using the Wall of Death special rule, a weapon with this special rule Inflicts D6 Hits instead of D3. All weapons with this Special Rule gain the Breaching (6+) Special Rule.</description>
     </rule>
     <rule id="29d7-fe2c-24ee-07f9" name="The Prosperine Arcana" publicationId="09c5-eeae-f398-b653" page="255" hidden="false">
       <description>All models with the Character and Psyker Unit Sub-types in a Thousand Sons Detachment must select one Minor Arcana upgrade from the following options during army selection, before the beginning of the battle.
