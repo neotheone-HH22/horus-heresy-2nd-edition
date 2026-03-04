@@ -1,0 +1,53 @@
+Weapon Range Str AP Type
+Heavy Chainsword - +2 - Melee, Shred, Two-Handed, Rupture (6+)
+Reaper Chainblade - 9 2 Melee, Shred, Sunder, Brutal (2)
+Reaper Chainfist - 12 1 Melee, Shred, Armourbane (Melee), Brutal (3), Exoshock (3+)
+Reaper Chainsword - 10 2 Melee, Shred, Sunder, Brutal (3)
+Chain Weapons
+The toothy grin of chain weapons and the bloody butchery they inflicted were well known and recognised across the galaxy.
+All weapons listed here are counted as ‘Chain’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Arlatax Power Claw - +2 2 Melee, Shred
+Albian Power Gladius - +1 3 Melee, Master-Crafted, Breaching (5+), Murderous Strike (5+)
+Darkstar Falling - +2 2 Melee, Two-Handed, Master-Crafted
+Gravis Power Fist - 9 2 Melee, Brutal (2)
+Power Blade Array* - User 3 Melee, Breaching (5+)
+Scyllax Combat Array
+- Dismember - +3 2 Melee, Makeshift Weapon, Murderous Strike (4+)
+Shock Charger - User 3 Melee, Brutal (2)
+Shock Lance (Melee) - 12 2 Melee, Reach (1), Sunder, Shock Pulse, Concussive (2), Brutal (3),
+Exoshock (2+)
+Thunderstrike Gauntlet - 12 1 Melee, Brutal (4)
+Power Weapons
+Employing power fields atop lethally sharp cutting edges, Power weapons are a firm favourite in the hands of many in the Legiones Astartes
+and beyond.
+All weapons listed here are counted as ‘Power’ weapons for those rules that affect such weapons.
+A model armed with two of the same weapons marked with a * gains +2 attacks, instead of the normal +1 for having two combat weapons.
+Weapon Range Str AP Type
+Las-Impulsor (Melee) - 10 1 Melee, Armourbane (Melee), Instant Death
+Atrapos Phasecutter (Melee) - 10 1 Melee, Armourbane (Melee), Instant Death
+Weapon Range Str AP Type
+Behemoth Blade - User 2 Melee, Brutal (3), Sunder, Immaterial Blades (AP1), Lance,
+Exoshock (5+)
+Weapon Range Str AP Type
+Graviton Crusher - x2 2 Melee, Unwieldy, Haywire, Two-Handed
+Graviton Ram (Melee) - 10 1 Melee, Armourbane (Melee), Concussive (2), Brutal (2)
+
+Weapon Range Str AP Type
+Charonite Claws - +3 3 Melee, Two-Handed, Rending (5+), Murderous Strike (6+)
+Dawnbringer - 10 1 Melee, Master-Crafted, Two-Handed, Armourbane (Melee),
+Instant Death, Brutal (2)
+Excoriator Chainaxe - +2 3 Melee, Two-Handed, Shred, Murderous Strike (5+), Unwieldy,
+Breaching (5+)
+Falax Blades* - +1 5 Melee, Specialist Weapon, Breaching (5+), Duellist’s Edge (1)
+Forgebreaker - 12 1 Melee, Master-Crafted, Exoshock (3+), Brutal (3), Two-Handed
+Hookfang - User 3 Melee, Poisoned (3+), The Venem, Breaching (5+)
+Hellcrusher Claws - 10 2 Melee, Brutal (3), Sunder
+Lascutter (Melee) - 10 1 Melee, Makeshift Weapon
+Krak Grenades - 6 3 Melee, Detonation, Unwieldy, Breaching (6+)
+Melta Lance - 8 1 Melee, Ungainly, Lance, Sudden Strike (2), Two-Handed, One Use
+Ripper Gun - +1 5 Melee, Reaping Blow (1), Two-Handed
+Tarsus Buckler - +1 3 Melee
+Telemon Cestus - 10 1 Melee, Specialist Weapon, Sunder, Brutal (3)
+
+*A model that upgrades a Chainsword to a Falax Blade replaces the Chainsword with two Falax Blades
