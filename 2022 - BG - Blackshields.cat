@@ -1986,6 +1986,24 @@ When you do so, replace this model’s Legiones Astartes (Salamanders) special r
         <categoryLink name="Troops:" hidden="false" id="c455-0905-a2bf-ec88" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="false" name="Adherents Squad (Elites)" hidden="true" id="2e4f-9c3b-7a5d-8f01" collective="false" targetId="b110-ce62-3e2f-79f8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="8d56-d960-0687-7fee" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="c287-6db6-7faa-c28e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Unit:" hidden="false" id="3f5a-7e2b-9c4d-8e06" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink name="Elites:" hidden="false" id="4a6b-8f3c-0d5e-9f07" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="false" name="Nârik Dreygur" hidden="true" id="8593-5f6a-5ced-8681" collective="false" targetId="ac97-c8ce-16ba-9c49" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
