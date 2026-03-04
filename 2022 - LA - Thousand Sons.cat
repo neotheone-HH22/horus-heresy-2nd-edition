@@ -961,7 +961,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="65d5-eec6-1030-d756" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="65d5-eec6-1030-d756" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -4396,6 +4396,27 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
               </costs>
             </entryLink>
+            <entryLink id="1816-f690-9224-836a" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8833-5c95-8d08-9c7c" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6657-889c-ba32-e962" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
+              </costs>
+            </entryLink>
             <entryLink id="79d8-a009-76cb-d7ff" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -4619,6 +4640,26 @@
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1d6-10d2-3572-ea59" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ce33-b069-7ae6-46fd" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fd1-bccb-2b7c-c2ce" type="max"/>
               </constraints>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
@@ -5396,6 +5437,19 @@ Additionally, a unit that includes any models with this special rule may not be 
               </modifiers>
             </entryLink>
             <entryLink id="c37e-335b-bce9-01e9" name="Land Raider Proteus Carrier" hidden="true" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccb7-6c5c-76ce-5b77" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4831-ecf2-d9f4-e9f2" name="Land Raider Phobos" hidden="true" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
