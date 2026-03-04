@@ -44,11 +44,14 @@
 • A model with the Armiger Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
 • A model of the Armiger Type may fire Heavy and Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • No model that is not also of the Armiger Unit Type may join a unit that includes an Armiger model.
-• A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.</description>
+• A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• A model with the Armiger Unit Type cannot be destroyed as a result of an enemy unit making a Sweeping Advance if that unit has the Infantry Unit Type.
+• A model with the Armiger Unit Type automatically passes all Pinning tests.
+• When making attacks as part of a Sweeping Advance, a model with the Armiger Unit Type counts as having the Dreadnought Unit Type for the purposes of determining the number of attacks made.</description>
         </rule>
         <rule name="Armiger and Moirax Talons" hidden="false" id="d840-fbd0-352e-b33e" publicationId="bde1-6db1-163b-3b76" page="102">
           <description>The Scout Knights of the Taghmata and Questoris Households often roamed the battlefield independently as the vanguard of their orders. While each war machine strode the battlefield distant from their companions, they shared fierce bonds of fealty and brotherhood.
-When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.</description>
+When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Each separated model is treated as its own unit for the purposes of determining Victory Points.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -171,7 +174,7 @@ When deployed onto the battlefield (either at the start of the battle or when ar
       <profiles>
         <profile id="d6e7-9365-6336-6a51" name="Ionic Deflector" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ionic deflector gains a 5+ Invulnerable Save, and any model with an ionic deflector and a Wounds Characteristic gains the Eternal Warrior special rule. In addition, when a model with an ionic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit atStr 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an ionic deflector gains a 5+ Invulnerable Save, and any model with an ionic deflector that suffers a hit with the Instant Death special rule loses D3 Wounds instead of being removed as a casualty (if this reduces the model to 0 or fewer Wounds, it is still removed as a casualty as normal). In addition, when a model with an ionic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6+3&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -820,7 +823,7 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
       </constraints>
       <rules>
         <rule id="84d6-404e-e083-d165" name="Binaric Stratagems*" publicationId="bde1-6db1-163b-3b76" page="102" hidden="false">
-          <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rule, a player that controls any models with this special rule may select one of the effects listed below as part of this special rule. All units with the Kyropatris field generator item of Wargear in the Detachment that includes the model with this special rule gain the chosen effect for the duration of the battle. Note that only a single bonus may be given to the units, regardless of how many models with this special rule are present in the Detachment. If an army includes multiple Detachments that include any models with this special rule, the controlling player must select an effect for each such Detachment and may select the same or different effects for each Detachment:
+          <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rule, a player that controls any models with this special rule may select one of the effects listed below as part of this special rule. Only units that contain at least one model with the Kyropatris field generator item of Wargear in the Detachment that includes the model with this special rule gain the chosen effect for the duration of the battle; units without the Kyropatris field generator gain no benefit from this special rule. Note that only a single bonus may be given to the units, regardless of how many models with this special rule are present in the Detachment. If an army includes multiple Detachments that include any models with this special rule, the controlling player must select an effect for each such Detachment and may select the same or different effects for each Detachment:
 
 • Pain Suppression Override: Affected models gain the Feel No Pain (5+) special rule.
 • Explorator Synaesthesis: Models in affected units gain the Move Through Cover special rule.
@@ -1402,7 +1405,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="eeba-8a20-d62c-cacb" name="Void Shields" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Void Shields (6)"/>
+                <modifier type="set" field="name" value="Void Shields (8)"/>
               </modifiers>
             </infoLink>
             <infoLink id="5b96-ad84-3640-2604" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
@@ -1706,7 +1709,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <infoLink id="2904-26b0-61bf-20c2" name="Catastrophic Explosion" hidden="false" targetId="a13f-e697-6017-5a04" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="8f56-23e7-36bc-47ca" name="Hull (Front) Mounted Twin-Linked Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f56-23e7-36bc-47ca" name="Hull (Front) Mounted Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5557-d98a-72c1-c698" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb0-9d27-cf87-d08c" type="max"/>
@@ -1714,7 +1717,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <infoLinks>
             <infoLink id="d466-e7c9-b31a-a118" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
             <infoLink id="3fb0-bdb9-2497-6ed0" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
-            <infoLink id="7d6c-1807-4bb6-0ae3" name="Twin-Linked Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile"/>
+            <infoLink id="7d6c-1807-4bb6-0ae3" name="Magna Lascannon" hidden="false" targetId="2af9-d755-936d-0fa8" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5232,7 +5235,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           </constraints>
           <rules>
             <rule id="c149-a9f6-4cbe-aa10" name="Thanatar Maniple" publicationId="bde1-6db1-163b-3b76" page="110" hidden="false">
-              <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit.</description>
+              <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Each separated model is treated as its own unit for the purposes of determining Victory Points.</description>
             </rule>
           </rules>
           <selectionEntryGroups>
@@ -5285,7 +5288,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="467a-4d09-3317-b057" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
                       </modifiers>
                     </infoLink>
                     <infoLink name="It Will Not Die (X)" id="60af-21f5-e83e-5103" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -5395,7 +5398,7 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                   <infoLinks>
                     <infoLink id="47a6-bf07-a5c0-fa73" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                        <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
                       </modifiers>
                     </infoLink>
                     <infoLink name="It Will Not Die (X)" id="58b1-c993-2204-1e62" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -8277,7 +8280,7 @@ The Cybertheurgist may choose to make a Cybertheurgy check before using this Cyb
         <selectionEntry id="f4a8-b2a3-1c3c-9761" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="272c-bf85-64da-42b6" name="Dolorous" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1, and gains the Character Unit Sub-type and the Dolorous special rule.
+              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and its Hull Points by +1, and gains the Character Unit Sub-type and the Dolorous special rule.
 Dolorous: A model with this special rule may attempt to make Sweeping Advances (as an exception to the normal rules for models with the Knight Unit Sub-type).</description>
             </rule>
           </rules>
@@ -8298,7 +8301,7 @@ Dolorous: A model with this special rule may attempt to make Sweeping Advances (
         <selectionEntry id="e78c-787d-54ca-82c2" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="fd5a-d962-431f-ae84" name="Arbalester" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Arbalester special rule.
+              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and its Hull Points by +1, and gains the Character Unit Sub-type and Arbalester special rule.
 Arbalester: When a model with this special rule is required to make a Scatter roll, roll an additional Scatter dice and the model’s controlling player chooses which is used to determine the results of the Scatter roll.</description>
             </rule>
           </rules>
@@ -8325,7 +8328,7 @@ Arbalester: When a model with this special rule is required to make a Scatter ro
           <rules>
             <rule id="a2e6-ad4f-c2a3-8821" name="Seneschal (0-1)" publicationId="bde1-6db1-163b-3b76" page="88" hidden="false">
               <description>Only a single unit in a Questoris Household Detachment may be upgraded to have the Seneschal rank, and an Acastus Knight Porphyrion or Acastus Knight Asterius may not be given this upgrade.
-A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen as the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the Master of the Household Warlord Trait:
+A model with this upgrade gains the Character Unit Sub-type, increases its Weapon Skill and Ballistic Skill Characteristics by +1, and increases its Hull Points by +2. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen as the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the Master of the Household Warlord Trait:
 </description>
             </rule>
           </rules>
@@ -8336,7 +8339,7 @@ A model with this upgrade gains the Character Unit Sub-type and increases its We
         <selectionEntry id="3dc3-9018-b7a3-8cf9" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="24dc-2122-1e74-497b" name="Aucteller" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and gains the Character Unit Sub-type and the Aucteller special rule.
+              <description>A model with this upgrade increases its Weapon Skill Characteristic by +1 and its Hull Points by +1, and gains the Character Unit Sub-type and the Aucteller special rule.
 Aucteller: When engaged in a Challenge against an enemy model with the Knight, Titan or Monstrous Unit Sub-type, the Primarch Unit Type or a model with a Wounds Characteristic of 8 or higher, a model with this special rule gains +1 Weapon Skill and +1 Attack. This bonus to Weapon Skill is in addition to the +1 Weapon Skill increase from the Aucteller upgrade detailed above.</description>
             </rule>
           </rules>
@@ -8348,7 +8351,7 @@ Aucteller: When engaged in a Challenge against an enemy model with the Knight, T
           <rules>
             <rule id="e7b6-ec43-a395-cc62" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
               <description>A model with this upgrade increases its Hull Points by +1, gains the Character Unit Sub-type and the Implacable special rule.
-Implacable: No attack targeting a model with this special rule may inflict more than a single Hull Point of damage, including those attacks with the Exoshock (X) special rule</description>
+Implacable: Any attack targeting a model with this special rule that would inflict Hull Point damage inflicts 1 less Hull Point of damage than normal (to a minimum of 1). In addition, roll one less dice when rolling on the Vehicle Damage table as a result of an attack targeting a model with this special rule (to a minimum of 1 dice)</description>
             </rule>
           </rules>
           <costs>
@@ -8358,7 +8361,7 @@ Implacable: No attack targeting a model with this special rule may inflict more 
         <selectionEntry id="4b90-1389-3b29-3fca" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="191d-7d24-b533-cf66" name="Preceptor" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
-              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and gains the Character Unit Sub-type and Preceptor special rule.
+              <description>A model with this upgrade increases its Ballistic Skill Characteristic by +1 and its Hull Points by +1, and gains the Character Unit Sub-type and Preceptor special rule.
 Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at least one model within 6&quot; of a friendly model with this special rule increase the Leadership of all models in the unit to 9.</description>
             </rule>
           </rules>
@@ -8377,11 +8380,22 @@ Preceptor: Any units of Armiger Warglaives or Armiger Helverins that have at lea
           </modifiers>
           <rules>
             <rule id="78f9-6bee-4c5d-5802" name="Uhlan" publicationId="bde1-6db1-163b-3b76" page="89 &amp; FAQ" hidden="false">
-              <description>A model with this upgrade increases its Movement Characteristic by +4 and gains the Character Unit Sub-type and the Scout and Outflank special rules. An Acastus Knight Porphyrion may not be given this upgrade.</description>
+              <description>A model with this upgrade increases its Movement Characteristic by +4 and its Hull Points by +1, and gains the Character Unit Sub-type and the Scout and Outflank special rules. An Acastus Knight Porphyrion may not be given this upgrade.</description>
             </rule>
           </rules>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a4c2-1f5e-8b3d-9e7a" name="Paragon" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="b5d1-2e4f-7c8a-3b9e" name="Paragon" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
+              <description>A model with this upgrade increases its Hull Points by +1 and gains the Character Unit Sub-type and the Paragon special rule.
+Paragon: A model with this special rule may make Reactions ignoring any restrictions on which Reaction types or how many Reactions may be made, and counts any Reaction it makes as costing 0 points of the Reaction Allotment.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9054,7 +9068,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
           </constraints>
           <rules>
             <rule id="7b98-d37b-e98b-1d60" name="Conqueror of Worlds (0-1)" publicationId="4934-46f7-208b-b4af" page="119" hidden="false">
-              <description>A model with this upgrade gains the Character Unit Sub-type and increases its Weapon Skill and Ballistic Skill Characteristics by +1. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen is the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the following Warlord Trait:
+              <description>A model with this upgrade gains the Character Unit Sub-type, increases its Weapon Skill and Ballistic Skill Characteristics by +1, and increases its Hull Points by +2. In addition, if the Questoris Household Detachment is the Primary Detachment of the army, then a model with this upgrade must be chosen is the army’s Warlord. If selected as the army’s Warlord, a model with this upgrade automatically gains the following Warlord Trait:
 </description>
             </rule>
           </rules>
@@ -9203,7 +9217,7 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
       <description>A model with the Knight or Titan Unit Sub-types that has weapons with this special rule may make the Overwatch Reaction when it is triggered by models that do not have the Knight, Titan, Super-heavy, or Lumbering Unit Sub-types, or that have fewer than 8 Wounds. When making Shooting Attacks as part of the Overwatch Reaction, the Reacting model may only make Shooting Attacks with weapons with this special rule.</description>
     </rule>
     <rule id="66b8-7232-1ed3-3f70" name="God-Engine" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
-      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
+      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule. Furthermore, all friendly units with at least one model within 18&quot; of a model with this special rule that contain at least one model with the Kyropatris Field Generator gain the Line Unit Sub-type.</description>
     </rule>
     <rule id="f83c-9442-8102-5da4" name="Pride of Place" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
       <description>A model with this special rule may not embark upon any model with the Transport Unit Sub-type, regardless of its Unit Type or any special rules the model with the Transport Sub-type may have.</description>
@@ -9259,7 +9273,7 @@ Treat Archmagos Anarcharis Scoria as an Archmagos Prime on Abeyant.</description
         <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Sunder, Wrecker</characteristic>
       </characteristics>
     </profile>
-    <profile id="2af9-d755-936d-0fa8" name="Twin-Linked Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+    <profile id="2af9-d755-936d-0fa8" name="Magna Lascannon" publicationId="bde1-6db1-163b-3b76" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
         <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
