@@ -14239,7 +14239,7 @@ Limitations
             <rule id="86e7-b1d4-247c-f314" name="Decapitation Strike" publicationId="817a-6288-e016-7469" page="329" hidden="false">
               <description>Effects
 • All models with the Legiones Astartes (Raven Guard) special rule in a Detachment using this Rite of War gain the Preferred Enemy (Independent Characters) special rule.
-• All models in any unit from a Detachment using this Rite of War assigned to a Deep Strike Assault or Flanking Assault gain the Shrouded (5+) special rule for the duration of the Game Turn in which they are deployed to the battlefield.
+• All models in any unit from a Detachment using this Rite of War assigned to a Deep Strike Assault or Flanking Assault gain the Shrouded (5+) special rule until the start of the controlling player's next turn.
 • In missions that use Victory points, an army that includes a Detachment using this Rite of War gains an additional 2 Victory points for the Slay the Warlord Secondary Objective.
 Limitations
 • A Detachment using this Rite of War may only include a single Heavy Support choice. 
@@ -18135,7 +18135,7 @@ Models with the Legiones Astartes (Raven Guard) special rule gain one of the fol
 
 Talons – If a unit composed entirely of models with the Talons special rule is targeted by a Shooting Attack, all models in the unit gain the Shrouded (6+) special rule if the attacking unit is more than 8&quot; from any model in the target unit. In addition, all models with this special rule also gain the Infiltrate special rule.
 
-Falcons – Any models with this special rule may re-roll all failed To Wound rolls of ‘1’ in any Assault phase in which they make a successful Charge – even if that Charge is considered Disordered.
+Falcons – Any models with this special rule may re-roll all failed To Hit rolls of ‘1’ in any Assault phase in which they make a successful Charge – even if that Charge is considered Disordered.
 
 Hawks – Any models with this special rule gain the Shrouded (6+) special rule on any turn in which they Run, Move Flat Out or move as a Zooming Flyer, with this benefit lasting until the start of the controlling player’s next turn – or if that model would already gain the Shrouded (6+) special rule, it instead gains the Shrouded (5+) special rule (if the unit already has the Shrouded (5+) or better then it gains no additional benefit).</description>
     </rule>
