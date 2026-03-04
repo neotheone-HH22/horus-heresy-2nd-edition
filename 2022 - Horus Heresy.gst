@@ -18348,6 +18348,12 @@ Attacks with this special rule have no effect on models with the Vehicle or Prim
       <rule id="f2e4-1c3d-8b7a-9e05" name="Note: Paired Lightning Claws +2 Attacks" hidden="false">
       <description>Note: The additional +2 Attacks bonus from Paired Lightning Claws only applies when the model is making attacks with the Lightning Claws. When the model uses another weapon to attack, the bonus attacks from the Paired Lightning Claws do not apply.</description>
     </rule>
+    <rule id="a3b4-c5d6-e7f8-9012" name="Tank Desant (X)" hidden="false">
+      <description>A number of Infantry models up to the value shown in brackets may be carried on the outside of this Vehicle. These models are treated as Embarked but are considered to be in an Open-topped vehicle and may fire their weapons while being transported. They may disembark at any point during the Vehicle's movement (including on the turn the Vehicle arrives from Reserves) and may declare a Charge on the turn they disembark, but may not do so if the Vehicle moved Flat Out.</description>
+    </rule>
+    <rule id="b4c5-d6e7-f890-1234" name="Exposed Compartment" hidden="false">
+      <description>Any shooting attack that targets this vehicle may instead target any unit embarked within it. Attacks targeting the embarked unit in this way are resolved at AP 5 regardless of the attacking weapon's AP value, and are resolved against the embarked unit's Armour Save.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f52c-1f37-acd2-703c" name="Tartaros Terminator Armour" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
