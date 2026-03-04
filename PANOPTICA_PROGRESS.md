@@ -1,45 +1,59 @@
 # Liber Panoptica Implementation Progress
 
-**Master Tracking Issue:** #52
+**Master Tracking Issue:** #52 (Closed)
 
 This document tracks the progress of applying Liber Panoptica changes across all BattleScribe catalog files for Horus Heresy 2nd Edition.
+
+---
+
+## Open Issues (from create-all-panoptica-issues.sh)
+
+The following issues created by `create-all-panoptica-issues.sh` are currently **open** on GitHub:
+
+| Issue | Title | Status |
+|-------|-------|--------|
+| [#61](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/61) | Panoptica Update: World Eaters | 🟡 Open |
+| [#62](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/62) | Panoptica Update: Ultramarines | 🟡 Open |
+| [#63](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/63) | Panoptica Update: Night Lords | 🟡 Open |
+
+All other issues from the script (#52–#60, #64–#79) are **closed**.
 
 ---
 
 ## Implementation Status
 
 ### Core Files
-- [ ] Core Game File (`2022 - Horus Heresy.gst`) - Issue: #53
-- [ ] Legiones Astartes Shared (`2022 - Legiones Astartes.cat`) - Issue: #54
+- [x] Core Game File (`2022 - Horus Heresy.gst`) - Issue: #53 (Closed)
+- [x] Legiones Astartes Shared (`2022 - Legiones Astartes.cat`) - Issue: #54 (Closed)
 
 ### Legiones Astartes (Space Marine Legions)
-- [ ] Dark Angels - Issue: #55
-- [x] White Scars - Issue: #56 | PR: #83 (Open)
-- [x] Space Wolves - Issue: #57 | PR: #84, #107 (Open)
-- [x] Imperial Fists - Issue: #58 | PR: #85 (Open)
-- [x] Blood Angels - Issue: #59 | PR: #86 (Open)
-- [x] Iron Hands - Issue: #60 | PR: #87 (Open)
-- [x] World Eaters - Issue: #61 | PR: TBD
-- [x] Ultramarines - Issue: #62 | PR: TBD
-- [x] Night Lords - Issue: #63 | PR: TBD
-- [ ] Emperor's Children - Issue: #64
-- [x] Iron Warriors - Issue: #65 | PR: #90 (Open)
-- [x] Thousand Sons - Issue: #66 | PR: #92 (Open)
-- [ ] Sons of Horus - Issue: #67
-- [x] Word Bearers - Issue: #68 | PR: #94 (Open)
-- [x] Salamanders - Issue: #69 | PR: #95 (Open)
-- [x] Raven Guard - Issue: #70 | PR: TBD
-- [x] Alpha Legion - Issue: #71 | PR: #97 (Open)
+- [x] Dark Angels - Issue: #55 (Closed)
+- [x] White Scars - Issue: #56 (Closed) | PR: #83
+- [x] Space Wolves - Issue: #57 (Closed) | PR: #84, #107
+- [x] Imperial Fists - Issue: #58 (Closed) | PR: #85
+- [x] Blood Angels - Issue: #59 (Closed) | PR: #86
+- [x] Iron Hands - Issue: #60 (Closed) | PR: #87
+- [ ] **World Eaters - Issue: #61 (Open)** | PR: TBD
+- [ ] **Ultramarines - Issue: #62 (Open)** | PR: TBD
+- [ ] **Night Lords - Issue: #63 (Open)** | PR: TBD
+- [x] Emperor's Children - Issue: #64 (Closed)
+- [x] Iron Warriors - Issue: #65 (Closed) | PR: #90
+- [x] Thousand Sons - Issue: #66 (Closed) | PR: #92
+- [x] Sons of Horus - Issue: #67 (Closed)
+- [x] Word Bearers - Issue: #68 (Closed) | PR: #94
+- [x] Salamanders - Issue: #69 (Closed) | PR: #95
+- [x] Raven Guard - Issue: #70 (Closed)
+- [x] Alpha Legion - Issue: #71 (Closed) | PR: #97
 
 ### Other Armies
-- [ ] Mechanicum - Issue: #72
-- [x] Questoris Knights & Titan Legions - Issue: #73
-- [x] Custodes & Sisters of Silence - Issue: #74
-- [ ] Solar Auxilia - Issue: #75
-- [x] Assassins - Issue: #76 | PR: #102 (Open)
-- [x] Imperialis Militia - Issue: #77 | PR: #90, #103 (Open)
-- [ ] Daemons of the Ruinstorm - Issue: #78
-- [ ] Legacies & Exemplary Battles - Issue: #79
+- [x] Mechanicum - Issue: #72 (Closed)
+- [x] Questoris Knights & Titan Legions - Issue: #73 (Closed)
+- [x] Custodes & Sisters of Silence - Issue: #74 (Closed)
+- [x] Solar Auxilia - Issue: #75 (Closed)
+- [x] Assassins - Issue: #76 (Closed) | PR: #102
+- [x] Imperialis Militia - Issue: #77 (Closed) | PR: #90, #103
+- [x] Daemons of the Ruinstorm - Issue: #78 (Closed)
+- [x] Legacies & Exemplary Battles - Issue: #79 (Closed)
 
 ---
 
@@ -67,17 +81,11 @@ _None yet_
 
 ## Remaining Work
 
-### Missing Sub-Issues
-All sub-issues have been created. No sub-issues are missing.
-
-### Pending PRs
-The following issues have been created but don't have PRs yet:
-- #61: World Eaters
-- #62: Ultramarines
-- #63: Night Lords
-- #70: Raven Guard
-- #73: Questoris Knights & Titan Legions
-- #74: Custodes & Sisters of Silence
+### Open Issues Requiring PRs
+The following issues are still **open** on GitHub and need PRs:
+- [#61](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/61): World Eaters
+- [#62](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/62): Ultramarines
+- [#63](https://github.com/neotheone-HH22/horus-heresy-2nd-edition/issues/63): Night Lords
 
 ---
 
@@ -135,5 +143,5 @@ The following issues have been created but don't have PRs yet:
 
 ---
 
-**Last Updated:** 2026-02-26
-**Status:** Implementation in progress across multiple PRs
+**Last Updated:** 2026-03-04
+**Status:** 3 issues remain open (#61, #62, #63); all others closed
