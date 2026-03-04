@@ -17428,7 +17428,10 @@ Special rules that are removed:
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="b2c3-d4e5-f6a7-8901" name="Hardwired Defences" publicationId="d0df-7166-5cd3-89fd" page="97" hidden="false">
-      <description>A model with this special rule may fire its weapons in the Shooting phase even if enemy models are in base contact with it, as long as the target is not a unit in base contact with this model. In addition, a model with this special rule is never considered to be in a combat when determining whether it can fire during the Shooting phase.</description>
+      <description>These automated weapons would follow their directives to protect their
+position until they were destroyed.
+A Fortification with this Special Rule may not be claimed by a
+player which did not originally select them as part of their army.</description>
     </rule>
     <rule id="0ac9-fab7-aef3-de1d" name="Rending (X)" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
       <description>If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that their close combat attacks will strike a critical blow. For each To Wound roll equal to or higher than the value listed, the target automatically suffers a Wound, regardless of its Toughness. The controlling player may choose to resolve these Wounds at AP 2 instead of the weapon’s normal AP value.
@@ -17496,7 +17499,13 @@ A model that causes Fear is not itself immune to Fear and will still suffer a pe
 However, units containing one or more models with the Fearless special rule cannot use any Reactions that grant a Cover Save, Armour Save or Invulnerable Save, and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule (see page 188). If a unit has become Pinned and then gains the Fearless special rule all the effects of being Pinned are immediately cancelled.</description>
     </rule>
     <rule id="b8c2-f3e5-1a9d-4c72" name="Immobile" hidden="false">
-      <description>A unit with this special rule cannot move and has a Move characteristic of '-'. A unit that includes one or more models with this special rule may not Run, declare or make Charge moves, and may not make Sweeping Advances. A unit with this special rule may not embark upon or disembark from any Transport. This unit cannot be the target of any special rule or effect that moves it involuntarily unless it has been destroyed.</description>
+      <description>Fixed in place, or otherwise unable to move in any fashion, these units
+had to stand their ground or perish.
+A model with this Special Rule may not move for any reason,
+including making Run moves, declaring or otherwise making
+Charge moves, falling back, or make Reactions which would allow
+it to move. If it would be forced to do so, the model is immediately
+destroyed.</description>
     </rule>
     <rule id="ec46-ff29-32e0-c2aa" name="Feel No Pain (X)" publicationId="e77a-823a-da94-16b9" page="238" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
@@ -18372,10 +18381,396 @@ Attacks with this special rule have no effect on models with the Vehicle or Prim
       <description>Note: The additional +2 Attacks bonus from Paired Lightning Claws only applies when the model is making attacks with the Lightning Claws. When the model uses another weapon to attack, the bonus attacks from the Paired Lightning Claws do not apply.</description>
     </rule>
     <rule id="a3b4-c5d6-e7f8-9012" name="Tank Desant (X)" hidden="false">
-      <description>A number of Infantry models up to the value shown in brackets may be carried on the outside of this Vehicle. These models are treated as Embarked but are considered to be in an Open-topped vehicle and may fire their weapons while being transported. They may disembark at any point during the Vehicle's movement (including on the turn the Vehicle arrives from Reserves) and may declare a Charge on the turn they disembark, but may not do so if the Vehicle moved Flat Out.</description>
+      <description>When troops embarked upon this vehicle, they did so across its
+armoured hull, and so formed an additional layer of protection for
+their carrier - as they could defend it from harm directly.
+Any unit embarked upon a Transport with this Special Rule may
+fire up to (X) ranged weapons (where X is the number in brackets
+next to the Special Rule), measuring from the Transport’s model. If
+the unit chooses to fire in this way, they are counted as having
+moved - note that this may prevent them from shooting certain
+weapon types. Units with any Special Rule that allows them to
+count as stationary for the purposes of Shooting attacks (such as
+Relentless, Legiones Astartes (Death Guard), etc) may not benefit
+from them whilst embarked on a Transport with this Special Rule.</description>
     </rule>
     <rule id="b4c5-d6e7-f890-1234" name="Exposed Compartment" hidden="false">
-      <description>Any shooting attack that targets this vehicle may instead target any unit embarked within it. Attacks targeting the embarked unit in this way are resolved at AP 5 regardless of the attacking weapon's AP value, and are resolved against the embarked unit's Armour Save.</description>
+      <description>Whilst the open crew bays of some vehicles made them easier to
+operate for many tasks, they also made easy prey for weapons designed
+to take advantage of such weaknesses.
+Any rolls on the Vehicle Damage Table that target a model with
+this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="4ce0-3fe3-3b0e-4cba" name="Afterburner" hidden="false">
+      <description>Colossal secondary combustors attached to the main engines of a flyer
+allowed this vehicle a surprising burst of speed.
+Once per game at the start of the Movement Phase, a model with
+this Special Rule may elect to fire its Afterburner. If it does so, the
+model may make an additional move after its normal move, up to
+its normal movement Characteristic. Note that for this additional
+move, the Movement value cannot be modified in any way.</description>
+    </rule>
+    <rule id="7329-b34a-9106-4404" name="Caestus Prow" hidden="false">
+      <description>The armoured fore of this craft was a masterwork of layered armour,
+shield generators, and reinforced bulkheads.
+A model with this Special Rule may declare a Ramming attack in
+the same manner as a Tank, regardless of its actual unit type. This
+attack must be declared at the start of the Movement Phase, after
+you have decided whether or not the will fire its Afterburner (if it
+has the Afterburner Special Rule). When conducting a Ramming
+attack, the hit is automatically resolved at Strength 10, AP 3, and
+adds +1 to any rolls on the Vehicle Damage table it inflicts. If the
+model fired its Afterburner this turn, add +2 instead.
+In addition, the model has an Invulnerable Save of 5+ against any
+attacks against its Front Armour, including any damage it suffers
+as a result of it Ramming or being Rammed itself.
+A model with this Special Rule is immune to the effects of the
+Armourbane (Melta) Special Rule – meaning that no extra D6 for
+armour penetration can be rolled against the model as a result of
+this Special Rule.</description>
+    </rule>
+    <rule id="e973-89e9-c28a-411f" name="Auto-Servo Tracking" hidden="false">
+      <description>Independent firing control subsystems allowed this weapon to track
+and fire without requiring their operator to direct them.
+A weapon with this Special Rule can fire at a different target to the
+other weapons the model is armed with.</description>
+    </rule>
+    <rule id="dc79-45dc-b168-4115" name="Augmetics (X)" hidden="false">
+      <description>Some warriors in the Age of Darkness had extensive amounts of
+augmetics within, enough even to survive the most grievous of wounds.
+When a model with this Special Rule suffers an unsaved Wound, it
+can make a special Augmetics roll to avoid being wounded (this is
+not a Saving Throw and so can be used against attacks that state
+that ‘no Saves of any kind are allowed’).
+Roll a D6 each time an unsaved Wound is suffered. On a result
+that is equal to or greater than the value in brackets, the unsaved
+Wound is discounted – treat it as having been Saved. On any other
+result, the Wound is taken as normal. For example, a unit with the
+Augmetics (6+) Special Rule would need to score a 6 in order to
+discount a Wound inflicted upon it.
+If on any unit this rule is presented simply as Augmetics, without a
+value in brackets, then count it as Augmetics (6+).
+This is a Damage Mitigation roll – any model may make only a
+single Damage Mitigation roll of any type for any given Wound
+(see page 174).</description>
+    </rule>
+    <rule id="31f5-cbdb-1b34-400e" name="Artillery Spotters" hidden="false">
+      <description>These spotters worked in tandem with their charges, calling targets for
+those under their command to assail.
+A unit with this Special Rule may grant the benefits of a Cognis
+Signum it has purchased to any unit with at least one model
+within 6” of a model from this unit, instead of using the benefit
+itself - though the unit affected must be from the same Tercio as it
+to grant it the benefits of the Cognis Signum in this way.</description>
+    </rule>
+    <rule id="7323-8b75-cc51-459a" name="Brittle" hidden="false">
+      <description>The sharpened edge on this weapon was impressively good at slicing
+through almost any substance - unless the blade bit at a bad angle.
+If a model armed with a weapon with this Special Rule hits with all
+attacks made with this weapon in a single phase, the blade’s edge is
+blunted – at the end of the phase, the weapon’s AP value drops to
+AP 4 and it loses any variant of the Rending (X) Special Rule it
+possesses for the rest of the battle.</description>
+    </rule>
+    <rule id="9615-d404-fbe9-48d8" name="Broken Soul" hidden="false">
+      <description>For those who had already given themselves to the darkness, it was only
+a small step to invite the evil within themselves…
+A model with this Special Rule may be given the Corrupted
+Sub-type at no additional cost in points - this must be decided at
+the start of the battle before any models are deployed and may not
+be changed during the battle.</description>
+    </rule>
+    <rule id="b1aa-6976-b3a3-47d1" name="Born of Steel" hidden="false">
+      <description>This combatant had become more metal than flesh, and could walk
+among automata as one of their own.
+A model with this Special Rule may be given the Patris Cybernetica
+Special Rule at no additional cost in points - this must be decided
+at the start of the battle before any models are deployed and may
+not be changed during the battle.</description>
+    </rule>
+    <rule id="7b8d-9485-b36c-40c5" name="Armoured Superstructure" hidden="false">
+      <description>Approaching in bulk that of a Super-Heavy vehicle, some armoured
+behemoths could withstand blows that would utterly destroy a lesser
+target.
+Whenever a roll is made on the Vehicle Damage Table against a
+model with this Special Rule, subtract -1 from the result rolled.</description>
+    </rule>
+    <rule id="0b0b-c232-9e9a-4ec0" name="Consul (X)" hidden="false">
+      <description>Despite their lofty station that had otherwise outstripped the rank of
+Consul, Astartes Centurions would often retain all the privileges of
+their former rank.
+A model with this Special Rule is counted as having the named
+Legiones Consularis Upgrade as indicated in brackets in the
+Special Rule for all intents and purposes, including Rites of War,
+Special Rules, and wargear limitations which either require there
+to be one to be present in a detachment, or prevent it. Note that
+this does not confer any of the benefits normally gained from that
+upgrade to the model themselves from any such sources.</description>
+    </rule>
+    <rule id="e3f0-2948-8c0e-4e95" name="Countermeasures" hidden="false">
+      <description>Whether achieved via immense speed, thermic flares, or other more
+esoteric means, this craft could confound incoming fire.
+A model with this Special Rule has a 5+ Invulnerable Save against
+any Shooting Attacks which have the Skyfire Special Rule made
+against it. A model with this Special Rule which does not make a
+Zoom move in the Controlling Player’s Movement Phase cannot
+claim the benefit of this Special Rule during the rest of the
+Controlling Player’s turn, as well as the Opposing Player’s turn.</description>
+    </rule>
+    <rule id="ed67-11ff-42ce-48ad" name="Close-Quarters Boarding Protocol" hidden="false">
+      <description>The mortal factions of the Imperialis Militia were often found fighting
+in the claustrophobic confines of a Zone Mortalis.
+A unit with this Special Rule may be chosen as part of a
+detachment using the Zone Mortalis Engagement Force
+Organisation Chart despite having more than 15 models. However,
+this unit cannot be expanded above its starting size.</description>
+    </rule>
+    <rule id="e51b-828b-685f-425f" name="Felling Blow" hidden="false">
+      <description>Trading raw speed for killing power, this weapon struck with a fury
+unmatched by lesser weapons.
+When a model equipped with a weapon with this Special Rule
+makes a Melee attack, it may choose to halve the number of
+attacks it makes. If it does so, those attacks gain the Murderous
+Strike (5+) Special Rule.</description>
+    </rule>
+    <rule id="45a6-a896-2412-4796" name="Feeding Frenzy" hidden="false">
+      <description>Flailing tendrils snatched up the dead and dying to be devoured by one
+of the creature’s many fanged maws. The feast of flesh was added to its
+mass – regenerating damage inflicted upon it.
+At the end of an Initiative Step in which an enemy model is slain in
+close combat as a result of attacks made by a model with this
+Special Rule, the Controlling Player may roll a D6 for each model
+slain. On a result of a 6 a model with this Special Rule in the
+attacking unit immediately regains 1 Wound, up to its starting
+Wounds Characteristic.</description>
+    </rule>
+    <rule id="acc9-5b26-3eca-442a" name="Emperor’s Chosen" hidden="false">
+      <description>A long and storied path awaited one marked by the Emperor himself -
+and this Champion had a fate not yet met...
+A model with this Special Rule that suffers an unsaved wound with
+the Instant Death Special Rule is not immediately removed as a
+casualty, but instead loses D3 wounds instead of one for each
+unsaved wound with the Instant Death Special Rule inflicted on it.</description>
+    </rule>
+    <rule id="c200-4dc6-9b5a-4559" name="Dimensional Edge (X)" hidden="false">
+      <description>The blade of this weapon was not truly at home in our reality - and the
+exotic matter that constitutes its form would, when caught in the right
+phase, pass straight through any matter it touched.
+Weapons with this Special Rule can only ever cause a Wound on
+the number indicated in brackets.
+No Saves or Damage Mitigation rolls of any kind may be taken
+against Wounds caused by this weapon.</description>
+    </rule>
+    <rule id="3f04-5a32-e4fb-442d" name="Daemonic Hordes" hidden="false">
+      <description>The unending multitudes of these biting, gnawing, scratching creatures
+were often underestimated; often only until they kept coming despite
+losing untold dozens of their numbers.
+If a model with the Daemonic Hordes Special Rule suffers an
+unsaved Wound from a Blast (any size) or Template weapon, each
+unsaved Wound is multiplied to two unsaved Wounds.
+In addition, a model with this Special Rule cannot suffer Instant
+Death as a result of any Attack which has a Strength value of
+double its Toughness Characteristic - Though attacks which would
+otherwise inflict Instant Death in this way may not benefit from
+the Feel No Pain (X) or Corrupted Resilience Special Rule. Attacks
+which have the Instant Death Special Rule in their profile are
+unaffected by this Special Rule and function normally.</description>
+    </rule>
+    <rule id="4791-9224-7efc-492c" name="Gyrocoil Charge" hidden="false">
+      <description>Internal moving weights inside this weapon allowed it to make
+incredibly heavy blows - at the cost of speed.
+Attacks made with a weapon with this Special Rule incur a -2
+Initiative Penalty.</description>
+    </rule>
+    <rule id="a2b2-a396-8a71-4356" name="Crew-Served Weapon" hidden="false">
+      <description>The weight and bulk of some heavy weapons required multiple troops
+to partially deconstruct and carry them when repositioning or
+boarding most transports.
+A model with this Special Rule may Embark on models with the
+Transport Unit Sub-Type and Infantry Transport Special Rule,
+contrary to the restriction on models with the Bulky (X) Special
+Rule rule, but still must take into account their size due to the
+Bulky (X) Special Rule.</description>
+    </rule>
+    <rule id="d2ea-84c6-4b7e-49f7" name="Ejector Blowout" hidden="false">
+      <description>The unstable nature of some weapons means runaway reactions and
+failures in safety mechanisms can be explosively fatal.
+A weapon with this Special Rule counts all Gets Hot results as AP2</description>
+    </rule>
+    <rule id="710e-eb27-1400-4f4c" name="Field Officer" hidden="false">
+      <description>The officers of the Solar Auxilia were never far from the frontlines, ready
+and able to lead their troops into battle directly if necessary.
+When this model with this Special Rule joins a unit with the CloseOrder Unit Sub-Type, it automatically gains the Close-Order Unit
+Sub-Type for as long as it remains part of that unit.</description>
+    </rule>
+    <rule id="6e81-addc-94b9-459d" name="Sensor Flare" hidden="false">
+      <description>Against some targets, the harsh coruscating light given off rendered
+even the most advanced sensors utterly useless.
+If a model is Hit by a weapon with this Special Rule, it must take
+an immediate Blind Test.</description>
+    </rule>
+    <rule id="60e1-03c2-7f03-4039" name="Riposte (X)" hidden="false">
+      <description>Fluid in the air in a way the eye struggles to track, this weapon seems
+to be in many places at once - and always right where it is needed to
+block a blade...
+Models making an attack against a model wielding a weapon with
+this Special Rule must subtract X from their Weapon Skill.</description>
+    </rule>
+    <rule id="39de-7976-7f2e-46a0" name="Psychic Mastery (X)" hidden="false">
+      <description>A raw bulwark of ethereal power, this psyker pushed past the limits
+that would spell doom for others - despite the great risks...
+A model with this Special Rule may cast an amount of Psychic
+Powers per phase, up to the number indicated in brackets, in spite
+of the normal limitations on doing so. Note that a Psychic Power
+counted as a Shooting Attack counts as a single power for the
+purposes of this Special Rule, and that this Special Rule does not
+allow a model to cast the same power multiple times per phase.</description>
+    </rule>
+    <rule id="1427-f041-2e06-47ff" name="Predator’s Gaze" hidden="false">
+      <description>Those rare few who have survived being hunted by an assassin clade
+operative long enough to speak of it reported something truly
+unnatural and unsettling in the gaze of those singular killers.
+When issuing a challenge, a model with this Special Rule selects
+the enemy character that accepts the challenge from any models
+which are eligible to respond.</description>
+    </rule>
+    <rule id="8c34-3f2f-6770-41be" name="Reinforced Shell" hidden="false">
+      <description>Built to survive even the most horrendous damage, this vehicle endured
+where lesser chassis did not.
+When a model with this Special Rule loses its last Hull Point, but
+before resolving the Super-Heavy Explosion, roll a D6. On a Result
+of a 4+, the model does not explode as normal, but instead its shell
+is treated from this point onward as a ruined building rather than
+a vehicle wreck, with its two doorways counted as being open
+access points to the interior.</description>
+    </rule>
+    <rule id="dbc2-68ae-e7c4-4d96" name="Paired Weapons" hidden="false">
+      <description>Some weapons required they were used together to achieve full
+effectiveness.
+A model armed with a weapon with this Special Rule gains an extra
+Attack.</description>
+    </rule>
+    <rule id="3969-21fe-22b7-409d" name="Inertia Suppression Clamps" hidden="false">
+      <description>Inertial suppression clamps locked transported troops into place,
+protecting them from impact.
+A model with this Special Rule can carry units composed entirely
+of models with the Infantry Unit Type as though any instance of
+the Bulky (X) Special Rule they possess had a value of 2 lower than
+it actually is, to a minimum of 1, for the purposes of Transport
+Capacity of this model only.</description>
+    </rule>
+    <rule id="92a2-9ddf-ffef-491b" name="Makeshift Weapon" hidden="false">
+      <description>Whilst not all tools of the 31st millennium were intended to see combat,
+in a pinch they too could serve as deadly weapons of war.
+A model equipped with a weapon with this Special Rule may only
+make a single attack at Initiative Step 1 with it, and may not gain a
+bonus attack for Charging or from any Special Rules that would
+normally grant additional Attacks.</description>
+    </rule>
+    <rule id="2c5a-cf88-b47a-40a7" name="No Witnesses" hidden="false">
+      <description>As an ancient Terran adage went, ‘there can be no witnesses if there are
+no survivors’…
+A model with this Special Rule may never issue or accept
+Challenges, and ignores any effects or Special Rules that would
+force it to do so. If the Opposing Player issues a Challenge, a model
+with this Special Rule may never be chosen as the model who
+declined it.</description>
+    </rule>
+    <rule id="bb3e-3ec5-e5f9-4ec1" name="Lords of the Ruinstorm" hidden="false">
+      <description>Among the thronging masses of the warp, the greatest amongst them
+were rare indeed - and jealous in their command.
+Only one model with this Special Rule may be included per 1,500
+points in your army.</description>
+    </rule>
+    <rule id="ffec-f2dd-7496-4ea5" name="Rupture (X)" hidden="false">
+      <description>Some weapons lacked the raw power to penetrate the thickest armour,
+but lighter targets would still find themselves torn apart under such
+blows regardless.
+When rolling To Wound for a model that has the Rupture (X)
+Special Rule, or is attacking with a weapon that has the Rupture (X)
+Special Rule, for each To Wound roll equal to or higher than the
+value listed in brackets, the Controlling Player must resolve these
+wounds at AP 3 instead of the weapon’s normal AP value.
+For example, a model with the Rupture (5+) Special Rule that rolls To
+Wound and rolls a result of ‘5’ or higher, the Wound inflicted gains an
+AP of ‘3’ regardless of the AP value listed on the weapon’s profile. Note
+that a weapon that has both the Rupture (X) and the Gets Hot Special
+Rules always uses the base AP of the weapon when rolls of ‘1’ To Hit
+inflict Wounds on the attacking model.</description>
+    </rule>
+    <rule id="d8c3-ad21-bbe4-4743" name="Legiones Astartes Command Tank" hidden="false">
+      <description>Some among the Legiones Astartes displayed proficiency in a cupola
+that none inside or out of the legions could ever hope to approach.
+A model with this Special Rule is selected as a separate unit, but
+during the deployment or the game they may join a unit composed
+entirely of models with the Vehicle Unit Type as though they had
+the Character Sub-type and Independent Character Special Rule,
+although they do not gain any additional benefits from these
+Special Rules or Sub-types.
+A model with this Special Rule may not join a unit containing any
+model with a Hull Points Characteristic of 6 or higher.</description>
+    </rule>
+    <rule id="a248-594a-440e-422c" name="The Black Shield" hidden="false">
+      <description>After escaping the betrayal at Istvaan III, Crysos Morturg continued to
+harass his Traitor brethren as Captain of the 108th Independent
+Company.
+You can include Crysos Morturg model in a Blackshields
+Detachment. When you do so, replace this model’s Legiones
+Astartes (Death Guard) Special Rule with the Legiones Astartes
+(Blackshields) Special Rule.
+In addition, if Crysos Morturg is selected as the army’s Warlord in
+a Blackshields Detachment he gains the Master of the Legion
+Special Rule.
+If Crysos Morturg is selected as the army’s Warlord in a
+Blackshields Detachment, you can include Death Guard Mortus
+Poisoner Squads as part of that Detachment. If you do so, replace
+their Legiones Astartes (Death Guard) Special Rule with the
+Legiones Astartes (Blackshields) Special Rule.</description>
+    </rule>
+    <rule id="98aa-045c-29ba-4c08" name="Warp Resplendent" hidden="false">
+      <description>Some denizens of the immaterium reached a truly immense size, and so
+the powers they wielded made others pale in comparison.
+A model with this Special Rule treats any weapons it is equipped
+with with a range of “Template” as having a range of “Hellstorm”
+instead, and any weapons with the “Blast (3”)” Special Rule as
+having the “Large Blast (5”)” Special Rule instead.
+In addition, any weapons a model with this Special Rule is
+equipped with which do not meet either of these conditions
+instead count their range characteristic as being twice that
+specified in the weapon’s profile.</description>
+    </rule>
+    <rule id="7929-7ada-8844-444b" name="Soul-Death" hidden="false">
+      <description>Whilst this weapon burnt and tore at all living things, it inflicted the
+most terrible harm upon those with an innate connection to the
+immaterium.
+When attacking a model with the Daemon, Psyker, or Corrupted
+Unit Type or Sub-types, a weapon with this Special Rule gains the
+Fleshbane, Instant Death, and Breaching (3+) Special Rules.</description>
+    </rule>
+    <rule id="1ea5-5874-a51d-4c1e" name="Skilled Rider" hidden="false">
+      <description>A lifetime in the saddle allowed the most skilled to fire their arsenal at
+full effectiveness - even on the move.
+A model with this Special Rule may opt to run in the Movement
+Phase and still fire a single ranged weapon in the Shooting Phase.
+These shots are made at BS2. The To-Hit rolls for these shots
+cannot be improved by any source.
+Note that if a unit makes use of this Special Rule, they may not
+claim the benefits of the Firing Protocols (X) Special Rule in the
+same Game Turn.</description>
+    </rule>
+    <rule id="3206-30c9-84d0-4c7b" name="Shattered Legionary" hidden="false">
+      <description>Whether by betrayal or attrition, many Astartes were separated from
+their wider Legions during the chaos of the Horus Heresy and forced to
+band together with warriors outside their own ranks.
+You can include this model in a Shattered Legion Detachment that
+includes models representing the same Legion as this model&apos;s
+corresponding variant of Legiones Astartes (X). When you do so,
+replace this model&apos;s Legiones Astartes (X) Special Rule with the
+Legiones Astartes (Shattered Legions) Special Rule. This is an
+exception to the normal rules for Legiones Astartes (Shattered
+Legions). When included in a Shattered Legions Detachment, this
+model must represent the same Legion as the variant of Legiones
+Astartes (X) that is being replaced.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
