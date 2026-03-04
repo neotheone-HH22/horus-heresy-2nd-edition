@@ -956,7 +956,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e765-9cfe-5819-6569" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="e765-9cfe-5819-6569" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">

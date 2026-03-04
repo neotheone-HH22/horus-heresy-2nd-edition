@@ -680,7 +680,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         </infoLink>
       </infoLinks>
     </entryLink>
-    <entryLink import="false" name="Land Raider Phobos Squadron" hidden="true" id="2fff-2875-be74-4cd1" collective="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink import="false" name="Land Raider Phobos Squadron" hidden="false" id="2fff-2875-be74-4cd1" collective="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" value="false" field="hidden">

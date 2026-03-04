@@ -44807,6 +44807,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="f7a8-b9c0-d1e2-f3a4" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry"/>
             <entryLink id="25c6-fe7a-6253-534a" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -52285,41 +52286,44 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             <categoryLink id="8d73-a0a0-a804-6122" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
             <categoryLink targetId="7b0a-a743-a8da-3a39" id="4012-ab23-4c78-9e32" name="Transport Sub-type" primary="false"/>
           </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="b44b-a321-7724-b2b6" name="1) Hull (Front) Mounted Achillus Quad Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink id="b44b-a321-7724-b2b6" name="1) Hull (Front) Mounted Quad Launcher" hidden="false" collective="false" import="true" targetId="333a-6c28-1031-9134" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="1) Hull (Front) Mounted Quad Launcher"/>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb1c-7138-06df-bf39" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d56-b3e2-e24c-ec36" type="max"/>
               </constraints>
-              <profiles>
-                <profile id="8cf1-7612-0d14-2098" name="Achillus Quad Launcher (Strike)" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Sunder</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="e1de-56c1-f493-5902" name="Achillus Quad Launcher (Shard)" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Shred</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="abb1-71db-2fff-93cc" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-                <infoLink id="aa32-f3ed-e38f-4c4b" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
-                <infoLink id="ab8a-16b0-4439-e0b4" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+          </entryLinks>
           <selectionEntryGroups>
+            <selectionEntryGroup id="a1b2-c3d4-e5f6-a7b8" name="2) Quad Launcher Shell Options" hidden="true" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="333a-6c28-1031-9134" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink id="a2b3-c4d5-e6f7-a8b9" name="Quad Launcher - Shatter" hidden="false" collective="false" import="true" targetId="adb6-7963-11bd-e72b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3b4-c5d6-e7f8-a9b0" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="b4c5-d6e7-f8a9-b0c1" name="Quad Launcher - Incendiary" hidden="false" collective="false" import="true" targetId="8ff6-2222-75b5-ecf7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5c6-d7e8-f9a0-b1c2" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="c6d7-e8f9-a0b1-c2d3" name="Quad Launcher - Splinter" hidden="false" collective="false" import="true" targetId="f7cc-7f11-f82f-1fdf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c7d8-e9f0-a1b2-c3d4" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
             <selectionEntryGroup id="c0fa-a83e-c0bd-f5a0" name="3) Pintle Mounted Weapon:" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bf-bc66-c6de-9380" type="max"/>
@@ -52567,17 +52571,28 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
           </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Flyer, Hover, Transport)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14&quot;</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">18&quot;</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
-            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">16</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Two at the front of the hull.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="c1a2-3b4d-5e6f-7a8b" name="Afterburner" publicationId="d0df-7166-5cd3-89fd" hidden="false">
+          <description>Once per game, at the start of the controlling player&apos;s Movement phase, a model with this special rule may activate its Afterburner. When activated, the model&apos;s Move characteristic is increased to 30&quot; for that Movement phase only.</description>
+        </rule>
+        <rule id="d2b3-4c5d-6e7f-8a9b" name="Caestus Prow" publicationId="d0df-7166-5cd3-89fd" hidden="false">
+          <description>A model with this special rule that makes a Tank Shock or Ram attack gains +D3 Attacks for that attack, and any unit that fails a Morale check as a result of a Tank Shock from this model is automatically destroyed rather than falling back.</description>
+        </rule>
+        <rule id="e3c4-5d6e-7f8a-9b0c" name="Inertia Clamps" publicationId="d0df-7166-5cd3-89fd" hidden="false">
+          <description>Models with the Terminator Armour sub-type disembarking from a model with this special rule may Charge on the same turn they disembark.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="aa5f-e709-8881-62d4" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
         <infoLink id="4ace-3c04-b51b-1c84" name="Assault Vehicle" hidden="false" targetId="aa61-11f6-2bb5-7c0e" type="rule"/>
@@ -53192,7 +53207,7 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <infoLink id="c688-b69e-beb8-1289" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="6bf4-d9b2-127c-d477" name="Legion Minotaur Battery" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6bf4-d9b2-127c-d477" name="Legion Earthshaker Battery" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="6d0b-fe0e-911e-486f">
           <conditions>
@@ -53239,13 +53254,13 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <categoryLink id="5bd7-94dd-cd4e-38fa" name="Slow Sub-type" hidden="false" targetId="c4a5-4def-dc2c-7ce2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9b42-399b-151e-1aba" name="Minotaur" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9b42-399b-151e-1aba" name="Earthshaker" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a4-28fc-8827-f429" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68cd-0e6c-2a05-e090" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ed3c-21b0-7847-ba7a" name="Minotaur" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+            <profile id="ed3c-21b0-7847-ba7a" name="Earthshaker" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <modifiers>
                 <modifier type="set" field="3614-4a2d-bffb-90e4" value="9*">
                   <conditions>
@@ -74513,7 +74528,7 @@ All &apos;Achean Force&apos; weapons are counted as &apos;Force&quot; weapons fo
 Once assigned to a unit, the Legion Apothecary is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty when the Legion Apothecary is removed as well. In battles using Victory points, no Victory points are ever scored for removing an Legion Apothecary as a casualty. When assigned to a unit, a Legion Apothecary gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
     </rule>
     <rule id="5529-bb7a-9448-b1f5" name="Hexagrammatic Wards" publicationId="d0df-7166-5cd3-89fd" page="12" hidden="false">
-      <description>Any roll To Wound for an attack made with a Psychic Weapon against a model with this special rule suffers a penalty of -1.</description>
+      <description>Any roll To Wound for an attack made with a Psychic Weapon against a model with this special rule suffers a penalty of -1. In addition, a model with this special rule may re-roll failed Invulnerable Saves against attacks made by models with the Psyker Sub-type, units with the Daemon Sub-type, and models with the Corrupted Sub-type.</description>
     </rule>
     <rule id="a2ef-63a4-3531-db91" name="Legiones Cybernetica" publicationId="a716-c1c4-7b26-8424" page="115" hidden="false">
       <description>An army that includes a model with this special rule may take a single Castellax Battle-automata Maniple or a single Vorax Battle-automata Maniple as part of the same Force Organisation choice as the model with this special rule. Any models in the Castellax Battle-automata Maniple or Vorax Battle-automata Maniple included in an army due to this special rule gain the same Legiones Astartes (X) special as the Legion Praevian they share a Force Organization choice with, but may not select any Legion specific Wargear or other options.</description>

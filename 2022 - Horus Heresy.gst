@@ -9229,6 +9229,7 @@ Hull Mounted (Rear) Heavy Bolter</characteristic>
           </profiles>
           <infoLinks>
             <infoLink id="e382-ce92-773a-f9ab" name="Emplacement Sub-type" hidden="false" targetId="d214-5efb-abbb-649e" type="rule"/>
+            <infoLink id="a1b2-c3d4-e5f6-7890" name="Hardwired Defences" hidden="false" targetId="b2c3-d4e5-f6a7-8901" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c449-ec4e-fdc8-0ff5" name="Turret Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="546a-bd8a-537c-4883">
@@ -9271,7 +9272,7 @@ Hull Mounted (Rear) Heavy Bolter</characteristic>
         </profile>
         <profile id="c850-d8a1-99f1-5c9f" name="Advanced Reaction: Void Shield Envelope" publicationId="d0df-7166-5cd3-89fd" page="98" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
           <characteristics>
-            <characteristic name="Description" typeId="c627-4637-8de5-65fb">Void Shield Envelope: Thie Advanced Reaction may be made during the Shooting phase whenever an enemy unit targets a friendly unit that has at least half of its models within 6&quot; of a friendly Void Shield Generator with a Shooting Attack, excluding friendly units that include any models with the Monstrous, Gargantuan, Knight, Titan, Super-heavy of Flyer Sub-types. Before the Active player has resolved any Hit rolls, the Reactive player may choose to expend one of their Reactions for that Phase to have the unit targeted by the Shooting Attack gain the Shrouded (4+) special rule until the end of the Shooting phase. Note that this Advanced Reaction does not improve any existing instances of the Shrouded (X) special rule that a unit may have. The unit that has gained the Shrouded (4+) special rule as a result of this Reaction does not count as having made a Reaction, and may itself make a Reaction provided it would otherwise be able to do so, and the Reactive player has sufficient Reaction allotment remaining in that Phase.</characteristic>
+            <characteristic name="Description" typeId="c627-4637-8de5-65fb">Void Shield Envelope: This Advanced Reaction may be made during the Shooting phase whenever an enemy unit targets a friendly unit that has at least half of its models within 6&quot; of a friendly Void Shield Generator with a Shooting Attack, excluding friendly units that include any models with the Monstrous, Gargantuan, Knight, Titan, Super-heavy or Flyer Sub-types. Before the Active player has resolved any Hit rolls, the Reactive player may choose to expend one of their Reactions for that Phase to have the unit targeted by the Shooting Attack gain a 4+ Invulnerable Save until the end of the Shooting phase. Note that this Advanced Reaction does not improve any existing Invulnerable Saves that a unit may have. The unit that has gained the 4+ Invulnerable Save as a result of this Reaction does not count as having made a Reaction, and may itself make a Reaction provided it would otherwise be able to do so, and the Reactive player has sufficient Reaction allotment remaining in that Phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9318,6 +9319,8 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
       </rules>
       <infoLinks>
         <infoLink id="af2f-a797-a259-ec68" name="Emplacement Sub-type" hidden="false" targetId="d214-5efb-abbb-649e" type="rule"/>
+        <infoLink id="c3d4-e5f6-a7b8-9012" name="Hardwired Defences" hidden="false" targetId="b2c3-d4e5-f6a7-8901" type="rule"/>
+        <infoLink id="d4e5-f6a7-b8c9-0123" name="Power of the Machine Spirit" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a2ac-a5fa-9bd1-d0b9" name="Hull Mounted Weapons (See Fire Points on profile)" hidden="false" collective="false" import="true" defaultSelectionEntryId="c496-e4dc-1ee7-09d9">
@@ -9358,6 +9361,23 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e5f6-a7b8-c9d0-e1f2" name="Deployment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a7-b8c9-d0e1-f2a3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a7b8-c9d0-e1f2-a3b4" name="Deep Strike Deployment" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b8c9-d0e1-f2a3-b4c5" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink import="true" name="Cyclone Missile Launcher" hidden="false" id="838c-5146-efd1-e377" type="selectionEntry" targetId="3e5a-ad5d-4607-7489">
           <constraints>
@@ -17407,6 +17427,9 @@ Special rules that are removed:
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
+    <rule id="b2c3-d4e5-f6a7-8901" name="Hardwired Defences" publicationId="d0df-7166-5cd3-89fd" page="97" hidden="false">
+      <description>A model with this special rule may fire its weapons in the Shooting phase even if enemy models are in base contact with it, as long as the target is not a unit in base contact with this model. In addition, a model with this special rule is never considered to be in a combat when determining whether it can fire during the Shooting phase.</description>
+    </rule>
     <rule id="0ac9-fab7-aef3-de1d" name="Rending (X)" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
       <description>If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that their close combat attacks will strike a critical blow. For each To Wound roll equal to or higher than the value listed, the target automatically suffers a Wound, regardless of its Toughness. The controlling player may choose to resolve these Wounds at AP 2 instead of the weapon’s normal AP value.
 Similarly, if a model makes a Shooting Attack with a weapon that has the Rending special rule, a To Wound roll of equal to or greater than the listed value wounds automatically, regardless of Toughness, and is resolved at AP 2.

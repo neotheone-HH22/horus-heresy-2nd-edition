@@ -1013,7 +1013,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d57b-2de7-7e2d-1a11" name="Land Raider Phobos Squadron" hidden="true" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
+    <entryLink id="d57b-2de7-7e2d-1a11" name="Land Raider Phobos Squadron" hidden="false" collective="false" import="false" targetId="681a-7426-96af-caac" type="selectionEntry">
       <comment>template_id_ccdd-5be9-4975-b01d</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
