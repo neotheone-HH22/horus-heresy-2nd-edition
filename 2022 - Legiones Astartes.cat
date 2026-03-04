@@ -70831,7 +70831,6 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
                   <conditions>
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="21c3-2f28-7820-e51a" type="equalTo"/>
                     <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f75a-d5c1-59ba-5c5a" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f07-3d45-4f28-a0c6" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -70937,7 +70936,6 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
                   <conditions>
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="21c3-2f28-7820-e51a" type="equalTo"/>
                     <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f75a-d5c1-59ba-5c5a" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f07-3d45-4f28-a0c6" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -70952,7 +70950,6 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
                   <conditions>
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="21c3-2f28-7820-e51a" type="equalTo"/>
                     <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f75a-d5c1-59ba-5c5a" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f07-3d45-4f28-a0c6" type="notInstanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -75195,7 +75192,7 @@ If a unit includes more than one model with the Character Unit Sub-type then all
     </rule>
     <rule id="c56f-80ff-5d8e-1af4" name="Achean Force" publicationId="09c5-eeae-f398-b653" page="259" hidden="false">
       <comment>validated nsh 2022/06/20</comment>
-      <description>The controlling player of any unit that includes one or more models with the Psyker Unit Sub-type and a weapon or ability with this special rule, may choose to activate this special rule before making any attacks with that weapon or resolving the ability. To activate this special rule, the controlling player must make a single Psychic check using the Leadership Characteristic of any model in the unit that does not have the Independent Character special rule (unless the unit is entirely composed of models with the Independent Character special rule, in which case the controlling player can select which of those model’s Leadership Characteristics is used). If the Check is successful, then the Strength value of all attacks made with weapons or abilities with this special rule is increased by +2 (In addition to any Modifiers the attack or weapon may already possess), this benefit is applied only in the Phase in which these attack are made and ends immediately after that phase is resolved. If the check is failed then no benefit is gained, but the models in that unit may attack as normal.
+      <description>The controlling player of any unit that includes one or more models with the Psyker Unit Sub-type and a weapon or ability with this special rule, may choose to activate this special rule before making any attacks with that weapon or resolving the ability. In addition, a unit with the Dreadnought Unit Type that has a weapon or ability with this special rule may also choose to activate this special rule even if no models in the unit have the Psyker Unit Sub-type, as long as the unit is within 6&quot; of a friendly model with the Psyker Unit Sub-type and the Legiones Astartes (Thousand Sons) special rule. To activate this special rule, the controlling player must make a single Psychic check using the Leadership Characteristic of any model in the unit that does not have the Independent Character special rule (unless the unit is entirely composed of models with the Independent Character special rule, in which case the controlling player can select which of those model’s Leadership Characteristics is used). If the Check is successful, then the Strength value of all attacks made with weapons or abilities with this special rule is increased by +2 (In addition to any Modifiers the attack or weapon may already possess), this benefit is applied only in the Phase in which these attack are made and ends immediately after that phase is resolved. If the check is failed then no benefit is gained, but the models in that unit may attack as normal.
 
 All &apos;Achean Force&apos; weapons are counted as &apos;Force&quot; weapons for those rules that affect such weapons</description>
     </rule>

@@ -3286,9 +3286,8 @@
         <rule id="01cd-939f-c8a5-3e4a" name="Psy -automata" publicationId="09c5-eeae-f398-b653" page="267" hidden="false">
           <description>Models with the Psy-automata Sub - type that are not within 6&quot; of a friendly model with the Psyker Sub-type and both the Legiones Astartes (Thousand Sons) and Independent Character special rules are subject to the Programmed Behaviour provision:
 - During both the controlling player s Shooting phase and the Charge sub- phase, a Psy -automata unit must attempt a Shooting Attack and /or Charge if there is an enemy unit within range, and must target the closest enemy unit possible that is within its line of sight and is a valid target for a Shooting Attack or Charge. If two or more targets are equally close then the controlling player chooses which will be the target of a Shooting Attack or Charge.
-• A model with the Psy -automata Sub- type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction where eligible ( this rule on its own does not allow&apos; Automata units to make Reactions).
-• Models with the Psy-automata Sub- type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• Models with the Psy -automata Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare charges as normal regardless of any Shooting Attacks made in the same turn.
+• A model with the Psy -automata Sub- type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction where eligible ( this rule on its own does not allow' Automata units to make Reactions).
+• Models with the Psy-automata Sub- type may fire Heavy, Ordnance and Rapid Fire weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • Models with the Psy -automata Sub -type ignore any penalties to their Initiative Characteristic when Charging into or through Difficult Terrain or Dangerous Terrain.
 • When using a Psychic Weapon to make a Shooting Attack from within 12&quot; of a Castellax-Achea model, a model with the Psyker Sub- type and with the Legiones Astartes (Thousand Sons) special rule may use the Castellax- Achea model as the origin point of the attack, drawing line of sight and range from it rather than themselves.</description>
         </rule>
@@ -3357,7 +3356,7 @@
             <categoryLink targetId="6e0c-29ba-a445-8321" id="c918-733e-4420-9874" name="Psyker:" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="140"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="95"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3415,6 +3414,9 @@
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae8d-d591-1c32-72cb" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b14-b391-4c37-942e" type="max"/>
           </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+          </costs>
         </entryLink>
         <entryLink id="79e1-fb19-9ccf-e317" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
           <constraints>
@@ -3424,7 +3426,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eef1-0f91-a59f-b3e2" name="Contemptor-Osiron Dreadnought Talon" hidden="false" collective="false" import="true" type="unit">
@@ -3964,7 +3966,7 @@
           <profiles>
             <profile id="c6fa-4a4c-d8aa-8a05" name="Ahzek Ahriman" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Psyker, Unique)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Character, Psyker, Psychic Mastery (2), Unique)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7&quot;</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
@@ -5044,7 +5046,7 @@
           <profiles>
             <profile id="47a-6e2f-9cab-a264" name="Magnus the Red" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Primarch ( Unique, Psyker)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Primarch (Unique, Psyker, Psychic Mastery (3))</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
@@ -5090,7 +5092,7 @@
           <profiles>
             <profile id="1beb-b273-c551-b92e" name="Sire of the Thousand Sons" publicationId="09c5-eeae-f398-b653" page="260" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All models with the Infantry Unit Type in the same army as Magnus the Red with the Psyker Sub- type gain the Adamantium Will (6+ ) special rule (if a model already has a version of this special rule then the value of that special rule is increased by one step, for example from (5+ ) to (4+)) and any model with the Legiones Astartes (Thousand Sons) special rule ( including Magnus the Red ) that suffers Perils of the Warp reduces the number of Wounds inflicted by 1 ( to a minimum of 1 Wound). In addition , an army with Magnus the Red as its Warlord gains an additional Reaction in the opposing player s Assault phase, unless Magnus the Red has been removed as a casualty.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All models in the same army as Magnus the Red with the Psyker Sub- type gain the Adamantium Will (6+ ) special rule (if a model already has a version of this special rule then the value of that special rule is increased by one step, for example from (5+ ) to (4+)) and any model with the Legiones Astartes (Thousand Sons) special rule ( including Magnus the Red ) that suffers Perils of the Warp reduces the number of Wounds inflicted by 1 ( to a minimum of 1 Wound). In addition , an army with Magnus the Red as its Warlord gains an additional Reaction in the opposing player s Assault phase, unless Magnus the Red has been removed as a casualty.</characteristic>
               </characteristics>
             </profile>
           </profiles>
