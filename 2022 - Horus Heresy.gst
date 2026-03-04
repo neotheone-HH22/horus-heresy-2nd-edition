@@ -18867,6 +18867,26 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
         <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One on each side of the hull and one at the front.</characteristic>
       </characteristics>
     </profile>
+    <profile id="7248-4771-347a-2c83" name="Land Raider Phobos" publicationId="a716-c1c4-7b26-8424" page="76" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+      <modifiers>
+        <modifier type="set" field="3614-4a2d-bffb-90e4" value="13*">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01e-5cdd-e512-8353" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport, Reinforced)</characteristic>
+        <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+        <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+        <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">14</characteristic>
+        <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">14</characteristic>
+        <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+        <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
+        <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One on each side of the hull.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <infoLinks>
     <infoLink id="cf3c-4951-8835-0aeb" name="Fast Vehicles" targetId="2cbf-c1a1-844a-6456" type="rule"/>
