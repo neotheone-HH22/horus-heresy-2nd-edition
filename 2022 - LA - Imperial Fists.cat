@@ -4316,8 +4316,8 @@
         <rule id="f45a-801b-3494-7cb6" name="Dolorous Fighter" hidden="false">
           <description>When a Challenge is issued in any combat that includes Sigismund, Sigismund’s controlling player must always accept that Challenge with Sigismund – if the opposing player does not issue a Challenge then Sigismund’s controlling player must do so and must nominate Sigismund to fight in that Challenge. Additionally, when fighting in a Challenge, successful Invulnerable Saves taken against Sigismund’s attacks must be re-rolled.</description>
         </rule>
-        <rule id="a1b2-c3d4-e5f6-7890" name="Emperor's Chosen" hidden="false">
-          <description>Sigismund may re-roll all failed Invulnerable Saving Throws against wounds caused during Challenges.</description>
+        <rule id="f0e1-d2c3-b4a5-9687" name="Emperor's Chosen" hidden="false">
+          <description>Sigismund has been singled out by the Emperor himself as a peerless warrior. A model may not use the Eternal Warrior special rule against wounds caused by Sigismund’s attacks. In addition, Sigismund does not lose more than 1 Wound as the result of any single attack that inflicts Instant Death.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4326,6 +4326,7 @@
             <modifier type="set" field="name" value="Adamantium Will (3+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="a1b2-c3d4-e5f6-7890" name="Emperor's Chosen" hidden="false" targetId="f0e1-d2c3-b4a5-9687" type="rule"/>
         <infoLink id="1443-2899-365f-7fca" name="Fearless" hidden="false" targetId="b48c-d7e1-2a83-2f5b" type="rule"/>
         <infoLink id="33ce-89c8-fab1-7a2f" name="Legiones Astartes (Imperial Fists)" hidden="false" targetId="e876-4f8f-a30f-8b22" type="rule"/>
         <infoLink id="ceec-7dfb-3406-2c0e" name="Precision Strikes (X)" hidden="false" targetId="2206-8497-8fe1-e973" type="rule">
@@ -5587,30 +5588,67 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a1b3-c4d5-e6f7-8901" name="Dedicated Transport" hidden="false" collective="false" import="true">
+      </selectionEntryGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a1b2-c3d4-e5f6-0001" name="Dedicated Transport:" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2c3-d4e5-f6a7-8902" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-e5f6-0002" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c3d4-e5f6-a7b8-9003" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+            <entryLink id="a1b2-c3d4-e5f6-0003" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="95a4-07ae-c2e4-fe33" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-e5f6-0004" type="max"/>
+              </constraints>
             </entryLink>
-            <entryLink id="d4e5-f6a7-b8c9-0004" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
+            <entryLink id="a1b2-c3d4-e5f6-0005" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="4420-5ce0-beb7-cb5e" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="95a4-07ae-c2e4-fe33" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-e5f6-0006" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="220"/>
+              </costs>
             </entryLink>
-            <entryLink id="e5f6-a7b8-c9d0-0005" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry"/>
+            <entryLink id="a1b2-c3d4-e5f6-0007" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="4420-5ce0-beb7-cb5e" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="95a4-07ae-c2e4-fe33" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e5ae-fd1c-729d-d855" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-e5f6-0008" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5758,7 +5796,7 @@ Both weapons are counted as ‘Power’ weapons for those rules that affect such
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any model with both the Legiones Astartes (Imperial Fists) and Independent Character special rules that does not have the Unique unit Sub-type may take a Vigil storm shield for +15 points. Additionally, any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Tartaros Terminator Squad, Legion Tartaros Command Squad, Legion Cataphractii Terminator Squad or Legion Cataphractii Command Squad may exchange a combi-bolter for a Vigil storm shield for +10 points each.
 
-A model with a Vigil storm shield gains a 5+ Invulnerable Save, or improves an existing Invulnerable Save by +1 step (to a maximum of 3+). A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
+A model with a Vigil storm shield gains a 5+ Invulnerable Save, or if the model already has an Invulnerable Save, improves that Invulnerable Save by 1 step (to a maximum of 3+). A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5841,7 +5879,7 @@ A model with a Vigil storm shield gains a 5+ Invulnerable Save, or improves an e
           <profiles>
             <profile id="5f13-0fa6-e08e-d14c" name="The Tyrant’s Regalia" publicationId="53a4-0d21-2f8a-2c45" page="209" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Tyrant’s Regalia confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, Evander Garrius has the Feel No Pain (5+) special rule against wounds suffered during any Fight Sub-phase. The unit containing Evander Garrius may not make Sweeping Advances.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Tyrant’s Regalia confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, Evander Garrius has the Feel No Pain (5+) special rule against wounds suffered during any Fight Sub-phase. Units that contain Evander Garrius may not make Sweeping Advance moves.</characteristic>
               </characteristics>
             </profile>
           </profiles>

@@ -953,7 +953,7 @@ Additional rules are given to units based on Legion and Unit.</description>
         <profile id="8c5c-8a63-e20a-e7e8" name="Graviton Crusher" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Two-handed, Haywire</characteristic>
           </characteristics>
@@ -1281,7 +1281,9 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <profiles>
         <profile id="721f-029b-84cb-ad49" name="Shamshir Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
+
+A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 19, gains 2 Wounds, and gains the Firing Protocols (2), Hammer of Wrath (1), Battle-Hardened (1) and Skilled Rider special rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1294,6 +1296,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <infoLink id="e9ff-9f4a-0607-1626" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6499-5504-ce06-4ca7" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1360,7 +1367,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Scimitar jetbike has one heavy bolter. In addition, a model with a Legion Scimitar jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
 
-A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16 and gains the Firing Protocols (2) and Hammer of Wrath (1) special rules.</characteristic>
+A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16, gains 2 Wounds, and gains the Firing Protocols (2), Hammer of Wrath (1), Battle-Hardened (1) and Skilled Rider special rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1373,6 +1380,11 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
         <infoLink id="23d4-8b32-477b-daa8" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a1b2-3c4d-5e6f-7890" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1416,7 +1428,9 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
       <profiles>
         <profile id="d853-6df2-8fe8-0325" name="Spatha Combat Bike" publicationId="a716-c1c4-7b26-8424" page="144" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Legion Spatha combat bike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn.
+
+A model with the Infantry Unit Type that selects a Legion Spatha combat bike as an upgrade must change its Unit Type to Cavalry, gains 2 Wounds, and gains the Battle-Hardened (1) and Skilled Rider special rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1434,6 +1448,11 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
         <infoLink id="e1d9-6c05-c06e-ffaf" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b2c3-4d5e-6f7a-8b90" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-Hardened (1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1457,6 +1476,8 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="d0f3-e9d5-b63d-8298" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="a0e1-f2c4-8bcd-0723" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="01b4-57c7-bf61-2abf" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="b28b-71f7-e4f4-8f9c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1488,7 +1509,7 @@ A model with the Infantry Unit Type that selects a Legion Scimitar jetbike as an
       <profiles>
         <profile id="c404-06d0-257b-4814" name="Vigil Storm Shield" publicationId="817a-6288-e016-7469" page="228" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Vigil storm shield gains a 5+ Invulnerable Save, or improves an existing Invulnerable Save by +1 step (to a maximum of 3+). A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Vigil storm shield gains a 5+ Invulnerable Save, or if the model already has an Invulnerable Save, improves that Invulnerable Save by 1 step (to a maximum of 3+). A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2251,7 +2272,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Shred, Murderous Strike (5+), Unwieldy</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Shred, Murderous Strike (5+), Unwieldy, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2264,6 +2285,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           </modifiers>
         </infoLink>
         <infoLink id="9fe6-a3ce-3122-885f" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="ee1d-3f2a-b7c4-9d5e" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2283,15 +2309,15 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Rending (4+), Duellist’s Edge (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Breaching (5+), Duellist’s Edge (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="757e-b301-f965-1db0" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
-        <infoLink id="caeb-bf11-c0eb-8bc2" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="f1a2-3b4c-5d6e-7f8a" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="d409-8bbc-ddeb-7178" name="Duellist’s Edge (X)" hidden="false" targetId="7bf3-86ce-04c2-e6ba" type="rule">
@@ -2393,7 +2419,9 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Shred, Reaping blow (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist weapon, Shred, Reaping blow (1)
+
+When a model has two Frost Claws, that model gains +2 Attacks instead of the usual +1 Attack for using an additional weapon in combat.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3807,7 +3835,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
       <profiles>
         <profile id="acfc-b1b5-7a79-f3bd" name="Stormwrought" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, the controlling player of a Psyker with this Psychic Power may select a single friendly unit with at least on model within 6&quot; of the Psyker that is composed entirely of models with the Infantry, Cavalry or Dreadnought Unit-types. The chosen unit gains the Shrouded (5+) special rule until the beginning of the controlling player&apos;s next Shooting Phase. When using this power the controlling player may choose to have the Psyker take a Psychic Check if the Psychic Check is successful the effect is improved to Shrouded (3+), if the Check is failed the Shrouded (5+) special rule is applied to the target unit and the Psyker suffers Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, the controlling player of a Psyker with this Psychic Power may select a single friendly unit with at least one model within 6&quot; of the Psyker that is composed entirely of models with the Infantry, Cavalry or Dreadnought Unit-types. The Psyker must take a Psychic Check. If the Check is successful the unit gains the Shrouded (3+) special rule until the beginning of the controlling player&apos;s next Shooting Phase. If the Check is failed the Shrouded (5+) special rule is applied to the target unit and the Psyker suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="95b7-634c-5271-5a8e" name="Wrath of the Death Wolf" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
@@ -6302,7 +6330,7 @@ When a model has two Raven’s Talons, that model gains +2 Attacks instead of th
                 </modifier>
               </modifiers>
               <description>• Unit Sub-type All models in a unit modified by the Dark Angels Legion Inductii template must replace the Hexagrammaton Unit Sub-type selected for them as part of the Legiones Astartes (Dark Angels) special rule with the Inductii Unit Sub-type.
-• Wargear: All models in a unit modified by the Dark Angels Legion Inductii template must exchange their bolter for a volkite charger at no additional cost.
+• Wargear: All models in a unit modified by the Dark Angels Legion Inductii template must exchange their bolter for a volkite charger at +25 pts for the entire unit.
 • Special Rules: All models in a unit modified by the Dark Angels Legion Inductii template lose the Fury of the Legion special rule.</description>
             </rule>
             <rule id="8c68-20ec-6cef-2a28" name="Iron Warriors Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="227" hidden="false">
@@ -7063,6 +7091,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
       <categoryLinks>
         <categoryLink id="09bf-3b6b-fba1-8fae" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="566e-8e1f-ea26-51e1" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink id="a3f2-1b4c-8e7d-9f20" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="846e-c9da-5b90-861d" name="Legion Tactical Support Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -11160,7 +11189,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="0b38-1fde-4d2a-0f26" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3e62-a69c-f114-7e8a" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -11185,7 +11214,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="4a0d-5c7f-74ad-bcf0" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c0ea-6da3-9def-1e46" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -11239,7 +11268,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <entryLinks>
                 <entryLink id="dc68-ae96-88ad-3b22" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink id="ab00-7750-578b-3141" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -11264,7 +11293,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink id="8616-94be-8027-2ccf" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink id="2b44-5245-ee32-ee5b" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -11464,7 +11493,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="4280-4963-02b5-e31d" id="3790-1a33-4134-b628" name="Dreadnought Unit Type" primary="false"/>
@@ -21593,6 +21622,8 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
+              <description>• Unit Sub-type: All models in a unit modified by the Blood Angels Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Blood Angels Legion Inductii template must replace the Spite of the Legion special rule with the The Revenant Legion special rule and gain the Rage (2) special rule.</description>
             </rule>
             <rule id="618e-6c11-1eb8-49af" name="Salamanders Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="233" hidden="false">
               <modifiers>
@@ -21763,6 +21794,16 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   </conditions>
                 </modifier>
                 <modifier type="set" field="name" value="Furious Charge (1) (Creed of Brutality)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="ba01-0201-0301-0401" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="296e-301e-3ce1-1c15" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="Rage (2)"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -33992,6 +34033,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
           </profiles>
           <infoLinks>
             <infoLink id="6d2a-dba8-c20e-aa15" name="Dreadnought Talon" hidden="false" targetId="a924-2634-73fd-aa96" type="rule"/>
+            <infoLink id="e7a3-9c2d-4b1f-8e05" name="Note: Leviathan Bonus Attack" hidden="false" targetId="a8f3-2c1e-4d7b-9e02" type="rule"/>
             <infoLink id="3f6b-6883-3750-4666" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
             <infoLink id="479c-e947-d329-0eb4" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
               <modifiers>
@@ -35688,6 +35730,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
           </infoLinks>
           <categoryLinks>
             <categoryLink id="4161-d5a7-0d9e-6234" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+            <categoryLink id="c5e2-8b3f-4d7a-1e09" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="0d3c-a988-5a78-4077" name="3) May take:" hidden="false" collective="false" import="true">
@@ -36631,6 +36674,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <categoryLink id="7c5e-2c98-9ff3-b2fa" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
         <categoryLink id="51f1-7e20-8eac-f70c" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
         <categoryLink id="1932-ff9d-8ddc-9c5c" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
+        <categoryLink id="d4f8-2a1b-7e3c-0f96" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="29b7-c714-0a01-697b" name="Arquitor" hidden="false" collective="false" import="true" type="model">
@@ -36651,7 +36695,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard)</characteristic>
                 <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">8</characteristic>
                 <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                 <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
                 <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                 <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
@@ -36663,6 +36707,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
           <categoryLinks>
             <categoryLink id="c2f1-cd11-ca0c-0d3b" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
             <categoryLink targetId="d5df-57ac-8f3c-097b" id="aaf8-35c9-471c-a6f2" name="Bombard Sub-type" primary="false"/>
+            <categoryLink id="b7e3-4d1a-9c2f-0e85" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="ad38-0891-7db4-3528" name="1) Sponson Mounted Weapons:" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f89-a5d7-94b6-6868">
@@ -37532,6 +37577,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="f3a1-7d2e-5b4c-8e09" name="Assault Vehicle" hidden="false" targetId="aa61-11f6-2bb5-7c0e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2e40-97f7-d4a9-ff9e" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
@@ -38069,14 +38115,14 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             </entryLink>
             <entryLink id="bb27-466f-543c-658c" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="5">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
                   <repeats>
                     <repeat field="selections" scope="bac9-5389-e2e7-0b1f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1f87-b709-2c56-cefd" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="c02c-2abc-d013-4de4" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
@@ -38135,14 +38181,14 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             </entryLink>
             <entryLink id="e604-a35e-2799-f0a9" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="15">
                   <repeats>
                     <repeat field="selections" scope="bac9-5389-e2e7-0b1f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1f87-b709-2c56-cefd" repeats="1" roundUp="false"/>
                   </repeats>
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
             <entryLink id="489b-38b0-8283-adc7" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="975e-14eb-caed-4b5b" type="selectionEntry">
@@ -39831,7 +39877,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15f6-12d5-479f-80f2" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0084-9947-fdd3-abdf" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+            <entryLink id="0084-9947-fdd3-abdf" name="Hull Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
@@ -40090,7 +40136,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="dc95-4296-cdee-5316" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="145"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a736-43ca-ed95-a08f" name="Proteus Land Speeder Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -41772,7 +41818,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="094c-f7a4-5641-78db" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="700"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="575"/>
       </costs>
       <infoLinks>
         <infoLink id="bebc-81b1-6836-df1d" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -42317,7 +42363,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="2cdb-cbf5-4e51-606a" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="600"/>
       </costs>
       <infoLinks>
         <infoLink id="209d-41d1-495d-84f9" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -42395,6 +42441,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
           </modifiers>
         </infoLink>
         <infoLink id="6a2a-6fdd-3da7-e9ee" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
+        <infoLink id="d5e8-7f3a-2c1b-4e09" name="Reinforced Shell" hidden="false" targetId="c3e7-8a2f-1b4d-9f05" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="88d9-9034-d534-b855" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
@@ -42592,6 +42639,15 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
+        <entryLink id="f4b2-3c7d-8e1a-5d09" name="Hull (Front) Magna-Melta Array" hidden="false" collective="false" import="true" targetId="3be9-4638-a4b2-a763" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull (Front) Magna-Melta Array"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c3-2e5b-4f7d-1c09" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d4-3f6c-5a8e-2d10" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="d894-69b2-6eec-2589" name="Siege Melta Array" hidden="false" collective="false" import="true" targetId="1317-9f4e-4820-59f7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6e-51db-3828-0d8c" type="min"/>
@@ -42921,7 +42977,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         <entryLink id="b0b2-e4e6-4eb0-2f88" name="Legiones Astartes (X)" hidden="false" collective="false" import="true" targetId="a59f-8dcc-a407-f7c6" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="650"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="625"/>
       </costs>
       <infoLinks>
         <infoLink id="f2d5-779a-40e7-b663" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
@@ -45383,7 +45439,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
       </modifierGroups>
       <rules>
         <rule id="89b9-6f89-73a2-4e98" name="Pride of the Legion" publicationId="d0df-7166-5cd3-89fd" page="18" hidden="false">
-          <description>Any Legion Terminator Indomitus Squad taken in a Detachment with the Pride of the Legion Rite of War loses the Support Squad special rule, and any Legion Terminator Indomitus Squad taken as a Compulsory Troops choice in a Detachment with that Rite of War gains the Line Sub-type.</description>
+          <description>Any Legion Terminator Indomitus Squad taken in a Detachment with the Pride of the Legion Rite of War loses the Support Squad special rule, and any Legion Terminator Indomitus Squad taken as a Compulsory Troops choice in a Detachment with that Rite of War gains the Line Sub-type. Legion Veteran Tactical Squads taken as Troops choices in a Detachment with the Pride of the Legion Rite of War gain the Line Sub-type.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -46839,7 +46895,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -47684,7 +47740,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
               <characteristics>
                 <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                 <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">-</characteristic>
-                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
                 <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
                 <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
                 <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
@@ -47789,21 +47845,21 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
       <profiles>
         <profile id="a0a6-77b4-1932-4a4a" name="Gorgon Terminator Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gorgon Terminator armour confers a 2+ Armour Save, a 5+ Invulnerable Save and the Feel No Pain (5+) special rule (this does not stack with any other variant of the Feel No Pain (X) special rule a model may have – if a model has more than one variant of this special rule the controlling player must choose one to use).
-Additionally, at the end of any Phase in which a model with Gorgon Terminator armour has passed at least one Armour Save or Invulnerable Save, roll a D6. On the result of a 4+, all enemy units with at least one model within 6&quot; of the model with Gorgon Terminator armour must test as if they had been hit by a weapon with the Blind special rule. Any unit that is composed entirely of models with Gorgon Terminator armour are immune to this effect.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gorgon Terminator armour confers a 2+ Armour Save, a 5+ Invulnerable Save and the Augmetics (5+) special rule (this does not stack with any other variant of the Feel No Pain (X) special rule a model may have – if a model has more than one variant of this special rule the controlling player must choose one to use).
+Additionally, whenever a model with Gorgon Terminator armour passes an Armour Save or Invulnerable Save, all enemy units with at least one model within 6&quot; of the model with Gorgon Terminator armour must test as if they had been hit by a weapon with the Blind special rule. Any unit that is composed entirely of models with Gorgon Terminator armour are immune to this effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="941f-1987-4128-9de1" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
-        <infoLink id="2962-d497-a0de-d397" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+        <infoLink id="2962-d497-a0de-d397" name="Augmetics (5+)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+            <modifier type="set" field="name" value="Augmetics (5+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97ad-7991-5b27-c031" name="Two Falax Blades" hidden="false" collective="false" import="true" type="upgrade">
@@ -47813,7 +47869,7 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Rending (4+), Duellist’s Edge (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Breaching (5+), Duellist’s Edge (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -47823,9 +47879,9 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
             <modifier type="set" field="name" value="Duellist’s Edge (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4e1a-8a14-8b2e-472d" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="b2c3-d4e5-f6a7-b8c9" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="cf09-a07e-3b32-f40d" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
@@ -49796,6 +49852,7 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
         <categoryLink id="e4bb-66e5-0a98-68ea" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="5907-22d5-cb57-2222" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
         <categoryLink id="1bfc-4442-f18b-c57b" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink id="e2a4-9f1b-3c8d-7a05" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b4f4-a12a-e7da-3341" name="Pintle mounted Weapon Options" hidden="false" collective="false" import="true">
@@ -69026,7 +69083,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     </modifier>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
                 <entryLink id="bc8c-e61-4041-44fa" name="Power Maul" hidden="false" collective="false" import="true" targetId="0df4-c67e-cf64-82e0" type="selectionEntry">
@@ -70364,7 +70421,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
           </costs>
         </entryLink>
         <entryLink id="1834-1384-eb8f-54df" name="Tainted Axe" hidden="true" collective="false" import="true" targetId="293c-a173-d70c-65f6" type="selectionEntry">
@@ -70684,7 +70741,7 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
         </entryLink>
         <entryLink id="f97e-0b57-8c13-3070" name="Vigil Storm Shield" hidden="false" collective="false" import="true" targetId="ec3d-1f0c-d195-a006" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="d2ee-04cb-5f8a-2642" value="15">
+            <modifier type="set" field="d2ee-04cb-5f8a-2642" value="10">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -74449,6 +74506,12 @@ Once assigned to a unit, the Legion Apothecary is considered part of that unit a
     <rule name="The Shattered (LEGION NUMERAL)" id="8fe2-5380-f8a2-1151" hidden="false" publicationId="d882-d2a-5da1-92c4" page="195+197">
       <description>You can include this model in a Shattered Legions Detachment that includes models representing the version of the Legion Astartes Keyword this model has. When you do so, replace this model’s Legiones Astartes (X) special rule with the Legiones Astartes (Shattered Legions) special rule. This is an exception to the normal rules for Legiones Astartes (Shattered Legions).
 When included in a Shattered Legions Detachment, this model must represent the Legion originally present.</description>
+    </rule>
+    <rule id="a8f3-2c1e-4d7b-9e02" name="Note: Leviathan Bonus Attack" hidden="false">
+      <description>Note: The Attacks (A) Characteristic of the Leviathan already includes the bonus attack granted for having two melee weapons. No additional attack is added for this.</description>
+    </rule>
+    <rule id="c3e7-8a2f-1b4d-9f05" name="Reinforced Shell" hidden="false">
+      <description>A model with this special rule has a reinforced hull. Attacks that would normally ignore the model’s Armour Value, Armour Saves or Damage Mitigation rolls (other than Destroyer weapons) must still roll against the model’s Armour Value as normal.</description>
     </rule>
     <rule name="Lethal Exposure" hidden="false" id="5ec4-39ed-2360-824c" publicationId="d882-d2a-5da1-92c4">
       <description>If a unit makes attacks with one or more weapons with this special rule as part of a Shooting attack in any Phase, including as part of a Reaction, roll a D6. If the result is equal to or less than the number of weapons in the unit with the Lethal Exposure special rule, the unit suffers a single Wound with no Saves or Damage Mitigation rolls allowed - this wound is allocated to any model in the unit by the controlling player.</description>
