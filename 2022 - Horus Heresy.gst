@@ -17472,6 +17472,9 @@ A model that causes Fear is not itself immune to Fear and will still suffer a pe
 
 However, units containing one or more models with the Fearless special rule cannot use any Reactions that grant a Cover Save, Armour Save or Invulnerable Save, and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule (see page 188). If a unit has become Pinned and then gains the Fearless special rule all the effects of being Pinned are immediately cancelled.</description>
     </rule>
+    <rule id="b8c2-f3e5-1a9d-4c72" name="Immobile" hidden="false">
+      <description>A unit with this special rule cannot move and has a Move characteristic of '-'. A unit that includes one or more models with this special rule may not Run, declare or make Charge moves, and may not make Sweeping Advances. A unit with this special rule may not embark upon or disembark from any Transport. This unit cannot be the target of any special rule or effect that moves it involuntarily unless it has been destroyed.</description>
+    </rule>
     <rule id="ec46-ff29-32e0-c2aa" name="Feel No Pain (X)" publicationId="e77a-823a-da94-16b9" page="238" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
 Feel No Pain rolls may not be taken against unsaved Wounds that have the Instant Death special rule.

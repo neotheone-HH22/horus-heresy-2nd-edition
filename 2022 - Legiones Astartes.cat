@@ -45197,6 +45197,11 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink id="cf47-9a38-2d51-bb1e" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d276-79d0-2989-80dd" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f35-46b7-e7fb-9d8d">
@@ -45287,11 +45292,16 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
                 </entryLink>
+                <entryLink id="7e14-4f87-9a2c-dd0e" name="Gravis Melta Cannon" hidden="false" collective="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -45570,6 +45580,23 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a74-f0c5-1ee9-7130" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8f4c-2b97-3e51-a7d6" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a1c-3d8e-b294-5f60" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -48065,6 +48092,8 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="4a2c-7f83-9e16-b50d" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+        <infoLink id="d9b3-1e74-8c25-f60a" name="Hit &amp; Run" hidden="false" targetId="5986-e960-d432-affd" type="rule"/>
         <infoLink id="5e82-a996-267f-b524" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -48109,7 +48138,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
@@ -51279,11 +51308,7 @@ Additionally, whenever a model with Gorgon Terminator armour passes an Armour Sa
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="9afa-cfc0-dc04-767c" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="3e7c-9b4a-2f65-0d18" name="Immobile" hidden="false" targetId="b8c2-f3e5-1a9d-4c72" type="rule"/>
         <infoLink id="927c-e77d-16c5-ba78" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
         <infoLink name="Fearless" hidden="false" type="rule" id="23fc-16e6-aa35-a363" targetId="b48c-d7e1-2a83-2f5b"/>
         <infoLink name="Support Squad" id="a0d1-f134-b09d-38da" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>
@@ -51669,7 +51694,7 @@ Pinning, One Use</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
       </costs>
       <rules>
         <rule name="Sentry Gun" id="6cf7-b278-0b65-11c8" hidden="false">
