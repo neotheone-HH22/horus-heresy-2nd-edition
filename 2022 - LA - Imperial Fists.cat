@@ -3799,6 +3799,11 @@
         <entryLink import="true" name="Retinue" hidden="false" id="191b-02ae-28da-fa0a" collective="false" targetId="446f-102e-289b-bdc5" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="f0a1-b2c3-d4e5-0006" name="Tyrant Siege Terminator Squad" hidden="false" collective="false" import="false" targetId="795a-5698-a1bc-6ec6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a1b2-c3d4-e5f6-0007" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="19ce-b8dc-dd40-fee9" name="Phalanx Warder Squad" hidden="false" collective="false" import="true" type="unit">
