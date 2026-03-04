@@ -189,12 +189,18 @@ When deployed onto the battlefield (either at the start of the battle or when ar
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Sunder, Brutal (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="9f27-5035-daec-7bff" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="rcs1-sund-er00-0001" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="rcs1-brut-al00-0001" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (3)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2008,12 +2014,18 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Sunder, Brutal (2)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="55b9-5a7b-7ea4-b5e9" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+                <infoLink id="rcb1-sund-er00-0001" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+                <infoLink id="rcb1-brut-al00-0001" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal (2)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -2334,6 +2346,17 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <infoLink id="cbb1-6eba-dbc6-a3ec" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Armourbane (Melee)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="rcf1-shrd-e000-0001" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+                <infoLink id="rcf1-brut-al00-0001" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal (3)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="rcf1-exsh-ck00-0001" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Exoshock (3+)"/>
                   </modifiers>
                 </infoLink>
                 <infoLink id="985-79e4-50bb-64a6" name="Reaper Chainfist" hidden="false" targetId="fe4c-3b4d-5b20-0357" type="profile"/>
@@ -2854,9 +2877,9 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                 <profile id="3a19-23cb-df6c-b5b2" name="Shock Lance (Melee)" publicationId="bde1-6db1-163b-3b76" page="123" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Exoshock (5+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (1), Sunder, Shock Pulse, Concussive (2), Brutal (3), Exoshock (2+)</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="7a2f-9429-f59e-431a" name="Shock Lance (Ranged)" publicationId="bde1-6db1-163b-3b76" page="119" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -2874,14 +2897,21 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <modifier type="set" field="name" value="Reach (1)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="64c9-c488-5b48-f141" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
-                  <modifiers>
-                    <modifier type="set" field="name" value="Exoshock (5+)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="ff03-1a1e-3055-cad4" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
+                <infoLink id="sl01-sund-er00-0001" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+                <infoLink id="sl01-shck-pls0-0001" name="Shock Pulse" hidden="false" targetId="9222-f6c5-dc19-905a" type="rule"/>
+                <infoLink id="sl01-conc-us00-0001" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Concussive (2)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="sl01-brut-al00-0001" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Brutal (3)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="64c9-c488-5b48-f141" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Exoshock (2+)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -3736,13 +3766,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Cumbersome, Armourbane, Instant Death</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Instant Death</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="be86-fd26-3254-1887" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
-                <infoLink id="26c8-1614-dcaf-9639" name="Cumbersome" hidden="false" targetId="d89a-c10e-8a7a-92c3" type="rule"/>
                 <infoLink id="76a4-7407-1f3e-c2c8" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Armourbane (Melee)"/>
@@ -6147,14 +6176,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Cumbersome, Armourbane (Melee), Instant Death</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Instant Death</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="3e90-b679-199d-3998" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="91f2-81fc-8a3e-775d" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="1267-6823-c665-77a8" name="Cumbersome" hidden="false" targetId="d89a-c10e-8a7a-92c3" type="rule"/>
         <infoLink id="2d81-7ba4-3430-d768" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melee)"/>
@@ -6215,13 +6242,17 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Sunder</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (4)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d500-aedc-4113-3b28" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="d500-aedc-4113-3b28" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (4)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -7575,7 +7606,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Sunder</characteristic>
               </characteristics>
             </profile>
             <profile name="Hellcrusher claws*" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item" hidden="false" id="1bf5-4a62-5256-3274" publicationId="4934-46f7-208b-b4af" page="129">
@@ -7587,7 +7618,7 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
           <infoLinks>
             <infoLink name="Brutal (X)" hidden="false" type="rule" id="a8c8-1f87-3a33-aec8" targetId="5079-1fec-d32b-8b84">
               <modifiers>
-                <modifier type="set" value="Brutal (2)" field="name"/>
+                <modifier type="set" value="Brutal (3)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Sunder" hidden="false" type="rule" id="aebb-194b-705c-eacd" targetId="20e2-75cf-bc16-cd8f"/>
@@ -9292,9 +9323,9 @@ Treat Archmagos Anarcharis Scoria as an Archmagos Prime on Abeyant.</description
     <profile id="fe4c-3b4d-5b20-0357" name="Reaper Chainfist" publicationId="bde1-6db1-163b-3b76" page="120" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee)</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Armourbane (Melee), Brutal (3), Exoshock (3+)</characteristic>
       </characteristics>
     </profile>
     <profile id="4329-1f62-cf9b-2ff4" name="Galvanic Caster - Hammershot" publicationId="bde1-6db1-163b-3b76" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
