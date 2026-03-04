@@ -4200,7 +4200,7 @@ Corvus Corax may still Run on a turn when the Korvidine Pinions have been activa
       </constraints>
       <rules>
         <rule id="e61b-37aa-0364-68da" name="Corax&apos;s Shame" publicationId="09b3-d525-cdea-260c" page="15" hidden="false">
-          <description>Models with this special rule gain the Battle-hardened (1) special rule.
+          <description>If selected as part of an army with the Loyalist Allegiance, models with this Special Rule gain the Battle-hardened (1) and Hatred (Horus Lupercal) Special Rules. If selected as part of an army with the Traitor Allegiance, models with this Special Rule gain the Battle-hardened (1) and Hatred (Corvus Corax) Special Rules.
 
 Additionally, if selected as part of an army that includes Corvus Corax, no models with this special rule may be deployed within 18&quot; of Corvus Corax (including when models from this unit enter play from Reserves) and Corvus Corax may never join a unit that has any models with this special rule.</description>
         </rule>
@@ -4214,9 +4214,24 @@ Additionally, if selected as part of an army that includes Corvus Corax, no mode
           </modifiers>
         </infoLink>
         <infoLink id="15c7-f900-d1ff-d769" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
-        <infoLink id="8b0a-d314-b356-2768" name="Hatred (X)" hidden="true" targetId="dc0b-fe69-6b71-e0a4" type="rule">
+        <infoLink id="8b0a-d314-b356-2768" name="Hatred (X)" hidden="false" targetId="dc0b-fe69-6b71-e0a4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hatred (Corvus Corax)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0b6-712f-0b12-a308" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c8d-9e0f-1a2b-3c4d" name="Hatred (X)" hidden="true" targetId="dc0b-fe69-6b71-e0a4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hatred (Horus Lupercal)"/>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d0b6-712f-0b12-a308" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink id="38e6-a330-126a-ca5f" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
