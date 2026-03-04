@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e545-295b-4cd9-f235" name="Daemons - Bound Daemons" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="56" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e545-295b-4cd9-f235" name="Daemons - Bound Daemons" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="56" type="catalogue">
   <entryLinks>
     <entryLink id="250f-d164-bb7e-7025" name="Bound Daemon Brutes" hidden="false" collective="false" import="false" targetId="519f-866e-e6fe-20e0" type="selectionEntry">
       <modifiers>
@@ -227,7 +227,7 @@
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Murderous Strike (5+)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Murderous Strike (5+), Immaterial Blades (AP1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -240,6 +240,11 @@
             <infoLink id="30d6-bf7e-2e85-5a1e" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Murderous Strike (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="fb2e-c5a1-3d87-9e40" targetId="8d0-4d35-7d40-bc09">
+              <modifiers>
+                <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -459,13 +464,23 @@ The End and the Death – When fighting in a Challenge, successful Invulnerable 
                     <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                     <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
                     <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Murderous Strike (5+)</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Murderous Strike (5+), Immaterial Blades (AP1)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="66ca-585c-b316-9f75" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
                 <infoLink name="Daemonic Armaments" id="98b2-caf4-0e68-8046" hidden="false" type="rule" targetId="e30b-4e6e-1845-e081"/>
+                <infoLink name="Murderous Strike (X)" id="2e5f-8a3b-c7d1-4096" hidden="false" type="rule" targetId="93b9-1454-0e7c-42ae">
+                  <modifiers>
+                    <modifier type="set" value="Murderous Strike (5+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="8b3c-e1f5-4a72-6d09" targetId="8d0-4d35-7d40-bc09">
+                  <modifiers>
+                    <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -650,7 +665,7 @@ Ka’bandha may be selected as part of a Lords of War Detachment for any army wi
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User+4</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Sunder</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-handed, Sunder, Immaterial Blades (AP1)</characteristic>
               </characteristics>
             </profile>
             <profile id="c9f9-9d0d-2394-8ddd" name="Armaments of Ka’bandha (Ranged)" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -665,6 +680,11 @@ Ka’bandha may be selected as part of a Lords of War Detachment for any army wi
           <infoLinks>
             <infoLink id="71df-5f4b-3069-ca68" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
             <infoLink id="9e8b-437e-2b06-3e53" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+            <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="2c9a-f4b6-7e3d-1085" targetId="8d0-4d35-7d40-bc09">
+              <modifiers>
+                <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -678,7 +698,7 @@ Ka’bandha may be selected as part of a Lords of War Detachment for any army wi
           <profiles>
             <profile id="285f-a2dd-d335-b416" name="Incarnadine Wings" publicationId="cb13-da24-e6da-75b3" page="20" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, or when entering play from Reserves or via the Breach the Veil Psychic Power, a model with Incarnadine Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Incarnadine Wings to move up to 14&quot;, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Incarnadine Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with Incarnadine Wings that has been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of the controlling player’s Movement phase, or when entering play from Reserves or via the Breach the Veil Psychic Power, a model with Incarnadine Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Incarnadine Wings to move up to 14&quot;, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Incarnadine Wings that have been activated ignore terrain while Moving and Charging. A model with Incarnadine Wings that has been activated may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
 A model with Incarnadine Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with activated Incarnadine Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Incarnadine Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
 During a Reaction made in any Phase, a player may not choose to activate a model’s Incarnadine Wings to gain any bonus to its Movement Characteristic.</characteristic>
               </characteristics>
@@ -853,7 +873,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Melee</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Murderous Strike (5+), Rending (6+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Murderous Strike (5+), Rending (6+), Immaterial Blades (AP1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -870,6 +890,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           </modifiers>
         </infoLink>
         <infoLink name="Daemonic Armaments" id="ca29-e656-deb9-4632" hidden="false" type="rule" targetId="e30b-4e6e-1845-e081"/>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="5e8d-2f9a-b14c-7306" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

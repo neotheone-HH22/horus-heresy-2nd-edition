@@ -14718,6 +14718,7 @@ Limitations
               <description>Effects
 • Legion Veteran Squads may be chosen as Troops choices in a Detachment using this Rite of War.
 • Legion Heavy Support Squads may be taken as non-Compulsory Troops choices in a Detachment using this Rite of War.
+• Grave Warden Terminator Squads may be taken as Compulsory Elites choices in a Detachment using this Rite of War, and when taken as such gain the Line Unit Sub-type.
 • Any model chosen as part of a Detachment using this Rite of War with both the Legiones Astartes (Death Guard) special rule and the Character Sub-type may be given rad grenades for +10 points each.
 Limitations
 • Models taken as part of a Detachment using this Rite of War may not make Run moves or make any Reaction that allows them to make a Move, with the exception of the Remorseless Advance Reaction.

@@ -1418,6 +1418,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="3d13-aab1-b477-9ff8" name="The Emperor Protects" hidden="false" targetId="3379-5303-2e43-2925" type="rule"/>
+        <infoLink id="7c2e-4b1f-a9d3-5e08" name="Shattered Legionary" hidden="false" targetId="3206-30c9-84d0-4c7b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="106a-6fa4-41be-881" name="Independent Character" hidden="false" targetId="4f07-3d45-4f28-a0c6" primary="false"/>
