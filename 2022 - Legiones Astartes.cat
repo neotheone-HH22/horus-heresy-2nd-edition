@@ -2155,7 +2155,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a5c-0c5f-d798-a067" name="Dragon&apos;s Breath Heavy Flamer"hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1a5c-0c5f-d798-a067" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2191,7 +2191,7 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c1cb-0fa7-0d39-73ae" name="Dragon&apos;s Breath Pistol"hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c1cb-0fa7-0d39-73ae" name="Dragon&apos;s Breath Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
