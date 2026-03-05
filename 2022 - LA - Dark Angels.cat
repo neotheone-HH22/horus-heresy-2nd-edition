@@ -1443,6 +1443,7 @@
       <categoryLinks>
         <categoryLink id="b3d9-83c2-da09-fdcb" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="6992-7d8d-606c-8b27" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="2e91-5b79-095b-41c2" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e98d-b4c7-90e4-7a2c" name="Infiltrate (The Serpent&apos;s Bane)" hidden="false" collective="false" import="true" targetId="3fd3-ae87-f006-a71a" type="selectionEntry">

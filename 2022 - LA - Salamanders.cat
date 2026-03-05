@@ -2432,6 +2432,7 @@
         <categoryLink id="1e6d-cbd1-45ac-9f3d" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true">
           <comment>template_id_f221-bf81-4045-849b</comment>
         </categoryLink>
+        <categoryLink id="bf89-3a9f-8fc7-4ded" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="cda1-0ccb-609c-5070" name="The Awakening Fire - Fear (1)" hidden="true" collective="false" import="true" targetId="34b6-77c4-4929-001c" type="selectionEntry">
