@@ -4072,7 +4072,7 @@
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy, Transport, Unique)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10&quot;</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">5</characteristic>
-            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
             <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
@@ -4121,13 +4121,13 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="991c-c07c-0d59-7825" name="Hull (Right) Mounted twin-linked heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="991c-c07c-0d59-7825" name="Sponson Mounted twin-linked shrapnel cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fef-c37a-bab1-2480" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec51-0cfa-146b-3b05" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2b0b-1139-1a41-e3d8" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry">
+            <entryLink id="2b0b-1139-1a41-e3d8" name="Twin-linked Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="d7d1-136a-41f3-9bdb" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3048-db63-edfd-b47a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ce-f954-2ddc-fd7a" type="max"/>
@@ -4138,13 +4138,13 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="72cf-b3cd-47b6-ff35" name="Hull (Front) Mounted twin-linked heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="72cf-b3cd-47b6-ff35" name="Hull (Front) Mounted twin-linked shrapnel cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e3-1549-d246-f464" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69be-9c70-3df9-0f42" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="31e2-eb73-8101-ac5c" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry">
+            <entryLink id="31e2-eb73-8101-ac5c" name="Twin-linked Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="d7d1-136a-41f3-9bdb" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a245-f675-c5a9-9288" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85d5-b81e-7baa-a2b9" type="max"/>
@@ -4155,7 +4155,7 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5463-1794-887b-ba25" name="Hull (Right) Mounted lascannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5463-1794-887b-ba25" name="Sponson Mounted lascannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c199-ad8b-1d15-2e74" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb06-6a8e-03b1-7bbe" type="max"/>
@@ -4172,7 +4172,7 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e094-dc48-76e3-8394" name="Hull (Left) Mounted lascannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e094-dc48-76e3-8394" name="Sponson Mounted lascannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c594-79bb-1f82-35aa" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e3-6a11-4443-de9b" type="max"/>
@@ -4189,13 +4189,13 @@
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7b49-6469-2d4b-fc35" name="Hull (Left) Mounted twin-linked heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7b49-6469-2d4b-fc35" name="Sponson Mounted twin-linked shrapnel cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a06-2fec-9cc5-a6f3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589b-89b0-e5cd-5fc7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9aec-ad00-f835-3ca8" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry">
+            <entryLink id="9aec-ad00-f835-3ca8" name="Twin-linked Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="d7d1-136a-41f3-9bdb" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89df-61d7-243b-084a" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed1-34e6-8f44-be5a" type="max"/>
@@ -4222,7 +4222,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="800"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35e0-3b3a-f569-3da8" name="Kyr Vhalen" hidden="false" collective="false" import="true" type="model">
