@@ -1,0 +1,167 @@
+Binaric Stratagems
+Balance Change
+It should be noted that if a model is not equipped with a Kyropatris
+Field Generator, they may not claim the benefits of any Special Rule
+or effect provided by the Binaric Stratagems Special Rule - even if
+these Special Rules or effects would normally be conferred, such as
+the Preferred Enemy (X) Special Rule.
+
+
+Lacyraemarta
+Balance Change
+Add the following to the end of the Opus Viscera Sub-Heading:
+“This ability may not be used on any unit which is locked in combat,
+and may only be used on units composed entirely of models from the
+Mechanicum Faction.”
+
+Thanatar Maniple
+FAQ
+Add the following to the end of the Special Rule:
+“Once a unit with this Special Rule has separated, each model counts as
+its own unit for the purposes of Victory Points, Units Destroyed, and
+similar rules.”
+
+Void Shields (X)
+FAQ
+When resolving a Shooting Attack against a target with any Void
+Shields active, all shots fired as part of that Shooting Attack are
+deemed to strike the Void Shields, and not the target unit itself. For
+example, if the first two shots of a five-shot Shooting Attack
+successfully remove the target’s Void Shields, the remaining three
+shots do not strike the original target, but are instead discarded.
+It should be noted that, as the Void Shields provided by this Special
+Rule are a separate target, they may not claim the benefits of the
+Flare Shield wargear item, nor take Saves or Damage Mitigation
+Rolls of any kind provided by the unit with the Void Shields (X)
+Special Rule.
+
+Pride of Place
+Balance Change
+Add the following to the end of the Pride of Place Special Rule:
+“A model with this Special Rule may ignore the restrictions applied by it
+if the Unit with the Transport Sub-type they are attempting to Embark
+onto also has the Super-Heavy Sub-type. In addition, a model with this
+Special Rule gains the Bulky (X) Special Rule, where X is equal to the
+model’s starting Wounds Characteristic.”
+
+Reactor Overload
+FAQ
+Any Wounds or Hull Points of Damage caused by this Special Rule
+are only resolved once the Shooting Attack has been fully resolved.
+
+Paragon of Metal
+Balance Change
+Add the following to the end of the Paragon of Metal Special Rule:
+“A model which has this Special Rule changes their Armour Save to 2+.”
+
+God-Engine
+Balance Change
+Add the following to the end of the God-Engine Special Rule:
+“In addition, all units wholly within 18” of a model with this Special
+Rule and which have a Kyropatris Field Generator gain the Line
+Sub-type.”
+
+Feudal Hierarchy
+Errata
+Change the Feudal Hierarchy Special Rule to read as follows:
+“A single Detachment may not include both an Archmagos Prime and
+an Archmagos Prime on Abeyant only ever include a single model with
+this Special Rule.”
+
+Disruption (X)
+Balance Change
+Change the Disruption (X) Special Rule to read as follows:
+“To Hit rolls of the value X indicated made by a weapon with this
+Special Rule cause an automatic Glancing Hit against models with the
+Vehicle Unit Type instead of rolling for Armour Penetration, and an
+automatic Wound against models with the Dreadnought, Automata, or
+Armiger Unit Types, instead of rolling To Wound.
+On weapons which do not roll to Hit, such as Template or Blast
+Weapons, a D6 should be rolled for every applicable target - a roll of
+X or higher causes an automatic Glancing Hit against models with
+the Vehicle Unit Type instead of rolling for Armour Penetration, and
+an automatic Wound against models with the Dreadnought,
+Automata, or Armiger Unit Types.
+Only Invulnerable Saves or Damage Mitigation rolls may be taken
+against Wounds or Hull Points of damage inflicted automatically by
+this Special Rule.”
+
+Destructor
+Balance Change
+Change the Destructor Special Rule to read as follows:
+“Any model which suffers an unsaved Wound or Hull Point loss from a
+weapon with this Special Rule does not suffer only one Wound or Hull
+Point of damage, but instead suffers D6 Wounds or Hull Points of
+damage instead, with all of the Wounds or Hull Points inflicted using
+the same AP and special rules as that of the initial Wound. Roll to
+save against each Wound or Hull Point of damage inflicted
+separately, but note that Wounds or Hull Points of damage caused in
+excess of a given model’s remaining Wounds or Hull Points do not
+spill over to other models and are lost.
+In addition, if the target of this attack is a model with the Knight,
+Titan, Gargantuan, Super-Heavy Vehicle, or Building or Fortification
+Unit Type, or the Monstrous Unit Sub-type, increase the number of
+Wounds suffered or Hull Points lost to 2D6.”
+
+Stratos Thrusters
+Balance Change
+Add the following to the end of the wargear’s description:
+“On a Game Turn in which a model armed with Stratos Thrusters
+activates them, they may elect to gain the Skyfire Special Rule for all
+Ranged Weapons they are armed with. In addition, a model equipped
+with Stratos Thrusters also gains the Deep Strike Special Rule. A model
+with an activated set of Stratos Thrusters may move over both friendly
+and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so.”
+
+Utan Jump Booster
+Balance Change
+Add the following to the end of the wargear’s description:
+“A model with an activated Utan Jump Booster may move over both
+friendly and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so.”
+
+Ionic Deflector
+Balance Change
+Change the wargear’s description to read as follows:
+“A model with an Ionic Deflector gains a 5+ Invulnerable Save, and any
+model with an Ionic Deflector and a Wounds Characteristic gains the
+Eternal Warrior Special Rule that suffers an unsaved Wound with the
+Instant Death Special Rule is not immediately removed as a casualty,
+but instead loses D3 Wounds instead of one for each unsaved Wound
+with the Instant Death Special Rule inflicted on it.
+In addition, when a model with an Ionic Deflector loses its last Wound
+or Hull Point, but before it is removed as a casualty or replaced with a
+Wreck, all models both friendly and enemy within D6+3" suffer an
+automatic Hit at Str 8, AP -.”
+
+Ordinatus Dispersion Shield 
+Balance Change
+Add the following to the end of the wargear’s description:
+“In subsequent Game Turns after the first, the Ordinatus Dispersion
+Shield counts as a Flare Shield.”
+
+Incunabulan Jet Pack
+Balance Change
+Add the following sentence to the end of the first paragraph to read
+as follows:
+“This extra move can only be made in the Controlling Player's own
+Shooting Phase.”
+Add the following to the end of the wargear’s description:
+“A model with an activated Incunabulan Jet Pack may move over both
+friendly and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so. It should be noted that, for
+the purposes of Reactions, an Incunabulan Jet Pack is classed as having
+being activated for the purposes of moving over any models or terrain.”

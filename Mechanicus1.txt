@@ -1,0 +1,210 @@
+Advanced Reaction: Scornful Fire
+FAQ / Balance Change
+To match the order of operations found in all other Reactions and
+Advanced Reactions, any Shooting Attacks made as part of this
+Advanced Reaction are resolved after all To Hit and To Wound
+rolls, and Armour Saves are made, but before any Damage
+Mitigation rolls are made or casualties removed by the Shooting
+Attack that triggered this Advanced Reaction.
+
+Mechanicum Acastus Knight Asterius
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+Replace the two Arm Mounted Twin-Linked Heavy Conversion
+Beam Cannons with two Arm Mounted Conversion Destructors -
+See the Panoptica Weapons Profiles section.
+
+Ordinatus Ulator
+Balance Change
+Add Searchlights to this unit’s wargear.
+
+Ordinatus Aktaeus
+Balance Change
+Change the base unit cost of the unit to 700 points.
+Add the Transport Bay Special Rule to this unit’s profile.
+
+Archmagos Anacharis Scoria
+Balance Change
+Add the Stubborn Special Rule to this unit’s profile.
+
+Forbidden Protocols
+Errata
+Add the following to the end of the Warlord Trait:
+“Note that this Warlord Trait can affect a unit which Archmagos
+Anacharis Scoria has joined, even though this would normally not be
+permitted as the unit would no longer be a unit containing only
+Automata.”
+
+Rites of the Beast
+Errata
+Replace this Special Rule to read as follows:
+“Anacharis Scoria has the Artificia Machina, Artificia Cybernetica,
+Ephemera Incursus, and Anima Malefica Cybertheurgic Arcana, and
+has all Rites and weapons that are part of those Arcana.
+In addition, Archmagos Anacharis Scoria provides all effects, benefits,
+and rules (and gains any wargear, Special Rules, or other effects
+applicable to himself) that an Archmagos with the Cybernetica
+Arcana would to the detachment he is in.”
+
+Karacnos Assault Tank
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+
+Thanatar Siege-Automata Maniple
+Balance Change
+Change the value of the Hammer of Wrath Special Rule on this
+unit’s profile to Hammer of Wrath (3).
+Add the following to the wargear section on the unit’s profile:
+One Shock Charger (Thanatar-Calix only)
+
+Scyllax Guardian-Automata Maniple
+Balance Change
+Change the base unit cost of the unit to 100 points.
+Add the Feel No Pain (5+) Special Rule to this unit’s profile.
+
+Arlatax Battle-Automata Maniple
+Balance Change
+Replace the two Power Blade Arrays with in-built Light
+Autocannons on this unit’s profile with two Arlatax Power Claws
+with in-built Light Autocannons - See the Panoptica Weapons
+Profiles section.
+Change the upgrade cost for an Arc Scourge to +10 points.
+
+Ursarax Cohort
+Balance Change
+Change the Strength Characteristic on the unit’s profile to be 5.
+Change the second bullet point in the unit’s options to read as
+follows:
+“For every three models in the unit, one Any Ursarax may exchange
+their two lightning claws for:”
+
+Adsecularis Tech-Thrall Covenant
+Balance Change
+Change the value of the Armour Save on this unit’s profile to be 5+.
+
+Myrmidon Secutor Host
+Balance Change
+Change the upgrade cost for Graviton Guns to +10 points.
+Change the upgrade cost for Phased Plasma Fusils to +15 points.
+
+Warlord Battle Titan
+Balance Change
+Change the Void Shields (6) Special Rule on this unit’s profile to
+Void Shields (8).
+
+High Techno-arcana: Stataraga
+Errata
+Add the following to the end of this Special Rule:
+“In addition, when selected as a Troops Choice in a Questoris Knights
+Detachment, Archmagos Draykavac gains the Patris Cybernetica
+Special Rule.”
+
+Questoris Knight Styrix
+Balance Change
+Add a Flare Shield to this unit’s profile.
+
+Questoris Knight Magaera
+Add a Flare Shield to this unit’s profile.
+
+0-1 Questoris Knight Atrapos
+Balance Change
+Add a Flare Shield to this unit’s profile.
+
+0-1 Questoris Acastus Knight Asterius
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+Replace the two Arm Mounted Twin-Linked Heavy Conversion
+Beam Cannons with two Arm Mounted Conversion Destructors -
+See the Panoptica Weapons Profiles section.
+
+Armiger Unit Type
+Errata
+Add the following to the Armiger Unit Type:
+“A unit with the Armiger Unit Type cannot be destroyed as a result of a
+Sweeping Advance made by a unit with the Infantry Unit Type.
+A unit with the Armiger Unit Type automatically passes any Pinning
+tests they would be required to make.
+Any attacks made against a unit with the Armiger Unit Type are
+resolved as if the Armigers have the Dreadnought Unit Type, for the
+purposes of resolving these attacks. Note that this affects any Wargear,
+Weapons, Special Rules, Psychic Powers, or any other abilities.”
+
+Paragon Unit Sub-type
+Balance Change
+Add the following to the Paragon Unit Sub-type:
+“In contravention to the GW FAQ, a unit with the Paragon Sub-type
+may make Reactions, ignoring restrictions from any Unit Type or Subtype that would prevent it from doing so, as long as the Controlling
+Player has Reaction allotment available.”
+
+Household Ranks
+Balance Change
+Add the following to the Household Ranks section:
+“If an Imperial Knight selects any Household Rank, Dark Blessing, or
+Holy Benediction (other than Aspirant, Seneschal, Heedless Slaughter,
+Conqueror of Worlds), it increases its Hull Points Characteristic by +1.
+A Knight which selects the Seneschal Household Rank or Conqueror of
+Worlds Dark Blessing instead increases its Hull Points Characteristic
+by +2.”
+
+Implacable
+Balance Change
+Change the wording of the Implacable Special Rule to read as
+follows:
+“An attack targeting a model with this Special Rule reduces the number
+of Hull Points of damage inflicted from any attack by -1, to a minimum
+of 1, and reduces all rolls on the vehicle damage table by 1.”
+
+Acastus Knight Porphyrion
+Balance Change
+Replace the Two Hull (Front) Mounted Twin-Linked Magna
+Lascannons on this unit’s profile with Two Hull (Front) Mounted
+Magna Lascannons.
+
+Cybernetica Exortus (Cybertheurgic Rite)
+FAQ
+As the ability to ignore a Wound inflicted upon the unit happens
+before any allocation is done, Special Rules like Brutal (X) and so on
+would not trigger on a Wound so discarded.
+Balance Change
+Replace the first bullet point to read as follows:
+“When making a Charge roll for the unit in the same turn as this Rite is
+used, as long as the unit contains at least one model with the
+Automata Unit Type, roll an additional dice and discard the lowest
+rolled dice before determining the results of the Charge roll.”
+Replace the third bullet point to read as follows:
+“The unit may add either +1 to its Ballistic Skill or Weapon Skill
+Characteristics (to a maximum of 5) for the remainder of the
+Shooting phase in which this power is used until the end of the
+Controlling Player’s current turn.”
+
+Ephemera Perfidiae (Cybertheurgic Rite)
+Balance Change
+Replace the wording of this Cybertheurgic Rite to read as follows:
+“Instead of making a Shooting Attack, a Cybertheurgist with this
+Cybertheurgic Rite may select a single enemy unit with a model within
+12" that is entirely composed of models with the Vehicle, Dreadnought,
+or Automata Unit Type (but not any models with the Super-Heavy,
+Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s
+Controlling Player may immediately make a Shooting Attack as if they
+controlled the chosen unit – this Shooting Attack may target any unit
+that is considered an enemy unit by the Cybertheurgist’s Controlling
+Player and is made as Snap Shots. The Cybertheurgist may choose to
+make a Cybertheurgy check before making this Shooting Attack, and if
+successful the Shooting Attack is made using the Cybertheurgist’s BS
+and is not made as Snap Shots. If the Check is failed then the
+Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack
+is made. An enemy unit used to make a Shooting Attack with this Rite
+may attack normally in its Controlling Player’s turn and gains the
+Hatred (Cybertheurgists) Special Rule for the rest of the battle.”
+
+Ephemera Exocluo (Cybertheurgic Weapon)
+Balance Change
+Replace the Blind Special Rule on this Cybertheurgic Weapon’s
+profile with the Sensor Flare Special Rule.
+
+Armiger and Moirax Talons
+FAQ
+Add the following to the end of the Special Rule:
+“Once a unit with this Special Rule has separated, each model counts as
+its own unit for the purposes of Victory Points, Units Destroyed, and
+similar rules.”
