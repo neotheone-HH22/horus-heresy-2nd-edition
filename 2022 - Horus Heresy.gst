@@ -7690,7 +7690,8 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
         <profile id="9e5f-b65f-2f13-f24e" name="Advanced Reaction: Scornful Fire" publicationId="bde1-6db1-163b-3b76" page="17" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
           <characteristics>
             <characteristic name="Description" typeId="c627-4637-8de5-65fb">Scornful Fire – This Advanced Reaction may be made once per battle during the Shooting phase when any enemy unit declares a Shooting Attack targeting a unit that includes a model with the Independent Character special rule under the Reactive player’s control which is part of the Mechanicum Detachment. The Reacting unit, and any friendly Mechanicum units eligible to make a Reaction within 12&quot;, may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. Any unit that makes a Shooting Attack as part of this Reaction counts as having made a Reaction in this Phase.
-A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons may only be used as part of a Scornful Fire Reaction if the target unit is within 8&quot; and must use the Wall of Death rule instead of firing normally.</characteristic>
+A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons may only be used as part of a Scornful Fire Reaction if the target unit is within 8&quot; and must use the Wall of Death rule instead of firing normally.
+To match the order of operations found in all other Reactions and Advanced Reactions, any Shooting Attacks made as part of this Advanced Reaction are resolved after all To Hit and To Wound rolls, and Armour Saves are made, but before any Damage Mitigation rolls are made or casualties removed by the Shooting Attack that triggered this Advanced Reaction.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8025,7 +8026,8 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
 
 From December 2023 Liber Mechanicum FAQ, page 2:
 Q. Can a unit with the Paragon Unit Sub-type make Reactions?
-A. No.</description>
+A. No.
+In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reactions, ignoring restrictions from any Unit Type or Sub-type that would prevent it from doing so, as long as the Controlling Player has Reaction allotment available.</description>
         </rule>
       </rules>
       <infoLinks>

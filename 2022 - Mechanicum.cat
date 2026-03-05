@@ -3565,7 +3565,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -3649,7 +3649,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Two Arc Scourges" hidden="false" id="07fa-4422-ba10-b28f">
@@ -3673,7 +3673,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="273e-3521-88d1-d5c4"/>
@@ -3808,7 +3808,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2d62-c506-e7de-4e60" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="77aa-34b7-07b6-84c6">
+        <selectionEntryGroup id="2d62-c506-e7de-4e60" name="For every three models in the unit, one Any Ursarax may exchange their two lightning claws for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="77aa-34b7-07b6-84c6">
           <modifiers>
             <modifier type="decrement" field="b790-520b-18e0-93da" value="3"/>
             <modifier type="increment" field="21c6-fc42-abac-9900" value="1">
@@ -4315,7 +4315,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </entryLink>
         <entryLink id="13a7-7d49-5ab4-996a" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="name" value="Hull (Front) Mounted Karacnos Mortar Battery"/>
+            <modifier type="set" field="name" value="Centreline Mounted Karacnos Mortar Battery"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a70-32d9-7802-97b3" type="max"/>
@@ -4567,6 +4567,12 @@ This unit may be upgraded freely as described in their profile, though they may 
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4471-c23e-3604-fa6e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="orul-srch-lght-0001" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orul-srch-min-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orul-srch-max-0001" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1075"/>
@@ -4609,6 +4615,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
         </infoLink>
         <infoLink id="fb06-e4bf-f374-e5b4" name="Reinforced Structure" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
         <infoLink id="565c-f3ae-d92b-1685" name="Subterranean Assault" hidden="false" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
+        <infoLink id="akta-tran-bay-0001" name="Transport Bay" hidden="false" targetId="0662-8b8d-38e8-60f8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd10-1dfe-07bf-f938" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -4689,7 +4696,8 @@ At the beginning of each of the controlling player’s Shooting phases for the r
       <rules>
         <rule id="9d8c-1ee2-4e7c-70c3" name="Archmagos Anacharis Scoria" hidden="false"/>
         <rule id="94ad-dd9a-c902-2f99" name="Rites of the Beast" publicationId="bde1-6db1-163b-3b76" page="63" hidden="false">
-          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
+          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, Ephemera Incursus, and Anima Malefica Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.
+In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rules (and gains any wargear, Special Rules, or other effects applicable to himself) that an Archmagos with the Cybernetica Arcana would to the detachment he is in.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4778,7 +4786,8 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           <profiles>
             <profile id="a23c-8539-83e1-b021" name="Forbidden Protocols" publicationId="bde1-6db1-163b-3b76" page="62" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty.
+Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria has joined, even though this would normally not be permitted as the unit would no longer be a unit containing only Automata.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4806,6 +4815,12 @@ At the beginning of each of the controlling player’s Shooting phases for the r
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fdc-a3bf-0ae0-d689" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb3-4382-a369-b2fb" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="anac-anim-male-0001" name="Anima Malefica" hidden="false" collective="false" import="true" targetId="7fec-d772-f51-95b3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="anac-anim-min-0001" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="anac-anim-max-0001" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4890,16 +4905,16 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         <categoryLink targetId="437f-7773-a0d0-6061" id="5041-362e-f936-5d12" primary="false" name="Knight Sub-type"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2f78-69c3-fd78-43f2" name="Arm Mounted Twin-Linked Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8183-c411-6b59-3742">
+        <selectionEntryGroup id="2f78-69c3-fd78-43f2" name="Arm Mounted Conversion Destructor" hidden="false" collective="false" import="true" defaultSelectionEntryId="8183-c411-6b59-3742">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1560-6f71-ec4a-6a5e" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="025b-76c4-75b0-3105" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8183-c411-6b59-3742" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
+            <entryLink id="8183-c411-6b59-3742" name="Conversion Destructor" hidden="false" collective="false" import="true" targetId="6c22-5fb7-b0a5-4f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="932d-e092-656f-2f02" name="Hull (Front) Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
+        <selectionEntryGroup id="932d-e092-656f-2f02" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff3a-53a8-fd03-986f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d8-b111-9437-3776" type="max"/>
