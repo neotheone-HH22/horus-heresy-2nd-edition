@@ -41,6 +41,8 @@ This document tracks the progress of applying Liber Panoptica changes across all
 - [x] Imperialis Militia - Issue: #77 | PR: #90, #103 (Open)
 - [ ] Daemons of the Ruinstorm - Issue: #78
 - [ ] Legacies & Exemplary Battles - Issue: #79
+  - [ ] Exemplary Battles: Volume One — Legiones Hereticus (X) Allies Matrix FAQ *(see Out-of-Scope Items below)*
+  - [ ] Exemplary Battles: The Burning of Ohmn-Mat *(section not yet verified; no FAQ/Errata/Balance Changes present in Panoptica test1.txt)*
 
 ### Additional Army Lists
 - [ ] Blackshields - Issue: TBD
@@ -141,6 +143,20 @@ The following issues need to be created first (via the updated `create-all-panop
 
 ---
 
+## Out-of-Scope Items
+
+The following Panoptica changes **cannot be implemented** in BattleScribe catalog files because they require logic that BattleScribe's data format does not support. They are recorded here for reference so contributors are aware these rules exist and must be communicated to players via other means (e.g., README, tooltip text, or army-validation notes).
+
+### Legiones Hereticus Allies Matrix FAQ
+**Source:** Panoptica test1.txt — *Exemplary Battles of the Age of Darkness: Volume One* (Page 106)
+**Type:** FAQ
+
+> In the same manner as a Detachment composed of models with the appropriate version of the Legiones Astartes (X) Special Rule is classed as having that Faction for the purposes of the Allies Matrix, Allied or Optional Detachments, and so on, a Detachment composed of models with the appropriate version of the Legiones Hereticus (X) Special Rule should be treated as though it had the Legiones Astartes (X) Special Rule for all such interactions.
+
+**Why out of scope:** BattleScribe does not support catalog-level Faction aliasing for the Allies Matrix. Faction membership in BattleScribe is determined at the catalogue level and cannot be conditionally remapped based on which Special Rule a detachment contains. Players must apply this rule manually when building allied armies that include Legiones Hereticus detachments.
+
+---
+
 ## Notes
 
 - **Liber Panoptica** is a community-driven FAQ/errata/balance document
@@ -151,5 +167,5 @@ The following issues need to be created first (via the updated `create-all-panop
 
 ---
 
-**Last Updated:** 2026-03-04
-**Status:** Implementation in progress across multiple PRs; 4 additional catalog files identified and sub-issues added to tracking script
+**Last Updated:** 2026-03-05
+**Status:** Implementation in progress across multiple PRs; 4 additional catalog files identified and sub-issues added to tracking script; Legiones Hereticus Allies Matrix FAQ documented as out-of-scope; Burning of Ohmn-Mat section flagged as not yet verified
