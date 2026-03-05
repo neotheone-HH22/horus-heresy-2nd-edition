@@ -4817,7 +4817,7 @@ In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12d3-9df0-4118-997f" name="Atramentar Squad" publicationId="7f9d-5e88-241d-e861" page="12" hidden="false" collective="false" import="true" type="unit">
