@@ -47,11 +47,12 @@
 • A model with the Armiger Unit type is affected by the Haywire, Detonation, Armourbane (X) and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
 • A model with the Armiger Unit Type cannot be destroyed as a result of an enemy unit making a Sweeping Advance if that unit has the Infantry Unit Type.
 • A model with the Armiger Unit Type automatically passes all Pinning tests.
-• When making attacks as part of a Sweeping Advance, a model with the Armiger Unit Type counts as having the Dreadnought Unit Type for the purposes of determining the number of attacks made.</description>
+• Any attacks made against a unit with the Armiger Unit Type are resolved as if the Armigers have the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.</description>
         </rule>
         <rule name="Armiger and Moirax Talons" hidden="false" id="d840-fbd0-352e-b33e" publicationId="bde1-6db1-163b-3b76" page="102">
           <description>The Scout Knights of the Taghmata and Questoris Households often roamed the battlefield independently as the vanguard of their orders. While each war machine strode the battlefield distant from their companions, they shared fierce bonds of fealty and brotherhood.
-When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Each separated model is treated as its own unit for the purposes of determining Victory Points.</description>
+When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Each separated model is treated as its own unit for the purposes of determining Victory Points.
+Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -652,7 +653,8 @@ Cruel Taskmaster – If any friendly unit with at least one model within 12&quot
           <description>Archmagos Draykavac has the Artificia Machina and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
         </rule>
         <rule id="cf9e-42d8-ee4d-f5f3" name="High Techno-arcana: Stataraga" publicationId="bde1-6db1-163b-3b76" page="61" hidden="false">
-          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included</description>
+          <description>Archmagos Draykavac may be chosen as an HQ choice in a Traitor Allegiance Mechanicum Detachment, and may also be taken as a Troops choice in an army using the Divisio Tactica: Questoris Household. As part of a Questoris Knights Detachment, Archmagos Draykavac allows Castellax Battle-automata Maniples and Vorax Battle-automata Maniples to be chosen as non-Compulsory Troops choices for any Detachment in which he is included.
+In addition, when selected as a Troops Choice in a Questoris Knights Detachment, Archmagos Draykavac gains the Patris Cybernetica Special Rule.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3394,16 +3396,16 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <infoLink id="8583-d986-6594-f390" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fda6-d2ec-6c49-f60d" name="Arm Mounted Twin-Linked Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6784-8899-6af2-8432">
+        <selectionEntryGroup id="fda6-d2ec-6c49-f60d" name="Arm Mounted Conversion Destructor" hidden="false" collective="false" import="true" defaultSelectionEntryId="6784-8899-6af2-8432">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d9-d7ec-3c9a-c506" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed1b-d84c-4799-0472" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6784-8899-6af2-8432" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
+            <entryLink id="6784-8899-6af2-8432" name="Conversion Destructor" hidden="false" collective="false" import="true" targetId="6c22-5fb7-b0a5-4f2f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c21a-be92-c6c2-5931" name="Hull (Front) Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac3f-09f6-b607-867e">
+        <selectionEntryGroup id="c21a-be92-c6c2-5931" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac3f-09f6-b607-867e">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94b3-a011-6ddb-e43d" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0101-c016-8f7f-6ddf" type="max"/>
@@ -3694,6 +3696,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6c-9ced-90af-6d60" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ed-0839-e357-7b80" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="atra-flar-shld-0001" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="atra-flar-min-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="atra-flar-max-0001" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cfea-4513-a80f-0210" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
@@ -4053,6 +4061,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7668-2fc8-17b4-0ad1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
+        <entryLink id="maga-flar-shld-0001" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maga-flar-min-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="maga-flar-max-0001" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="385"/>
@@ -4343,6 +4357,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="156a-96a8-83ef-1ad9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1b9-ba73-cd33-be9c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="styx-flar-shld-0001" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="styx-flar-min-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="styx-flar-max-0001" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -5474,6 +5494,12 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9e-906b-0cfb-a953" type="max"/>
                       </constraints>
                     </entryLink>
+                    <entryLink id="clix-shck-chgr-0001" name="Shock Charger" hidden="false" collective="false" import="true" targetId="3234-492f-9ebf-f23c" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="clix-shck-min-0001" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="clix-shck-max-0001" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -6314,9 +6340,9 @@ Invulnerable Saves granted by a Mechanicum Protectiva do not stack with other In
             <profile id="11fa-16c9-2547-4274" name="Cybernetica Exortus (Cybertheurgic Rite)" publicationId="bde1-6db1-163b-3b76" page="94" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
                 <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit with a model within 12&quot; which contains at least one model with the Automata Unit Type and apply one of the following effects to all models with the Automata Unit Type in the unit:
-• When making a Charge roll for the unit in the same turn as this Rite is used, roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
+• When making a Charge roll for the unit in the same turn as this Rite is used, as long as the unit contains at least one model with the Automata Unit Type, roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
 • The unit (not each individual model) ignores the first Wound inflicted upon it in each Shooting Attack that targets it until the beginning of the controlling player’s next player turn. Simply discard that Wound without allocating it to a model.
-• The unit adds +1 to its BS for the remainder of the Shooting phase in which this power is used.
+• The unit may add either +1 to its Ballistic Skill or Weapon Skill Characteristics (to a maximum of 5) for the remainder of the Shooting phase in which this power is used until the end of the Controlling Player’s current turn.
 • Until the start of the controlling player’s next turn as the Active player, the unit may ignore the restriction against making Reactions imposed by the Automata Unit Type.
 The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power, if the Check is successful then two different options may be applied to the target unit instead of one. If the Check is failed then no options may be chosen and the Cybertheurgist suffers Cybertheurgic Feedback.</characteristic>
               </characteristics>
@@ -6474,7 +6500,7 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
           <profiles>
             <profile id="90d2-faf0-e267-7e00" name="Ephemera Perfidiae (Cybertheurgic Rite)" publicationId="bde1-6db1-163b-3b76" page="95" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12&quot; that is entirely composed of models with the Vehicle or Automata Unit Type. The Cybertheurgist’s controlling player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s controlling player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its controlling player’s turn and gains the Hatred (Cybertheurgists) special rule for the rest of the battle.</characteristic>
+                <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single enemy unit with a model within 12&quot; that is entirely composed of models with the Vehicle, Dreadnought, or Automata Unit Type (but not any models with the Super-Heavy, Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s Controlling Player may immediately make a Shooting Attack as if they controlled the chosen unit – this Shooting Attack may target any unit that is considered an enemy unit by the Cybertheurgist’s Controlling Player and is made as Snap Shots. The Cybertheurgist may choose to make a Cybertheurgy check before making this Shooting Attack, and if successful the Shooting Attack is made using the Cybertheurgist’s BS and is not made as Snap Shots. If the Check is failed then the Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack is made. An enemy unit used to make a Shooting Attack with this Rite may attack normally in its Controlling Player’s turn and gains the Hatred (Cybertheurgists) Special Rule for the rest of the battle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6493,14 +6519,14 @@ The Cybertheurgist’s controlling player may choose to make a Cybertheurgy chec
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 6, Data-djinn, Blind, Vox Silence,	Cybertheurgic Focus</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 6, Data-djinn, Sensor Flare, Vox Silence,	Cybertheurgic Focus</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="f54f-ff37-6bb4-9a02" name="Cybertheurgic Focus" hidden="false" targetId="f420-6cdb-5d9b-ef30" type="rule"/>
             <infoLink id="f248-4b0a-9b48-a06f" name="Data-djinn" hidden="false" targetId="3e2e-cdc0-8a31-06f6" type="rule"/>
-            <infoLink id="ac54-46d5-89c4-d7b8" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+            <infoLink id="ac54-46d5-89c4-d7b8" name="Sensor Flare" hidden="false" targetId="6e81-addc-94b9-459d" type="rule"/>
             <infoLink id="5aaf-3c18-aaae-c2c3" name="Vox Silence" hidden="false" targetId="919e-7a5b-6283-3cff" type="rule"/>
           </infoLinks>
           <costs>
@@ -8305,6 +8331,11 @@ The Cybertheurgist may choose to make a Cybertheurgy check before using this Cyb
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1b29-a58e-296c-3946" name="Household Ranks" hidden="true" collective="false" import="true">
+      <rules>
+        <rule id="hous-rank-hp-rule-0001" name="Household Ranks" hidden="false">
+          <description>If an Imperial Knight selects any Household Rank, Dark Blessing, or Holy Benediction (other than Aspirant, Seneschal, Heedless Slaughter, Conqueror of Worlds), it increases its Hull Points Characteristic by +1. A Knight which selects the Seneschal Household Rank or Conqueror of Worlds Dark Blessing instead increases its Hull Points Characteristic by +2.</description>
+        </rule>
+      </rules>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -8395,7 +8426,7 @@ Aucteller: When engaged in a Challenge against an enemy model with the Knight, T
           <rules>
             <rule id="e7b6-ec43-a395-cc62" name="Implacable" publicationId="bde1-6db1-163b-3b76" page="89" hidden="false">
               <description>A model with this upgrade increases its Hull Points by +1, gains the Character Unit Sub-type and the Implacable special rule.
-Implacable: Any attack targeting a model with this special rule that would inflict Hull Point damage inflicts 1 less Hull Point of damage than normal (to a minimum of 1). In addition, roll one less dice when rolling on the Vehicle Damage table as a result of an attack targeting a model with this special rule (to a minimum of 1 dice)</description>
+Implacable: An attack targeting a model with this Special Rule reduces the number of Hull Points of damage inflicted from any attack by -1, to a minimum of 1, and reduces all rolls on the vehicle damage table by 1.</description>
             </rule>
           </rules>
           <costs>
