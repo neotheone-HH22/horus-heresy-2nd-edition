@@ -4817,10 +4817,10 @@ In addition, a Contekar Terminator Squad may be selected as a Retinue Squad in a
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12d3-9df0-4118-997f" name="Atramentar Squad" publicationId="7f9d-5e88-241d-e861" page="12" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="12d3-9df0-4118-997f" name="Atramentar Squad"publicationId="7f9d-5e88-241d-e861" page="12" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3938-864e-6801-3410" name="Sworn Loyalty" hidden="false">
           <description>If Sevatar is the army’s Warlord, Night Lords Atramentar Squads may be selected as non-Compulsory Troops choices and count as Legion Terminator Squads for the purposes of the Master of the Atramentar Warlord Trait.</description>
