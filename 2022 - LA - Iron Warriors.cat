@@ -4783,7 +4783,7 @@
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e14-2521-f3ea-e301" name="Power Fist"hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="2e14-2521-f3ea-e301" name="Power Fist" hidden="false" collective="true" import="true" type="upgrade">
       <profiles>
         <profile id="5260-dc59-df32-72ae" name="Power Fist" publicationId="a716-c1c4-7b26-8424" page="137" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
