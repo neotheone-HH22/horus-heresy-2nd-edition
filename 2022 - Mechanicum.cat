@@ -3461,7 +3461,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           <infoLinks>
             <infoLink id="8a1d-8708-a025-bb17" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
               </modifiers>
             </infoLink>
             <infoLink name="It Will Not Die (X)" id="aa3f-4d62-14b6-5ed4" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -3551,7 +3551,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Abomination Blades" hidden="false" id="5c99-c878-aa3d-cf70" type="selectionEntry" targetId="1b71-696f-4bda-dd34">
@@ -3638,7 +3638,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Light Autocannon" hidden="false" id="f9a8-c2e5-378b-121f" type="selectionEntry" targetId="8f35-0d01-7cc3-b558">
@@ -3668,7 +3668,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -3970,7 +3970,7 @@ This unit may be upgraded freely as described in their profile, though they may 
               <profiles>
                 <profile id="e90a-5837-2524-80f0" name="Stratos Thrusters" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times. On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4496,7 +4496,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           <profiles>
             <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
