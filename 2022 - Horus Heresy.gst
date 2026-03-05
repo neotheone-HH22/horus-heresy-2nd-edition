@@ -8025,7 +8025,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
 
 From December 2023 Liber Mechanicum FAQ, page 2:
 Q. Can a unit with the Paragon Unit Sub-type make Reactions?
-A. No. A model with the Paragon Sub-type may not perform Reactions of any kind.</description>
+A. No. In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reactions, ignoring restrictions from any Unit Type or Sub-type that would prevent it from doing so, as long as the Controlling Player has Reaction allotment available.</description>
         </rule>
       </rules>
       <infoLinks>

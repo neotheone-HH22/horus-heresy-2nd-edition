@@ -3180,7 +3180,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="d8ab-8e21-e193-63ba" id="3aab-8a87-4cab-8b51" name="Automata Unit Type" primary="false"/>
@@ -4690,7 +4690,8 @@ At the beginning of each of the controlling player’s Shooting phases for the r
       <rules>
         <rule id="9d8c-1ee2-4e7c-70c3" name="Archmagos Anacharis Scoria" hidden="false"/>
         <rule id="94ad-dd9a-c902-2f99" name="Rites of the Beast" publicationId="bde1-6db1-163b-3b76" page="63" hidden="false">
-          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
+          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, Ephemera Incursus, and Anima Malefica Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.
+In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rules (and gains any wargear, Special Rules, or other effects applicable to himself) that an Archmagos with the Cybernetica Arcana would to the detachment he is in.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4779,7 +4780,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           <profiles>
             <profile id="a23c-8539-83e1-b021" name="Forbidden Protocols" publicationId="bde1-6db1-163b-3b76" page="62" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty. It should be noted that models with the Automata Unit Type may not benefit from the Forbidden Protocols Special Rule, regardless of any other rules or effects.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty. Note that this Warlord Trait can affect a unit which Archmagos Anacharis Scoria has joined, even though this would normally not be permitted as the unit would no longer be a unit containing only Automata.</characteristic>
               </characteristics>
             </profile>
           </profiles>
