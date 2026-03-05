@@ -4615,6 +4615,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
         </infoLink>
         <infoLink id="fb06-e4bf-f374-e5b4" name="Reinforced Structure" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
         <infoLink id="565c-f3ae-d92b-1685" name="Subterranean Assault" hidden="false" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
+        <infoLink id="akta-tran-bay-0001" name="Transport Bay" hidden="false" targetId="0662-8b8d-38e8-60f8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd10-1dfe-07bf-f938" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
