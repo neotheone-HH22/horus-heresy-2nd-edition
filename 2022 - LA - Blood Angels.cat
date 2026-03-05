@@ -1573,6 +1573,7 @@
         <categoryLink id="c59d-9ef6-44e7-8ead" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true">
           <comment>template_id_f221-bf81-4045-849b</comment>
         </categoryLink>
+        <categoryLink id="41aa-ce9f-8727-416c" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="96db-ede0-759b-af82" name="Techmarine Covenant" hidden="false" collective="false" import="false" targetId="d39f-99d5-f7a4-7b86" type="selectionEntry">

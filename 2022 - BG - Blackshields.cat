@@ -1660,6 +1660,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
       <categoryLinks>
         <categoryLink name="Unit:" hidden="false" id="4fbc-7926-657f-ee38" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink name="Troops:" hidden="false" id="9686-11-4090-b751" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="c151-2c3a-71b3-4f99" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="false" name="Tarantula Sentry Gun Battery" hidden="true" id="40f2-3f02-1695-2eb7" collective="false" targetId="124f-0ced-9231-bba4" type="selectionEntry">

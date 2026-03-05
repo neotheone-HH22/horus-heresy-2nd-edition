@@ -460,6 +460,7 @@
         <categoryLink id="5792-0536-4799-8839" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true">
           <comment>template_id_f221-bf81-4045-849b</comment>
         </categoryLink>
+        <categoryLink id="511d-1602-afcb-4c6e" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8d00-818a-411f-bb94" name="Tactical Squad" hidden="false" collective="false" import="false" targetId="aa72-63e4-bc60-4611" type="selectionEntry">

@@ -2210,6 +2210,7 @@
         <categoryLink id="9392-8a53-4659-86bc" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true">
           <comment>template_id_f221-bf81-4045-849b</comment>
         </categoryLink>
+        <categoryLink id="6957-b715-770e-4e7f" name="Line Sub-type" hidden="false" targetId="6399-5c65-7833-1025" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="af58-68f6-b173-4756" name="Tarantula Sentry Gun Battery" hidden="true" collective="false" import="false" targetId="124f-0ced-9231-bba4" type="selectionEntry">
