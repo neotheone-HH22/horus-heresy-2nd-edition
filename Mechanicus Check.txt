@@ -1,0 +1,380 @@
+Advanced Reaction: Scornful Fire
+FAQ / Balance Change
+To match the order of operations found in all other Reactions and
+Advanced Reactions, any Shooting Attacks made as part of this
+Advanced Reaction are resolved after all To Hit and To Wound
+rolls, and Armour Saves are made, but before any Damage
+Mitigation rolls are made or casualties removed by the Shooting
+Attack that triggered this Advanced Reaction.
+
+Mechanicum Acastus Knight Asterius
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+Replace the two Arm Mounted Twin-Linked Heavy Conversion
+Beam Cannons with two Arm Mounted Conversion Destructors -
+See the Panoptica Weapons Profiles section.
+
+Ordinatus Ulator
+Balance Change
+Add Searchlights to this unit’s wargear.
+
+Ordinatus Aktaeus
+Balance Change
+Change the base unit cost of the unit to 700 points.
+Add the Transport Bay Special Rule to this unit’s profile.
+
+Archmagos Anacharis Scoria
+Balance Change
+Add the Stubborn Special Rule to this unit’s profile.
+
+Forbidden Protocols
+Errata
+Add the following to the end of the Warlord Trait:
+“Note that this Warlord Trait can affect a unit which Archmagos
+Anacharis Scoria has joined, even though this would normally not be
+permitted as the unit would no longer be a unit containing only
+Automata.”
+
+Rites of the Beast
+Errata
+Replace this Special Rule to read as follows:
+“Anacharis Scoria has the Artificia Machina, Artificia Cybernetica,
+Ephemera Incursus, and Anima Malefica Cybertheurgic Arcana, and
+has all Rites and weapons that are part of those Arcana.
+In addition, Archmagos Anacharis Scoria provides all effects, benefits,
+and rules (and gains any wargear, Special Rules, or other effects
+applicable to himself) that an Archmagos with the Cybernetica
+Arcana would to the detachment he is in.”
+
+Karacnos Assault Tank
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+
+Thanatar Siege-Automata Maniple
+Balance Change
+Change the value of the Hammer of Wrath Special Rule on this
+unit’s profile to Hammer of Wrath (3).
+Add the following to the wargear section on the unit’s profile:
+One Shock Charger (Thanatar-Calix only)
+
+Scyllax Guardian-Automata Maniple
+Balance Change
+Change the base unit cost of the unit to 100 points.
+Add the Feel No Pain (5+) Special Rule to this unit’s profile.
+
+Arlatax Battle-Automata Maniple
+Balance Change
+Replace the two Power Blade Arrays with in-built Light
+Autocannons on this unit’s profile with two Arlatax Power Claws
+with in-built Light Autocannons - See the Panoptica Weapons
+Profiles section.
+Change the upgrade cost for an Arc Scourge to +10 points.
+
+Ursarax Cohort
+Balance Change
+Change the Strength Characteristic on the unit’s profile to be 5.
+Change the second bullet point in the unit’s options to read as
+follows:
+“For every three models in the unit, one Any Ursarax may exchange
+their two lightning claws for:”
+
+Adsecularis Tech-Thrall Covenant
+Balance Change
+Change the value of the Armour Save on this unit’s profile to be 5+.
+
+Myrmidon Secutor Host
+Balance Change
+Change the upgrade cost for Graviton Guns to +10 points.
+Change the upgrade cost for Phased Plasma Fusils to +15 points.
+
+Warlord Battle Titan
+Balance Change
+Change the Void Shields (6) Special Rule on this unit’s profile to
+Void Shields (8).
+
+High Techno-arcana: Stataraga
+Errata
+Add the following to the end of this Special Rule:
+“In addition, when selected as a Troops Choice in a Questoris Knights
+Detachment, Archmagos Draykavac gains the Patris Cybernetica
+Special Rule.”
+
+Questoris Knight Styrix
+Balance Change
+Add a Flare Shield to this unit’s profile.
+
+Questoris Knight Magaera
+Add a Flare Shield to this unit’s profile.
+
+0-1 Questoris Knight Atrapos
+Balance Change
+Add a Flare Shield to this unit’s profile.
+
+0-1 Questoris Acastus Knight Asterius
+Balance Change
+Change the Karacnos Mortar Battery to be Centreline Mounted.
+Replace the two Arm Mounted Twin-Linked Heavy Conversion
+Beam Cannons with two Arm Mounted Conversion Destructors -
+See the Panoptica Weapons Profiles section.
+
+Armiger Unit Type
+Errata
+Add the following to the Armiger Unit Type:
+“A unit with the Armiger Unit Type cannot be destroyed as a result of a
+Sweeping Advance made by a unit with the Infantry Unit Type.
+A unit with the Armiger Unit Type automatically passes any Pinning
+tests they would be required to make.
+Any attacks made against a unit with the Armiger Unit Type are
+resolved as if the Armigers have the Dreadnought Unit Type, for the
+purposes of resolving these attacks. Note that this affects any Wargear,
+Weapons, Special Rules, Psychic Powers, or any other abilities.”
+
+Paragon Unit Sub-type
+Balance Change
+Add the following to the Paragon Unit Sub-type:
+“In contravention to the GW FAQ, a unit with the Paragon Sub-type
+may make Reactions, ignoring restrictions from any Unit Type or Subtype that would prevent it from doing so, as long as the Controlling
+Player has Reaction allotment available.”
+
+Household Ranks
+Balance Change
+Add the following to the Household Ranks section:
+“If an Imperial Knight selects any Household Rank, Dark Blessing, or
+Holy Benediction (other than Aspirant, Seneschal, Heedless Slaughter,
+Conqueror of Worlds), it increases its Hull Points Characteristic by +1.
+A Knight which selects the Seneschal Household Rank or Conqueror of
+Worlds Dark Blessing instead increases its Hull Points Characteristic
+by +2.”
+
+Implacable
+Balance Change
+Change the wording of the Implacable Special Rule to read as
+follows:
+“An attack targeting a model with this Special Rule reduces the number
+of Hull Points of damage inflicted from any attack by -1, to a minimum
+of 1, and reduces all rolls on the vehicle damage table by 1.”
+
+Acastus Knight Porphyrion
+Balance Change
+Replace the Two Hull (Front) Mounted Twin-Linked Magna
+Lascannons on this unit’s profile with Two Hull (Front) Mounted
+Magna Lascannons.
+
+Cybernetica Exortus (Cybertheurgic Rite)
+FAQ
+As the ability to ignore a Wound inflicted upon the unit happens
+before any allocation is done, Special Rules like Brutal (X) and so on
+would not trigger on a Wound so discarded.
+Balance Change
+Replace the first bullet point to read as follows:
+“When making a Charge roll for the unit in the same turn as this Rite is
+used, as long as the unit contains at least one model with the
+Automata Unit Type, roll an additional dice and discard the lowest
+rolled dice before determining the results of the Charge roll.”
+Replace the third bullet point to read as follows:
+“The unit may add either +1 to its Ballistic Skill or Weapon Skill
+Characteristics (to a maximum of 5) for the remainder of the
+Shooting phase in which this power is used until the end of the
+Controlling Player’s current turn.”
+
+Ephemera Perfidiae (Cybertheurgic Rite)
+Balance Change
+Replace the wording of this Cybertheurgic Rite to read as follows:
+“Instead of making a Shooting Attack, a Cybertheurgist with this
+Cybertheurgic Rite may select a single enemy unit with a model within
+12" that is entirely composed of models with the Vehicle, Dreadnought,
+or Automata Unit Type (but not any models with the Super-Heavy,
+Lumbering, Titan, or Knight Sub-types). The Cybertheurgist’s
+Controlling Player may immediately make a Shooting Attack as if they
+controlled the chosen unit – this Shooting Attack may target any unit
+that is considered an enemy unit by the Cybertheurgist’s Controlling
+Player and is made as Snap Shots. The Cybertheurgist may choose to
+make a Cybertheurgy check before making this Shooting Attack, and if
+successful the Shooting Attack is made using the Cybertheurgist’s BS
+and is not made as Snap Shots. If the Check is failed then the
+Cybertheurgist suffers Cybertheurgic Feedback and no Shooting Attack
+is made. An enemy unit used to make a Shooting Attack with this Rite
+may attack normally in its Controlling Player’s turn and gains the
+Hatred (Cybertheurgists) Special Rule for the rest of the battle.”
+
+Ephemera Exocluo (Cybertheurgic Weapon)
+Balance Change
+Replace the Blind Special Rule on this Cybertheurgic Weapon’s
+profile with the Sensor Flare Special Rule.
+
+Armiger and Moirax Talons
+FAQ
+Add the following to the end of the Special Rule:
+“Once a unit with this Special Rule has separated, each model counts as
+its own unit for the purposes of Victory Points, Units Destroyed, and
+similar rules.”
+
+Binaric Stratagems
+Balance Change
+It should be noted that if a model is not equipped with a Kyropatris
+Field Generator, they may not claim the benefits of any Special Rule
+or effect provided by the Binaric Stratagems Special Rule - even if
+these Special Rules or effects would normally be conferred, such as
+the Preferred Enemy (X) Special Rule.
+
+
+Lacyraemarta
+Balance Change
+Add the following to the end of the Opus Viscera Sub-Heading:
+“This ability may not be used on any unit which is locked in combat,
+and may only be used on units composed entirely of models from the
+Mechanicum Faction.”
+
+Thanatar Maniple
+FAQ
+Add the following to the end of the Special Rule:
+“Once a unit with this Special Rule has separated, each model counts as
+its own unit for the purposes of Victory Points, Units Destroyed, and
+similar rules.”
+
+Void Shields (X)
+FAQ
+When resolving a Shooting Attack against a target with any Void
+Shields active, all shots fired as part of that Shooting Attack are
+deemed to strike the Void Shields, and not the target unit itself. For
+example, if the first two shots of a five-shot Shooting Attack
+successfully remove the target’s Void Shields, the remaining three
+shots do not strike the original target, but are instead discarded.
+It should be noted that, as the Void Shields provided by this Special
+Rule are a separate target, they may not claim the benefits of the
+Flare Shield wargear item, nor take Saves or Damage Mitigation
+Rolls of any kind provided by the unit with the Void Shields (X)
+Special Rule.
+
+Pride of Place
+Balance Change
+Add the following to the end of the Pride of Place Special Rule:
+“A model with this Special Rule may ignore the restrictions applied by it
+if the Unit with the Transport Sub-type they are attempting to Embark
+onto also has the Super-Heavy Sub-type. In addition, a model with this
+Special Rule gains the Bulky (X) Special Rule, where X is equal to the
+model’s starting Wounds Characteristic.”
+
+Reactor Overload
+FAQ
+Any Wounds or Hull Points of Damage caused by this Special Rule
+are only resolved once the Shooting Attack has been fully resolved.
+
+Paragon of Metal
+Balance Change
+Add the following to the end of the Paragon of Metal Special Rule:
+“A model which has this Special Rule changes their Armour Save to 2+.”
+
+God-Engine
+Balance Change
+Add the following to the end of the God-Engine Special Rule:
+“In addition, all units wholly within 18” of a model with this Special
+Rule and which have a Kyropatris Field Generator gain the Line
+Sub-type.”
+
+Feudal Hierarchy
+Errata
+Change the Feudal Hierarchy Special Rule to read as follows:
+“A single Detachment may not include both an Archmagos Prime and
+an Archmagos Prime on Abeyant only ever include a single model with
+this Special Rule.”
+
+Disruption (X)
+Balance Change
+Change the Disruption (X) Special Rule to read as follows:
+“To Hit rolls of the value X indicated made by a weapon with this
+Special Rule cause an automatic Glancing Hit against models with the
+Vehicle Unit Type instead of rolling for Armour Penetration, and an
+automatic Wound against models with the Dreadnought, Automata, or
+Armiger Unit Types, instead of rolling To Wound.
+On weapons which do not roll to Hit, such as Template or Blast
+Weapons, a D6 should be rolled for every applicable target - a roll of
+X or higher causes an automatic Glancing Hit against models with
+the Vehicle Unit Type instead of rolling for Armour Penetration, and
+an automatic Wound against models with the Dreadnought,
+Automata, or Armiger Unit Types.
+Only Invulnerable Saves or Damage Mitigation rolls may be taken
+against Wounds or Hull Points of damage inflicted automatically by
+this Special Rule.”
+
+Destructor
+Balance Change
+Change the Destructor Special Rule to read as follows:
+“Any model which suffers an unsaved Wound or Hull Point loss from a
+weapon with this Special Rule does not suffer only one Wound or Hull
+Point of damage, but instead suffers D6 Wounds or Hull Points of
+damage instead, with all of the Wounds or Hull Points inflicted using
+the same AP and special rules as that of the initial Wound. Roll to
+save against each Wound or Hull Point of damage inflicted
+separately, but note that Wounds or Hull Points of damage caused in
+excess of a given model’s remaining Wounds or Hull Points do not
+spill over to other models and are lost.
+In addition, if the target of this attack is a model with the Knight,
+Titan, Gargantuan, Super-Heavy Vehicle, or Building or Fortification
+Unit Type, or the Monstrous Unit Sub-type, increase the number of
+Wounds suffered or Hull Points lost to 2D6.”
+
+Stratos Thrusters
+Balance Change
+Add the following to the end of the wargear’s description:
+“On a Game Turn in which a model armed with Stratos Thrusters
+activates them, they may elect to gain the Skyfire Special Rule for all
+Ranged Weapons they are armed with. In addition, a model equipped
+with Stratos Thrusters also gains the Deep Strike Special Rule. A model
+with an activated set of Stratos Thrusters may move over both friendly
+and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so.”
+
+Utan Jump Booster
+Balance Change
+Add the following to the end of the wargear’s description:
+“A model with an activated Utan Jump Booster may move over both
+friendly and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so.”
+
+Ionic Deflector
+Balance Change
+Change the wargear’s description to read as follows:
+“A model with an Ionic Deflector gains a 5+ Invulnerable Save, and any
+model with an Ionic Deflector and a Wounds Characteristic gains the
+Eternal Warrior Special Rule that suffers an unsaved Wound with the
+Instant Death Special Rule is not immediately removed as a casualty,
+but instead loses D3 Wounds instead of one for each unsaved Wound
+with the Instant Death Special Rule inflicted on it.
+In addition, when a model with an Ionic Deflector loses its last Wound
+or Hull Point, but before it is removed as a casualty or replaced with a
+Wreck, all models both friendly and enemy within D6+3" suffer an
+automatic Hit at Str 8, AP -.”
+
+Ordinatus Dispersion Shield 
+Balance Change
+Add the following to the end of the wargear’s description:
+“In subsequent Game Turns after the first, the Ordinatus Dispersion
+Shield counts as a Flare Shield.”
+
+Incunabulan Jet Pack
+Balance Change
+Add the following sentence to the end of the first paragraph to read
+as follows:
+“This extra move can only be made in the Controlling Player's own
+Shooting Phase.”
+Add the following to the end of the wargear’s description:
+“A model with an activated Incunabulan Jet Pack may move over both
+friendly and enemy models or units without penalty - but must end its
+Movement at least 1" away from any model from another unit, and
+ignores the effects of any Difficult, Dangerous, or Impassable Terrain
+they move over as they make their move, though they must still take
+Dangerous Terrain Tests as normal should they start or end their move
+in terrain that would require them to do so. It should be noted that, for
+the purposes of Reactions, an Incunabulan Jet Pack is classed as having
+being activated for the purposes of moving over any models or terrain.”
+
+
