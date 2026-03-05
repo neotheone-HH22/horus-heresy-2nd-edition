@@ -3180,7 +3180,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="d8ab-8e21-e193-63ba" id="3aab-8a87-4cab-8b51" name="Automata Unit Type" primary="false"/>
@@ -3461,7 +3461,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           <infoLinks>
             <infoLink id="8a1d-8708-a025-bb17" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
               </modifiers>
             </infoLink>
             <infoLink name="It Will Not Die (X)" id="aa3f-4d62-14b6-5ed4" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
@@ -3551,7 +3551,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Abomination Blades" hidden="false" id="5c99-c878-aa3d-cf70" type="selectionEntry" targetId="1b71-696f-4bda-dd34">
@@ -3638,7 +3638,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Light Autocannon" hidden="false" id="f9a8-c2e5-378b-121f" type="selectionEntry" targetId="8f35-0d01-7cc3-b558">
@@ -3668,7 +3668,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                         </rule>
                       </rules>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -3970,7 +3970,7 @@ This unit may be upgraded freely as described in their profile, though they may 
               <profiles>
                 <profile id="e90a-5837-2524-80f0" name="Stratos Thrusters" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times. On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4315,7 +4315,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </entryLink>
         <entryLink id="13a7-7d49-5ab4-996a" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="name" value="Hull (Front) Mounted Karacnos Mortar Battery"/>
+            <modifier type="set" field="name" value="Centreline Mounted Karacnos Mortar Battery"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a70-32d9-7802-97b3" type="max"/>
@@ -4496,7 +4496,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           <profiles>
             <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4567,6 +4567,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4471-c23e-3604-fa6e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="srch-ultr-0014-0001" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1075"/>
@@ -4778,7 +4779,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           <profiles>
             <profile id="a23c-8539-83e1-b021" name="Forbidden Protocols" publicationId="bde1-6db1-163b-3b76" page="62" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
               <characteristics>
-                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty.</characteristic>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6&quot; of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been removed as a casualty. It should be noted that models with the Automata Unit Type may not benefit from the Forbidden Protocols Special Rule, regardless of any other rules or effects.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4899,7 +4900,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
             <entryLink id="8183-c411-6b59-3742" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="932d-e092-656f-2f02" name="Hull (Front) Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
+        <selectionEntryGroup id="932d-e092-656f-2f02" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff3a-53a8-fd03-986f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d8-b111-9437-3776" type="max"/>
