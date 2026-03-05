@@ -7711,10 +7711,15 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
             <infoLink name="Hit &amp; Run" hidden="false" type="rule" id="3849-40aa-1053-d5c7" targetId="5986-e960-d432-affd"/>
             <infoLink name="Malefic Aegis (X)" hidden="false" type="rule" id="5722-4e5-df85-62ae" targetId="686c-178b-6e07-2ba3">
               <modifiers>
-                <modifier type="set" value="Malefic Aegis (6+)" field="name"/>
+                <modifier type="set" value="Malefic Aegis (5+)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Move Through Cover" hidden="false" type="rule" id="3f81-b3ad-c662-a291" targetId="2b6f-bfec-759e-1746"/>
+            <infoLink name="Rage (X)" hidden="false" type="rule" id="c3d9-f72a-8b15-4e62" targetId="564d-3550-ae44-2f99">
+              <modifiers>
+                <modifier type="set" value="Rage (2)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d1e-9146-7aa-dffa"/>
