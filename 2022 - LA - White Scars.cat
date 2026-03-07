@@ -1306,7 +1306,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="1375-edf8-438c-939e" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
+        <categoryLink id="1375-edf8-438c-939e" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true">
           <comment>template_id_b24f-3ae0-4cbb-b016</comment>
         </categoryLink>
         <categoryLink id="2113-e9e4-4f5e-aeea" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">

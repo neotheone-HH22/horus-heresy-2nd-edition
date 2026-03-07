@@ -1429,7 +1429,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b24f-3ae0-4cbb-b016" name="New CategoryLink" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="b24f-3ae0-4cbb-b016" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
         <categoryLink id="fd26-8e6b-4521-92b9" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>

@@ -1212,7 +1212,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="fe3e-f422-405b-a4ae" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
+        <categoryLink id="fe3e-f422-405b-a4ae" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true">
           <comment>template_id_b24f-3ae0-4cbb-b016</comment>
         </categoryLink>
         <categoryLink id="c51b-549c-49ba-9fd4" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">

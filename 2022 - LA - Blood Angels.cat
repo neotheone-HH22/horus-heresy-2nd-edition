@@ -2049,7 +2049,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8bb4-15e3-41dd-a661" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
+        <categoryLink id="8bb4-15e3-41dd-a661" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true">
           <comment>template_id_b24f-3ae0-4cbb-b016</comment>
         </categoryLink>
         <categoryLink id="4542-fec2-4601-ac1e" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">
