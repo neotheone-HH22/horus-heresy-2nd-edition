@@ -3405,7 +3405,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b178-7d35-136f-d305" name="Arlatax Battle-Automata Maniple" publicationId="bde1-6db1-163b-3b76" page="40" hidden="false" collective="false" import="true" type="unit">
