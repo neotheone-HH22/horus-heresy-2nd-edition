@@ -1514,7 +1514,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b341-096b-44a3-9aa1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true">
+        <categoryLink id="b341-096b-44a3-9aa1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true">
           <comment>template_id_b24f-3ae0-4cbb-b016</comment>
         </categoryLink>
         <categoryLink id="4e82-d681-4227-8060" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false">

@@ -375,7 +375,7 @@ Additional rules are given to units based on Legion and Unit.</description>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8bb4-a24c-9326-02c9" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="8bb4-a24c-9326-02c9" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
         <categoryLink id="a44e-6843-7671-8f79" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
