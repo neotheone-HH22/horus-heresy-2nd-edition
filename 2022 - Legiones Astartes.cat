@@ -23510,18 +23510,6 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="205"/>
           </costs>
         </entryLink>
-        <entryLink id="c492-4ffc-21b8-24bc" name="Land Raider Phobos" hidden="false" collective="false" import="true" targetId="3900-0cce-8cd0-7d62" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ad72-a665-9f40-6166" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ed2f-4b70-88b4-70e5" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="a9cb-5806-87bb-7cd9" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
-          </categoryLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="205"/>
-          </costs>
-        </entryLink>
         <entryLink id="0981-e696-6cd5-fcb3" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
