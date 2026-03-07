@@ -3447,7 +3447,9 @@ A unit with this special rule gains +1 to the score used to calculate the winner
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7e6f-412a-459d-abe2" name="Infantry Unit Type" primary="false"/>
-          </categoryLinks>hidden="true" collective="false" import="true" type="model">
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="8299-7028-93bc-0355" name="Phoenix Standard Bearer" hidden="true" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
