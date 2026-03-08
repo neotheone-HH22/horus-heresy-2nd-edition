@@ -6243,6 +6243,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
     <selectionEntry id="6353-c4c3-d099-002e" name="Ordo Reductor Artillery Tank Battery" publicationId="3886-76e5-438f-159f" page="8" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d424-806b-eacc-5647" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="6353-c4c3-d099-aa01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+        <categoryLink id="6353-c4c3-d099-aa02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="20e6-4da8-9633-646a" name="Ordo Reductor Artillery Tanks" hidden="false" collective="false" import="true" defaultSelectionEntryId="727f-715f-263f-9a1a">
@@ -6261,10 +6263,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="f689-cc20-4318-874a" name="Demolisher Cannon Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6275,6 +6277,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="acf5-b554-9f60-aafe" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="90e0-fc02-a028-bb01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="90e0-fc02-a028-bb02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="8a6f-0416-e8f8-459b" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6380,10 +6384,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="b02c-e47d-6ac8-9ea1" name="Earthshaker Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6394,6 +6398,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="6e90-8bf8-e0fc-b471" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="fb97-4cc5-1613-cc01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="fb97-4cc5-1613-cc02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="d485-fdf2-835d-71b6" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6499,10 +6505,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="ca67-3129-f325-4d5f" name="Gravis Melta Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6513,6 +6519,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="f1e5-95df-4502-e05e" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="7568-7ece-c8a8-dd01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="7568-7ece-c8a8-dd02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="2f4e-d0dc-9704-85e7" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6574,9 +6582,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <entryLinks>
-                    <entryLink id="fe25-742c-c52c-69e7" name="Gravis Melta Cannon Array" hidden="false" collective="false" import="true" targetId="f2fc-27b6-983d-092b" type="selectionEntry">
+                    <entryLink id="fe25-742c-c52c-69e7" name="Melta Cannon Array" hidden="false" collective="false" import="true" targetId="f2fc-27b6-983d-092b" type="selectionEntry">
                       <modifiers>
-                        <modifier type="set" field="name" value="Turret Mounted Gravis Melta Cannon Array"/>
+                        <modifier type="set" field="name" value="Turret Mounted Melta Cannon Array"/>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0d-c466-1141-efb6" type="max"/>
@@ -6618,10 +6626,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="bed8-a2e3-2361-8163" name="Magna Laser Destroyer Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6632,6 +6640,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="a21a-cecf-f6b3-a7c3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="fec3-c92b-c2c6-ee01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="fec3-c92b-c2c6-ee02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="bb4a-35aa-3814-3db8" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6737,10 +6747,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="f60c-dcf7-5f58-5620" name="Medusa Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6751,6 +6761,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="266d-6165-a38b-3853" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="9154-7b40-10fb-ff01" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="9154-7b40-10fb-ff02" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="f4a9-ff07-4a62-901d" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6814,7 +6826,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <entryLinks>
                     <entryLink id="9f63-7675-3e24-c50d" name="Medusa Mortar" hidden="false" collective="false" import="true" targetId="aafc-7435-8805-0e0f" type="selectionEntry">
                       <modifiers>
-                        <modifier type="set" field="name" value="Centreline Mounted Medusa Siege Mortar"/>
+                        <modifier type="set" field="name" value="Centreline Mounted Medusa Mortar"/>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be5-7d68-56a1-6f3b" type="max"/>
@@ -6856,10 +6868,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="d6ab-59e5-b2e8-ddf4" name="Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6870,6 +6882,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="f8cb-2862-3fa7-a89c" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="d7b3-fb12-4ac6-a001" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="d7b3-fb12-4ac6-a002" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="0d70-de56-3302-4ce8" name="May take one of the following:" hidden="false" collective="false" import="true">
@@ -6975,10 +6989,10 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <profiles>
                     <profile id="818f-335e-ee6a-1793" name="Whirlwind Artillery Tank" publicationId="3886-76e5-438f-159f" page="8" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
                       <characteristics>
-                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
+                        <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Bombard, Reinforced)</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6989,6 +7003,8 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </profiles>
                   <categoryLinks>
                     <categoryLink id="8743-0cd5-f098-4b84" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+                    <categoryLink id="4d46-6e80-df44-b001" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+                    <categoryLink id="4d46-6e80-df44-b002" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
                   </categoryLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="6462-ae88-25e7-2eba" name="May take one of the following:" hidden="false" collective="false" import="true">
