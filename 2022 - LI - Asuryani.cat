@@ -1,0 +1,2664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e1da-asur-yani-0001" name="LI - Asuryani" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="130" type="catalogue">
+  <readme>Asuryani (Craftworld Eldar) faction for Horus Heresy 2.0 Panoptica Rules. Based on Liber Antiquia: Asuryani and Saedath rules.</readme>
+
+  <categoryEntries>
+    <categoryEntry id="e1da-cat0-0001-0001" name="Asuryani Sub-type" hidden="false"/>
+    <categoryEntry id="e1da-cat0-0001-0002" name="Rillietann Sub-type" hidden="false"/>
+  </categoryEntries>
+
+  <selectionEntries>
+    <selectionEntry id="e1da-hq01-0000-0001" name="Autarch" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq01-0000-0001-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq01-0000-0001-m01" name="Autarch" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Autarch" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hq01-0000-0002" name="Aspect Exarchs" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq01-0000-0002-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq01-0000-0002-m01" name="Exarch" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Exarch" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hq01-0000-0003" name="Farseer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq01-0000-0003-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq01-0000-0003-m01" name="Farseer" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Farseer" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Character, Psyker)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hq01-0000-0004" name="Wraith Guide" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq01-0000-0004-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq01-0000-0004-m01" name="Wraith Guide" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraith Guide" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Psyker, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hq01-0000-0005" name="Eldrad Ulthran" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq01-0000-0005-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq01-0000-0005-m01" name="Eldrad Ulthran" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Eldrad Ulthran" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Character, Psyker, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="240"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0001" name="Guardian Officer Cadre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0001-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0001-m01" name="Guardian Officer" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Guardian Officer" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0002" name="Seer Council" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0002-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0002-m01" name="Warlock" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Warlock" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Psyker)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0003" name="Bonesinger Conclave" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0003-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0003-m01" name="Bonesinger" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Bonesinger" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="45"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0004" name="Fire Dragons" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0004-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0004-m01" name="Fire Dragon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Fire Dragon" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0005" name="Striking Scorpions" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0005-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0005-m01" name="Striking Scorpion" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Striking Scorpion" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0006" name="Howling Banshees" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0006-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0006-m01" name="Howling Banshee" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Howling Banshee" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="95"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0007" name="Wraithblades" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0007-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0007-m01" name="Wraithblade" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraithblade" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Asuryani, Wraith)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0008" name="Wraithguard" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0008-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0008-m01" name="Wraithguard" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraithguard" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Asuryani, Wraith)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el01-0000-0009" name="War Walker Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el01-0000-0009-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el01-0000-0009-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el01-0000-0009-m01" name="War Walker" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="War Walker" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el01-0000-0009-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Skirmish, Mechanised)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">6</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="95"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0001" name="Guardian Defenders" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0001-m01" name="Guardian Defender" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Guardian Defender" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Line)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0002" name="Storm Guardians" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0002-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0002-m01" name="Storm Guardian" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Storm Guardian" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Line)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0003" name="Windriders" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0003-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0003-m01" name="Windrider" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Windrider" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Asuryani, Antigrav)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0004" name="Dire Avengers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0004-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0004-m01" name="Dire Avenger" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Dire Avenger" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Line)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0005" name="Rangers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0005-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0005-m01" name="Ranger" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Ranger" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Skirmish, Line)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr01-0000-0006" name="Wave Serpent" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr01-0000-0006-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-tr01-0000-0006-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr01-0000-0006-m01" name="Wave Serpent" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wave Serpent" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-tr01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Transport, Skimmer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">14</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0001" name="Shadow Spectres" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0001-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0001-m01" name="Shadow Spectre" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Shadow Spectre" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0002" name="Swooping Hawks" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0002-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0002-m01" name="Swooping Hawk" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Swooping Hawk" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0003" name="Shining Spears" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0003-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0003-m01" name="Shining Spear" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Shining Spear" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Asuryani, Antigrav)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0004" name="Warp Spiders" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0004-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0004-m01" name="Warp Spider" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Warp Spider" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0005" name="Shroud Runners" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0005-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0005-m01" name="Shroud Runner" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Shroud Runner" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Asuryani, Antigrav, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="110"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0006" name="Vyper Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0006-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0006-m01" name="Vyper" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Vyper" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Asuryani, Antigrav, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">16</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0007" name="Nightshade Interceptor Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0007-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-fa01-0000-0007-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0007-m01" name="Nightshade Interceptor" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Nightshade Interceptor" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-fa01-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Flyer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">18</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0008" name="Nightwing Interceptor Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0008-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-fa01-0000-0008-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0008-m01" name="Nightwing Interceptor" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Nightwing Interceptor" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-fa01-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Flyer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">22</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="140"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa01-0000-0009" name="Phoenix Bomber Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa01-0000-0009-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa01-0000-0009-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-fa01-0000-0009-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa01-0000-0009-m01" name="Phoenix Bomber" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Phoenix Bomber" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-fa01-0000-0009-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Flyer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">11</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="210"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0001" name="Vaul's Wrath Support Battery" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0001-m01" name="Guardian Crew" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Guardian Crew" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hs01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Heavy)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0002" name="Dark Reapers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0002-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0002-m01" name="Dark Reaper" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Dark Reaper" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hs01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Heavy)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">5</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="165"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0003" name="Falcon Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0003-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hs01-0000-0003-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0003-m01" name="Falcon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Falcon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-hs01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Skimmer, Transport, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">7</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="145"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0004" name="Fire Prism Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0004-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hs01-0000-0004-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0004-m01" name="Fire Prism" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Fire Prism" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-hs01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Skimmer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="165"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0005" name="Night Spinner Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0005-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hs01-0000-0005-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0005-m01" name="Night Spinner" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Night Spinner" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-hs01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Skimmer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0006" name="Firestorm Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0006-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hs01-0000-0006-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0006-m01" name="Firestorm" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Firestorm" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-hs01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Skimmer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="115"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0007" name="Wraithlord Conclave" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0007-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0007-m01" name="Wraithlord" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraithlord" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hs01-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Asuryani, Wraith)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">8</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">8</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs01-0000-0008" name="Wraithseer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs01-0000-0008-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs01-0000-0008-m01" name="Wraithseer" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraithseer" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hs01-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Asuryani, Wraith, Psyker, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">8</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">8</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0001" name="Wraithknight" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0001-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0001-m01" name="Wraithknight" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Wraithknight" typeId="75b5-9f7a-156e-6889" typeName="Knights and Titans" hidden="false" id="e1da-lw01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Wraithknight</characteristic>
+                <characteristic name="Move" typeId="7f12-0cc3-9dcd-25bc">16</characteristic>
+                <characteristic name="WS" typeId="4227-8eed-0c5c-a2d9">5</characteristic>
+                <characteristic name="BS" typeId="6c5a-df71-fefa-2ee3">5</characteristic>
+                <characteristic name="S" typeId="02ba-082e-e385-1ede">10</characteristic>
+                <characteristic name="Front" typeId="0d00-68d8-0535-e898">13</characteristic>
+                <characteristic name="Side" typeId="cb92-5809-d327-6981">13</characteristic>
+                <characteristic name="Rear" typeId="8fa4-6e34-29c4-d8c6">12</characteristic>
+                <characteristic name="I" typeId="91b3-4335-71bf-3fa9">4</characteristic>
+                <characteristic name="A" typeId="d54a-56a6-68c5-ae72">4</characteristic>
+                <characteristic name="HP" typeId="2490-aa2f-f5db-6070">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0002" name="Skathach Wraithknight" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0002-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0002-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0002-m01" name="Skathach Wraithknight" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Skathach Wraithknight" typeId="75b5-9f7a-156e-6889" typeName="Knights and Titans" hidden="false" id="e1da-lw01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Skathach Wraithknight</characteristic>
+                <characteristic name="Move" typeId="7f12-0cc3-9dcd-25bc">16</characteristic>
+                <characteristic name="WS" typeId="4227-8eed-0c5c-a2d9">5</characteristic>
+                <characteristic name="BS" typeId="6c5a-df71-fefa-2ee3">5</characteristic>
+                <characteristic name="S" typeId="02ba-082e-e385-1ede">10</characteristic>
+                <characteristic name="Front" typeId="0d00-68d8-0535-e898">13</characteristic>
+                <characteristic name="Side" typeId="cb92-5809-d327-6981">13</characteristic>
+                <characteristic name="Rear" typeId="8fa4-6e34-29c4-d8c6">12</characteristic>
+                <characteristic name="I" typeId="91b3-4335-71bf-3fa9">4</characteristic>
+                <characteristic name="A" typeId="d54a-56a6-68c5-ae72">4</characteristic>
+                <characteristic name="HP" typeId="2490-aa2f-f5db-6070">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="600"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0005" name="Phantom Titan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0005-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0005-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0005-m01" name="Phantom Titan" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Phantom Titan" typeId="75b5-9f7a-156e-6889" typeName="Knights and Titans" hidden="false" id="e1da-lw01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Phantom Titan</characteristic>
+                <characteristic name="Move" typeId="7f12-0cc3-9dcd-25bc">24</characteristic>
+                <characteristic name="WS" typeId="4227-8eed-0c5c-a2d9">9</characteristic>
+                <characteristic name="BS" typeId="6c5a-df71-fefa-2ee3">5</characteristic>
+                <characteristic name="S" typeId="02ba-082e-e385-1ede">10</characteristic>
+                <characteristic name="Front" typeId="0d00-68d8-0535-e898">14</characteristic>
+                <characteristic name="Side" typeId="cb92-5809-d327-6981">14</characteristic>
+                <characteristic name="Rear" typeId="8fa4-6e34-29c4-d8c6">13</characteristic>
+                <characteristic name="I" typeId="91b3-4335-71bf-3fa9">5</characteristic>
+                <characteristic name="A" typeId="d54a-56a6-68c5-ae72">5</characteristic>
+                <characteristic name="HP" typeId="2490-aa2f-f5db-6070">24</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2500"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0006" name="Revenant Titan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0006-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0006-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0006-m01" name="Revenant Titan" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Revenant Titan" typeId="75b5-9f7a-156e-6889" typeName="Knights and Titans" hidden="false" id="e1da-lw01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Revenant Titan</characteristic>
+                <characteristic name="Move" typeId="7f12-0cc3-9dcd-25bc">16</characteristic>
+                <characteristic name="WS" typeId="4227-8eed-0c5c-a2d9">7</characteristic>
+                <characteristic name="BS" typeId="6c5a-df71-fefa-2ee3">5</characteristic>
+                <characteristic name="S" typeId="02ba-082e-e385-1ede">10</characteristic>
+                <characteristic name="Front" typeId="0d00-68d8-0535-e898">13</characteristic>
+                <characteristic name="Side" typeId="cb92-5809-d327-6981">13</characteristic>
+                <characteristic name="Rear" typeId="8fa4-6e34-29c4-d8c6">12</characteristic>
+                <characteristic name="I" typeId="91b3-4335-71bf-3fa9">5</characteristic>
+                <characteristic name="A" typeId="d54a-56a6-68c5-ae72">3</characteristic>
+                <characteristic name="HP" typeId="2490-aa2f-f5db-6070">12</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0003" name="Vampire Hunter" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0003-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0003-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0003-m01" name="Vampire Hunter" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Vampire Hunter" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-lw01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Flyer, Lumbering, Hover)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">20</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="700"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0004" name="Vampire Raider" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0004-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0004-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0004-m01" name="Vampire Raider" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Vampire Raider" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-lw01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Flyer, Lumbering, Hover, Transport)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">20</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">12</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">32</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Rear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="600"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0007" name="Scorpion" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0007-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0007-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0007-m01" name="Scorpion" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Scorpion" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-lw01-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Super-Heavy, Skimmer)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">10</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="500"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0008" name="Cobra" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0008-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0008-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0008-m01" name="Cobra" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Cobra" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-lw01-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Super-Heavy, Skimmer)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">10</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="550"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-0009" name="Lynx" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-0009-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-0009-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-lw01-0000-0009-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-0009-m01" name="Lynx" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Lynx" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="e1da-lw01-0000-0009-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Asuryani, Skimmer, Fast)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-lw01-0000-d001" name="Avatar of Khaine" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-lw01-0000-d001-cl1" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="e1da-lw01-0000-d001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-lw01-0000-d001-m01" name="Avatar of Khaine" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Avatar of Khaine" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-lw01-0000-d001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Daemon Primarch (Asuryani, Gargantuan, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">10</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">8</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">8</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">8</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">8</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">6</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0001" name="Asurmen" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0001-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0001-m01" name="Asurmen" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Asurmen" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="325"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0002" name="Baharroth" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0002-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0002-m01" name="Baharroth" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Baharroth" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">8</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="325"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0003" name="Drastanta" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0003-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0003-m01" name="Drastanta" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Drastanta" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0004" name="Fuegan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0004-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0004-m01" name="Fuegan" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Fuegan" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0005" name="Irillyth" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0005-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0005-m01" name="Irillyth" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Irillyth" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="325"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0006" name="Karandras" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0006-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0006-m01" name="Karandras" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Karandras" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">8</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0007" name="Maugan Ra" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0007-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0007-m01" name="Maugan Ra" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Maugan Ra" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="325"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp01-0000-0008" name="Jain Zar" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-dp01-0000-0008-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-dp01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-dp01-0000-0008-m01" name="Jain Zar" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Jain Zar" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-dp01-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Phoenix Lord (Asuryani, Unique)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">7</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">7</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">5</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="350"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-ft01-0000-0001" name="Webway Gate" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-ft01-0000-0001-cl1" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="true"/>
+        <categoryLink id="e1da-ft01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-ft01-0000-0001-m01" name="Webway Gate" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Webway Gate" typeId="eeec-bde3-8ee4-35b0" typeName="Fortification" hidden="false" id="e1da-ft01-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="61e0-0fff-1638-759c">Fortification (Building)</characteristic>
+                <characteristic name="BS" typeId="728e-b496-e2b2-ca81">-</characteristic>
+                <characteristic name="Front" typeId="d8de-057f-70b2-4a08">13</characteristic>
+                <characteristic name="Side" typeId="bf04-0a1d-3347-3320">13</characteristic>
+                <characteristic name="Rear" typeId="5915-639f-15d6-230e">13</characteristic>
+                <characteristic name="HP" typeId="3ec4-e581-338c-dfb1">4</characteristic>
+                <characteristic name="Transport Capacity" typeId="6faf-828d-4a08-151d">-</characteristic>
+                <characteristic name="Fire Points" typeId="9d06-02d5-cc06-9698">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-m01-c1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-ft01-0000-0002" name="Holo-Field Defence Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-ft01-0000-0002-cl1" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="true"/>
+        <categoryLink id="e1da-ft01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hq09-0000-0001" name="Troupe Master" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hq09-0000-0001-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="e1da-hq09-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hq09-0000-0001-m01" name="Troupe Master" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Troupe Master" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hq09-0000-0001-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el09-0000-0002" name="Shadowseer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el09-0000-0002-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el09-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el09-0000-0002-m01" name="Shadowseer" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Shadowseer" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el09-0000-0002-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish, Character, Psyker)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el09-0000-0003" name="Death Jester" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el09-0000-0003-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el09-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el09-0000-0003-m01" name="Death Jester" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Death Jester" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el09-0000-0003-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-el09-0000-0004" name="Arebennian" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-el09-0000-0004-cl1" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="e1da-el09-0000-0004-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-el09-0000-0004-m01" name="Arebennian" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Arebennian" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-el09-0000-0004-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">6</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">6</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">7</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">4</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr09-0000-0005" name="Troupe" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr09-0000-0005-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr09-0000-0005-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr09-0000-0005-m01" name="Player" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Player" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr09-0000-0005-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e1da-tr09-0000-0005-m02" name="Lead Player" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Lead Player" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr09-0000-0005-m02-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Rillietann, Skirmish, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-fa09-0000-0006" name="Skyweavers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-fa09-0000-0006-cl1" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="e1da-fa09-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-fa09-0000-0006-m01" name="Skyweaver" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Skyweaver" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-fa09-0000-0006-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Antigrav, Rillietann, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">18</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-hs09-0000-0007" name="Voidweaver" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-hs09-0000-0007-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="e1da-hs09-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-hs09-0000-0007-m01" name="Voidweaver" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Voidweaver" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-hs09-0000-0007-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Antigrav, Rillietann, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">16</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="90"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-tr09-0000-0008" name="Starweaver" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e1da-tr09-0000-0008-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="e1da-tr09-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e1da-tr09-0000-0008-m01" name="Starweaver" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Starweaver" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr09-0000-0008-m01-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Antigrav, Rillietann, Skirmish, Transport*)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">16</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">4</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">6</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-m01-c1"/>
+            <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-m01-c2"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-uc1"/>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-uc2"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="100"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+
+</catalogue>
