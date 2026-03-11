@@ -10296,6 +10296,44 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="la01-sgwb-ay01-net1" name="Lasgun with Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="la01-sgwb-ay01-ln01" name="Lasgun" hidden="false" collective="false" import="true" targetId="376e-c5d6-99c3-49c9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="la01-sgwb-ay01-mn01" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="la01-sgwb-ay01-mx01" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="la01-sgwb-ay01-bn01" name="Bayonet" hidden="false" collective="false" import="true" targetId="6904-6936-d6ca-a0eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="la01-sgwb-ay01-mn02" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="la01-sgwb-ay01-mx02" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="au01-torw-ba01-yon1" name="Autorifle with Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="au01-torw-ba01-ln01" name="Autorifle" hidden="false" collective="false" import="true" targetId="57dd-dff6-d173-3bf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="au01-torw-ba01-mn01" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="au01-torw-ba01-mx01" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="au01-torw-ba01-bn01" name="Bayonet" hidden="false" collective="false" import="true" targetId="6904-6936-d6ca-a0eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="au01-torw-ba01-mn02" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="au01-torw-ba01-mx02" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="376b-e109-36a3-d4f2" name="Needle Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="d917-d2c3-c3db-74a7" name="Needle Cannon" publicationId="15a4-fc68-502d-48a9" page="142" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
