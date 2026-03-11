@@ -2660,5 +2660,21 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-
+  <entryLinks>
+    <entryLink id="e1da-asur-yani-el01" name="Asuryani" hidden="false" collective="false" import="false" targetId="e1da-asur-yani-gst1" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="7b69-bf2f-4547-e83b">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5430-5be1-1613-be44" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1da-asur-yani-el02" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e1da-asur-yani-el03" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
