@@ -1,0 +1,150 @@
+Battle Cannon
+Balance Change
+Replace the Battle Cannon’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Stormhammer Cannon
+Balance Change
+Replace the Stormhammer Cannon’s profile with the one found in
+the Panoptica Weapons Profiles section.
+
+Demolisher Cannon
+Balance Change
+Replace the Demolisher Cannon’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Earthshaker Cannon
+Balance Change
+Replace the Earthshaker Cannon’s profile with the one found in
+the Panoptica Weapons Profiles section.
+
+Medusa Mortar
+Balance Change
+Replace the Medusa Mortar’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Vratine Grenade Launcher
+Balance Change
+Replace the Krak profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Grenade Launcher (Secondary)
+Balance Change
+Replace the Krak profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Infernus Firepike
+Balance Change
+Replace the Infernus Firepike’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Inferno Cannon
+Errata
+Change the range of the Inferno Cannon to ‘Hellstorm’.
+
+Grenade Launcher
+Balance Change
+Replace the Krak profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Adrasite Spear
+Balance Change
+Replace the Shooting profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Adrastus Bolt Caliver
+Balance Change
+Replace the Adrastus Bolt Caliver’s profile with the one found in
+the Panoptica Weapons Profiles section.
+
+Adrathic Devastator
+Balance Change
+Replace the Adrathic Devastator’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Adrathic Destructor
+Balance Change
+Replace the Adrathic Destructor’s profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Volkite Macro-Saker
+Balance Change
+Replace the Volkite Macro-Saker profile with the one found in the
+Panoptica Weapons Profiles section.
+
+Arachnus Storm Cannon
+Balance Change
+Replace the Arachnus Storm Cannon’s profile with the one found
+in the Panoptica Weapons Profiles section.
+
+Pyrithite Spear
+Balance Change
+Replace the Shooting profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Gravis Power Fist
+Balance Change
+Replace the weapon’s profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Charonite Claws
+Balance Change
+Replace the weapon’s profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Command Vox
+Balance Change
+Add the following effect to the wargear’s description:
+“While at least one model with a Command Vox is present on the
+battlefield and not Embarked in a Vehicle or Building, the Controlling
+Player may re-roll any Scatter rolls made (whether as part of a weapon
+attack or the deployment of a model or unit), as long as the model with
+the Command Vox has line of sight to the unit targeted by the attack or
+the point chosen as the target of the deployment.”
+
+Custodes Gyrfalcon Jetbike
+Balance Change
+Add the Skilled Rider Special Rule to the rules and abilities
+provided by this item of wargear.
+
+Erinyes Jetbike
+Balance Change
+Add the following effect to the wargear’s description:
+“In addition, any model equipped with an Erinyes Jetbike sets its
+Movement Characteristic to 18”, and gains the Skilled Rider and
+Battle-Hardened (1) Special Rules.”
+
+Panoply of the Assassin
+Balance Change
+Add the following to the wargear’s effects:
+“A model equipped with the Panoply of the Assassin also gains Frag
+Grenades, and the Hit & Run and Shrouded (5+) Special Rules.”
+
+Praesidium Shield
+Balance Change
+Replace the wording of the Praesidium Shield Wargear to read as
+follows:
+“A Praesidium shield confers a 5+ Invulnerable Save – this does not
+stack with existing Invulnerable Saves and if a model has more than
+one such save, the Controlling Player must select one to use against any
+Wounds inflicted on that model. A model with a Praesidium Shield
+adds +1 to its Invulnerable Save (to a maximum of 3+) or an
+Invulnerable Save of 6+ if they do not already possess one. In
+addition, a model with a Praesidium Shield cannot claim bonus attacks
+for having more than one melee weapon, or make attacks during the
+Assault phase using a weapon with the Two-Handed Special Rule.”
+
+Krak Grenades
+Balance Change
+Replace the wargear’s profile with the one found in the Panoptica
+Weapons Profiles section.
+
+Tarsus Buckler
+Balance Change
+See the Tarsus Buckler’s melee profile in the Panoptica Weapons
+Profiles section.
+
+Telemon Cestus
+Balance Change
+Replace the Telemon Cestus’s profile with the one found in the
+Panoptica Weapons Profiles section.
