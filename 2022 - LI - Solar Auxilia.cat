@@ -1865,6 +1865,18 @@
                         </modifier>
                       </modifiers>
                     </entryLink>
+                    <entryLink id="au01-g1sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
                     <entryLink id="33e6-8357-bae1-0023" name="Lascarbine" hidden="true" collective="false" import="true" targetId="d68e-ce5a-000c-c322" type="selectionEntry">
                       <modifiers>
                         <modifier type="set" field="hidden" value="false">
@@ -1882,6 +1894,18 @@
                           </conditions>
                         </modifier>
                       </modifiers>
+                    </entryLink>
+                    <entryLink id="la01-g1sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
                     </entryLink>
                     <entryLink id="fdeb-4ba7-ca2d-f5f1" name="Shotgun" hidden="true" collective="false" import="true" targetId="f0aa-947f-f493-f566" type="selectionEntry">
                       <modifiers>
@@ -2191,6 +2215,30 @@
                       </costs>
                     </entryLink>
                     <entryLink id="a926-1d13-1647-06cd" name="Lasrifle with Bayonet" hidden="false" collective="false" import="true" targetId="2867-ab52-1247-2532" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="au01-g2sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="la01-g2sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
@@ -2658,6 +2706,30 @@
                       </costs>
                     </entryLink>
                     <entryLink id="72d9-8002-429e-fd79" name="Lasrifle with Bayonet" hidden="false" collective="false" import="true" targetId="2867-ab52-1247-2532" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="au01-g3sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="la01-g3sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
@@ -5669,6 +5741,30 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
                     </entryLink>
+                    <entryLink id="au01-g4sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="la01-g4sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="cd3c-23af-4002-0c2c" name="May take:" hidden="false" collective="false" import="true">
@@ -6279,6 +6375,30 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4432-c646-e84a-919c" type="max"/>
                       </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="au01-g5sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="la01-g5sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
@@ -7757,6 +7877,30 @@ Once assigned to a unit, the Auxilia Medicae is considered part of that unit and
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf07-5c62-3754-f117" type="max"/>
                       </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="au01-g6sa-by01-et01" name="Autorifle with Bayonet" hidden="true" collective="false" import="true" targetId="au01-torw-ba01-yon1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="la01-g6sa-by01-et01" name="Lasgun with Bayonet" hidden="true" collective="false" import="true" targetId="la01-sgwb-ay01-net1" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfd2-7016-f5fe-be6a" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <costs>
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1"/>
                       </costs>
