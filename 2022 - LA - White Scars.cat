@@ -516,7 +516,7 @@
         <entryLink id="52fb-b832-4fbd-9c65" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="834b-fcb6-78e5-2099" type="selectionEntryGroup">
           <comment>template_id_ac26-33db-40a7-bdba    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
-    <entryLink id="89ce-8833-4af8-4f9b" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="b2c3-d4e5-f6a7-8901" type="selectionEntry">
+    <entryLink id="89ce-8833-4af8-4f9b" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="82a0-4596-0979-4bf7" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="6331-cad9-0503-4d5f" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
@@ -527,7 +527,7 @@
         <entryLink id="d6fd-dfd7-8ea5-414d" name="Retinue" hidden="false" collective="false" import="true" targetId="f874-317d-d582-11d5" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="a1c8-3429-6253-4059" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="c3d4-e5f6-a7b8-9012" type="selectionEntry">
+    <entryLink id="a1c8-3429-6253-4059" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1317-151a-1fa8-4fb9" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="62dc-a797-6b9a-4e50" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
@@ -1849,7 +1849,7 @@
         <entryLink id="93ec-b863-42c4-9407" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="834b-fcb6-78e5-2099" type="selectionEntryGroup">
           <comment>template_id_4784-b370-444b-93ae    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
-    <entryLink id="5f06-9a9c-4fc8-44c2" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-7890" type="selectionEntry">
+    <entryLink id="5f06-9a9c-4fc8-44c2" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="9bb0-e48f-0426-49c3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5e26-d523-b045-47e0" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="0157-bff4-ea1f-4c7f" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
@@ -5593,7 +5593,7 @@ A model mounted on the Sojutsu Pattern Voidbike cannot benefit from the Nartheci
           </modifiers>
         </entryLink>
         <entryLink id="1a14-86f1-f796-58a7" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
-        <entryLink id="e3f8-0bfb-2f93-4990" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="d4e5-f6a7-b8c9-0123" type="selectionEntry"/>
+        <entryLink id="e3f8-0bfb-2f93-4990" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="01fa-8f97-a8bf-46da" type="selectionEntry"/>
         <entryLink id="2e7d-30fd-0293-6039" name="Command Squad" hidden="false" collective="false" import="true" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
         <entryLink id="1984-b8ae-b7c4-786d" name="Qin Xa&apos;s Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="30fc-6c09-9494-5928" type="selectionEntry">
           <modifiers>

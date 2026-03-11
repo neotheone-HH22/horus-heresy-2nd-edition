@@ -9,7 +9,7 @@
       <entryLinks>
         <entryLink import="true" name="Command Squad" hidden="false" id="80db-a3c4-d5cd-2bc4" collective="false" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
         <entryLink import="true" name="Command Squad, Tartaros" hidden="false" id="1e01-fc74-5f6e-4a3d" collective="false" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
-        <entryLink id="0e34-7d88-c800-44b6" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="d4e5-f6a7-b8c9-0123" type="selectionEntry"/>
+        <entryLink id="0e34-7d88-c800-44b6" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="01fa-8f97-a8bf-46da" type="selectionEntry"/>
         <entryLink import="true" name="Command Squad, Cataphractii" hidden="false" id="4f70-9c04-df8f-813c" collective="false" targetId="1b17-dcd6-0153-3efe" type="selectionEntry">
           <modifiers>
             <modifier type="append" value="(Reserve Only)" field="name">
@@ -284,7 +284,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
             </modifier>
           </modifiers>
         </entryLink>
-    <entryLink id="d729-92e7-73c1-4b32" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="b2c3-d4e5-f6a7-8901" type="selectionEntry">
+    <entryLink id="d729-92e7-73c1-4b32" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ce60-fe77-cc83-4a92" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="525c-c39d-e732-4683" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
@@ -295,7 +295,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <entryLink id="ead9-aa37-5878-41ed" name="Retinue" hidden="false" collective="false" import="true" targetId="5b3d-ea70-4774-c23d" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="0291-4666-d68b-4e0a" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="c3d4-e5f6-a7b8-9012" type="selectionEntry">
+    <entryLink id="0291-4666-d68b-4e0a" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="729f-5661-e4d9-401e" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="1497-b54f-0f43-4364" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
@@ -1369,7 +1369,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <entryLink import="true" name="Retinue" hidden="false" id="b79f-23bb-a2e5-c0e8" collective="false" targetId="5b3d-ea70-4774-c23d" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="d0fa-8503-56c7-435e" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-7890" type="selectionEntry">
+    <entryLink id="d0fa-8503-56c7-435e" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="9bb0-e48f-0426-49c3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9a1a-6804-bce7-4b4f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="e2cf-ebfd-cb89-47df" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>

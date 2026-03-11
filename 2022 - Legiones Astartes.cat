@@ -15006,14 +15006,14 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-e5f6-7890" name="Praetor, Indomitus" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9bb0-e48f-0426-49c3" name="Praetor, Indomitus" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="9055-7410-8ffd-b8e7">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="a1b2-c3d4-e5f6-7890" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
-                <condition field="selections" scope="a1b2-c3d4-e5f6-7890" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                <condition field="selections" scope="9bb0-e48f-0426-49c3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                <condition field="selections" scope="9bb0-e48f-0426-49c3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -15058,8 +15058,8 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="a1b2-c3d4-e5f6-7890" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
-                        <condition field="selections" scope="a1b2-c3d4-e5f6-7890" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                        <condition field="selections" scope="9bb0-e48f-0426-49c3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                        <condition field="selections" scope="9bb0-e48f-0426-49c3" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -34360,14 +34360,14 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2c3-d4e5-f6a7-8901" name="Centurion, Indomitus" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1f35-61e5-fc74-4f63" name="Centurion, Indomitus" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="9055-7410-8ffd-b8e7">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="b2c3-d4e5-f6a7-8901" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
-                <condition field="selections" scope="b2c3-d4e5-f6a7-8901" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                <condition field="selections" scope="1f35-61e5-fc74-4f63" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                <condition field="selections" scope="1f35-61e5-fc74-4f63" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -34412,8 +34412,8 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="b2c3-d4e5-f6a7-8901" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
-                        <condition field="selections" scope="b2c3-d4e5-f6a7-8901" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                        <condition field="selections" scope="1f35-61e5-fc74-4f63" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                        <condition field="selections" scope="1f35-61e5-fc74-4f63" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -34488,14 +34488,14 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3d4-e5f6-a7b8-9012" name="Centurion, Saturnine" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fda4-5cdc-49a8-40e7" name="Centurion, Saturnine" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="9055-7410-8ffd-b8e7">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="c3d4-e5f6-a7b8-9012" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
-                <condition field="selections" scope="c3d4-e5f6-a7b8-9012" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                <condition field="selections" scope="fda4-5cdc-49a8-40e7" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                <condition field="selections" scope="fda4-5cdc-49a8-40e7" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -34540,8 +34540,8 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition field="selections" scope="c3d4-e5f6-a7b8-9012" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
-                        <condition field="selections" scope="c3d4-e5f6-a7b8-9012" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
+                        <condition field="selections" scope="fda4-5cdc-49a8-40e7" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                        <condition field="selections" scope="fda4-5cdc-49a8-40e7" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd55-9459-b3b3-5d20" type="equalTo"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -34596,7 +34596,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="c1de-ea9f-eb56-4969" name="Infantry Unit Type" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="94ae-c32a-aaf3-412f" name="Legion Saturnine Terminator Armour" hidden="false" collective="false" import="true" targetId="e5f6-a7b8-c9d0-1234" type="selectionEntry">
+            <entryLink id="94ae-c32a-aaf3-412f" name="Legion Saturnine Terminator Armour" hidden="false" collective="false" import="true" targetId="74b4-fd32-bed6-439c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="382d-d347-f328-4df8" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c6f-9747-b731-4196" type="max"/>
@@ -34644,7 +34644,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="c3d4-e5f6-a7b8-9012" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c8-8f27-9673-8450" type="equalTo"/>
+                    <condition field="selections" scope="fda4-5cdc-49a8-40e7" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62c8-8f27-9673-8450" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -34664,13 +34664,13 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4e5-f6a7-b8c9-0123" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="01fa-8f97-a8bf-46da" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="9055-7410-8ffd-b8e7">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="d4e5-f6a7-b8c9-0123" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                <condition field="selections" scope="01fa-8f97-a8bf-46da" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -34742,7 +34742,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="d4e5-f6a7-b8c9-0123" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                            <condition field="selections" scope="01fa-8f97-a8bf-46da" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -34809,7 +34809,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="d4e5-f6a7-b8c9-0123" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
+                            <condition field="selections" scope="01fa-8f97-a8bf-46da" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f783-f0ea-fe35-cdeb" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -47730,7 +47730,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e5f6-a7b8-c9d0-1234" name="Legion Saturnine Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="74b4-fd32-bed6-439c" name="Legion Saturnine Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d714-a1e6-9eb2-4bfc" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e315-d097-17e5-4140" type="max"/>
