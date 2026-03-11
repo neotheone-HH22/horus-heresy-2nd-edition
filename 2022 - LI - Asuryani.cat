@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e1da-asur-yani-0001" name="LI - Asuryani" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="130" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e1da-asur-yani-0001" name="LI - Asuryani" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="130" type="catalogue">
   <readme>Asuryani (Craftworld Eldar) faction for Horus Heresy 2.0 Panoptica Rules. Based on Liber Antiquia: Asuryani and Saedath rules.</readme>
 
   <categoryEntries>
@@ -12,6 +12,7 @@
       <categoryLinks>
         <categoryLink id="e1da-hq01-0000-0001-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="e1da-hq01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hq01-0000-0001-cl3" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0001-m01" name="Autarch" hidden="false" collective="false" import="true" type="model">
@@ -42,7 +43,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -83,7 +83,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -94,6 +93,7 @@
       <categoryLinks>
         <categoryLink id="e1da-hq01-0000-0003-cl1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="e1da-hq01-0000-0003-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-hq01-0000-0003-cl3" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0003-m01" name="Farseer" hidden="false" collective="false" import="true" type="model">
@@ -124,7 +124,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -165,7 +164,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -206,7 +204,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -247,7 +244,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -288,7 +284,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -329,7 +324,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -370,7 +364,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -411,7 +404,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -452,7 +444,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -493,7 +484,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -534,7 +524,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0008-uc2"/>
       </constraints>
       <costs>
@@ -575,7 +564,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0009-uc2"/>
       </constraints>
       <costs>
@@ -586,6 +574,7 @@
       <categoryLinks>
         <categoryLink id="e1da-tr01-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
         <categoryLink id="e1da-tr01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-tr01-0000-0001-cl3" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e1da-tr01-0000-0001-m01" name="Guardian Defender" hidden="false" collective="false" import="true" type="model">
@@ -616,7 +605,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -627,6 +615,7 @@
       <categoryLinks>
         <categoryLink id="e1da-tr01-0000-0002-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
         <categoryLink id="e1da-tr01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e1da-tr01-0000-0002-cl3" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e1da-tr01-0000-0002-m01" name="Storm Guardian" hidden="false" collective="false" import="true" type="model">
@@ -657,7 +646,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -698,7 +686,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -739,7 +726,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -780,7 +766,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -820,7 +805,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -861,7 +845,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -902,7 +885,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -943,7 +925,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -984,7 +965,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -1025,7 +1005,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -1066,7 +1045,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -1106,7 +1084,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -1146,7 +1123,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-uc2"/>
       </constraints>
       <costs>
@@ -1186,7 +1162,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-uc2"/>
       </constraints>
       <costs>
@@ -1227,7 +1202,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -1268,7 +1242,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -1308,7 +1281,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -1348,7 +1320,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -1388,7 +1359,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -1428,7 +1398,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -1469,7 +1438,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -1510,7 +1478,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs01-0000-0008-uc2"/>
       </constraints>
       <costs>
@@ -1552,7 +1519,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -1594,7 +1560,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -1636,7 +1601,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -1678,7 +1642,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -1718,7 +1681,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -1758,7 +1720,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -1798,7 +1759,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -1838,7 +1798,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0008-uc2"/>
       </constraints>
       <costs>
@@ -1878,7 +1837,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0009-uc2"/>
       </constraints>
       <costs>
@@ -1919,7 +1877,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-d001-uc2"/>
       </constraints>
       <costs>
@@ -1960,7 +1917,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -2001,7 +1957,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -2042,7 +1997,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -2083,7 +2037,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -2124,7 +2077,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -2165,7 +2117,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -2206,7 +2157,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -2247,7 +2197,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-dp01-0000-0008-uc2"/>
       </constraints>
       <costs>
@@ -2285,7 +2234,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -2298,7 +2246,6 @@
         <categoryLink id="e1da-ft01-0000-0002-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-ft01-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -2339,7 +2286,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hq09-0000-0001-uc2"/>
       </constraints>
       <costs>
@@ -2380,7 +2326,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0002-uc2"/>
       </constraints>
       <costs>
@@ -2421,7 +2366,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0003-uc2"/>
       </constraints>
       <costs>
@@ -2462,7 +2406,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-el09-0000-0004-uc2"/>
       </constraints>
       <costs>
@@ -2529,7 +2472,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-uc2"/>
       </constraints>
       <costs>
@@ -2570,7 +2512,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-fa09-0000-0006-uc2"/>
       </constraints>
       <costs>
@@ -2611,7 +2552,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-hs09-0000-0007-uc2"/>
       </constraints>
       <costs>
@@ -2652,7 +2592,6 @@
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-uc1"/>
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0008-uc2"/>
       </constraints>
       <costs>

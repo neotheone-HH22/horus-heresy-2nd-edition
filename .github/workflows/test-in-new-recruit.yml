@@ -22,7 +22,7 @@ jobs:
       - name: Installing all necessary packages
         run: pip install selenium
       - name: Run tests
-        run: python3 tests.py
+        run: python3 -u tests.py -v
         working-directory: horus-heresy/tests/
         env:
           DEFAULT_DATA_DIRECTORY: ${{ github.workspace }}
