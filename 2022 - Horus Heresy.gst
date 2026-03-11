@@ -9704,6 +9704,23 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e1da-asur-yani-gst1" name="Asuryani" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="e1da-asur-yani-gst3" value="0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2573-bb4c-e468-dd81" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1da-asur-yani-gst2" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1da-asur-yani-gst4" type="max"/>
+        <constraint field="selections" scope="roster" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1da-asur-yani-gst3" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="9021-d66d-2e3d-8ab6" name="Nemesis Bolter" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="315f-b593-5dce-8ca9" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
