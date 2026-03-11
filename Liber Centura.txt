@@ -1,0 +1,271 @@
+Sure, here is the text formatted for easy copying:
+
+---
+
+### Legion Indomitus Praetor
+**Unit Composition:**
+- 1 Legion Indomitus Praetor
+
+**Unit Type:**
+- Infantry (Character, Heavy)
+
+**Wargear:**
+- Combi-Bolter
+- Power Weapon
+- Legion Indomitus Terminator Armour
+
+**Special Rules:**
+- Legiones Astartes (X)
+- Relentless
+- Inexorable
+- Bulky (2)
+- Master of the Legion
+- Independent Character
+
+**Options:**
+- A Legion Indomitus Praetor may exchange their Combi-Bolter with one of the following:
+  - Volkite Charger (+2 points)
+  - Minor Combi-Weapon (+5 points)
+  - Magna Combi-Weapon (+10 points)
+  - Proteus Pattern Storm Shield (+15 points)
+- A Legion Indomitus Praetor may exchange their Power Weapon with one of the following:
+  - Lightning Claw (Free)
+  - Power Fist (+10 points)
+  - Chainfist (+15 points)
+  - Thunder Hammer (+15 points)
+  - Paragon Blade (+15 points)
+- A Legion Indomitus Praetor may exchange their Combi-Bolter and Power Weapon for:
+  - Two Lightning Claws (+15 points)
+- A Legion Indomitus Praetor may upgrade any one weapon to have:
+  - The Master-Crafted Special Rule (+10 points)
+- The Legion Indomitus Praetor may take a:
+  - Grenade Harness (+5 points)
+
+**Statistics:**
+- M: 6
+- WS: 6
+- BS: 5
+- S: 4
+- T: 4
+- W: 4
+- I: 5
+- A: 4
+- Ld: 10
+- Sv: 2+
+
+**Cost:**
+- 105 points
+
+### Legion Indomitus Centurion
+**Unit Composition:**
+- 1 Legion Indomitus Centurion
+
+**Unit Type:**
+- Infantry (Character, Heavy)
+
+**Wargear:**
+- Combi-Bolter
+- Power Weapon
+- Legion Indomitus Terminator Armour
+
+**Special Rules:**
+- Legiones Astartes (X)
+- Relentless
+- Inexorable
+- Bulky (2)
+- Legiones Consularis
+- Independent Character
+
+**Statistics:**
+- M: 6
+- WS: 5
+- BS: 5
+- S: 4
+- T: 4
+- W: 3
+- I: 5
+- A: 3
+- Ld: 9
+- Sv: 2+
+
+**Options:**
+- A Legion Indomitus Centurion may exchange their Combi-Bolter with one of the following:
+  - Volkite Charger (+2 points)
+  - Minor Combi-Weapon (+5 points)
+  - Magna Combi-Weapon (+10 points)
+  - Proteus Pattern Storm Shield (+15 points)
+- A Legion Indomitus Centurion may exchange their Power Weapon with one of the following:
+  - Lightning Claw (Free)
+  - Power Fist (+10 points)
+  - Chainfist (+15 points)
+  - Thunder Hammer (+15 points)
+- A Legion Indomitus Centurion may exchange their Power Weapon and Combi-Bolter for:
+  - Two Lightning Claws (+15 points)
+- The Legion Indomitus Centurion may take a:
+  - Grenade Harness (+5 points)
+
+**Consul Upgrades:**
+- Any Legion Indomitus Centurion may select a single Consul upgrade. The various Consul types are listed below, but full rules for them can be found in the Liber Astartes rulebooks:
+  - Legion Librarian (+45 points)
+  - Legion Esoterist (+35 points)
+  - Legion Champion (+35 points)
+  - Legion Forge Lord (+40 points)
+  - Legion Primus Medicae (+45 points)
+  - Legion Siege Breaker (+45 points)
+  - Legion Chaplain (+35 points)
+  - Legion Delegatus (+25 points)
+  - Legion Herald (+20 points)
+  - Legion Mortificator (+25 points)
+
+**Cost:**
+- 70 points
+
+### Legion Saturnine Centurion
+**Unit Composition:**
+- 1 Legion Saturnine Centurion
+
+**Unit Type:**
+- Infantry (Character, Heavy)
+
+**Wargear:**
+- Combi-Bolter
+- Power Weapon
+- Legion Saturnine Terminator Armour
+
+**Special Rules:**
+- Legiones Astartes (X)
+- Relentless
+- Inexorable
+- Bulky (3)
+- Firing Protocols (2)
+- Legiones Consularis
+- Battle Hardened (1)
+- Independent Character
+
+**Options:**
+- A Legion Saturnine Centurion may exchange their Combi-Bolter with one of the following:
+  - Volkite Charger (+2 points)
+  - Rotor Cannon (+2 points)
+  - Heavy Flamer (+5 points)
+  - Minor Combi-Weapon (+5 points)
+  - Magna Combi-Weapon (+10 points)
+  - Plasma Cannon (+15 points)
+  - Reaper Autocannon (+15 points)
+- A Legion Saturnine Centurion may exchange their Power Weapon with one of the following:
+  - Lightning Claw (Free)
+  - Power Fist (+10 points)
+  - Chainfist (+15 points)
+  - Thunder Hammer (+15 points)
+- A Legion Saturnine Centurion may purchase one of the following shoulder-mounted weapons:
+  - Heavy Bolter (+5 points)
+  - Havoc Launcher (+5 points)
+  - Autocannon (+10 points)
+  - Volkite Culverin (+10 points)
+  - Multi-Melta (+15 points)
+- A Legion Saturnine Centurion that has also selected the Legion Forge Lord Legiones Consularis upgrade may instead purchase the following shoulder-mounted weapon:
+  - Conversion Beam Cannon (+20 points)
+- A Legion Saturnine Centurion may exchange their Combi-Bolter and Power Weapon for:
+  - Two Lightning Claws (+15 points)
+
+**Statistics:**
+- M: 5
+- WS: 5
+- BS: 5
+- S: 4
+- T: 4
+- W: 4
+- I: 5
+- A: 3
+- Ld: 9
+- Sv: 2+
+
+**Consul Upgrades:**
+- Any Legion Saturnine Centurion may select a single Consul upgrade. The various Consul types are listed below, but full rules for them can be found in the Liber Astartes rulebooks:
+  - Legion Forge Lord (+40 points)
+  - Legion Siege Breaker (+45 points)
+  - Legion Mortificator (+25 points)
+
+**Cost:**
+- 140 points
+
+### Legion Indomitus Command Squad
+**Unit Composition:**
+- 2 Legion Indomitus Chosen
+- 1 Legion Indomitus Standard Bearer
+
+**Unit Type:**
+- Infantry (Heavy)
+
+**Wargear:**
+- Legion Standard (Legion Indomitus Standard Bearer only)
+- Combi-Bolter (Legion Indomitus Chosen only)
+- Power Weapon
+- Legion Indomitus Terminator Armour
+
+**Special Rules:**
+- Legiones Astartes (X)
+- Chosen Warriors
+- Relentless
+- Inexorable
+- Retinue
+- Bulky (2)
+
+**Dedicated Transport:**
+- A Legion Indomitus Command Squad may take a Legion Land Raider Proteus Carrier or a Legion Dreadclaw Drop Pod as a Dedicated Transport. As a Dedicated Transport this does not use up an additional Force Organisation slot, but its points cost must still be paid for as part of the army.
+
+**Options:**
+- A Legion Indomitus Command Squad may include:
+  - Up to 2 additional Legion Indomitus Chosen (+30 points per model)
+- For every two Legion Indomitus Chosen in the unit, one Legion Indomitus Chosen may take a:
+  - Havoc Launcher (+15 points each)
+- Any model in the unit may exchange their Combi-Bolter with one of the following:
+  - Volkite Charger (+2 points)
+  - Minor Combi-Weapon (+5 points)
+  - Magna Combi-Weapon (+10 points)
+  - Proteus Pattern Storm Shield (+15 points)
+- A Legion Indomitus Standard Bearer may exchange his Power Weapon for one of the following:
+  - Combi-Bolter (Free)
+  - Volkite Charger (+2 points)
+  - Minor Combi-Weapon (+5 points)
+  - Magna Combi-Weapon (+10 points)
+  - Proteus Pattern Storm Shield (+15 points)
+- Any model in the unit may exchange their Power Weapon with one of the following:
+  - Lightning Claw (+5 points)
+  - Power Fist (+10 points)
+  - Chainfist (+15 points)
+  - Thunder Hammer (+15 points)
+- Any model in the unit may exchange their Power Weapon and Combi-Bolter for:
+  - Two Lightning Claws (+15 points)
+- The Legion Indomitus Standard Bearer may take a:
+  - Grenade Harness (+5 points)
+
+**Statistics:**
+- Legion Indomitus Chosen:
+  - M: 6
+  - WS: 5
+  - BS: 4
+  - S: 4
+  - T: 4
+  - W: 2
+  - I: 4
+  - A: 2
+  - Ld: 8
+  - Sv: 2+
+- Legion Indomitus Standard Bearer:
+  - M: 6
+  - WS: 5
+  - BS: 4
+  - S: 4
+  - T: 4
+  - W: 2
+  - I: 4
+  - A: 2
+  - Ld: 8
+  - Sv: 2+
+
+**Cost:**
+- 100 points
+
+---
+
+This should make it easier for you to copy the text. If you need any further adjustments or additional information, feel free to ask!
