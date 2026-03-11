@@ -437,6 +437,28 @@
         <entryLink id="8b24-5393-42ae-a92b" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="40ca-b143-a04e-4083" type="selectionEntryGroup">
           <comment>template_id_ac26-33db-40a7-bdba    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
+    <entryLink id="3fe8-b74d-8f06-406c" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8daa-fa31-a91c-4a90" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="f453-9396-ea6d-445e" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="5073-385a-d4b3-47e5" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5984-3419-b60a-421d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="40ca-b143-a04e-4083" type="selectionEntryGroup"/>
+        <entryLink id="6d14-978b-c972-4ddb" name="Retinue" hidden="false" collective="false" import="true" targetId="5a61-7572-048d-9bb4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f56f-98c3-2434-4fd1" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="184b-cd60-ebf6-49aa" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="457c-5601-018e-4a31" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="ab84-eb05-3939-4d89" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bc48-32a0-f57e-4db7" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="40ca-b143-a04e-4083" type="selectionEntryGroup"/>
+        <entryLink id="cef4-03b6-503d-444d" name="Retinue" hidden="false" collective="false" import="true" targetId="5a61-7572-048d-9bb4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
         <entryLink id="6368-9672-49d6-ae96" name="Retinue" hidden="false" collective="false" import="true" targetId="5a61-7572-048d-9bb4" type="selectionEntryGroup">
           <comment>template_id_dc8e-2801-46d6-84f8    template_targetId_be38-a066-4f8e-ae54</comment>
           <modifiers>
@@ -1665,6 +1687,17 @@
         <entryLink id="a5d3-96c9-440c-9ebc" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="40ca-b143-a04e-4083" type="selectionEntryGroup">
           <comment>template_id_4784-b370-444b-93ae    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
+    <entryLink id="7301-b5a0-0f2f-4091" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="9bb0-e48f-0426-49c3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d3ef-32cb-33da-446f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="eeeb-932e-8ccd-4769" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="3c27-9e51-286b-47fb" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e62-be47-7786-4ab2" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="40ca-b143-a04e-4083" type="selectionEntryGroup"/>
+        <entryLink id="4365-9526-7762-417e" name="Retinue" hidden="false" collective="false" import="true" targetId="5a61-7572-048d-9bb4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
         <entryLink id="6e31-80e5-4df4-8f08" name="Retinue" hidden="false" collective="false" import="true" targetId="5a61-7572-048d-9bb4" type="selectionEntryGroup">
           <comment>template_id_fe8f-c701-4ebd-ae76    template_targetId_be38-a066-4f8e-ae54</comment>
         </entryLink>
@@ -4726,6 +4759,7 @@ When in base to base contact with an enemy Infantry or Cavalry model whose Weapo
           </modifiers>
         </entryLink>
         <entryLink id="ddf1-3ff4-ef67-c4f1" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
+        <entryLink id="3386-22f4-8105-44e9" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="01fa-8f97-a8bf-46da" type="selectionEntry"/>
         <entryLink id="b94f-e962-0b23-adff" name="Command Squad" hidden="false" collective="false" import="true" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>

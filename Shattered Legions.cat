@@ -10,6 +10,7 @@
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Command Squad, Tartaros" hidden="false" id="b73c-ae17-b267-bc92" collective="false" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
+        <entryLink id="257c-1c15-53e7-4ecc" name="Command Squad, Indomitus" hidden="false" collective="false" import="true" targetId="01fa-8f97-a8bf-46da" type="selectionEntry"/>
         <entryLink import="true" name="Command Squad" hidden="false" id="74e6-ab20-a090-44d2" collective="false" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
         <entryLink import="true" name="Command Squad, Cataphractii" hidden="false" id="9f48-49a8-5c67-e37d" collective="false" targetId="1b17-dcd6-0153-3efe" type="selectionEntry">
           <modifiers>
@@ -206,6 +207,28 @@
         <entryLink import="true" name="Mutable Tactics Traits (Hero)" hidden="false" id="e787-5724-aac2-eaaf" type="selectionEntryGroup" targetId="c907-fbe0-2643-26aa"/>
         <entryLink import="true" name="Retinue" hidden="false" id="e2c6-cd3c-fa64-07f6" type="selectionEntryGroup" targetId="456b-39f3-0d4f-ba17"/>
         <entryLink import="true" name="Warlord Traits" hidden="false" id="d4ed-edda-f471-b9e1" type="selectionEntryGroup" targetId="769f-d9e4-f7ad-04b4"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="bf87-108a-fe6f-43bf" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a8c1-3913-0d62-451f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="47bd-1cb5-9f33-4416" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="93ea-3c40-cd64-4fb6" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fe2e-5b63-63e9-443c" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="769f-d9e4-f7ad-04b4" type="selectionEntryGroup"/>
+        <entryLink id="344b-ec61-5427-4d9b" name="Retinue" hidden="false" collective="false" import="true" targetId="456b-39f3-0d4f-ba17" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="dd77-2e4f-58bb-4dc7" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8b4a-d01c-55d7-4a57" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="b8f2-94dd-96f5-4ac6" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="7628-04fb-96f0-4673" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3203-709d-db38-4b84" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="769f-d9e4-f7ad-04b4" type="selectionEntryGroup"/>
+        <entryLink id="bfb9-a13c-f82e-48da" name="Retinue" hidden="false" collective="false" import="true" targetId="456b-39f3-0d4f-ba17" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink import="false" name="Contemptor Dreadnought Talon" hidden="false" id="4d3e-a705-acee-7331" collective="false" targetId="d664-5692-cd41-f9be" type="selectionEntry">
@@ -901,6 +924,17 @@
         <entryLink import="true" name="Mutable Tactics Traits (Hero)" hidden="false" id="370c-228c-d57c-ed25" type="selectionEntryGroup" targetId="c907-fbe0-2643-26aa"/>
         <entryLink import="true" name="Retinue" hidden="false" id="58bb-0329-bdbd-52fb" type="selectionEntryGroup" targetId="456b-39f3-0d4f-ba17"/>
         <entryLink import="true" name="Warlord Traits" hidden="false" id="8751-e89e-d4a3-02d6" type="selectionEntryGroup" targetId="769f-d9e4-f7ad-04b4"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5930-0e46-d392-4939" name="Praetor, Indomitus" hidden="false" collective="false" import="false" targetId="9bb0-e48f-0426-49c3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9eef-516a-214e-48a8" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e207-d9b4-d063-485b" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="7bf0-4d45-1081-4791" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="40e0-cab0-181e-48c0" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="769f-d9e4-f7ad-04b4" type="selectionEntryGroup"/>
+        <entryLink id="bfc5-1820-2baa-4980" name="Retinue" hidden="false" collective="false" import="true" targetId="456b-39f3-0d4f-ba17" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink import="false" name="Predator Squadron" hidden="false" id="b5d0-486d-b61e-4cdc" collective="false" targetId="45fd-df3e-9bc4-60b6" type="selectionEntry">
