@@ -284,15 +284,6 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
             </modifier>
           </modifiers>
         </entryLink>
-    <entryLink id="d729-92e7-73c1-4b32" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="ce60-fe77-cc83-4a92" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="525c-c39d-e732-4683" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
-        <categoryLink id="41f9-9e11-5454-4207" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="e678-64ed-e784-418c" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="9b47-e234-7f96-3cec" type="selectionEntryGroup"/>
-        <entryLink id="ead9-aa37-5878-41ed" name="Retinue" hidden="false" collective="false" import="true" targetId="5b3d-ea70-4774-c23d" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="0291-4666-d68b-4e0a" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
@@ -306,6 +297,15 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <entryLink id="d883-8be7-1397-4639" name="Retinue" hidden="false" collective="false" import="true" targetId="5b3d-ea70-4774-c23d" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="d729-92e7-73c1-4b32" name="Centurion, Indomitus" hidden="false" collective="false" import="false" targetId="1f35-61e5-fc74-4f63" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ce60-fe77-cc83-4a92" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="525c-c39d-e732-4683" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="41f9-9e11-5454-4207" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e678-64ed-e784-418c" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="9b47-e234-7f96-3cec" type="selectionEntryGroup"/>
+        <entryLink id="ead9-aa37-5878-41ed" name="Retinue" hidden="false" collective="false" import="true" targetId="5b3d-ea70-4774-c23d" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink import="false" name="Cerberus Squadron" hidden="false" id="216b-561d-fc1c-20e6" collective="false" targetId="137a-e079-34cd-8161" type="selectionEntry">
