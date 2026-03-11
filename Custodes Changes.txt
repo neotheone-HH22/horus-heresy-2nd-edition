@@ -1,0 +1,143 @@
+Weapon & Equipment Upgrades
+Balance Change
+If a model equipped with a Lasrifle is eligible to purchase a bayonet
+and exchanges their Lasrifle for a Lasgun or Autogun, they may still
+purchase a bayonet as normal.
+
+0-1 Custodian Tribune
+Balance Change
+Replace the option to purchase a Paragon Blade for +25 points for
+an option to purchase a Paragon Blade for Free.
+Replace the option to purchase Meridian Swords for Free for an
+option to purchase a Meridian Swords for +35 Points.
+Replace the option to purchase a Paragon Glaive for +30 points for
+an option to purchase a Paragon Glaive for +10 points.
+
+Custodian Shield Captain
+Balance Change
+Replace the option to purchase a Paragon Blade for +25 points for
+an option to purchase a Paragon Blade for Free.
+Replace the option to purchase Meridian Swords for Free for an
+option to purchase a Meridian Swords for +35 Points.
+Replace the option to purchase a Paragon Glaive for +30 points for
+an option to purchase a Paragon Glaive for +10 points.
+
+Hetaeron Guard Squad
+Balance Change
+Change the Points Cost of this unit to 195 points.
+Change the Points Per Model Cost of this unit to +60 points.
+Replace the Meridian Swords in this unit’s Wargear with a Paragon
+Blade.
+Replace the option to purchase a Paragon Blade for +25 points for
+an option to purchase Meridian Swords for +35 points.
+
+Custodian Venetari Squad
+Balance Change
+Change the Points Cost of this unit to 190 points.
+Change the Points Per Model Cost of this unit to +60 points.
+Change the Attacks Characteristic of this unit to 3.
+
+Custodian Guard Squad
+Balance Change
+Change the Attacks Characteristic of this unit to 3.
+
+Sentinel Guard Squad
+Balance Change
+Change the Attacks Characteristic of this unit to 3.
+
+Agamatus Jetbike Squadron
+Balance Change
+Change the Attacks Characteristic of this unit to 2.
+
+Orion Assault Dropship
+Balance Change
+Change the Transport Capacity Characteristic of this unit to 36.
+
+Caladius Grav-Tank
+Balance Change
+Replace the Turret Mounted Iliastus Accelerator Cannon in this
+unit’s Wargear with Turret Mounted Iliastus Accelerator Cannon
+Arrays.
+Replace the option to exchange a Turret Mounted Iliastus
+Accelerator Cannon for an option to exchange Turret Mounted
+Iliastus Accelerator Cannon Arrays for a Turret Mounted Enhanced
+Arachnus Blaze Cannon.
+
+Knight Abyssal
+Balance Change
+Replace the first and second options bullet points to read as
+follows:
+“A Knight Abyssal may exchange either her Execution blade and/or
+Bolt Pistol for one of the following options:”
+Knight Centura
+Balance Change
+Replace the first and second options bullet points to read as
+follows:
+“A Knight Centura may exchange either her Execution blade and/or
+Bolt Pistol for one of the following options:”
+
+Questora Cadre
+Balance Change
+Change the profile on this unit’s entry to have a Weapon Skill
+Characteristic of 4, and a Ballistic Skill Characteristic of 5.
+Replace the Vratine Armour in this unit’s Wargear with Artificer
+Armour.
+Replace the fourth options bullet point to read as follows:
+“The entire unit may exchange their Vratine bolters for: Any model in
+the unit may exchange their Vratine Bolter for one of the following
+options:”
+
+Golden Exemplar
+Balance Change
+Add the following to the end of the Warlord Trait:
+“Furthermore, the first Reaction made in each Game Turn by this
+Warlord and any unit he has joined does not use up a point of the
+Controlling Player’s Reaction Allotment.”
+
+Silent Fury
+Errata
+Add the Antigrav Unit Sub-type to this unit’s profile.
+Add the Firing Protocols (2) Special Rule to this unit’s entry.
+
+Raptora Cadre
+Balance Change
+Replace the Vratine Armour in this unit’s Wargear with Artificer
+Armour.
+
+Kharon Pattern Acquisitor
+Balance Change
+Replace the option to exchange the Hellion Heavy Cannon Array
+for a Multi-Melta to a Gravis Melta Cannon instead.
+
+Eradicator Cadre
+Balance Change
+Change the base unit cost of the unit to 80 points.
+Change the cost per additional model to 15 points per model.
+Change both profiles on this unit’s entry to have a Ballistic Skill
+Characteristic of 5.
+Change the Eradicator profile on this unit’s entry to have a
+Leadership Characteristic of 8.
+Change the Eradicator Mistress’ profile on this unit’s entry to have
+a Leadership Characteristic of 9.
+Add Voidsheen Cloaks to this unit’s Wargear.
+
+Vigilator Cadre
+Balance Change
+Replace the Silent Sisterhood (Chamber of Oblivion) Special Rule
+on this unit’s profile with the Silent Sisterhood (Chamber of
+Vigilance) Special Rule.
+
+Pursuer Cadre
+Balance Change
+Change the base unit cost of the unit to 35 points.
+Change the upgrade cost for Execution Blades to +5 points.
+
+Pursuit Beasts
+Errata
+Change the Rage (1) Special Rule to Rage (2).
+
+Expurgator Cadre
+Balance Change
+Replace the option to purchase an Adrathic Destructor for
++20 points for an option to purchase an Adrathic Devastator (with
+Suspensor Web) for +20 points.
