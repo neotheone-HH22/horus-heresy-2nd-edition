@@ -138,7 +138,7 @@ class GameTests(unittest.TestCase):
     def test_asuryani_validate(self):
         self.load_list('Eldar Validate')
         errors = self.get_error_list()
-        self.assertEqual(0, len(errors), "This Asuryani (Eldar) list has validation errors")
+        self.assertEqual(0, len(errors), "This list has validation errors")
 
 
 if __name__ == '__main__':
