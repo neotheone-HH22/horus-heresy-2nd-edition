@@ -1483,6 +1483,48 @@
         <categoryLink id="e1da-tr01-0000-0006-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
         <categoryLink id="e1da-tr01-0000-0006-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
       </categoryLinks>
+            <selectionEntryGroups>
+        <selectionEntryGroup id="b286a3a6-e3a8-4d75-" name="Aeldari Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="11727e15-f8d3-4e4b-" name="Crystal Targeting Matrix" hidden="false" collective="false" import="true" targetId="4292a33c-40cd-49ec-a8f1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec0326f9-1d21-4e9f-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f423fcc9-999e-42f2-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e535a30-4240-4435-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="0f8577df-201c-4f3f-" name="Searchlights" hidden="false" collective="false" import="true" targetId="1f9f48eb-fd06-4b97-83ae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aafc24b-1407-44b4-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2f5054e4-9c94-4c31-" name="Spirit Stones" hidden="false" collective="false" import="true" targetId="4cb935cb-7c4c-4326-a63c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff44a69-6556-4a42-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c09f83e8-21ff-42c6-" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b03dbeb1-5b00-4e69-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b76256ad-316a-4c9c-" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205a3f1e-9fd5-4b81-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="715844b1-34e8-41a9-" name="Wave Serpent Shield" hidden="false" collective="false" import="true" targetId="0e08cac7-1898-4190-b0ad" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b85d41f-4c28-41a2-" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+
       <selectionEntries>
         <selectionEntry id="e1da-tr01-0000-0006-m01" name="Wave Serpent" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -2198,13 +2240,7 @@
       <infoLink id="7241-079d-438b-40ce" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /><infoLink id="31a7-58ca-8421-42fb" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="90abe3ee-77ce-423f-8539" name="Aeldari Wargear" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
+          <entryLinks></entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -2260,14 +2296,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="58e9d67f-76ce-47a0-824b" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="ab2b0dce-1dab-42b9-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d551209e-60a7-440b-9b4f" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1ff171-8e2b-40d5-a8b2" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8898ecc-0dd0-40e3-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2329,14 +2360,24 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="bf27b8bd-ce25-4ac2-a89a" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="e157052b-ece6-40bb-b330" name="Mesh Armour" hidden="false" collective="false" import="true" targetId="75025cdd-be27-4744-81a1" type="selectionEntry">
+            <entryLink id="3b0f0bf0-8f0d-4339-" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="458f45c3-bcc0-4dfb-8aa4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee82c000-9630-40ce-" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
+            <entryLink id="6e9fdfbf-58fb-4f59-" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="471d3021-bb23-4df4-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d6f96f23-7447-4b9b-" name="Mesh Armour" hidden="false" collective="false" import="true" targetId="75025cdd-be27-4744-81a1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67990d8a-b88a-4688-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e297b2f2-8745-44e4-" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d083f5-7d79-4ef5-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2626,14 +2667,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="55555733-17df-44ad-8f7b" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="49d36cd4-b3e5-43f5-ae05" name="Scattershield" hidden="false" collective="false" import="true" targetId="f88efced-ee66-4bcf-b335" type="selectionEntry">
+            <entryLink id="135e4051-766c-4f24-" name="Power Field" hidden="false" collective="false" import="true" targetId="20f2027e-991e-427e-9b6e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="444b9b60-a303-43b0-9ed8" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="da27b033-6abd-4b1c-b0f5" name="Wraithshield" hidden="false" collective="false" import="true" targetId="06a41bb8-b47c-4682-bd3a" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9bfc6e-edc1-4dfd-b709" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d87f6ff-d827-4182-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2691,14 +2727,14 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="ce3a8cec-b8c2-4d74-a16c" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="ffb4d855-7b73-46eb-a85c" name="Rune Armour" hidden="false" collective="false" import="true" targetId="eb07ad6e-f7b0-4bb6-96fa" type="selectionEntry">
+            <entryLink id="0c5028d4-fb67-47f1-" name="Guide Stones" hidden="false" collective="false" import="true" targetId="78e44e8f-9fd8-4347-b21e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3adb8a36-42f6-4f2c-918d" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e2fd31-d4ed-434b-" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="da27b033-6abd-4b1c-b0f5" name="Wraithshield" hidden="false" collective="false" import="true" targetId="06a41bb8-b47c-4682-bd3a" type="selectionEntry">
+            <entryLink id="ec94c77f-eaaf-4b8c-" name="Wraithshield" hidden="false" collective="false" import="true" targetId="06a41bb8-b47c-4682-bd3a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9bfc6e-edc1-4dfd-b709" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082ff9a2-6d35-46be-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2756,14 +2792,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="76277897-fd28-44ff-8d54" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="49d36cd4-b3e5-43f5-ae05" name="Scattershield" hidden="false" collective="false" import="true" targetId="f88efced-ee66-4bcf-b335" type="selectionEntry">
+            <entryLink id="cb735ace-795e-453d-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="444b9b60-a303-43b0-9ed8" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="da27b033-6abd-4b1c-b0f5" name="Wraithshield" hidden="false" collective="false" import="true" targetId="06a41bb8-b47c-4682-bd3a" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9bfc6e-edc1-4dfd-b709" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9821843e-4717-4e66-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2823,14 +2854,14 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="de083377-a4bc-4e56-ade3" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="49d36cd4-b3e5-43f5-ae05" name="Scattershield" hidden="false" collective="false" import="true" targetId="f88efced-ee66-4bcf-b335" type="selectionEntry">
+            <entryLink id="8fec1852-0d06-44c1-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="444b9b60-a303-43b0-9ed8" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7882d0c-6de1-4705-" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="da27b033-6abd-4b1c-b0f5" name="Wraithshield" hidden="false" collective="false" import="true" targetId="06a41bb8-b47c-4682-bd3a" type="selectionEntry">
+            <entryLink id="5388b981-f4ba-48ab-" name="Webway Shunt Generator" hidden="false" collective="false" import="true" targetId="dd30717c-f64a-45a7-bd07" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9bfc6e-edc1-4dfd-b709" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28aaa35f-6132-4cdc-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2890,9 +2921,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="53883361-b9c8-41f1-a15c" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="2d15ee72-838e-4df4-a316" name="Spirit Stones" hidden="false" collective="false" import="true" targetId="4cb935cb-7c4c-4326-a63c" type="selectionEntry">
+            <entryLink id="4914636f-f525-4ae9-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ea8744-a70f-4b15-a392" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0c9f7c8-2579-478d-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2953,9 +2984,14 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="96c4dfb6-da81-4335-a0d8" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="bad330d9-550e-4fc2-8039" name="Revenant Jump Engines" hidden="false" collective="false" import="true" targetId="5b235952-0537-4546-b800" type="selectionEntry">
+            <entryLink id="98a1857c-f5fc-4c07-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de5fe785-4438-4dde-9d1c" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f47a87-e3ea-4bb8-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e45248ed-ccfe-487a-" name="Revenant Jump Engines" hidden="false" collective="false" import="true" targetId="5b235952-0537-4546-b800" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c21b6f76-a21f-43da-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3010,14 +3046,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="95e6ec72-39e0-4d8c-80bb" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="46119ed0-be61-4e63-" name="Improved Holo-Fields" hidden="false" collective="false" import="true" targetId="e82b8fa3-3b24-45af-90a3" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d551209e-60a7-440b-9b4f" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1ff171-8e2b-40d5-a8b2" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b35cfa46-243c-4f22-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3070,14 +3101,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="e8dcff43-4d57-4e63-b1b2" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="5776f76a-3592-40e7-" name="Improved Holo-Fields" hidden="false" collective="false" import="true" targetId="e82b8fa3-3b24-45af-90a3" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d551209e-60a7-440b-9b4f" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e1ff171-8e2b-40d5-a8b2" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349c0dd9-bfe5-4936-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3123,6 +3149,33 @@
         <categoryLink id="e1da-lw01-0000-0007-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
         <categoryLink id="e1da-lw01-0000-0007-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
       </categoryLinks>
+            <selectionEntryGroups>
+        <selectionEntryGroup id="dee9e8f8-4a94-45e0-" name="Aeldari Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ad581314-c987-4386-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ea15d5-d2f3-437e-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6b5d4bdc-965a-4e2d-" name="Searchlights" hidden="false" collective="false" import="true" targetId="1f9f48eb-fd06-4b97-83ae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="942ee5c9-583c-498f-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c01cd54c-7f9a-4f60-" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b386c85a-3213-404e-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="24eeb4fb-f442-4ce0-" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fde919dc-73c1-4698-" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+
       <selectionEntries>
         <selectionEntry id="e1da-lw01-0000-0007-m01" name="Scorpion" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -3162,6 +3215,33 @@
         <categoryLink id="e1da-lw01-0000-0008-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
         <categoryLink id="e1da-lw01-0000-0008-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
       </categoryLinks>
+            <selectionEntryGroups>
+        <selectionEntryGroup id="ce2d2abe-7c47-41d8-" name="Aeldari Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ad581314-c987-4386-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ea15d5-d2f3-437e-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6b5d4bdc-965a-4e2d-" name="Searchlights" hidden="false" collective="false" import="true" targetId="1f9f48eb-fd06-4b97-83ae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="942ee5c9-583c-498f-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c01cd54c-7f9a-4f60-" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b386c85a-3213-404e-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="24eeb4fb-f442-4ce0-" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fde919dc-73c1-4698-" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+
       <selectionEntries>
         <selectionEntry id="e1da-lw01-0000-0008-m01" name="Cobra" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -3208,9 +3288,29 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="5436b10c-b781-408b-bd9e" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="d3b039a1-4025-4836-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d581b523-3b8c-4c0f-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="da37eb6a-18c9-4a18-" name="Searchlights" hidden="false" collective="false" import="true" targetId="1f9f48eb-fd06-4b97-83ae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="940854e9-b0d6-4ce1-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5c7012ae-6164-4579-" name="Spirit Stones" hidden="false" collective="false" import="true" targetId="4cb935cb-7c4c-4326-a63c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d230de-9e9f-4cff-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6195303c-2b46-4408-" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d90e059-4f0e-4756-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="fb30d3bf-267f-49ae-" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a34bfa-fdea-4eb8-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4567,14 +4667,19 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="6b23f671-74ed-4220-a50f" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="4cc5d46b-7c6b-4f8e-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="822446ea-c0a5-46ea-" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="feb2db43-37db-441d-912e" name="Starweaver Skimmer" hidden="false" collective="false" import="true" targetId="adf0be3e-d9df-419a-b7d1" type="selectionEntry">
+            <entryLink id="663b4536-6819-4b57-" name="Mirage Launcher" hidden="false" collective="false" import="true" targetId="354231ef-7527-4bc7-b684" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b1c1fb-af90-4e20-9d38" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7aa8535-d163-4c91-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="60baa7d9-c577-4a53-" name="Starweaver Skimmer" hidden="false" collective="false" import="true" targetId="adf0be3e-d9df-419a-b7d1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aecf172-1739-411e-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4656,14 +4761,19 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="d6103f86-03b1-48a9-afd1" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="b63f2531-72a4-4187-a596" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
+            <entryLink id="a5fc8822-da16-4c1a-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1857cb8d-358d-4d0d-99e0" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452052fd-50fc-4a9b-" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="feb2db43-37db-441d-912e" name="Starweaver Skimmer" hidden="false" collective="false" import="true" targetId="adf0be3e-d9df-419a-b7d1" type="selectionEntry">
+            <entryLink id="eb385980-b522-44c5-" name="Mirage Launcher" hidden="false" collective="false" import="true" targetId="354231ef-7527-4bc7-b684" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b1c1fb-af90-4e20-9d38" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f1d067-35b9-4919-" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="04b738f4-d6f1-4e28-" name="Starweaver Skimmer" hidden="false" collective="false" import="true" targetId="adf0be3e-d9df-419a-b7d1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5852c1d2-d1cc-48a9-" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
