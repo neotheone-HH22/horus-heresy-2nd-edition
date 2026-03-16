@@ -2616,4 +2616,993 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <sharedRules>
+    <rule id="ad54-ff37-4299-0586" name="Aspect Shrine (X)" hidden="false">
+      <description>The budding Aspect Shrines were a facet of the paths of which the
+Aeldari walked, a discipline of which one dedicated themselves to - at
+the exclusion of all else. Each of these cults focused upon a different
+element of the Aeldari war god, honing themselves into a particular
+tactical role on the battlefield. Their minds and bodies were honed with
+endless practice until they became suffused with the aspect of Khaine
+those Aspect Warriors were intended to honour. When the Aeldari of
+the Aspect Shrines went to war, they did so as a group of specialists,
+practised to perfectly compliment one another’s roles on the battlefield.
+However, their numbers dwindled due to their newfound existence, and
+when forced to mass in numbers against some dire threat, they were
+forced to draw upon the greater Craftworld population in the hope of
+assembling a force capable of combating the enemy.
+The notation in brackets that is included as part of the Aspect
+Shrine (X) Special Rule defines which Aspect Shrine the model
+belongs to. This Aspect Shrine influences how it may be selected
+when building an army that incorporates a Detachment with the
+Asuryani Sub-faction.
+When selecting a detachment using the Asuryani Army List, the
+number of units from Aspect Shrines is limited; for each model
+included in a Detachment with the Character Sub-Type (or the
+Phoenix Lord Unit Type) and a given version of the Aspect Shrine
+(X) Special Rule (for example, Aspect Shrine (Dire Avenger)), the
+Detachment may include up to one other unit without the
+Character Sub-type (or the Phoenix Lord Unit Type) with the
+corresponding Aspect Shrine (X) Special Rule. Units taken this way
+are still limited to available Force Organisation slots. Note that
+Dedicated Transports do not count towards these limits.</description>
+    </rule>
+    <rule id="664c-371a-1687-8ec7" name="Battle Focus" hidden="false">
+      <description>Warriors of the Aeldari entered a semi-trance state when at war,
+enabling them to enact pinpoint assaults whilst still utilising their
+natural agility for rapid repositioning.
+A unit composed entirely of models with this Special Rule may
+choose to Run in the Controlling Player’s Movement Phase and
+still shoot in the following Shooting Phase. If they choose to Run
+in the Movement Phase, all shooting attacks the unit makes in the
+following Shooting Phase are resolved at a Ballistic Skill
+Characteristic of 2.</description>
+    </rule>
+    <rule id="b86c-2852-9c5c-0788" name="Bio-Explosive" hidden="false">
+      <description>Those slain by weapons which use this ammunition did not merely
+perish in gore and gunsmoke - but instead came apart in an explosion
+of surprisingly violent power.
+If a model is slain as a result of a weapon with this Special Rule,
+centre a Small Blast (3”) template over the slain model. All models
+under the marker suffer an immediate automatic hit at Strength 5,
+AP 4 with the Ignores Cover Special Rule. Note that models slain
+in this manner do not generate additional Bio-Explosive templates.</description>
+    </rule>
+    <rule id="8781-209c-8d3d-d54f" name="Bonesinger Companions" hidden="false">
+      <description>The Bonesingers served as psychic engineers and craftsmen for the
+Craftworlds, using the solidified essence of the warp to create and
+maintain both aesthetically pleasing and incredibly capable items.
+Whilst not traditionally warriors, those that were summoned to war
+were a vital resource only assigned in necessity, placed amongst kin
+that could best benefit from their capabilities.
+A Bonesinger Conclave is selected as any other unit, using up a
+single Force Organisation slot and bought in the same manner.
+However, before the first turn begins and any models are deployed
+to the battlefield, all models in a Bonesinger Conclave must be
+assigned to another unit from the same Detachment of the army
+they were selected as part of.
+Bonesingers may only be assigned to units of Guardian Defenders,
+Storm Guardians, or Vaul&#x27;s Wrath Support Batteries. No more
+than one Bonesinger may be assigned to any given unit.
+Once assigned to a unit, the Bonesinger is considered part of that
+unit and may not leave it under any circumstances – if the unit is
+removed as a casualty, then the Bonesinger is removed as well. In
+battles using Victory points, no Victory points are ever scored for
+removing a Bonesinger as a casualty. When assigned to a unit, a
+Bonesinger gains all of the special rules (with the exception of
+those that specifically forbid it) and Unit Sub-types listed for the
+unit to which it is attached, but does not gain access to any
+additional Wargear options available to the unit to which it is
+assigned.</description>
+    </rule>
+    <rule id="f4ae-d90c-c8f2-c81e" name="Communion of Minds" hidden="false">
+      <description>Whilst individually powerful psykers in their own right, these
+practitioners of the hidden arts understood that strength in numbers
+was a boon they could ill afford to ignore.
+Models with this Special Rule in a unit which contains multiple
+models with this Special Rule may not cast Psychic Powers as
+normal - instead, all applicable models must cast as a group.
+Whenever the unit attempts to cast a Psychic Power, the majority
+Leadership Characteristic must be used. Whenever a power is
+manifested by the unit, you must pick a single model to be the
+‘originating’ model – this is only to represent the lead caster, and is
+for the purposes of measuring ranges and so on. In addition, the
+unit’s starting size and casualties taken affecting the number of
+models remaining influences Special Rules the unit has, as below;
+• If a unit contains 1-3 models with this Special Rule, all models
+in the unit with this Special Rule gain the Psychic Mastery (1)
+Special Rule, and lose any other variant of the Psychic
+Mastery (X) Special Rule they possessed.
+• If a unit contains 4-6 models with this Special Rule, all
+models in the unit with this Special Rule gain the Psychic
+Mastery (2) Special Rule, and lose any other variant of the
+Psychic Mastery (X) Special Rule they possessed.
+• If a unit contains 7-10 models with this Special Rule, all
+models in the unit with this Special Rule gain the Psychic
+Mastery (3) Special Rule, and lose any other variant of the
+Psychic Mastery (X) Special Rule they possessed.
+Any models in the unit without the Communion of Minds Special
+Rule are unaffected.</description>
+    </rule>
+    <rule id="1304-5329-c4f4-0e4c" name="Breath of Khaine" hidden="false">
+      <description>The Fire Dragons burned with the Heat of Vaul’s own forge, and were
+able to dispense this ardent flame against those who dared to challenge
+the fury of their Aspect.
+When attacking using the Wall of Death Special Rule (see the
+Template rules on page 248 of the Horus Heresy: Age of Darkness
+rulebook), a Weapon with this Special Rule inflicts D6 Hits instead
+of D3.</description>
+    </rule>
+    <rule id="cffc-7f63-22de-91d3" name="Brutal (X)" hidden="false">
+      <description>The horrendous wounds inflicted by this weapon could bring low the
+greatest warriors, ending their lives in fountaining gore.
+When a model is allocated a Wound inflicted by a weapon with
+this Special Rule, it does not suffer only one Wound but instead
+suffers a number of Wounds equal to the number in brackets
+associated with the specific variant of this Special Rule, with all of
+the Wounds inflicted using the same AP and special rules as that of
+the initial Wound. Roll to save against each Wound inflicted
+separately, but note that Wounds caused in excess of a given
+model’s remaining Wounds do not spill over to other models and
+are lost. This Special Rule has no effect on models that do not have
+a Toughness value.</description>
+    </rule>
+    <rule id="2bd7-b180-46cc-40a8" name="Breaching (X)" hidden="false">
+      <description>Designed to pierce armour, these weapons can be deadly when
+employed with skill.
+When rolling To Wound for a model that has the Breaching (X)
+Special Rule, or is attacking with a weapon that has the Breaching
+(X) Special Rule, for each To Wound roll equal to or higher than
+the value listed in brackets, the Controlling Player must resolve
+these wounds at AP 2 instead of the weapon’s normal AP value.
+This rule has no effect on models that do not have Wounds, such
+as models with the Vehicle Unit Type.
+For example, a model with the Breaching (5+) Special Rule that rolls To
+Wound and rolls a result of ‘5’ or higher, the Wound inflicted gains an
+AP of ‘2’ regardless of the AP value listed on the weapon’s profile. Note
+that a weapon that has both the Breaching (X) and the Gets Hot
+special rules always uses the base AP of the weapon when rolls of ‘1’ To
+Hit inflict Wounds on the attacking model.</description>
+    </rule>
+    <rule id="5f80-0cfc-d176-de9e" name="Blade Spirit" hidden="false">
+      <description>These weapons were inhabited by the spirits of fallen warriors, who
+could guide their strikes true.
+Whenever a model makes attacks with a weapon with this Special
+Rule, the Controlling Player may re-roll all failed To-Hit rolls of ‘1’
+made for those attacks.</description>
+    </rule>
+    <rule id="d963-3a31-c15d-3182" name="Brutal Ambush" hidden="false">
+      <description>Lurking in perfect stillness, these warriors became one with the
+shadows. As their unsuspecting foe approached, they would leap into
+action, destroying them in a blur of blades.
+A unit with this Special Rule has the Shrouded (5+) Special Rule
+until the first time the unit is locked in combat, at which point it
+loses the Shrouded (5+) Special Rule and gains the Rage (2) and
+Counter-Attack (1) Special Rules instead.</description>
+    </rule>
+    <rule id="66f1-2258-298b-2cac" name="Crack Shot" hidden="false">
+      <description>The art of destruction sometimes boils down to knowing exactly where
+to hit your target.
+A model with this Special Rule may re-roll a single failed To-Hit,
+To-Wound, or Armour Penetration roll per turn.</description>
+    </rule>
+    <rule id="9632-2299-d61d-c19a" name="Embrace of Death (X)" hidden="false">
+      <description>Some weapons were so swift as to defy the eyes, moving before
+perceptions could even register their presence.
+A model making Attacks with a weapon with this Special Rule
+makes a number of attacks equal to the number indicated in
+brackets at Initiative step 10 with it, regardless of their Attacks
+Characteristic or bonuses gained from any source (including
+Charging). Note that a weapon with this Special Rule may only be
+used in the first round of a combat, and may be used even if the
+charge made was Disordered.</description>
+    </rule>
+    <rule id="19cf-baa3-9ecd-9704" name="Fast Shot" hidden="false">
+      <description>With steely focus and expert handling, the warrior eliminates all other
+distractions from their consciousness and unleashes extreme amounts
+of fire. All that existed in that moment wass the potent tool they
+wielded, and their luckless victims.
+A model with this Special Rule may add one to the number of
+shots fired when making a Shooting Attack with a weapon which
+has the Heavy type.</description>
+    </rule>
+    <rule id="a22c-aee2-bfde-92f9" name="Favoured of Khaine" hidden="false">
+      <description>Some warriors among the warhosts of the Craftworlds were known to
+bear honourifics marking them as exalted in the eyes of the Eldar Gods.
+All units composed entirely of models with the Asuryani Unit Subtype which can draw line of sight to at least one model with this
+Special Rule gain +1 to their Leadership Characteristic (to a
+maximum of 10).</description>
+    </rule>
+    <rule id="7d65-c671-66b7-5407" name="Detonation" hidden="false">
+      <description>When used correctly, even the smallest explosives could be used to bring
+low mighty foes.
+A weapon with this Special Rule may only be used to attack models
+of the Vehicle, Dreadnought or Automata Unit Types, any model
+with a Movement Characteristic of 0 or ‘-’, or Buildings or
+Fortifications. Furthermore, a model that is chosen to attack with
+a weapon with this Special Rule during the Assault phase may only
+make a single attack in the Fight sub-phase, regardless of its
+Attacks Characteristic and any bonus attacks from Charging or
+other Special Rules.</description>
+    </rule>
+    <rule id="e2f5-104c-35d0-5b36" name="Flexible Tactics" hidden="false">
+      <description>Deepening their battle-trance, time seems to slow for these warriors,
+allowing them and their allies to react and adapt to the tides of war.
+Their swift and flexible stance capitalised on everything that it meant
+to be Asuryani.
+At the beginning of the Controlling Player’s turn, a unit containing
+any models with this Special Rule must select one of the following
+Tactics. Note that only models with the Flexible Tactics Special
+Rule may benefit from its effects.
+Defensive Posture
+If a unit with this Tactic has at least half of its models within 6&quot; of
+an Objective, then all models in the unit gain the Feel No Pain (5+),
+Battle-Hardened (1), and Stubborn Special Rules.
+Offensive Rush
+Whenever a unit with this Tactic makes a Shooting Attack, each
+weapon they are equipped with makes one additional shot - a
+weapon with Assault 2 becoming Assault 3, and so on.</description>
+    </rule>
+    <rule id="279e-e9b9-0567-d60e" name="Dimensional Edge (X)" hidden="false">
+      <description>The blade of this weapon is not truly at home in our reality - and the
+exotic matter that constitutes its form will, when caught in the right
+phase, pass straight through any matter it touches.
+Weapons with this Special Rule can only ever cause a Wound on
+the number indicated in brackets.
+No Saves or Damage Mitigation rolls of any kind may be taken
+against Wounds caused by this weapon.</description>
+    </rule>
+    <rule id="4ef3-4cbf-0224-9bfe" name="Disruption (X)" hidden="false">
+      <description>The coruscating energies imparted by these weapons could circumvent
+armour entirely.
+To Hit rolls of the value X indicated made by a weapon with this
+Special Rule cause an automatic Glancing Hit against models with
+the Vehicle Unit Type instead of rolling for Armour Penetration,
+and an automatic Wound against models with the Dreadnought,
+Automata, or Armiger Unit Types, instead of rolling To Wound.
+On weapons which do not roll to Hit, such as Template or Blast
+Weapons, a D6 should be rolled for every applicable target - a roll
+of X or higher causes an automatic Glancing Hit against models
+with the Vehicle Unit Type instead of rolling for Armour
+Penetration, and an automatic Wound against models with the
+Dreadnought, Automata, or Armiger Unit Types.
+Only Invulnerable Saves or Damage Mitigation rolls may be taken
+against Wounds or Hull Points of damage inflicted automatically
+by this Special Rule.
+If a model armed with a weapon with this Special Rule receives a
+Ballistic Skill modifier (such as Night Fighting or being forced to
+make Snap Shots, etc), then they may only gain the benefit of the
+Disruption (X) Special Rule on a successful Hit (provided the Hit
+Roll is equal to or better than the value X).</description>
+    </rule>
+    <rule id="a8f8-1e96-608b-9204" name="Distortion Impalement" hidden="false">
+      <description>Against the roiling energies unleashed by this weapon, there could be
+no defence.
+A weapon with this Special Rule ignores the effects of Void Shields
+on a model it targets. Before firing a weapon with this Special Rule,
+roll a D6. On a 6, the attack is resolved with the Vortex Special
+Rule.</description>
+    </rule>
+    <rule id="f290-181a-3aee-48cd" name="Gathering Storm" hidden="false">
+      <description>Unlike the lesser psykers of other races, the powers cast forth by Aeldari
+could often overlap, multiplying in effectiveness.
+Whenever a weapon with this Special Rule’s attack is resolved
+using a Large Blast (5”) marker, after the attack is resolved, leave
+the Large Blast (5”) marker in play until the end of the Controlling
+Player’s next turn. If a weapon with this Special Rule places
+another Large Blast (5”) marker within 3” of the original Blast
+marker, the Controlling Player may instead resolve the attack with
+an Apocalyptic Blast (10”) marker, instead of a Large Blast (5”)
+marker. After the attack is resolved, remove any Blast markers
+used in this attack.</description>
+    </rule>
+    <rule id="03af-a1fd-bc45-94ed" name="Guardian Artillerists" hidden="false">
+      <description>Whether due to ease-of-use or practised familiarity, these Guardians
+were highly capable with the employment of artillery. These trained
+individuals knew best how to place each shot from their platforms to
+deadly effect.
+A Vaul’s Wrath Support Battery must have one Guardian Crew per
+Support Weapon in order for all Support Weapons to make
+Shooting Attacks in the Shooting phase. If, at the start of any of
+the controlling player’s Shooting phases, the Vaul’s Wrath Support
+Battery contains fewer Guardian Crew than Support Weapons,
+then only a number of Support Weapons equal to the number of
+Guardian Crew may make Shooting Attacks in that Shooting
+phase. In addition, as long as there are at least as many Guardian
+Crew in the unit as there are Support Weapons, then the unit
+cannot be Pinned, automatically passing any Pinning test it is
+called upon to take without any dice being rolled (this benefit is
+immediately lost once the number of Guardian Crew is reduced to
+less than the number of Support Weapons in the unit).</description>
+    </rule>
+    <rule id="e70a-3c42-7851-f4e3" name="Ghostlight" hidden="false">
+      <description>The ghostly emanations of these weapons could pierce steel, stone, and
+even flesh.
+Whenever a unit containing more than one model armed with
+weapons with this Special Rule is elected to make a shooting attack
+in the Controlling Player’s Shooting Phase, the unit may declare it
+is combining its fire rather than attacking normally. If you do so,
+select one model in the unit. No other models in the unit may
+make Shooting Attacks with a weapon with this Special Rule
+during the Controlling Player’s Shooting Phase.
+The selected model may then make a shooting attack with a
+weapon it is equipped with which has the Ghostlight Special Rule.
+If the weapon has multiple profiles with the Ghostlight Special
+Rule, you must select one of them to use. If only one of multiple
+profiles has the Ghostlight Special Rule, only that profile may be
+used for the combined fire attack.
+In addition, for each two additional models in the unit equipped
+with a weapon with the Ghostlight Special Rule, you may apply
+one of the below bonuses to the attack. Note that these bonuses
+may only be claimed if the friendly models in the unit can see the
+selected model which is making the shooting attack, and you may
+select the same bonus multiple times:
+• Increase the Range of the Profile by 6”
+• Increase the Strength of the Profile by +1 (to a maximum of 10)
+• Decrease the AP of the Profile by -1 (to a minimum of 1)
+• Increase the number of shots by 1</description>
+    </rule>
+    <rule id="7c88-3fbb-8d41-83a5" name="Flickerjump" hidden="false">
+      <description>Those who thought they had these masters of misdirection cornered
+would often find their quarry vanished in a flash.
+A unit with this Special Rule may make a Flickerjump Advanced
+Reaction:
+Flickerjump - Advanced Reaction
+This Advanced Reaction may be made during the Opposing
+Player’s Shooting Phase when any enemy unit declares a Shooting
+Attack targeting a friendly unit composed entirely of models with
+the Flickerjump Special Rule.
+Before resolving the Shooting Attack, the unit targeted by the
+Shooting Attack may make an immediate Move 2D6&#x27;&#x27; in any
+direction. This distance is not affected by any modifiers, whether
+positive or negative. If the result of the 2D6” roll is a double 1, one
+model from the Reaction unit is immediately removed as a
+casualty.
+Once the move is resolved, if the Shooting Attack is no longer valid
+(due to the enemy unit no longer having line of sight to the target
+or being out of range, for example) then the Active player may not
+select a different target and no attacks are made or dice rolled for
+that unit.</description>
+    </rule>
+    <rule id="e8fb-421c-6dde-812e" name="Guardian Officers" hidden="false">
+      <description>The militia of the Craftworlds require consolidation and leadership to
+ensure perfect coherency with allies across the tide of battle. Those who
+choose to take up the mantle of Officer assemble in cadres before
+assigning themselves to those Guardian units who will stand in battle.
+A Guardian Officer Cadre is selected as any other unit, using up a
+single Force Organisation slot and bought in the same manner.
+However, before the first turn begins and any models are deployed
+to the battlefield, all models in a Guardian Officer Cadre must be
+assigned to another unit from the same Detachment of the army
+they were selected as part of. If a unit with this Special Rule
+contains three or more models during the list creation stage, it
+does not use up a Force Organisation slot.
+Guardian Officers may only be assigned to units of Guardian
+Defenders, Storm Guardians, or Vaul&#x27;s Wrath Support Batteries.
+Skyrunner Officers may only be assigned to units of Windriders or
+Windrider Support Squads. No more than one Guardian Officer or
+Skyrunner Officer may be assigned to any given unit.
+Once assigned to a unit, the Guardian Officer or Skyrunner Officer
+is considered part of that unit and may not leave it under any
+circumstances – however, if they are the sole survivor of an attack
+they may continue to function as normal. In battles using Victory
+points, no Victory points are ever scored for removing a Guardian
+Officer or Skyrunner Officer as a casualty. When assigned to a unit,
+a Guardian Officer or Skyrunner Officer gains all of the special
+rules (with the exception of those that specifically forbid it) and
+Unit Sub-types listed for the unit to which it is attached, but does
+not gain access to any additional Wargear options available to the
+unit to which it is assigned.</description>
+    </rule>
+    <rule id="e24f-1719-651d-6fff" name="Guardian of the Gates" hidden="false">
+      <description>Some of the ancient Aeldari sentinels patrolled the webway for time
+immeasurable, venturing forth only when required to defend it.
+A model with this Special Rule may only be selected in an army
+that also includes a Webway Gate Fortification. In addition, it
+must be assigned to Reserves, and deployed via the Webway Strike
+Special Rule.</description>
+    </rule>
+    <rule id="0374-07de-6de2-f635" name="Iron Resolve" hidden="false">
+      <description>To be able to fight without fear, but to still be aware of its effects, was a
+rare gift on the battlefields of the Age of Darkness.
+A unit containing one or more models with the Iron Resolve
+Special Rule automatically passes Pinning tests, Regroup tests, and
+Morale checks. In addition, a unit containing one or more models
+with the Iron Resolve Special Rule ignores the effects of the Fear
+Special Rule.</description>
+    </rule>
+    <rule id="4d06-baf9-6a7c-88d3" name="Legacies of the Fall" hidden="false">
+      <description>The Asuryani simultaneously despised and feared She Who Thirsts. In
+the neverborn of the warp they encounter in real-space, they saw their
+doom made manifest.
+A model with this Special Rule has the Hatred (Daemons) Special
+Rule.
+In addition, a unit with this Special Rule suffers a -1 penalty to
+their Leadership whilst locked in a combat which includes at least
+one model with the Daemon Unit Type. This penalty is cumulative
+with other penalties applied to the unit’s Leadership
+Characteristic.</description>
+    </rule>
+    <rule id="755c-1013-8027-da3a" name="Harrow-Lord" hidden="false">
+      <description>With targeted shots, these masters of death could inflict both great
+suffering - and great fear - into their foes.
+Any unit from which a model is removed as a casualty during the
+Shooting Phase as a result of an attack from a model with this
+Special Rule must take a Morale check as if they had suffered 25%
+casualties.</description>
+    </rule>
+    <rule id="ec43-c0e8-77a7-3c02" name="Mark of Kurnous" hidden="false">
+      <description>To those who followed the path of the hunter, there was no greater
+thrill than the pursuit of a marked target.
+At the start of the controlling player’s Shooting Phase, a unit with
+this Special Rule may select an enemy unit within 12” of any model
+in the unit.
+The unit making the Shooting Attack loses any variant of the
+Firing Protocols (X) Special Rule it possesses, instead gaining the
+Ignores Cover Special Rule for all Shooting Attacks made against
+the selected unit, until the end of the Controlling Player’s
+Shooting Phase.</description>
+    </rule>
+    <rule id="71c7-07c6-93dc-f77d" name="Linked Fire" hidden="false">
+      <description>Pouring the energy of their weapons through a single nexus crystal, the
+blasting energy of this weapon was built to a deadly crescendo.
+Whenever a unit composed entirely of models armed with
+weapons with this Special Rule (and that includes more than one
+model) is elected to make a shooting attack in the Controlling
+Player’s Shooting Phase, the unit may declare it is making a Linked
+Fire attack rather than attacking normally. If you do so, select one
+model in the unit. No other models in the unit may make shooting
+attacks with a weapon with this Special Rule during the
+Controlling Player’s Shooting Phase.
+If the weapon has multiple profiles with the Linked Fire Special
+Rule, you must select one of them to use. If only one of multiple
+profiles has the Linked Fire Special Rule, only that profile may be
+used for the Linked Fire attack.
+In addition, for each additional model in the unit equipped with a
+weapon with the Linked Fire Special Rule, you may apply one of
+the below bonuses to the attack. Note that these bonuses may only
+be claimed if the friendly models in the unit can see the selected
+model which is making the Shooting Attack, and you may select
+the same bonus multiple times:</description>
+    </rule>
+    <rule id="9ec2-760c-25ed-44bd" name="Herald of Victory" hidden="false">
+      <description>To those warriors who spent much time aloft, landing with precision
+was second nature.
+A unit which contains at least one model with this Special Rule
+counts as always rolling a hit on the scatter die when performing a
+Deep Strike Assault.</description>
+    </rule>
+    <rule id="9975-f57c-83e7-8987" name="Holo-Emitter" hidden="false">
+      <description>These great barricades provided their cover not with layered armour or
+slabs of plascrete, but fields of shimmering power.
+A model with this Special Rule is a Barricade and provides a 5+
+Cover Save for models obscured by it. In addition, any Wounds
+inflicted by attacks with the Blast special rule targeting a model
+that claims a Cover Save due to a model with this Special Rule
+must be re-rolled.</description>
+    </rule>
+    <rule id="6365-c9ce-9713-cc64" name="Inescapable Accuracy" hidden="false">
+      <description>Completely at one with their weapon, these warriors entered a killing
+trance until the perfect shots had been placed upon the enemy.
+Successful Shrouded Damage Mitigation Rolls and
+Countermeasures Saves made against Shooting Attacks by a model
+with this Special Rule must be re-rolled.</description>
+    </rule>
+    <rule id="bd01-f3d9-61e2-4d5f" name="Heavy Beam" hidden="false">
+      <description>As opposed to the normal pulsing shots emitted by weapons, this
+weapon projects a constant barraging stream of power.
+When the weapon with this special rule is used to make a Shooting
+Attack, draw a 1&quot; wide line from the end of the gun barrel up to the
+listed range of the weapon – this is the beam area. The initial
+target for the weapon (the model in the beam area closest to the
+attacking model) must be an enemy model.
+• All models (friend and enemy) caught in the beam area
+(excepting the firing model) suffer a Hit with the listed
+profile of the weapon, except models with the Flyer Sub-type
+which cannot be affected or targeted.
+• Units with any models in the beam area receive a number of
+Hits equal to the number of their models caught in the path
+of the beam; casualties are removed from affected units
+using the normal rules for removing casualties.
+• If a Terrain piece, Building, model with the Vehicle Unit
+Type or any model with 6 or more Wounds is in the beam
+area, the attack is blocked and its line of effect will go no
+further than that model. The blocking model will, however,
+suffer 1+D3 separate Hits, rather than just 1.
+• If a model with the Vehicle Unit Type and the Transport Subtype suffers a Penetrating Hit from a weapon with this
+special rule, each unit Embarked on it suffers D6 Str 4 AP -
+Hits with the Deflagrate Special Rule, in addition to any
+other effects. Any Wounds caused are allocated by the
+controller of the target unit.</description>
+    </rule>
+    <rule id="41de-0dcc-2d70-2d0a" name="Monofilament" hidden="false">
+      <description>These deadly devices launched monomolecular streams of wire. Kept in
+a liquid state within the weapon’s magnetic reservoir, these wires were
+released from a multitude of microscopic firing ducts and woven into a
+cloud-like net of razor sharp wire through spinning gravity clamps.
+Those caught in its web were quickly reduced to chunks as wire sliced
+through gaps in armour, flesh, and bone.
+When rolling To Wound normally with this weapon, any nonVehicle model that suffers a Hit from a weapon with this special
+rule uses the target’s Initiative Characteristic instead of its
+Toughness - this is rolled as per the normal to-Wound roll rules
+otherwise. The target unit’s Toughness characteristic is still used
+to determine whether the attack causes Instant Death.
+In addition, any unit successfully hit by one or more models or
+weapons with this Special Rule must take an Initiative test once
+the attack is fully resolved. If failed, the unit must reduce its
+Initiative and Movement Characteristics by -2 until the end of
+their Controlling Player’s next turn. Note that the effects of this
+Special Rule are cumulative, and a unit can be affected by multiple
+sources, with the penalties to their Characteristics being applied to
+any further Initiative Characteristic tests they are called to make -
+though models with a starting Wounds Characteristic of 6 or more
+cannot have their Characteristics reduced as a result of this Special
+Rule.</description>
+    </rule>
+    <rule id="e048-707f-985f-375e" name="Mysterious Statuary" hidden="false">
+      <description>These great arches hummed with immense power - and set the minds
+of the Eldar ablaze with memories of their lost empire.
+After Deployment Zones are determined but before any other
+models are deployed, a Webway Gate must be set up on the
+battlefield as follows:
+• When this unit is set up on the battlefield, place the 2
+Wraithbone Arches so that an arch is formed with the bases
+5” apart.
+• The Webway Gate must be deployed at least 6” away from
+the Opposing Player’s Deployment Zone.
+• No Webway Gate can be placed within Difficult Terrain,
+Dangerous Terrain, Impassable terrain or inside a Building
+or Fortification.
+Units with the Asuryani Sub-type gain the Stubborn Special Rule
+whilst within 3” of a Webway Gate. Any model in cover behind a
+Wraithbone Arch has a 5+ Cover Save.</description>
+    </rule>
+    <rule id="daed-e9d2-bea5-e803" name="Open-Topped (X)" hidden="false">
+      <description>Some vehicle hulls are open to the elements, allowing for their
+occupants to fire - but at the cost of protection.
+Up to X number of models in a unit Embarked upon a Transport
+with this Special Rule may make a Shooting Attack in the
+Controlling Player&#x27;s Shooting Phase (where X is the number in
+brackets next to the Special Rule), measuring from the Transport’s
+Hull. If a model chooses to fire in this way, they are counted as
+having moved - note that this may prevent them from shooting
+certain weapon types. It should be noted that any ability which
+replaces a Shooting Attack (such as, but not limited to, casting a
+Psychic Power or Cybertheurgic Rite) may not be used. Shooting
+Attacks made in this manner may target a different unit to ones
+made by the Transport, but any Reactions made to these target the
+Transport as normal. Units with any Special Rule that allows them
+to count as stationary for the purposes of Shooting attacks (such as
+Relentless, Legiones Astartes (Death Guard), etc) may not benefit
+from them whilst embarked on a Transport with this Special Rule.
+In addition, any rolls on the Vehicle Damage Table that target a
+model with this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="e9d9-5293-613b-352c" name="Path of the Dead" hidden="false">
+      <description>Those who followed the Path of the Dead were seen as accursed,
+practitioners of the dark arts of Necromancy.
+A model with this Special Rule gains the Runes of Twilight Psychic
+Discipline (see page 25), as well as the Thaumaturgy Psychic
+Discipline from the Core Psychic Power Disciplines list (see the
+Horus Heresy: Age of Darkness Core Rulebook, page 322).
+In addition, an army that includes one or more models with this
+Special Rule gains the ability to select up to two units which have
+the Wraith Unit Sub-type in the same Detachment per model with
+this Special Rule. A model with both this Special Rule and the
+Wraith Sub-type counts itself against the units it may select.
+A model with both this Special Rule and the Independent
+Character Special Rule may join a unit composed of models with
+the Automata Unit Type and the Wraith Unit Sub-type - the unit
+the Independent Character is joining must have both the Unit
+Type and Unit Sub-type to be joined.</description>
+    </rule>
+    <rule id="0ab8-04d8-c09f-4e3e" name="Path of the Farseer" hidden="false">
+      <description>In following the Path of the Farseer, one could learn to peer into the
+future - but to do so was to risk madness and the attentions of She
+Who Thirsts...
+A model with this Special Rule gains the Runes of Fate Psychic
+Discipline (see page 24) as well as the Divination, Telepathy, and
+Thaumaturgy Psychic Disciplines from the Core Psychic Power
+Disciplines list (see the Horus Heresy: Age of Darkness Core
+Rulebook, page 322).</description>
+    </rule>
+    <rule id="2c85-66d1-bac2-068c" name="Path of Command" hidden="false">
+      <description>To follow the Path of Command in Aeldari society was to accept
+responsibility for all those souls under your command.
+If your army contains any models with the Path of Command
+Special Rule, and those models are in your army’s Primary
+Detachment, then you must select one to be your Warlord. In
+addition, any models from the same Detachment as a model with
+the Path of Command Special Rule selected as your Warlord, and
+with the same Aspect Shrine (X) Special Rule (if your Warlord has
+it), gain the Line Sub-type.</description>
+    </rule>
+    <rule id="6092-5625-51db-f383" name="Paired Weapons" hidden="false">
+      <description>Some weapons require they are used together to achieve full effectiveness.
+A model armed with a weapon with this Special Rule gains an extra
+Attack.</description>
+    </rule>
+    <rule id="cba2-eb96-ae6a-edb4" name="Scorpion&#x27;s Sting (X)" hidden="false">
+      <description>The warrior was capable of employing mandiblaster weapons with
+expert precision, directing deadly volleys at the foe’s most vulnerable
+points in the struggle of close combat.
+A model equipped with a weapon with this Special Rule causes a
+number of immediate Hits equal to the number indicated in
+brackets at Initiative step 10 with it, but may not assign any further
+attacks to the weapon with this Special Rule. Note this attack does
+not grant an additional Pile In move.</description>
+    </rule>
+    <rule id="49fd-1aff-0eec-7dbb" name="Riposte (X)" hidden="false">
+      <description>Fluid in the air in a way the eye struggles to track, this weapon seems
+to be in many places at once - and always right where it is needed to
+block a blade...
+Models making an attack against a model wielding a weapon with
+this Special Rule must subtract X from their Weapon Skill.</description>
+    </rule>
+    <rule id="7aa1-1af9-26b7-fa1b" name="Reaping Blow (X)" hidden="false">
+      <description>When outnumbered, this weapon could be swung to connect with
+many foes at once.
+If a model is in base contact with more than one enemy model in
+the Initiative step in which they fight, they gain a number of
+Attacks equal to the value of X as noted in the variant of the
+Special Rule (if no value of X is included then count the value of X
+as 1).</description>
+    </rule>
+    <rule id="ca51-5c6a-b294-0c4b" name="Runes of Warding" hidden="false">
+      <description>These potent runes could nullify the efforts of psykers whose goals did
+not align with that of the caster.
+Any enemy model within 18” and line of sight of a model with the
+Runes of Warding Special Rule must reduce its Leadership by -3
+when making Psychic Checks. This modifier is not cumulative and
+no model may suffer penalties from more than one model with the
+Runes of Warding Special Rule.</description>
+    </rule>
+    <rule id="21f7-be11-58cc-521c" name="Runes of Witnessing" hidden="false">
+      <description>Shielding the caster, these etched runes allowed one skilled to unravel
+the fates to avoid disaster.
+Once per Game Turn, a model with the Runes of Witnessing
+Special Rule may re-roll any number of dice when making a
+Psychic Check.</description>
+    </rule>
+    <rule id="1f47-7327-0a75-ab8a" name="Precise Throw" hidden="false">
+      <description>Designed to be thrown during a rapid, controlled descent, this
+weapon’s explosions often do untold damage in the doing so.
+A unit that contains at least one model equipped with a weapon
+with this Special Rule may nominate a single model to make a
+shooting attack with it immediately after they complete a Deep
+Strike Assault. Only a single model may use a weapon with this
+Special Rule per unit, and this attack is treated as a Shooting
+Attack made in the Movement Phase. A unit that uses a weapon
+with this Special Rule in the Movement phase can still shoot in the
+subsequent Shooting phase; however, it must target the same unit,
+and if no viable targets remain in that unit it cannot shoot any
+other target. A weapon with this Special Rule cannot be used to
+make Shooting Attacks in any other situation.</description>
+    </rule>
+    <rule id="e83c-b62a-9297-2820" name="Psychic Mastery (X)" hidden="false">
+      <description>A raw bulwark of ethereal power, the psyker pushes past the limits that
+would spell doom for others - despite the great risks...
+A model with this Special Rule may cast an amount of Psychic
+Powers per phase, up to the number indicated in brackets, in spite
+of the normal limitations on doing so. Note that a Psychic Power
+counted as a Shooting Attack counts as a single Psychic Power or
+Weapon for the purposes of this Special Rule, and each Psychic
+Power or Weapon a model or unit knows can only be cast once per
+Phase.</description>
+    </rule>
+    <rule id="f661-9e7b-a874-34ae" name="Reach (X)" hidden="false">
+      <description>The range of this weapon allowed those armed with it to strike before
+their foes.
+A model making attacks as part of an Assault using a weapon with
+this Special Rule, adds the value of (X) that is included as part of
+this Special Rule to its Initiative Characteristic. If a model has
+more than one weapon with this special rule then that model only
+increases the value of its Initiative by the value of the Special Rule
+on the weapon whose profile is used by that model to attack
+during the Fight sub-phase. A weapon that is not used to attack
+does not modify the model’s Initiative Characteristic – models
+that may attack with more than one weapon, or models claiming
+the bonus for having a second weapon, may only add the value of
+the highest variant of this Special Rule and do not add the values
+together.
+For example, a model attacking as part of an Assault with a weapon
+that has the Reach (1) Special Rule increases its Initiative by +1.</description>
+    </rule>
+    <rule id="0741-ce32-1409-2f71" name="Path of the Shaper" hidden="false">
+      <description>The Path of the Shaper encompassed artisans, craftspeople, and the
+like - but all had their part to play in war.
+All models with the Infantry Unit Type in a unit that includes at
+least one model with the Path of the Shaper Special Rule gain the
+Feel No Pain (5+) Special Rule. Units that include more than one
+model with the Path of the Shaper Special Rule do not stack the
+Feel No Pain (X) Special Rule and gain no additional benefit.
+Models with the Grav-Platform Sub-type are not affected by this
+Special Rule and do not gain the Feel No Pain (X) Special Rule.
+At the start of the Controlling Player’s Shooting Phase, they may
+choose to lose the ability to confer the Feel No Pain (5+) Special
+Rule to the unit they are part of, and if they do so, they gain the
+Battlesmith (3+) Special Rule instead. They may use the
+Battlesmith (3+) Special Rule as normal - or may instead use it on a
+model with the Grav-Platform Sub-type instead to restore a single
+Wound lost earlier in the battle. A model with this Special Rule
+may choose to use the Battlesmith (3+) Special Rule to affect any
+applicable friendly model within 6”. This effect lasts until the start
+of the Controlling Player’s next turn, at which point the model
+with this Special Rule loses the Battlesmith (3+) Special Rule and
+regains the Feel No Pain (5+) Special Rule.</description>
+    </rule>
+    <rule id="c4b8-9915-5ebb-5145" name="Ponderous Aim" hidden="false">
+      <description>Some weapons were simply too unwieldy to use without difficulty -
+though their troublesome use was often offset by their decidedly
+impressive effects.
+A weapon with this Special Rule cannot be fired as part of a
+Reaction or used to Snap Shoot.</description>
+    </rule>
+    <rule id="f918-3690-3e14-1461" name="Skilled Rider" hidden="false">
+      <description>A lifetime in the saddle allows the most skilled to fire their arsenal at
+full effectiveness - even on the move.
+A model with this Special Rule may opt to run in the Movement
+Phase and still fire a single ranged weapon in the Shooting Phase.
+These shots are made at BS2. The To-Hit rolls for these shots
+cannot be improved by any source.
+Note that if a unit makes use of this Special Rule, they may not
+claim the benefits of the Firing Protocols (X) Special Rule in the
+same Game Turn.</description>
+    </rule>
+    <rule id="8bdb-5abd-6640-c8d4" name="Seer Council Retinue" hidden="false">
+      <description>On rare occasions, the most skilled of warlocks would band together
+around a Farseer, shielding them in battle to ensure the fate they
+followed would come to pass.
+A Seer Council may be selected as a Retinue Squad in a
+Detachment that includes at least one model with the Path of the
+Farseer Special Rule, instead of as an Elites choice. A Seer Council
+selected as a &#x27;Retinue Squad&#x27; must have one model with the Path of
+the Farseer Special Rule from the same Detachment selected by
+the Controlling Player as the Seer Council&#x27;s Leader for the
+purposes of this Special Rule.
+A Seer Council selected as a Retinue Squad does not use up a Force
+Organisation slot, is considered part of the same unit as its Leader,
+and does not count towards any 0-1 restrictions on unit selections.
+A Seer Council selected as a Retinue Squad must be deployed with
+the model selected as its Leader deployed as part of the unit and
+the Leader may not voluntarily leave the Retinue Squad during
+play. All models in a Seer Council unit taken as a Retinue Squad
+gain the Chosen Warriors special rule. If the Leader has a
+Skyrunner Jetbike, their Retinue Squad must all have Skyrunner
+Jetbikes. If the Leader does not have a Skyrunner Jetbike, their
+Retinue Squad must not have Skyrunner Jetbikes.</description>
+    </rule>
+    <rule id="d304-75b6-cac4-1c79" name="Shadow of Death" hidden="false">
+      <description>The malign influence of these warriors hinted at the painful death to
+come for those who opposed them.
+An enemy unit with at least one model within 12&quot; of a model with
+this Special Rule must roll an additional D6 when making a
+Leadership Characteristic Check for any reason, discarding the
+lowest die. Models with the Fearless Special Rule are not affected
+by this Special Rule.</description>
+    </rule>
+    <rule id="5a57-2227-4d6f-1532" name="Skyhunter" hidden="false">
+      <description>These craft were designed for operation as skimmers - though when
+required, they could perform low-level flight.
+If a model with this Special Rule chooses to move Flat Out, it
+moves up to triple its Movement Characteristic instead of double.</description>
+    </rule>
+    <rule id="559b-d537-4d5a-2e50" name="Skyleap" hidden="false">
+      <description>With even the gentlest purposeful flicker of their iridescent wings, these
+warriors took effortlessly to the sky, ready to redeploy where they were
+needed most.
+At the beginning of the Controlling Player’s Movement phase, if a
+unit composed entirely of models with this Special Rule is not
+currently locked in combat, you may place the unit back into your
+ongoing reserves. If you do, it can be assigned to a Deep Strike
+Assault as normal on your Next Player Turn.</description>
+    </rule>
+    <rule id="7460-5e47-5635-c5ac" name="Skystrike" hidden="false">
+      <description>Experts in providing supporting assaults from on high, these warriors’
+weapon would blaze as they descended from the sky, heralding their
+approach.
+At the end of the Movement Phase, a unit with this Special Rule
+can make a single Attack for each model in the unit against an
+enemy unit with the Flyer Sub-type the unit moved over this turn.
+This Attack hits automatically on a 4+ and is resolved at Strength 4
+AP4 with the Haywire Special Rule. Vehicles are hit on their Side
+Armour Value. Attacks made with this Special Rule may only ever
+be made against a single target per turn.</description>
+    </rule>
+    <rule id="66f4-7ff4-4a0a-1200" name="Sonic Wave" hidden="false">
+      <description>The greatest of sonic weaponry did not merely shatter its targets, but
+liquefied them utterly under their annihilating assault.
+When making a Shooting Attack with this weapon, place the Large
+Blast (5&quot;) marker so that its edge touches the barrel of the firing
+model’s weapon. Instead of scattering this Blast marker, move the
+template in a direct line away from the firing model, travelling in
+any direction within the weapon’s 45° forward firing arc until its
+maximum range is reached or the template leaves the battlefield.
+All models the template passes over suffer a single automatic Hit.
+Flyers are also Hit if the template passes over their base. Should a
+model with the Knight, Titan, Super-heavy Vehicle, Building or
+Fortification Unit Type be Hit by this attack, increase the Strength
+of the attack to 10.</description>
+    </rule>
+    <rule id="1835-038d-6eb8-49c9" name="Sonic Pulse" hidden="false">
+      <description>These weapons could unleash blasts of pure sound, capable of breaking
+apart a target with sonic energy.
+When making a Shooting Attack with this weapon, place the Blast
+(3&quot;) marker so that its edge touches the barrel of the firing model’s
+weapon. Instead of scattering this Blast marker, move the marker
+in a direct line away from the firing model, travelling in any
+direction within the weapon’s 45° forward firing arc until its
+maximum range is reached or the template leaves the battlefield.
+All models the template passes over suffer a single automatic Hit.
+Flyers cannot be hit by this attack. Should a model with the
+Knight, Titan, Super-Heavy Vehicle, Building or Fortification Unit
+Type be Hit by this attack, increase the Strength of the attack to 8.</description>
+    </rule>
+    <rule id="93a6-9bcd-313a-01d8" name="Soul Forfeit" hidden="false">
+      <description>This warrior fought without fear; for their soul itself was lost, and so
+they were already dead.
+A model with this Special Rule never awards Victory Points when
+slain, and if removed from play does not count toward the total
+number of units slain at the end of the battle. In addition, a model
+with this Special Rule does not count as a Scoring or a Denial unit.</description>
+    </rule>
+    <rule id="bbba-d935-dbf7-c875" name="Wraith Conclave" hidden="false">
+      <description>The immense wraithbone constructs fielded by the Aeldari would often
+stride together in non-combat situations; but once the call of war took
+them, they would pursue their own objectives.
+When deployed onto the battlefield (either at the start of the battle
+or when arriving from Reserves), all models with this Special Rule
+in a unit must be placed within unit coherency, but afterwards
+operate independently and are not treated as a unit. Once a unit
+with this Special Rule has separated, each model counts as its own
+unit for the purposes of Victory Points, Units Destroyed, and
+similar rules.</description>
+    </rule>
+    <rule id="1f62-3bb4-97bf-a767" name="War Shout" hidden="false">
+      <description>The shrill screeches of these warriors would unnerve even the most
+skilled combatants.
+On a turn in which a unit containing a model with this Special
+Rule charges or is successfully charged, any enemy models locked
+in the combat suffer a Penalty of -1 to their Weapon Skill, to a
+minimum of 1.</description>
+    </rule>
+    <rule id="9db9-6a44-ad81-fc04" name="Webway Strike" hidden="false">
+      <description>Emerging without a whisper from the depths of the webway, these
+combatants were masters of precision strikes.
+Before the start of Game Turn 1, when placing units into Reserve, a
+player whose army includes a Webway Gate may choose to assign
+one or more of their units in Reserve to perform a Webway Strike.
+Starting on Turn 2, the Controlling Player may choose to deploy
+one unit assigned to a Webway Strike onto the battlefield per turn
+(without the need to make a Reserve roll). A unit assigned to a
+Webway Strike moves onto the battlefield as though the line
+between each Wraithbone Arch was the Controlling Player’s
+battlefield edge.
+Once the unit is deployed, any enemy units that have one or more
+models within 6” of any unit deployed as part of the Webway
+Strike must make an immediate Pinning test. Once all Pinning
+tests are resolved, any enemy units that are neither Pinned or
+Falling Back and are within line of sight and range may choose to
+make the Interceptor Advanced Reaction targeting any one of the
+units deployed as part of the Webway Strike. Note that no
+Reaction other than Interceptor may be made against the
+deployment of a unit as part of a Webway Strike.
+Once a unit making a Webway Strike has been deployed and any
+Interceptor Reactions have been resolved, the turn proceeds as
+normal. Units that have been deployed as part of a Webway Strike
+may not Move or Run in the same movement phase as they are
+deployed, but may Shoot and Assault as normal.
+If there are any units assigned to a Webway Strike, but no
+Wraithbone Arch remains in play, then those units are instead
+reassigned to Reserves instead.</description>
+    </rule>
+    <rule id="2e9b-e607-a052-27a8" name="Vector Dancer" hidden="false">
+      <description>Some aircraft could perform hairpin turns and exert immense G-forces
+upon their pilots, dodging incoming fire and wheeling to target the
+weakest points of their enemy.
+A flyer with this Special Rule may make an additional 90 degree
+pivot at the end of its Movement in the Controlling Player’s
+Movement Phase.</description>
+    </rule>
+    <rule id="3307-5874-9d14-cd07" name="Transport Skiff" hidden="false">
+      <description>These transports were often used to deliver occupants to combat at
+high-speed, leveraging anti-gravitic technology to do so.
+A model with the Transport Skiff Special Rule gains the Infantry
+Transport and Assault Vehicle Special Rules. For the purposes of
+these Special Rules, as well as the Transport Sub-type, a model
+with this Special Rule is counted as a Vehicle.
+In addition, when a model with this Special Rule loses its last
+wound, all models embarked upon it immediately suffer a S6 APhit. These are allocated by the Controlling Player. Surviving
+passengers are placed where the model used to be (or as close as
+possible) in unit coherency, at least 1” away from any enemy
+models. Any models which cannot be placed are removed as
+casualties. The unit must then take a Pinning Test.</description>
+    </rule>
+    <rule id="5f5a-2257-5d28-7b53" name="The Runes of War" hidden="false">
+      <description>These casters have become dedicated to the art of casting the Runes of
+Battle and scrying their effects.
+A model with this Special Rule does not individually pick Psychic
+Powers - instead, it automatically knows the Thaumaturgy
+Discipline, as well as all powers from the Runes of Battle
+Discipline. When a model with this Special Rule is selected as part
+of any unit that is not a Seer Council, they instead must pick a
+single power from the Runes of Battle Discipline.</description>
+    </rule>
+    <rule id="d56f-de5f-68ec-d5f6" name="Stalker" hidden="false">
+      <description>An apex predator upon the battlefield, this combatant lived for the fury
+of the duel and revelled in their superiority.
+During the first round of a Challenge, a model with this Special
+Rule gains a number of bonus attacks equal to the amount its
+Initiative Characteristic is higher than that of the opposing model.
+If the Initiative Characteristics are equal, or the model with this
+Special Rule has a lower Initiative Characteristic, this rule has no
+effect.</description>
+    </rule>
+    <rule id="00c4-f7db-8197-4f8d" name="Soul Tear" hidden="false">
+      <description>Some weapons were so potent that, at a whispered command, they
+would cleave not only a foe’s physical form, but their very soul.
+The Controlling Player of any unit that includes one or more
+models with the Psyker Unit Sub-type and a weapon or ability with
+this Special Rule may choose to activate this Special Rule before
+making any attacks with that weapon or resolving the ability. To
+activate this Special Rule, the Controlling Player must make a
+single Psychic check using the Leadership Characteristic of any
+model in the unit that has the Pskyer Unit Sub-type.
+If the Check is successful, then all attacks made with weapons or
+abilities with this Special Rule gain the Armourbane (Melee),
+Armourbane (Ranged), and Fleshbane Special Rules. In addition,
+whilst these effects are active, all attacks made with this weapon
+are counted as having the Force Special Rule for the purposes of
+any Unit Types, Sub-types, or Special Rules which are affected by
+it. This benefit is applied only in the Phase in which these attacks
+are made and ends immediately after that Phase is resolved. If the
+Check is failed then no benefit is gained, but the models in that
+unit may attack as normal.</description>
+    </rule>
+    <rule id="179b-5c08-ad3f-3c09" name="Vortex" hidden="false">
+      <description>The collapsing singularities caused by these weapons tore and broke at
+the fabric of reality itself.
+Once an attack with this special rule has been fully resolved, any
+Blast markers placed as part of that attack are not removed from
+play and instead are left in place for the remainder of the battle.
+Such a Blast marker is then referred to as the Vortex marker. The
+area under a Vortex marker is treated as Area Terrain for the
+remainder of the battle, and applies the following effects to all
+models that enter its boundaries:
+No line of sight may be drawn through, into, or out of the area
+covered by the Vortex marker (as such, models within such an area
+of terrain cannot draw line of sight to any other model, nor can
+other models draw a line of sight to them).
+Any models that enter the boundary of this area of terrain, or
+begin the Movement phase of the model’s Controlling Player
+within its boundaries, immediately suffer one Str 10, AP 1 Hit and
+the Instant Death and Armourbane (Melee) special rules. If the
+model has the Vehicle Unit Type and suffers a Penetrating Hit due
+to this effect then it adds a modifier of +3 to that roll on the
+Vehicle Damage table.
+This area of terrain does not confer a Cover Save and no model
+within its boundary may use a Cover Save granted by any other
+rule or effect.</description>
+    </rule>
+    <rule id="843a-7c1d-abb1-fc24" name="Wrecker" hidden="false">
+      <description>Some weapons pierce armour not with breaching power, but instead
+raw blunt force.
+Penetrating Hits caused by attacks made with weapons or models
+with this special rule add +1 to the result of any rolls on the Vehicle
+or Building Damage tables.</description>
+    </rule>
+    <rule id="f8c0-1865-f6fb-1817" name="Wraithbone Core" hidden="false">
+      <description>Aeldari titans were constructed of sterner stuff than the smaller warengines fielded by their race; attacks of a lesser calibre simply could not
+affect them.
+A model with this Special Rule ignores all Psychic Powers and
+Cybertheurgic Rites and Attacks made by Psychic and
+Cybertheurgic Weapons. In addition, a model with this special rule
+ignores the effects of Haywire and Disruption(X) special rules. In
+all cases, weapons which benefit from these special rules must
+attempt to damage a model with this special rule normally using
+the attack’s strength value. Furthermore, when a model with this
+special rule is destroyed, the damage caused by its Catastrophic
+Damage is altered to resolve at AP2.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
