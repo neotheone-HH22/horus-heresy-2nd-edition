@@ -89,10 +89,15 @@ class GameTests(unittest.TestCase):
         self.driver.quit()
 
     def get_error_list(self):
-        errors = self.driver.execute_script("return $debugOption.allErrors.map(error => ({"
-                                            "msg: error.msg,"
-                                            "constraint_id:error.constraint.id,"
-                                            "}))")
+        errors = self.driver.execute_script("""
+            if (typeof $debugOption !== 'undefined' && $debugOption.allErrors) {
+                return $debugOption.allErrors.map(error => ({
+                    msg: error.msg,
+                    constraint_id: error.constraint.id,
+                }));
+            }
+            return [];
+        """)
         if self.debug:
             print("$debugOption for list")
             print(errors)
