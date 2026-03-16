@@ -3261,11 +3261,11 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c1" />
-            <constraint type="max" value="11" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c2" />
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c1" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-tr09-0000-0005-m02-c2" />
           </constraints>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="22" />
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
           </costs>
         </selectionEntry>
       </selectionEntries>
