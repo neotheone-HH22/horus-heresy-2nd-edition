@@ -1709,7 +1709,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-m01-c1" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-m01-c2" />
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="e1da-el01-0000-0001-m01-c2" />
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
@@ -7527,7 +7527,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-m01-c1" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-m01-c2" />
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0007-m01-c2" />
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
@@ -7807,7 +7807,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-m01-c1" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-m01-c2" />
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0008-m01-c2" />
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
@@ -8088,7 +8088,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-m01-c1" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-m01-c2" />
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1da-fa01-0000-0009-m01-c2" />
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
@@ -10498,7 +10498,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-m01-c1" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-m01-c2" />
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e1da-lw01-0000-0006-m01-c2" />
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
