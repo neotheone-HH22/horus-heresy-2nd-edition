@@ -33,6 +33,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="bd46e808-48e9-4d53-86e9" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
+            <entryLink id="ccw01-auto-4850-a6b8" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="a1b2c3d4-e5f6-7890-cc01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccw01-auto-4172-9f89" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="4f44e260-73a6-4850-a6b8" name="Heavy Aspect Armour" hidden="false" collective="false" import="true" targetId="5335fdd3-3c17-4d7e-bd40" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9740491b-469e-4172-9f89" type="max"/>
@@ -192,6 +197,11 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ca4d4a-d702-42ef-b018" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="ww01-fars-46eb-a85c" name="Witch Weapon" hidden="false" collective="false" import="true" targetId="c3d4e5f6-a7b8-9012-ww01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ww01-fars-42f6-4f2c" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -261,6 +271,11 @@
             <entryLink id="ffb4d855-7b73-46eb-a85c" name="Rune Armour" hidden="false" collective="false" import="true" targetId="eb07ad6e-f7b0-4bb6-96fa" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3adb8a36-42f6-4f2c-918d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ww01-wrgu-5d70-4f2e" name="Witch Weapon" hidden="false" collective="false" import="true" targetId="c3d4e5f6-a7b8-9012-ww01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ww01-wrgu-4194-41be" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3637,11 +3652,6 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ecbe8c24-98df-4c40-b39f" name="Skyrunner Jetbike" hidden="false" collective="false" import="true" targetId="3320f4fe-490c-4480-9f28" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ca4d4a-d702-42ef-b018" type="max"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4173,6 +4183,11 @@
             <entryLink id="7c169127-a1f8-4314-9e7a" name="Holo-Suit" hidden="false" collective="false" import="true" targetId="4d00b7f3-43db-47a7-98e1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f31cfaa5-ae62-4240-b7d5" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="mm01-trou-4314-9e7a" name="Mask of Many Faces" hidden="false" collective="false" import="true" targetId="b2c3d4e5-f6a7-8901-mm01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="mm01-trou-ae62-4240" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
@@ -6854,6 +6869,12 @@ Damage is altered to resolve at AP2.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="a1b2c3d4-e5f6-7890-cc01" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Basic melee weapon</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+      </costs>
+    </selectionEntry>
     <selectionEntry id="72fdd5d1-f531-4d79-95d3" name="Craftworld Standard" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Banner with morale bonuses</comment>
       <costs>
@@ -6952,6 +6973,12 @@ Damage is altered to resolve at AP2.</description>
     </selectionEntry>
     <selectionEntry id="75025cdd-be27-4744-81a1" name="Mesh Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 5+ Armour Save</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2c3d4e5-f6a7-8901-mm01" name="Mask of Many Faces" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Adds +2 to Wounds score for determining combat results</comment>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
@@ -7092,6 +7119,12 @@ Damage is altered to resolve at AP2.</description>
       <comment>One-use teleportation</comment>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3d4e5f6-a7b8-9012-ww01" name="Witch Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Generic Force and Witch melee weapon</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
     </selectionEntry>
     <selectionEntry id="23f7fe64-4e64-4395-903e" name="Wireweave Net" hidden="false" collective="false" import="true" type="upgrade">
