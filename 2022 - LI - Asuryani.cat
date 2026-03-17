@@ -7147,18 +7147,45 @@ Damage is altered to resolve at AP2.</description>
   <sharedSelectionEntries>
     <selectionEntry id="0264c5b6-d989-45c5-aac2" name="Aspect Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 4+ Armour Save and a 5+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="1938815d-f4b6-3021-696c" name="Aspect Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Building upon the success of Mesh armour, Aspect Warrior armourers added ablative yet flexible plates to reinforce the panoply of the Aspects.
+Aspect Armour confers a 4+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="61a97fd9-ba08-4102-8f30" name="Augury Scanner" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Improves targeting</comment>
+      <profiles>
+        <profile id="8406c789-5ac1-8a28-5c90" name="Augury Scanner" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Functioning in a manner to similar to the more unsophisticated scanning technology of other races, the Eldar made use of Augurs to detect their foes.
+A unit that includes at least one model with an Augury Scanner gains all of the following benefits:
+Enemy models cannot be deployed using the Infiltrate Special Rule within 18&quot; of a model with an Augury Scanner.
+A unit that includes at least one model with an Augury Scanner ignores the 24&quot; limit to line of sight when making Shooting Attacks while the Night Fighting rules are in effect.
+When any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with an Augury Scanner may make the Interceptor Advanced Reaction without expending a point of the Reactive player's Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="8de03e58-5435-4528-a2bf" name="Banshee Mask" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Fear and assault bonuses</comment>
+      <profiles>
+        <profile id="66a6858b-d8d4-a3e1-119c" name="Banshee Mask" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The twisted, screaming visage of these masks unnerved even the most stalwart opponents - whilst within, the mask itself contained sonic boosters to augment the war-cries of their wearers.
+During the Assault phase, the Reactive player may not make Reactions targeting a unit that contains at least one model equipped with a Banshee Mask. This wargear's effect does not activate if the unit equipped with it makes a Disordered Charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="3" />
       </costs>
@@ -7171,180 +7198,419 @@ Damage is altered to resolve at AP2.</description>
     </selectionEntry>
     <selectionEntry id="72fdd5d1-f531-4d79-95d3" name="Craftworld Standard" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Banner with morale bonuses</comment>
+      <profiles>
+        <profile id="5a6d1427-96e0-3737-e2f7" name="Craftworld Standard" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">These back-banners would often proclaim both the Craftworld the bearer came from proudly - as well as the sorrowful tale of their homeworld, now lost to the fall.
+A unit that includes at least one model with a Craftworld Standard adds +1 to the Wounds score used to determine if they win a Combat in the Assault phase. In addition, a unit that includes at least one model with a Craftworld Standard may, before any dice are rolled to determine Fall Back distance, choose to Fall Back only a distance equal to the roll of a D6 instead of 2D6 (or 3D6 if a Cavalry unit), and if forced to move off the edge of the battlefield will instead stop moving, with any model that would have moved off of the battlefield ending its Fall Back move prematurely when it reaches 1&quot; from the edge of the battlefield.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="f7c8d3e1-9a2b-4c5d-b6e0" name="Comm-Bead" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Re-roll Scatter rolls and ignore Night Fighting Leadership penalty</comment>
+      <profiles>
+        <profile id="5dc70b63-f7ab-532b-ad14" name="Comm-Bead" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Unlike the bulky radio-relays of the Imperium, the Eldar utilised small-scale beads that slotted into the ear canal for effective point-to-point communications.
+While at least one model with a Comm-Bead is present on the battlefield and not Embarked in a Vehicle or Building, the Controlling Player may re-roll any Scatter rolls made (whether as part of a weapon attack or the deployment of a model or unit), as long as the model with the Comm-Bead has line of sight to the unit targeted by the attack or the point chosen as the target of the deployment. In addition, a unit that includes at least one model with a Comm-Bead ignores the -1 penalty to Leadership imposed by the Night Fighting rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="4292a33c-40cd-49ec-a8f1" name="Crystal Targeting Matrix" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Spirit stone targeting assistance</comment>
+      <profiles>
+        <profile id="dcdf570f-f1aa-ce5e-da44" name="Crystal Targeting Matrix" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Making use of similar adaptive matrices as used to convert Ghost Warrior chassis into Wraiths, the Crystal Targeting Matrix could be used to allow a slain Eldar warrior to lend their expertise in guiding weapons so a pilot could focus on the path ahead.
+Once per game, a model equipped with a Crystal Targeting Matrix may choose to fire a single weapon it is armed with at its full Ballistic Skill Characteristic in the Controlling Player's Shooting Phase after moving Flat Out.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="c8c9c880-1663-4952-8d56" name="Flip Belt" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Ignore difficult terrain in assault</comment>
+      <profiles>
+        <profile id="ea284e9d-9f96-ca3e-c6d4" name="Flip Belt" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The exclusive purview of the Saedathii Eldar, these belts allowed the wearer to treat gravity with contempt and walk astride any surface they so chose.
+A unit composed entirely of models equipped with Flip Belts may choose to ignore terrain and intervening friendly units while Moving, including Charges, Fall Back moves, Advancing, and during Reactions. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, though they entirely ignore the effects of Difficult Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2" />
       </costs>
     </selectionEntry>
     <selectionEntry id="f21902e8-1b62-4842-b219" name="Forceshield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 5+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="861d3c71-39e1-a092-ba30" name="Forceshield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Forceshield confers a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="6d8a1415-3d48-40d9-855e" name="Ghostwalker Matrix" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Stealth and positioning bonuses</comment>
+      <profiles>
+        <profile id="68b42f71-94b6-af25-3c75" name="Ghostwalker Matrix" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">In a similar manner to the Crystal Targeting Matrix, the Ghostwalker Matrix allowed the Spirit of an expert pilot to aid the living.
+A model equipped with a Ghostwalker Matrix has the Move Through Cover Special Rule. If the model that selected a Ghostwalker Matrix has the Antigrav Unit Sub-type, it gains the Pathfinder Special Rule instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="d070e7dd-8e2d-468f-aa01" name="Gloom Field" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Grants Shrouded (5+) Special Rule</comment>
+      <profiles>
+        <profile id="68bf2695-9cc2-611b-10ad" name="Gloom Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit containing at least one model equipped with a Gloom Field has the Shrouded (5+) Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="78e44e8f-9fd8-4347-b21e" name="Guide Stones" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Psychic guidance</comment>
+      <profiles>
+        <profile id="dacde879-ef19-e6ff-e61e" name="Guide Stones" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">In a strange inversion of the Spirit Stones used on some Eldar craft to aid the living, a Wraith Guide could imbue some of their very-much-alive spirit into Spirit Stone, creating a Guide Stone; with which they were able to reliably lead the Wraiths into battle.
+Any unit that includes one or more models with the Wraith Unit Sub-type is considered to automatically succeed the Leadership test required by the Wraithsight provision described as part of that Subtype while within 12&quot; of a friendly model equipped with Guide Stones. Note this does allow a unit both equipped with Guide Stones, and possessing the Wraith Unit Sub-type, to automatically succeed its own Leadership test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="e48910ae-ac67-47a9-b61c" name="Harlequin Masks" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Fear and holographic effects</comment>
+      <profiles>
+        <profile id="07f0e886-540e-7f62-27c7" name="Harlequin Masks" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whilst all Harlequins wore masks - an intrinsic tool of their trade - some of them stood out from the faceless ranks in unpleasant ways.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="5335fdd3-3c17-4d7e-bd40" name="Heavy Aspect Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 3+ Armour Save and a 5+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="01fe45e2-7e1e-9042-3dec" name="Heavy Aspect Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Heavy Aspect Armour confers a 3+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="a7d882fb-12a0-4346-b5ab" name="Heavy Mesh Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 4+ Armour Save</comment>
+      <profiles>
+        <profile id="5217ec6d-a694-2790-5768" name="Heavy Mesh Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Heavy Mesh Armour confers a 4+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="a01e5b14-6e30-4a45-833e" name="Helical Targeting Array" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Advanced targeting with Skyfire</comment>
+      <profiles>
+        <profile id="5b7dcca7-ac91-8bef-279d" name="Helical Targeting Array" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">These arrays allowed weapons linked into them to pick forth targets too fast to otherwise track, laying low even the fastest of foes.
+The Controlling Player of a model with a Helical Targeting Array may activate it at the start of any of their own turns, or, if the Controlling Player is not taking the first turn of the battle, at the start of the battle, before the beginning of the Opposing Player's first turn. Once the Helical Targeting Array is activated, the model is affected by the following conditions until the beginning of the Controlling Player's next turn:
+The model may not move, Run or declare or make any Reactions other than the Interceptor or Overwatch Reaction.
+The Controlling Player may choose to use the Skyfire Special Rule when making any Shooting Attacks with the model.
+No model may make a Damage Mitigation roll provided by the Shrouded Special Rule against an attack made by a model with a Helical Targeting Array while it is active.
+When the model makes a Shooting Attack as part of the Interceptor Reaction, the Reaction does not cost the Controlling Player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.
+When a model with the Vehicle Unit Type and a Helical Targeting Array makes a Shooting Attack as part of the Interceptor Reaction, that model may fire all of its weapons, not just Defensive Weapons, as part of the Shooting Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
       </costs>
     </selectionEntry>
     <selectionEntry id="2f1e6a77-a6ef-4cfe-bb53" name="Holo-Fields" hidden="false" collective="false" import="true" type="upgrade">
       <comment>5+ Invulnerable Save against Shooting Attacks</comment>
+      <profiles>
+        <profile id="dd248520-725a-36da-e626" name="Holo-Fields" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Holo-Fields has a 5+ Invulnerable Save against Shooting Attacks, unless it is Immobilised.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="4d00b7f3-43db-47a7-98e1" name="Holo-Suit" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 4+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="a01aa31c-9777-fc2a-6d19" name="Holo-Suit" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Holo-Suit confers a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="3788b10a-c333-4542-a245" name="Improved Forceshield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 4+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="97b20b64-8772-3da1-d26e" name="Improved Forceshield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Improved Forceshield confers a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="e82b8fa3-3b24-45af-90a3" name="Improved Holo-Fields" hidden="false" collective="false" import="true" type="upgrade">
       <comment>4+ Invulnerable Save against Shooting Attacks</comment>
+      <profiles>
+        <profile id="70a098ce-7e08-e83b-e98c" name="Improved Holo-Fields" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Holo-Fields has a 4+ Invulnerable Save against Shooting Attacks, unless it is Immobilised.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="75025cdd-be27-4744-81a1" name="Mesh Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 5+ Armour Save</comment>
+      <profiles>
+        <profile id="0ddb6973-6f2b-7587-f26f" name="Mesh Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Fashioned from scales of psychically-sensitive armour in a fashion similar to chainmail, these suits were light, and preserved the mobility of those who wore them.
+Mesh Armour confers a 5+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
     </selectionEntry>
     <selectionEntry id="b2c3d4e5-f6a7-8901-mm01" name="Mask of Many Faces" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Adds +2 to Wounds score for determining combat results</comment>
+      <profiles>
+        <profile id="a0a92084-c532-193c-e69f" name="Mask of Many Faces" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The mask of a Troupe Master did not shift slowly in the same way those of the other members of the troupe's did – instead it writhed and shifted between various expressions of cruel amusement and sardonicism, forever mocking those who fell to its wearer.
+A unit that includes at least one model equipped with The Mask of Many faces adds +2 to the Wounds score used to determine if they win a Combat in the Assault phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
     </selectionEntry>
     <selectionEntry id="354231ef-7527-4bc7-b684" name="Mirage Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Shrouded effect</comment>
+      <profiles>
+        <profile id="f73a02cc-753f-8ee9-cc97" name="Mirage Launcher" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">These vehicle-mounted canister launchers would pour forth clouds of shimmering gases that would obscure anything within from even the most advanced sensors.
+Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit composed entirely of models equipped with Mirage Launchers is considered to be 6&quot; further than the actual range between the two units – models with the Primarch Unit Type ignore this effect.
+In addition, when attacked by a weapon with the Barrage Special Rule, a unit composed entirely of models equipped with Mirage Launchers is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="0e648947-01eb-43f8-8df6" name="Outcast Cloaks" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Increases enemy shooting range by 6"</comment>
+      <profiles>
+        <profile id="c35732e8-a3a5-42d6-157e" name="Outcast Cloaks" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Eldar who trod off the beaten path - literally and figuratively - all knew the benefit of being able to remain unseen, and their cloaks were a logical extension of this necessity.
+Whenever a unit composed entirely of models equipped with Outcast Cloaks is targeted by a Shooting Attack, the range between an attacking unit and the targeted unit is considered to be 6&quot; further than the actual range between the two units – enemy models with the Night Vision Special Rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule, a unit that is composed only of models equipped with Outcast Cloaks is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="44a728de-9aca-4a5a-9af6" name="Phoenix Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 2+ Armour Save and a 4+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="9c628cbf-958c-da77-6912" name="Phoenix Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Phoenix Armour confers a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
       </costs>
     </selectionEntry>
     <selectionEntry id="9ac83887-2db3-4d68-b36c" name="Plasma Grenades" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Grenades for assaults and anti-vehicle</comment>
+      <profiles>
+        <profile id="bc94312c-0d90-355c-dc4a" name="Plasma Grenades" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Unlike the lesser races, the Eldar would carry usually only a single type of grenade - and with which, both infantry and vehicles would fall.
+A unit that includes at least one model with Plasma Grenades makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.
+In addition, the Controlling Player may choose to have a model with Plasma Grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 5, AP 4 Hit with the Breaching (6+) Special Rule, on the target in Initiative Step 1 instead of attacking normally. If this option is selected, the unit makes its Pile In move at the Initiative 1 step. Any model in a unit that is chosen to inflict Hits using Plasma Grenades may not otherwise attack or make use of any other Special Rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2" />
       </costs>
     </selectionEntry>
     <selectionEntry id="20f2027e-991e-427e-9b6e" name="Power Field" hidden="false" collective="false" import="true" type="upgrade">
       <comment>5+ Invulnerable Save with Instant Death protection</comment>
+      <profiles>
+        <profile id="117fcb73-264a-01ed-3dba" name="Power Field" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Power Field confers a 5+ Invulnerable Save, and any model with a Power Field and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with a Power Field loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
       </costs>
     </selectionEntry>
     <selectionEntry id="fcea70d3-9031-4b14-bd80" name="Raptor Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Jetbike with Scatter Laser and Scout</comment>
+      <profiles>
+        <profile id="9b7f5fe9-9166-dd63-9bf0" name="Raptor Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Raptor Jetbike has a Scatter Laser.
+In addition, a model with a Raptor Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
+Any model equipped with a Raptor Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (3), Hit &amp; Run, Hammer of Wrath (1), Relentless, Scout, Infiltrate, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30" />
       </costs>
     </selectionEntry>
     <selectionEntry id="5b235952-0537-4546-b800" name="Revenant Jump Engines" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Titan jump engines with +16" movement</comment>
+      <profiles>
+        <profile id="1d5f4587-50a3-c4d5-1392" name="Revenant Jump Engines" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Enormous thrusters allowed even the titans of the Eldar a grace unavailable to the Titan Legios of Mars.
+At the start of the Controlling Player's Movement phase, a model with Revenant Jump Engines may add +16&quot; to it Movement Characteristic for the duration of the Controlling Player's turn (sometimes referred to as 'activating' the Revenant Jump Engines). This allows a model with Revenant Jump Engines to move up to 32&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 32 (including the bonus to Charge distance). In addition, all models with Revenant Jump Engines that have been activated ignore terrain while Moving and Charging, as though it was not present, though may not end their move in Impassible Terrain. A model with an activated Revenant Jump Engines may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
+During a Reaction made in any Phase, a player may not choose to activate a model's Revenant Jump Engines to gain any bonus to its Movement Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30" />
       </costs>
     </selectionEntry>
     <selectionEntry id="eb07ad6e-f7b0-4bb6-96fa" name="Rune Armour" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 4+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="09d15827-1fb3-df8c-f809" name="Rune Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Forgoing the protective plating normal to armoured suits, Rune armour instead entirely relied upon psychic wards and runic seals to shield its wearers - a defence proved entirely potent enough by the continued survival of its wearers.
+Rune Armour confers a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="f88efced-ee66-4bcf-b335" name="Scattershield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 5+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="b3f10f91-a497-2aac-488d" name="Scattershield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Scattershield confers a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="1f9f48eb-fd06-4b97-83ae" name="Searchlights" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Ignore Night Fighting limits</comment>
+      <profiles>
+        <profile id="5cfe315f-5a38-7e63-d593" name="Searchlights" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whilst crude, the ease of use of these illumination beacons made them invaluable.
+A model with searchlights ignores the 24&quot; limit to line of sight imposed by the Night Fighting rules when making Shooting Attacks, however enemy units also ignore that same restriction when making Shooting Attacks that target a model with searchlights.
+In addition, any unit that has been the target of a Shooting Attack made by a unit with searchlights (regardless of whether any Hits were inflicted or not) may be freely targeted for Shooting Attacks by any other unit in the same Shooting phase, ignoring the 24&quot; restriction to line of sight imposed by the Night Fighting rules.
+Searchlights do not count as weapons and may not be targeted by the Weapon Destroyed result on the Vehicle Damage table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="1" />
       </costs>
     </selectionEntry>
     <selectionEntry id="abb89d59-789c-4ef7-86d4" name="Serpentscale Shield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>5+ Invulnerable Save against Shooting Attacks (unit)</comment>
+      <profiles>
+        <profile id="309a05b0-987e-140b-37ea" name="Serpentscale Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Serpentscale Shield has a 5+ Invulnerable Save against all incoming Shooting Attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="3320f4fe-490c-4480-9f28" name="Skyrunner Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Jetbike with Twin-Linked Shuriken Catapult</comment>
+      <profiles>
+        <profile id="0f3b2144-0cfe-753b-29b6" name="Skyrunner Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Skyrunner Jetbike has a Twin-Linked Shuriken Catapult.
+In addition, a model with a Skyrunner Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
+Any model equipped with a Skyrunner Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (1), Relentless, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
       </costs>
@@ -7363,66 +7629,164 @@ Damage is altered to resolve at AP2.</description>
     </selectionEntry>
     <selectionEntry id="4e008fb5-6fd1-449c-a7ed" name="Skyweaver Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Jetbike with Shuriken Cannon</comment>
+      <profiles>
+        <profile id="3bc81017-128f-50be-fc3d" name="Skyweaver Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Skyweaver Jetbike has a Shuriken Cannon.
+In addition, a model with a Skyweaver Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
+Any model equipped with a Skyweaver Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (1), Relentless, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
       </costs>
     </selectionEntry>
     <selectionEntry id="083d312c-6271-414f-a99a" name="Spectre Jet Pack" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Jet pack with +7" movement bonus</comment>
+      <profiles>
+        <profile id="ed48256b-6bd2-0ec7-b7bf" name="Spectre Jet Pack" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The powerful thrusters of the Spectre Jet Pack took special training to master; as a result, they saw almost no use outside of the Aspect Warriors of the Shadow Spectres.
+A unit composed entirely of models equipped with Spectre Jet Packs may choose to increase its Move Characteristic by +7 and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Spectre Jet Packs, and treats Difficult Terrain as Dangerous Terrain.
+In addition to the bonus move during the Movement phase, a unit composed entirely of models with Spectre Jet Packs may make an additional Move of 7&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by the unit during that Shooting phase and ignores terrain in the same manner as moves made using a Spectre Jet Pack in the Movement phase. During any Reaction that allows a unit to Move, a unit composed entirely of models with Spectre Jump Pack increases the distance of that Move by 7 and allows it to ignore terrain in the same manner as other Spectre Jet Pack moves.
+Any model with a Spectre Jet Pack also gains the Bulky (2) and Deep Strike Special Rules. If the model already has the Bulky (2) Special Rule, it gains the Bulky (3) Special Rule instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="4cb935cb-7c4c-4326-a63c" name="Spirit Stones" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Grants Reinforced Sub-type</comment>
+      <profiles>
+        <profile id="e32ec20b-62f6-8451-4f31" name="Spirit Stones" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whilst not a new technology at the time of the Fall, Spirit Stones gained more widespread acceptance as the true horror of She Who Thirst's hunger for Eldar souls was realised.
+A model equipped with Spirit Stones gains the Reinforced Sub-type.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="46b0b07f-0f25-45f2-b639" name="Star Engines" hidden="false" collective="false" import="true" type="upgrade">
       <comment>+3" movement during Reactions</comment>
+      <profiles>
+        <profile id="6a7464e0-e004-a60b-f5af" name="Star Engines" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with Star Engines moves an additional 3&quot; when making Movement Reactions.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="adf0be3e-d9df-419a-b7d1" name="Starweaver Skimmer" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Skimmer with 2 Shuriken Cannons</comment>
+      <profiles>
+        <profile id="a6f9a53a-08fc-1559-e49c" name="Starweaver Skimmer" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Starweaver Skimmer has 2 Shuriken Cannons.
+In addition, a model with a Starweaver Skimmer may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
+Any model equipped with a Starweaver Skimmer must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 16, and gains a 3+ Armour Save, and the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (1), Relentless, Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
       </costs>
     </selectionEntry>
     <selectionEntry id="cc51282a-22dd-4ac0-8ce8" name="Swooping Hawk Wings" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Wings with 16" movement and Deep Strike</comment>
+      <profiles>
+        <profile id="e2ffaf3e-838a-e3c3-9e60" name="Swooping Hawk Wings" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The iridescent wings of the Swooping Hawks allowed them to soar beyond the battlefield.
+At the start of the Controlling Player's Movement phase, or when deployed as part of a Deep Strike Assault, a model with Swooping Hawk Wings may set its Move Characteristic to a value of 16&quot; for the duration of the Controlling Player's turn. This allows a model with Swooping Hawk Wings to move up to 16&quot; regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16 (including the bonus to Charge distance).
+In addition, all models with a Swooping Hawk Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with an activated Swooping Hawk Wings may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit.
+Any model with Swooping Hawk Wings also gains the Bulky (2) and Deep Strike Special Rules. If the model already has the Bulky (2) Special Rule, it gains the Bulky (3) Special Rule instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
       </costs>
     </selectionEntry>
     <selectionEntry id="39170b8f-dc4d-457f-9671" name="Vectored Engines" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Pivot before resolving shooting in reactions</comment>
+      <profiles>
+        <profile id="fd4a7b7e-9d39-15f4-cb4b" name="Vectored Engines" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever a model equipped with Vectored Engines is targeted by a Shooting Attack in the Opposing Player's turn, if the Reactive Player chooses to have the model react, before any Shooting Attacks are resolved the model may immediately pivot on the spot to face any direction.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="78a5da28-d277-4815-bd2f" name="Vyper Jetbike" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Heavy jetbike with Twin-Linked Shuriken Catapult and Shuriken Cannon</comment>
+      <profiles>
+        <profile id="0da18a80-7789-c9b7-cee7" name="Vyper Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Vyper Jetbike has a Twin-Linked Shuriken Catapult and a Shuriken Cannon.
+In addition, a model with a Vyper Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
+Any model equipped with a Vyper Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 16, and gains the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (2), Relentless, Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35" />
       </costs>
     </selectionEntry>
     <selectionEntry id="b88d5a78-fbf0-4291-98fa" name="Warp Jump Generator" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Jump pack with 14" movement</comment>
+      <profiles>
+        <profile id="c7c5a89e-7f58-d0b7-afaa" name="Warp Jump Generator" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">These compact and potent generators allowed their bearer to flicker in and out of the immaterium at will - though at great personal risk.
+A unit composed entirely of models with Warp Jump Generators may choose to set its Move Characteristic to 14&quot; instead of moving normally. If they choose to do so, they may move in any direction ignoring Difficult, Dangerous and Impassable Terrain as though it were not present. However a unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Warp Jump Generators and treats Difficult Terrain as Dangerous Terrain.
+In addition to the bonus move during the Movement phase, a unit composed entirely of models with Warp jump generators may make an additional Move of 7&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by the unit during that Shooting phase and ignores terrain in the same manner as moves made using a Warp Jump Generator in the Movement phase.
+During any Reaction that allows a unit to Move (except the Flickerjump Advanced Reaction), a unit composed entirely of models with Warp Jump Generators increases the distance of that Move by 7 and allows it to ignore terrain in the same manner as other Warp Jump Generator moves.
+Any model with a Warp Jump Generator also gains the Bulky (2) and Deep Strike special rules. - if it already has the Bulky (2) special rule, it gains the Bulky (3) special rule instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="0e08cac7-1898-4190-b0ad" name="Wave Serpent Shield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>6+ Invulnerable Save with Shield Blast attack</comment>
+      <profiles>
+        <profile id="4316f792-1039-456d-0ea2" name="Wave Serpent Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Wave Serpent Shield has a 6+ Invulnerable Save against Shooting Attacks made on their Front or Side Armour Facings.
+In addition, once per game, the Controlling Player may choose to use the Wave Serpent Shield to make a Shield Blast attack. A Shield Blast is a Shooting Attack with the following Profile, and is counted as a Hull (Front) Mounted weapon:
+Shield Blast - Range: 12&quot;, Str: 6, AP: -, Type: Assault 8, Ignores Cover, Concussive (2), One Use.
+For the remainder of the battle after the Shield Blast has been resolved, the model that made the Shield Blast attack may not claim the 6+ Invulnerable Save granted by the Wave Serpent Shield.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
       </costs>
     </selectionEntry>
     <selectionEntry id="dd30717c-f64a-45a7-bd07" name="Webway Shunt Generator" hidden="false" collective="false" import="true" type="upgrade">
       <comment>One-use teleportation</comment>
+      <profiles>
+        <profile id="6660b845-fcff-8069-6865" name="Webway Shunt Generator" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Upscaled versions of the Warp Spider's signature generators, these immense engines allowed even great constructs to hop into and out of the webway, seeming to appear and disappear in a heartbeat.
+A model equipped with a Webway Shunt Generator may choose to activate it once per game during the Controlling Player's Movement Phase, before it moves. If you choose to activate the Webway Shunt Generator, instead of moving normally, pick a point anywhere on the board and place the model equipped with a Webway Shunt Generator there, then follow the procedure for Performing a Deep Strike Assault. Note that the model is counted as having already passed its Reserve roll. A model which uses a Webway Shunt Generator cannot charge on the same turn in which it chooses to activate it.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
       </costs>
@@ -7435,18 +7799,40 @@ Damage is altered to resolve at AP2.</description>
     </selectionEntry>
     <selectionEntry id="23f7fe64-4e64-4395-903e" name="Wireweave Net" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Reduces charge distance of enemies</comment>
+      <profiles>
+        <profile id="ec31160b-437c-7b7e-206e" name="Wireweave Net" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Wireweave Nets were employed to great effect by Rangers, who understood the best way to avoid attack was to simply prevent your opponent from reaching them.
+When a unit with at least one model equipped with a Wireweave Net is charged for the first time in a game, the Opposing Player suffers a -3&quot; penalty to the distance rolled for the Charge move.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="2489bb30-1a17-4915-a659" name="Wraithform Shield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>Confers a 6+ Invulnerable Save</comment>
+      <profiles>
+        <profile id="b4b244e2-96fd-43bd-5425" name="Wraithform Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Wraithform Shield confers a 6+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
       </costs>
     </selectionEntry>
     <selectionEntry id="06a41bb8-b47c-4682-bd3a" name="Wraithshield" hidden="false" collective="false" import="true" type="upgrade">
       <comment>4+ Invulnerable Save with Instant Death protection</comment>
+      <profiles>
+        <profile id="e315d1cf-3db4-95d8-1af7" name="Wraithshield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Wraithshield confers a 4+ Invulnerable Save, and any model with a Wraithshield and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with a Wraithshield loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
       </costs>
