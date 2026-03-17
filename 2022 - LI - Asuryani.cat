@@ -2207,26 +2207,41 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec0326f9-1d21-4e9f-" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
             </entryLink>
             <entryLink id="f423fcc9-999e-42f2-" name="Holo-Fields" hidden="false" collective="false" import="true" targetId="2f1e6a77-a6ef-4cfe-bb53" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e535a30-4240-4435-" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
             </entryLink>
             <entryLink id="0f8577df-201c-4f3f-" name="Searchlights" hidden="false" collective="false" import="true" targetId="1f9f48eb-fd06-4b97-83ae" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aafc24b-1407-44b4-" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
             </entryLink>
             <entryLink id="2f5054e4-9c94-4c31-" name="Spirit Stones" hidden="false" collective="false" import="true" targetId="4cb935cb-7c4c-4326-a63c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff44a69-6556-4a42-" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
             </entryLink>
             <entryLink id="715844b1-34e8-41a9-" name="Wave Serpent Shield" hidden="false" collective="false" import="true" targetId="0e08cac7-1898-4190-b0ad" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b85d41f-4c28-41a2-" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2309,8 +2324,16 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ws01-ev01-con1-0001" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ws01-ev01-el01-0001" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry" />
-            <entryLink id="ws01-ev01-el02-0001" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry" />
+            <entryLink id="ws01-ev01-el01-0001" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </entryLink>
+            <entryLink id="ws01-ev01-el02-0001" name="Vectored Engines" hidden="false" collective="false" import="true" targetId="39170b8f-dc4d-457f-9671" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
