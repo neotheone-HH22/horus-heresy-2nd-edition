@@ -3487,6 +3487,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="a216-3f52-a321-0d9a" name="Flexible Tactics" hidden="false" targetId="e2f5-104c-35d0-5b36" type="rule" />
+        <infoLink id="e1da-dp01-0001-il01" name="Shield of Grace" hidden="false" targetId="e1da-dp01-rule-sg01" type="rule" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cf160490-78e1-4751-856b" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -3559,6 +3560,7 @@
         <infoLink id="d5cd-b2bc-9f36-46aa" name="Herald of Victory" hidden="false" targetId="9ec2-760c-25ed-44bd" type="rule" />
         <infoLink id="684d-c324-60f0-f058" name="Skyleap" hidden="false" targetId="559b-d537-4d5a-2e50" type="rule" />
         <infoLink id="d27f-dd42-1cad-0d96" name="Skystrike" hidden="false" targetId="7460-5e47-5635-c5ac" type="rule" />
+        <infoLink id="e1da-dp02-0001-il01" name="Sun's Brilliance" hidden="false" targetId="e1da-dp02-rule-sb01" type="rule" />
       <infoLink id="723a-8b1b-ddc2-4a35" name="Grenade Pack" hidden="false" targetId="1394-4505-91ec-100f" type="profile" /><infoLink id="f6a4-c507-60d4-446e" name="Haywire Grenade" hidden="false" targetId="0f92-e17c-2f0d-9bbe" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4b6bd0c8-f4bf-432b-951a" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -5858,6 +5860,30 @@ Penetrating Hits caused by attacks made with weapons or models
 with this special rule add +1 to the result of any rolls on the Vehicle
 or Building Damage tables.</description>
     </rule>
+    <rule id="e1da-dp01-rule-sg01" name="Shield of Grace" hidden="false">
+      <description>Whenever Asurmen fights in a Challenge, his Invulnerable Save is increased to a 3+.</description>
+    </rule>
+    <rule id="e1da-dp02-rule-sb01" name="Sun's Brilliance" hidden="false">
+      <description>Shooting attacks targeting a unit containing a model with this Special Rule made as part of an Interceptor Reaction are resolved as Snap Shots. Models which are immune to the effects of Blind are not affected by Sun's Brilliance.</description>
+    </rule>
+    <rule id="e1da-dp04-rule-dm01" name="Dragon of Myth" hidden="false">
+      <description>At the start of any Fight Sub-phase, each model with this Special Rule within base to base contact with an enemy model makes D3 additional attacks at Initiative step 10. These attacks are resolved at Strength 4 with an AP of -, and are counted as "Flame" attacks for those rules that affect such attacks.</description>
+    </rule>
+    <rule id="e1da-dp04-rule-ur01" name="Unquenchable Resolve" hidden="false">
+      <description>At the end of any phase in which a model with this Special Rule suffers one or more unsaved Wounds, their Strength and Attack Characteristics are increased by +1 for each unsaved Wound suffered. These Characteristic bonuses are permanent and last for the rest of the game (Note that Damage Mitigation Rolls do not prevent this Special Rule from taking effect).</description>
+    </rule>
+    <rule id="e1da-dp05-rule-dt01" name="Dawn of Twilight" hidden="false">
+      <description>During any mission where the Night Fighting Rules are in effect, a player whose army includes Irillyth may choose to force Night Fighting to be used, without the need for a dice roll. In addition, the Controlling Player may re-roll any dice rolled during the game to determine whether Night Fighting Rules stay in effect during a Game Turn.</description>
+    </rule>
+    <rule id="e1da-dp07-rule-wd01" name="Whirlwind of Death" hidden="false">
+      <description>Maugan Ra may fire The Maugetar twice during the Controlling Player's Shooting Phase. These Shooting Attacks may be made at different targets.</description>
+    </rule>
+    <rule id="e1da-dp08-rule-ac01" name="Acrobatic" hidden="false">
+      <description>A unit made up entirely of models with this special rule that chooses to Run in the Movement phase may still declare a Charge in the Assault phase of the same turn. Furthermore, models with this special rule attack at their normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult or Dangerous Terrain.</description>
+    </rule>
+    <rule id="e1da-dp08-rule-ds01" name="Disarming Strike" hidden="false">
+      <description>Before rolling to Hit whilst in a challenge, a model with this Special Rule can choose to nominate one of the Opponent's model's melee weapons. Both Jain Zar and the opposing model must then roll a D6 and add their Weapon Skill; the model with the highest result being the Winner. If the opposing model is the Winner, Jain Zar reduces her Attacks Characteristics by -3 for the duration of that Assault phase. If Jain Zar is the Winner, Jain Zar reduces her Attacks Characteristics by -1 for the duration of that Assault phase, whilst the Opposing model counts as no longer being equipped with the nominated melee weapon for the duration of that Assault phase. Any Characteristic Modifiers applied by this Special Rule ignore the normal restrictions found in the Phoenix Lord Unit Type.</description>
+    </rule>
     <rule id="f8c0-1865-f6fb-1817" name="Wraithbone Core" hidden="false">
       <description>Aeldari titans were constructed of sterner stuff than the smaller warengines fielded by their race; attacks of a lesser calibre simply could not
 affect them.
@@ -7053,6 +7079,18 @@ Damage is altered to resolve at AP2.</description>
       <comment>Jetbike with Twin-Linked Shuriken Catapult</comment>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp03-gear-kd01" name="Khaine's Destrier" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Drastanta's unique jetbike with Two Master-Crafted Shuriken Cannons, Firing Protocols (3), Hammer of Wrath (2), Deep Strike</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1da-dp08-gear-tl01" name="Terror's Lament" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>During the Assault phase the Reactive player may not make Reactions targeting a unit containing this model. Enemies in base contact suffer -1 Attack and Initiative (min 1). Does not activate on a Disordered Charge.</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
     </selectionEntry>
     <selectionEntry id="4e008fb5-6fd1-449c-a7ed" name="Skyweaver Jetbike" hidden="false" collective="false" import="true" type="upgrade">
