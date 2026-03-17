@@ -7451,5 +7451,160 @@ Damage is altered to resolve at AP2.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
       </costs>
     </selectionEntry>
+    <selectionEntry id="asur-rob0-disc-0001" name="Psychic Discipline: Runes of Battle" page="22" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="asur-rob0-prof-0001" name="Conceal / Reveal" page="22" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Conceal: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18&quot;, that unit gains the Shrouded (6+) Special Rule until the beginning of the controlling player&apos;s next turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Shrouded (5+) Special Rule until the beginning of the controlling player&apos;s next turn. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.
+
+Reveal: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18&quot; and line of sight of the Psyker, and take a Psychic check. If that Check is passed all models in the target unit may not benefit from the Shrouded (X) Special Rule, and decrease all Cover Saves granted by terrain by one (a unit with an existing 6+ cover save would therefore receive no cover save) until the beginning of the Controlling Player&apos;s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rob0-prof-0002" name="Embolden / Horrify" page="22" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Embolden: Instead of making a Shooting Attack, a Psyker with this power may select a single friendly unit within 18&quot;, that unit gains the Stubborn Special Rule until the beginning of the controlling player&apos;s next turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit instead gains the Fearless Special Rule until the beginning of the controlling player&apos;s next turn. If the Check is failed then no additional benefits are gained and the Psyker suffers Perils of the Warp.
+
+Horrify: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18&quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed all models in the target unit must reduce their Leadership by -2 until the beginning of the Controlling Player&apos;s next turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rob0-prof-0003" name="Quicken / Restrain" page="22" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Quicken: At the start of the Movement Phase, a Psyker with this power may select a single friendly Infantry unit within 18&quot;, that unit increases its Move characteristic by +2 for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then the target unit also gains the Move Through Cover Special Rule until the beginning of the controlling player&apos;s next turn. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.
+
+Restrain: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy Infantry unit within 18&quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed all models in the target unit reduce their Movement characteristic by -2 (to a minimum of 1) and cannot Run until the beginning of the controlling player&apos;s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rob0-prof-0004" name="Empower / Enervate" page="23" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Empower: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18&quot;, that unit increases its Strength Characteristic by +1 for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then both Strength and Toughness Characteristics are increased by +1 for the duration of the current player turn. If the Check is failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp.
+
+Enervate: Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18&quot; and line of sight of the Psyker and take a Psychic Check. If that Check is passed all models in the target unit reduce their Strength Characteristic by -1 (to a minimum of 1) until the beginning of the controlling player&apos;s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rob0-prof-0005" name="Renewer" page="23" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with at least one model within 18&quot;, one model of the Controlling Player&apos;s choice regains a single lost Wound. When using this power, the Controlling Player may choose to have the Psyker take a Psychic Check. If the Check is passed then up to three lost Wounds are regained across the target unit. If the Check is failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp. This ability cannot be used to increase a model&apos;s Wounds beyond its starting Wounds Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rob0-prof-0006" name="Destructor" page="23" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">Template</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">5</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">5</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Fleshbane, Torrent (9&quot;), Breaching (6+), Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="asur-rob0-rule-0001" name="Psychic Discipline: Runes of Battle" page="22" hidden="false">
+          <description>A Psyker with this Discipline gains a single one of the listed Psychic Powers or Weapons, including both sub-powers, unless they have a Special Rule or other ability that allows them to gain more, as well as the Aetheric Lightning Psychic Weapon (see page 322 of the Horus Heresy: Age of Darkness Core Rulebook) - unless they have already gained this power from another source.
+
+Each power is actually comprised of two sub-powers or weapons - each time the unit which selected a power from the Runes of Battle Psychic Discipline attempts to cast it, they must first decide which of its two sub-powers or weapons they wish to use.
+
+Conceal / Reveal (Psychic Power)
+Embolden / Horrify (Psychic Power)
+Quicken / Restrain (Psychic Power)
+Empower / Enervate (Psychic Power)
+Renewer (Psychic Power) / Destructor (Psychic Weapon)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="asur-rob0-link-0001" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink id="asur-rob0-link-0002" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink id="asur-rob0-link-0003" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="asur-rob0-link-0004" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="asur-rob0-link-0005" name="Torrent (X)" hidden="false" targetId="5cfb-fc94-e6db-43b8" type="rule"/>
+        <infoLink id="asur-rob0-link-0006" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="asur-rof0-disc-0001" name="Psychic Discipline: Runes of Fate" page="24" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="asur-rof0-prof-0001" name="Fortune" page="24" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Once per turn, at the start of any Phase, a Psyker with this Psychic Power&apos;s Controlling Player may select a single friendly unit with the Aeldari Faction within 18&quot;, and take a Psychic Check. If the Psychic Check is passed then the target unit may re-roll all failed Armour Saves or Invulnerable Saves for the duration of that Phase, but these re-rolls are taken at a penalty of -1 to Save roll, to a maximum of 6+ (meaning an Armour Save or Invulnerable Save of 3+ would only succeed on a dice roll of a &apos;4&apos;, and so on).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rof0-prof-0002" name="Guide" page="24" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18&quot; and take a Psychic check. If the Psychic check is passed then the target unit&apos;s ranged weapons gain the Twin-Linked Special Rule for the duration of the current player turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rof0-prof-0003" name="Eldritch Storm" page="24" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">3</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Large Blast (5&quot;), Fleshbane, Haywire, Pinning, Psychic Focus, Gathering Storm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="asur-rof0-rule-0001" name="Psychic Discipline: Runes of Fate" page="24" hidden="false">
+          <description>A Psyker with this Discipline gains all powers, attacks and other rules included as part of the Discipline, as well as the Aetheric Lightning Psychic Weapon (see page 322 of the Horus Heresy: Age of Darkness Core Rulebook) - unless they have already gained this power from another source.
+
+Fortune (Psychic Power)
+Guide (Psychic Power)
+Eldritch Storm (Psychic Weapon)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="asur-rof0-link-0001" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink id="asur-rof0-link-0002" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink id="asur-rof0-link-0003" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="asur-rof0-link-0004" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="asur-rof0-link-0005" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
+        <infoLink id="asur-rof0-link-0006" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="asur-rof0-link-0007" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="asur-rof0-link-0008" name="Gathering Storm" hidden="false" targetId="f290-181a-3aee-48cd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="asur-rot0-disc-0001" name="Psychic Discipline: Runes of Twilight" page="25" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="asur-rot0-prof-0001" name="Voice of Twilight" page="25" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with a model within 18&quot; which contains at least one model with the Wraith Sub-Type and apply one of the following effects to all models with the Wraith Sub-Type in the unit. All effects last until the beginning of the Controlling Player&apos;s next turn:
+- The unit gains the Precision Shots (5+) Special Rule.
+- The unit gains the Precision Strikes (5+) Special Rule.
+- The unit gains the Split Fire Special Rule.
+- The unit gains the Furious Charge Special Rule.
+When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then two different options may be applied to the target unit instead of one. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="asur-rot0-prof-0002" name="Executioner" page="25" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">4</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">-</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 4, Fleshbane, Deflagrate, Disruption (5+), Precision Shots (5+), Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="asur-rot0-rule-0001" name="Psychic Discipline: Runes of Twilight" page="25" hidden="false">
+          <description>A Psyker with this Discipline gains all powers, attacks and other rules included as part of the Discipline, as well as the Aetheric Lightning Psychic Weapon (see page 322 of the Horus Heresy: Age of Darkness Core Rulebook) - unless they have already gained this power from another source.
+
+Voice of Twilight (Psychic Power)
+Executioner (Psychic Weapon)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="asur-rot0-link-0001" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink id="asur-rot0-link-0002" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink id="asur-rot0-link-0003" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="asur-rot0-link-0004" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="asur-rot0-link-0005" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="asur-rot0-link-0006" name="Disruption (X)" hidden="false" targetId="4ef3-4cbf-0224-9bfe" type="rule"/>
+        <infoLink id="asur-rot0-link-0007" name="Precision Shots (X)" hidden="false" targetId="4b71-81ee-31f4-fa09" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
