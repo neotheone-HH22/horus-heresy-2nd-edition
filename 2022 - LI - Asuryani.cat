@@ -56,6 +56,10 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="asur-auto-ashr-link" name="Aspect Shrines" hidden="false" collective="false" import="true" targetId="asur-ashr-0000-0001" type="selectionEntryGroup"/>
+        <entryLink id="asur-auto-wlt0-link" name="Asuryani Warlord Traits" hidden="false" collective="false" import="true" targetId="asur-wlt0-0000-0001" type="selectionEntryGroup"/>
+      </entryLinks>
 
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0001-m01" name="Autarch" hidden="false" collective="false" import="true" type="model">
@@ -121,6 +125,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="asur-exar-ashr-link" name="Aspect Shrines" hidden="false" collective="false" import="true" targetId="asur-ashr-0000-0001" type="selectionEntryGroup"/>
+      </entryLinks>
 
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0002-m01" name="Exarch" hidden="false" collective="false" import="true" type="model">
@@ -205,6 +212,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="asur-fars-wlt0-link" name="Asuryani Warlord Traits" hidden="false" collective="false" import="true" targetId="asur-wlt0-0000-0001" type="selectionEntryGroup"/>
+      </entryLinks>
 
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0003-m01" name="Farseer" hidden="false" collective="false" import="true" type="model">
@@ -281,6 +291,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="asur-wrgu-wlt0-link" name="Asuryani Warlord Traits" hidden="false" collective="false" import="true" targetId="asur-wlt0-0000-0001" type="selectionEntryGroup"/>
+      </entryLinks>
 
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0004-m01" name="Wraith Guide" hidden="false" collective="false" import="true" type="model">
@@ -356,6 +369,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="asur-eldr-wlt0-link" name="Asuryani Warlord Traits" hidden="false" collective="false" import="true" targetId="asur-wlt0-0000-0001" type="selectionEntryGroup"/>
+      </entryLinks>
 
       <selectionEntries>
         <selectionEntry id="e1da-hq01-0000-0005-m01" name="Eldrad Ulthran" hidden="false" collective="false" import="true" type="model">
@@ -6165,6 +6181,21 @@ the attack’s strength value. Furthermore, when a model with this
 special rule is destroyed, the damage caused by its Catastrophic
 Damage is altered to resolve at AP2.</description>
     </rule>
+    <rule id="asur-wlt0-rule-0001" name="Falcon's Swiftness" hidden="false">
+      <description>This Warlord, and any unit they have joined, increase the value of the Fleet (X) Special Rule by +1, if they already possess it. If the Warlord, or any unit they have joined, does not have the Fleet (X) Special Rule, they gain the Fleet (1) Special Rule instead. In addition, the Warlord gains the Pathfinder Special Rule.
+
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the Opposing Player's Movement phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="asur-wlt0-rule-0002" name="Ambush of Blades" hidden="false">
+      <description>Once per battle, the Controlling Player of a Warlord with this Trait may declare the use of this Trait at the start of any phase. For the duration of that phase only, the Warlord and any unit they have joined gain the Preferred Enemy (Everything!) Special Rule.
+
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="asur-wlt0-rule-0003" name="Seer of the Shifting Vector" hidden="false">
+      <description>While a Warlord with this Trait is in reserves, or deployed on the battlefield, the Controlling Player may choose to re-roll failed Reserves rolls.
+
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Shooting phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="64e2-b668-c8ab-d720" name="D-Bombard" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -7993,4 +8024,205 @@ Executioner (Psychic Weapon)</description>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="asur-ashr-0000-0001" name="Aspect Shrines" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-ashr-0000-0001-c1" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-ashr-0000-0001-c2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="asur-ashr-dark-reap" name="Dark Reaper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-dark-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-dark-pr01" name="Dark Reaper" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Heavy Sub-type, Aspect Shrine (Dark Reaper), Relentless, Inescapable Accuracy, and Fast Shot Special Rules. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped) and gains a Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles). May replace Reaper Launcher with: Shuriken Cannon (Free), Aeldari Missile Launcher (+10 pts), or Tempest Launcher (+20 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-dire-aven" name="Dire Avenger" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-dire-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-dire-pr01" name="Dire Avenger" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Dire Avenger), Flexible Tactics, and Feel No Pain (5+) Special Rules. Gains a Shuriken Pistol, Augury Scanner, and Twin-Linked Avenger Catapult. May replace Twin-Linked Avenger Catapult with: Power Weapon (+10 pts) or Diresword (+25 pts). Alternatively, may replace Twin-Linked Avenger Catapult and Shuriken Pistol with: Power Weapon and Improved Forceshield (+20 pts) or Diresword and Improved Forceshield (+35 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-fire-drag" name="Fire Dragon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-fire-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-fire-pr01" name="Fire Dragon" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Fire Dragon), Wrecker, and Crack Shot Special Rules. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped), and gains Melta Bombs and a Fusion Gun. May exchange Fusion Gun for: Khaine's Fury (Free) or Firepike (+15 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-howl-bans" name="Howling Banshee" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-howl-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-howl-pr01" name="Howling Banshee" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Howling Banshee), Fleet (2), Fear (1), Acrobatic, and War Shout Special Rules. Gains a Banshee Mask, Shuriken Pistol, and Power Sword. May exchange Power Sword for: Triskele (Free), Executioner (+10 pts), or Two Mirrorswords (+20 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-shad-spec" name="Shadow Spectre" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-shad-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-shad-pr01" name="Shadow Spectre" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Shadow Spectre), Fear (1), Shadow of Death, Relentless, and Shrouded (4+) Special Rules. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped), and gains a Spectre Jet Pack, Haywire Grenades, and a Prism Rifle. May exchange Prism Rifle for: Haywire Launcher (+5 pts) or Prism Blaster (+10 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-shin-spea" name="Shining Spear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-shin-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-shin-pr01" name="Shining Spear" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Shining Spear), Monster Hunter, Pathfinder, Shrouded (4+), Relentless, Firing Protocols (3), and Outflank Special Rules. Gains +1 to Wounds Characteristic. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped), gains a Laser Lance, Shuriken Pistol, and a Skyrunner Jetbike. May replace Laser Lance with: Power Weapon (Free) or Star Lance (+15 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-stri-scor" name="Striking Scorpion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-stri-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-stri-pr01" name="Striking Scorpion" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Striking Scorpion), Brutal Ambush, Infiltrate, Move Through Cover, Stalker, and Fleet (2) Special Rules. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped), and gains a Shuriken Pistol, Scorpion Chainsword, and a Mandiblaster. May replace Shuriken Pistol with: Biting Blade (+10 pts) or Scorpion's Claw (+20 pts). Alternatively, may replace Scorpion Chainsword and Shuriken Pistol with: Two Chainsabres (+10 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-swoo-hawk" name="Swooping Hawk" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-swoo-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-swoo-pr01" name="Swooping Hawk" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Swooping Hawk), Herald of Victory, Skyleap, and Skystrike Special Rules. Gains Swooping Hawk Wings, a Hawk Lasblaster, Haywire Grenades, and a Grenade Pack. May exchange Hawk Lasblaster for: Hawk's Talon (+10 pts) or Sunrifle (+15 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-ashr-warp-spid" name="Warp Spider" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-ashr-warp-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-ashr-warp-pr01" name="Warp Spider" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Gains the Aspect Shrine (Warp Spider), Flickerjump, Hit &amp; Run, Firing Protocols (2), and Iron Resolve Special Rules. Exchanges Aspect Armour for Heavy Aspect Armour (if not already equipped), and gains a Warp Jump Generator and a Death Spinner. May exchange Death Spinner for: Two Death Spinners (+5 pts) or Spinneret Rifle (+15 pts). May also purchase: Two Power Swords (+15 pts).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="asur-wlt0-0000-0001" name="Asuryani Warlord Traits" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-wlt0-0000-0001-c1" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-wlt0-0000-0001-c2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="asur-wlt0-fswi-0001" name="Falcon's Swiftness" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-wlt0-fswi-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-wlt0-fswi-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-wlt0-fswi-pr01" name="Falcon's Swiftness" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord, and any unit they have joined, increase the value of the Fleet (X) Special Rule by +1, if they already possess it. If the Warlord, or any unit they have joined, does not have the Fleet (X) Special Rule, they gain the Fleet (1) Special Rule instead. In addition, the Warlord gains the Pathfinder Special Rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the Opposing Player's Movement phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-wlt0-abla-0001" name="Ambush of Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-wlt0-abla-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-wlt0-abla-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-wlt0-abla-pr01" name="Ambush of Blades" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Once per battle, the Controlling Player of a Warlord with this Trait may declare the use of this Trait at the start of any phase. For the duration of that phase only, the Warlord and any unit they have joined gain the Preferred Enemy (Everything!) Special Rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="asur-wlt0-seer-0001" name="Seer of the Shifting Vector" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="asur-wlt0-seer-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="asur-wlt0-seer-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="asur-wlt0-seer-pr01" name="Seer of the Shifting Vector" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">While a Warlord with this Trait is in reserves, or deployed on the battlefield, the Controlling Player may choose to re-roll failed Reserves rolls. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Shooting phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
