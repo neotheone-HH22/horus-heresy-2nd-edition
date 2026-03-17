@@ -773,16 +773,25 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c89f075-a2f8-4fc5-8314" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
             </entryLink>
             <entryLink id="4f44e260-73a6-4850-a6b8" name="Heavy Aspect Armour" hidden="false" collective="false" import="true" targetId="5335fdd3-3c17-4d7e-bd40" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9740491b-469e-4172-9f89" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="fd01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
@@ -860,22 +869,39 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c89f075-a2f8-4fc5-8314" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
             </entryLink>
             <entryLink id="4f44e260-73a6-4850-a6b8" name="Heavy Aspect Armour" hidden="false" collective="false" import="true" targetId="5335fdd3-3c17-4d7e-bd40" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9740491b-469e-4172-9f89" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="ssc01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ssc01-cb01-con1-0001" type="max"/>
               </constraints>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ss01-dt01-0001-0001" name="Dedicated Transport:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ss01-dt01-con1-0001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ss01-dt01-el01-0001" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="e1da-tr01-0000-0006" type="selectionEntry" />
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -945,6 +971,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51efaa56-a73e-4da3-9200" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="b5279cca-bdd5-4c66-9169" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
@@ -955,22 +984,39 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="955bd4eb-d604-4387-96a8" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c89f075-a2f8-4fc5-8314" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
             </entryLink>
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="hb01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="hb01-cb01-con1-0001" type="max"/>
               </constraints>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="hb01-dt01-0001-0001" name="Dedicated Transport:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="hb01-dt01-con1-0001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="hb01-dt01-el01-0001" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="e1da-tr01-0000-0006" type="selectionEntry" />
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1034,6 +1080,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8650fe-adba-42ce-bd98" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1066,6 +1115,21 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="wb01-dt01-0001-0001" name="Dedicated Transport:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e1da-el01-0000-0007" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-el01-0000-0007-m01" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wb01-dt01-con1-0001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="wb01-dt01-el01-0001" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="e1da-tr01-0000-0006" type="selectionEntry" />
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -1128,6 +1192,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8650fe-adba-42ce-bd98" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1145,6 +1212,21 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="wg01-dt01-0001-0001" name="Dedicated Transport:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e1da-el01-0000-0008" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-el01-0000-0008-m01" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wg01-dt01-con1-0001" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="wg01-dt01-el01-0001" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="e1da-tr01-0000-0006" type="selectionEntry" />
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -1208,11 +1290,17 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e008b5db-a119-4c16-b90e" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
             </entryLink>
             <entryLink id="76dd6427-7392-4dd8-977d" name="Power Field" hidden="false" collective="false" import="true" targetId="20f2027e-991e-427e-9b6e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b948cafe-c09e-4384-aafb" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="c439717b-29a0-4721-bdc4" name="Star Engines" hidden="false" collective="false" import="true" targetId="46b0b07f-0f25-45f2-b639" type="selectionEntry">
               <constraints>
