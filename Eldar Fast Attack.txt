@@ -1,0 +1,618 @@
+Fast Attack
+Of all the Aspect Shrines, the
+Shadow Spectres were most
+closely associated with the
+infamous Wraithguard. While
+the practice of animating
+wraith-constructs may have
+proven controversial among
+the Asuryani, it became
+tradition for all Shadow
+Spectres to continue their
+service beyond death, rather
+than enter their Craftworld’s
+Infinity Circuit.
+There would be no release
+from war and duty, but until
+their deaths the Shadow
+Spectres still loomed across
+the battlefield like ghosts,
+appearing as pale,
+shimmering lights who only
+coalesced back into their
+material forms immediately
+before their powerful weapons
+were unleashed against a
+hapless target. In truth this
+seemingly supernatural
+phenomena was the result of
+the Spectres holo-fields,
+amplified by the
+manoeuvrability afforded to
+them by their jetpacks.
+Equipped with powerful prism
+rifles, Shadow Spectres
+predominantly acted as tankhunters. These weapons used
+the same technology as larger
+prism cannons mounted upon
+Aeldari vehicles. Uniquely,
+each rifle was connected to a
+single targeting matrix called
+a Ghostlight, which allowed
+the Shadow Spectres to
+maximise the power of their
+rifles by converging their shots
+into a single, devastating
+beam of shrieking light.
+56
+FAST ATTACK
+Unit Composition
+● 2 Shadow Spectres
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Heavy Aspect Armour
+● Spectre Jet Pack
+● Prism Rifle
+● Haywire Grenades
+● Plasma Grenades
+Special Rules
+● Aspect Shrine (Shadow Spectre)
+● Shadow of Death
+● Fleet (1)
+● Fear (1)
+● Shrouded (4+)
+● Relentless
+Options:
+● A Shadow Spectre unit may include:
+- Up to 8 additional Shadow Spectres.......................................................... +35 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Shadow Spectre 7 4 5 3 3 2 5 1 8 3+
+SHADOW SPECTRES...................................... 75POINTS
+57
+Unit Composition
+● 4 Swooping Hawks
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Hawk Lasblaster
+● Swooping Hawk Wings
+● Aspect Armour
+● Haywire Grenades
+● Plasma Grenades
+● Grenade Pack
+Special Rules
+● Aspect Shrine (Swooping Hawk)
+● Fleet (1)
+● Skyleap
+● Skystrike
+SWOOPING HAWKS ...................................... 65POINTS
+Options:
+● A Swooping Hawks unit may include:
+- Up to 6 additional Swooping Hawks......................................................... +15 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+In Aeldari mythology wild
+hunting birds were associated
+with vengeance and
+retribution. It was believed
+that the spirit of a murdered
+Aeldari passed on to a hawk,
+who forever lingered above
+their killers as an inescapable
+mark of their guilt. It is from
+these legends that the
+Swooping Hawks derived
+their name; winged predators
+who soared above the
+battlefield to deliver death
+unto the enemies of the
+Aeldari.
+Swooping Hawks were among
+the fastest and most agile of
+the Aspect Warriors, born
+aloft on specialised winged
+jump packs which enabled the
+Hawk to launch high into the
+air in the blink of an eye.
+With such speed did these
+wings vibrate that they
+became a blur of colour. To
+better enable this swiftness the
+Swooping Hawks wore
+thinner armour than other
+Aspects, typically in the
+colours of the skies through
+which they flew.
+Owing to their role as
+airborne harassers, Swooping
+Hawks were equipped with a
+variety of different grenade
+types, allowing them to
+engage in hit-and-run attacks
+against a range of targets
+while using their mobility to
+quickly take advantage of
+weaknesses in the enemy lines.
+FAST ATTACK
+M WS BS S T W I A Ld Sv
+Swooping Hawks 7 4 4 3 3 2 5 1 8 4+
+Among the rarest of the
+Aspect Shrines, the Shining
+Spears were the only Aspect
+Warriors who took to battle
+mounted on jetbikes. Serving
+as the spear of Khaine and
+their Craftworld, many
+indomitable foes were struck
+down by a single charge.
+The Shining Spears were
+expert riders, able to complex
+aerial manoeuvres at highspeeds, a testament not only
+to their skill, but also the
+exceptional calibre of their
+gleaming mounts, upon
+which they skimmed and
+weaved at breakneck speeds
+across even the most daunting
+of terrain.
+Most of the Shining Spears
+equipped Laser Lances;
+delivering powerful, short
+ranged blasts of energy on the
+charge. If the initial salvo
+proved insufficient, their speed
+enabled them to quickly
+reform or move on to other
+prey while slower elements of
+the Asuryani warhost finished
+off the weakened foe.
+58
+FAST ATTACK
+Unit Composition
+● 2 Shining Spears
+Unit Type
+● Cavalry (Asuryani, Antigrav)
+Wargear
+● Heavy Aspect Armour
+● Skyrunner Jetbike
+● Plasma Grenades
+● Laser Lance
+● Shuriken Pistol
+Special Rules
+● Aspect Shrine (Shining Spear)
+● Pathfinder
+● Shrouded (4+)
+● Outflank
+● Fleet (2)
+● Firing Protocols (2)
+● Hit & Run
+● Hammer of Wrath (1)
+● Relentless
+● Battle-Hardened (1)
+● Deep Strike
+Options:
+● A Shining Spears unit may include:
+- Up to 4 additional Shining Spears............................................................ +40 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+● Any model in the unit may replace its Skyrunner Jetbike’s Twin-Linked Shuriken Catapult
+with one of the following:
+- Shuriken Cannon ............................................................................................................+10 points
+- Scatter Laser..................................................................................................................... +15 points
+M WS BS S T W I A Ld Sv
+Shining Spears 18 5 4 3 3 2 5 2 8 3+
+SHINING SPEARS............................................ 85POINTS
+59
+Unit Composition
+● 4 Warp Spiders
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Heavy Aspect Armour
+● Death Spinner
+● Warp Jump Generator
+● Plasma Grenades
+Special Rules
+● Aspect Shrine (Warp Spider)
+● Fleet (1)
+● Hit & Run
+● Flickerjump
+● Deep Strike
+WARP SPIDERS .............................................100POINTS
+Options:
+● A Warp Spiders unit may include:
+- Up to 6 additional Warp Spiders................................................................ +23 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+Within a Craftworld’s Infinity
+Circuit, invasive psychic
+entities were hunted down
+and destroyed by tiny,
+aggressive creatures called
+Warp Spiders. These
+arachnids would melt and
+crystallise their own bodies
+before reappearing elsewhere,
+affording the predators
+manoeuvrability akin to that
+of the Aspect Warriors who
+took their name for their own.
+More heavily armoured and
+thus ostensibly slower than
+most other Aspect Warriors,
+the Warp Spiders carried
+compact warp-generators
+which enabled them to make
+quick warp-jumps over short
+distances, disappearing and
+reappearing in the blink of an
+eye – Warp Spiders could
+engage in lightning fast
+attacks and vanish before the
+enemy was able to react.
+Despite the battlefield
+advantage these ‘flickerjump’
+manoeuvres afforded them,
+they were nonetheless
+submerging themselves into
+the Warp and risking their
+very souls with every use of
+their generator. It was for this
+reason that the Warp Spiders
+were considered the bravest of
+all Aspect Warriors.
+FAST ATTACK
+M WS BS S T W I A Ld Sv
+Warp Spider 7 4 4 3 3 2 5 1 8 3+
+Many Rangers were able to
+find and secure relics from the
+old empire through their
+wandering of the galaxy. One
+of the more common of such
+relics was the Raptor Jetbike.
+Capable of rapidly moving a
+pair of Eldar through the
+webway or across planets with
+less maintenance and greater
+clearance than even the lithe
+Vyper chassis was capable of,
+the Raptor proved its use
+many times over in service to
+Rangers. While its small size
+and ease of maintenance was
+a great boon, the rare
+technologies required to
+fabricate them made them
+uneconomical for the early
+Craftworld forces, and as such
+these machines were almost
+entirely used by the roving
+bands that discovered them.
+This rarity did nothing to
+make them less deadly.
+Capable of being both a scout
+and a sniper platform, the socalled Shroud Runners were
+invaluable assets for an Eldar
+commander on any
+campaign. Indeed, more than
+Cohort of the Solar Auxilia
+witnessed their commander's
+head simply ceased to exist,
+followed by the hum of fastly
+retreating anti-grav motors.
+60
+FAST ATTACK
+Unit Composition
+● 3 Shroud Runners
+Unit Type
+● Cavalry (Asuryani, Antigrav, Skirmish)
+Wargear
+● Ranger Long-Rifle
+● Shuriken Pistol
+● Heavy Mesh Armour
+● Outcast Cloaks
+● Raptor Jetbike
+● Plasma Grenades
+Special Rules
+● Mark of Kurnous
+● Fleet (2)
+● Firing Protocols (3)
+● Hit & Run
+● Hammer of Wrath (1)
+● Relentless
+● Scout
+● Infiltrate
+● Battle-Hardened (1)
+● Shrouded (5+)
+● Deep Strike
+Options:
+● A Shroud Runners unit may include:
+- Up to 3 additional Shroud Runners........................................................... +35 points per model
+● The entire unit may take any of the following (all models must select the same upgrades):
+- Ghostwalker Matrix .......................................................................................+5 points per model
+- Star Engines.....................................................................................................+5 points per model
+● One model in the unit may take a:
+- Wireweave Net.................................................................................................................+10 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Shroud Runner 18 4 4 3 4 3 5 2 8 4+
+SHROUD RUNNERS..................................... 110POINTS
+61
+Unit Composition
+● 1 Vyper
+Unit Type
+● Cavalry (Asuryani, Antigrav, Skirmish)
+Wargear
+● Heavy Mesh Armour
+● Vyper Jetbike
+● Plasma Grenades
+Special Rules
+● Fleet (2)
+● Firing Protocols (2)
+● Hit & Run
+● Hammer of Wrath (2)
+● Relentless
+● Shrouded (5+)
+● Deep Strike
+VYPER SQUADRON........................................50POINTS
+Options:
+● A Vyper Squadron may include:
+- Up to 4 additional Vypers........................................................................... +50 points per model
+● The entire unit may take any of the following (all models must select the same upgrades):
+- Ghostwalker Matrix .......................................................................................+5 points per model
+- Star Engines...................................................................................................+10 points per model
+- Holo-Fields ................................................................................................... +20 points per model
+● Any Vyper may exchange their Vyper Jetbike’s Twin-Linked Shuriken Catapult for one of
+the following:
+- Shuriken Cannon ............................................................................................................+10 points
+● Any Vyper may exchange their Vyper Jetbike’s Shuriken Cannon for one of the following:
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+The small and nimble patrol
+craft known as Vypers were
+similar to the Land Speeders
+of the Imperium in function,
+if not more efficient - and
+even capable of orbital drop
+and ascents. Piloted by two
+Eldar, the gunner was
+mounted in an
+omnidirectional turret, whilst
+the pilot was capable of
+keeping pace with even the
+fast moving Windrider hosts.
+Frequently used as scouts, or
+escorts for larger vehicles, the
+Vyper was an effective if
+fragile weapon for the
+coalescing war hosts of the
+early Craftworlders.
+Frequently outfitted with the
+deceptive Eldar Holo-Fields
+and advanced targeting
+arrays, there are apocryphal
+tales of these vehicles
+somehow phasing through
+walls or fortifications. While
+these stories are widespread,
+they are far from confirmed;
+such stories were often
+assumed to be nothing more
+than the realm of hysterics,
+for if it were true then surely
+the Imperium would have
+been unable to stand before
+the Eldar’s assault.
+FAST ATTACK
+M WS BS S T W I A Ld Sv
+Vyper 16 4 4 3 5 3 5 2 8 4+
+Unit Composition
+● 1 Nightshade Interceptor
+Unit Type
+● Vehicle (Asuryani, Flyer, Fast)
+Wargear
+● Hull (Front) Mounted Pulse Laser
+● Two Hull (Front) Mounted
+Gravis Bright Lances
+Special Rules
+● Vector Dancer
+● Agile
+● Shrouded (5+)
+● Deep Strike
+Armour Transport
+M BS Front Side Rear HP Capacity
+Nightshade Interceptor 18 4 12 11 11 3 -
+Options:
+● A Nightshade Interceptor Squadron may include:
+- Up to 1 additional Nightshade Interceptor................................................................+115 points
+● The entire unit may take the following (all models must select the same upgrades):
+- Holo-Fields ................................................................................................... +20 points per model
+A powerful military fighter
+hailing originally from the
+armouries of the Anrathe, the
+Nightshade interceptor was
+both incredibly manoeuvrable
+and powerfully armed with
+potent laser weaponry.
+Capable of cracking even the
+void-shielded hull of a
+thunderhawk at speed,
+Nightshade interceptors were
+the purview of ace pilots and
+their destruction was prized
+by Imperial Navy
+commanders both during and
+after the Great Crusade.
+During the dark days of the
+Horus Heresy, a new trend
+was seen amongst the
+Nightshades encountered by
+Imperial and Secessionist
+forces. For unknown reasons,
+across the forces of multiple
+Craftworlds, and across vast
+distances of space,
+pict-captures began to tell of
+red markings covering these
+nimble crafts. While it was
+impossible to tell the truth of
+the matter, it was theorised
+that this was some sort of ace
+marking, similar to those
+found on Imperial fighter
+craft. Certainly, their
+effectiveness in battle would
+indicate as much...
+62
+FAST ATTACK
+NIGHTSHADE
+INTERCEPTOR SQUADRON .......................125POINTS
+63
+Unit Composition
+● 1 Nightwing Interceptor
+Unit Type
+● Vehicle (Asuryani, Flyer, Fast)
+Wargear
+● Two Hull (Front) Mounted
+Shuriken Cannons
+● Two Hull (Front) Mounted
+Scatter Lasers
+Special Rules
+● Vector Dancer
+● Agile
+● Shrouded (6+)
+● Deep Strike
+● Holo-Fields
+Options:
+● A Nightwing Interceptor Squadron may include:
+- Up to 1 additional Nightwing Interceptor................................................................. +130 points
+● Any Nightwing Interceptor may exchange their Two Hull (Front) Mounted Scatter Lasers
+for one of the following options:
+- Two Hull (Front) Mounted Starcannons.....................................................................+10 points
+- Two Hull (Front) Mounted Aeldari Missile Launchers
+(with Sunburst, Starshot, and Starhawk Missiles) .....................................................+10 points
+- Two Hull (Front) Mounted Bright Lances.................................................................. +20 points
+The incredibly manoeuvrable
+Nightwing Interceptor was
+the most common air
+superiority fighter of the
+Anrathe before and during the
+fall. Many such craft found
+their home upon the
+Craftworlds, for as a multirole craft capable of
+devastating hails of shuriken
+fire and pinpoint destruction
+from paired Bright Lances,
+the Nightwing was almost
+without equal.
+An incredible craft, its success
+lay in an adaptable wing
+design which allowed it to
+pull off pinpoint turns,
+slowing to a seeming stall in a
+moment, before turning and
+re-engaging with such speed
+that many Imperial Aces
+simply could not track them.
+Often seen escorting larger
+craft such as Phoenix
+Bombers and Vampires, the
+Nightwing was both the
+herald of impending raids and
+the warning of battle lines
+being drawn by the young
+Craftworlds.
+FAST ATTACK
+Armour Transport
+M BS Front Side Rear HP Capacity
+Nightwing Interceptor 22 4 12 11 11 3 -
+NIGHTWING
+INTERCEPTOR SQUADRON ......................140POINTS
+Unit Composition
+● 1 Phoenix Bomber
+Unit Type
+● Vehicle (Asuryani, Flyer, Fast)
+Wargear
+● Hull (Front) Mounted Pulse Laser
+● Two Hull (Front) Mounted
+Shuriken Cannons
+● Two Hull (Front) Mounted
+Phoenix Missile Launchers
+Special Rules
+● Vector Dancer
+● Agile
+● Deep Strike
+● Shrouded (6+)
+● Strafing Run
+Armour Transport
+M BS Front Side Rear HP Capacity
+Phoenix Bomber 16 4 12 12 11 4 -
+Options:
+● A Phoenix Bomber Squadron may include:
+- Up to 1 additional Phoenix Bomber..........................................................................+200 points
+● The entire unit may take the following (all models must select the same upgrades):
+- Holo-Fields ................................................................................................... +20 points per model
+● Any Phoenix Bomber may exchange their Hull (Front) Mounted Pulse Laser for one of the
+following:
+- Hull (Front) Mounted Gravis Starcannon ............................................................................. Free
+- Hull (Front) Mounted Gravis Bright Lance.................................................................+10 points
+● Any Phoenix Bomber may exchange both of their two Hull (Front) Mounted Phoenix
+Missile Launchers for the following:
+- Nightfire Missile Launcher ........................................................................................... +20 points
+Another relic of the Ancient
+Eldar Empire, the Phoenix
+Bomber had many variations,
+all of them carrying multiple
+and diverse weapon systems
+to rain death down upon the
+foes of the Eldar. The
+Craftworld version frequently
+housed both deadly shuriken
+weaponry, as well as a
+powerful Eldar Pulse Laser; a
+rapid firing and deadly
+weapon similar to an Imperial
+Lascannon.
+The Phoenix also carried a
+variety of deadly missile
+weapons with which to
+barrage targets, from armor
+piercing munitions to
+battlefield-control payloads
+that shrouded the area in
+darkness, or dropped
+plasmatic fire upon enemy
+positions. Rarely seen without
+backup, the Phoenix spoke to
+the enduring wrath of the
+shaken survivors of the fall.
+64
+FAST ATTACK
+PHOENIX
+BOMBER SQUADRON.................................210POINTS

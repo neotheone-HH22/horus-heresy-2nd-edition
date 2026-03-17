@@ -1,0 +1,288 @@
+ELITES
+Unit Composition
+● 4 Striking Scorpions
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Heavy Aspect Armour
+● Shuriken Pistol
+● Scorpion Chainsword
+● Plasma Grenades
+● Mandiblaster
+Special Rules
+● Aspect Shrine (Striking Scorpion)
+● Fleet (2)
+● Infiltrate
+● Move Through Cover
+● Brutal Ambush
+Dedicated Transport:
+● A unit of Striking Scorpions may take a Wave Serpent as a Dedicated Transport. As a
+Dedicated Transport this does not use up an additional Force Organisation slot, but its
+point cost must still be paid for as part of the army.
+Options:
+● A Striking Scorpions unit may include:
+- Up to 6 additional Striking Scorpions.......................................................+24 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Striking Scorpion 7 5 4 3 3 2 5 2 8 3+
+STRIKING SCORPIONS...............................100POINTS
+41
+Unit Composition
+● 4 Howling Banshees
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Aspect Armour
+● Shuriken Pistol
+● Power Sword
+● Banshee Mask
+● Plasma Grenades
+Special Rules
+● Aspect Shrine (Howling Banshee)
+● Fleet (2)
+● Fear (1)
+● Acrobatic
+HOWLING BANSHEES ................................. 95POINTS
+Dedicated Transport:
+● A unit of Howling Banshees may take a Wave Serpent as a Dedicated Transport. As a
+Dedicated Transport this does not use up an additional Force Organisation slot, but its
+point cost must still be paid for as part of the army.
+Options:
+● A Howling Banshees unit may include:
+- Up to 6 additional Howling Banshees ......................................................+22 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+The Howling Banshees were
+so named for the banshees of
+Aeldari mythology; harbingers
+of woe and death whose cry
+was said to echo that of the
+Aeldari War-God, Khaela
+Mensha Khaine. As perhaps
+the most feared of all the
+Aspect Warriors, it is fitting
+they drew their inspiration
+from such horror.
+Swift and agile even by
+Aeldari norms, their acrobatic
+skill seeing them leap and
+bound over obstacles without
+breaking stride, quickly
+closing ranks with their prey
+to begin a bloody slaughter
+with all the untouchable
+grace and athleticism of their
+approach. What Howling
+Banshees lacked in sheer brute
+strength, they more than
+made up for with speed and
+precision.
+In addition to their panoply
+of blades, their infamous
+Banshee Masks acted as
+powerful sonic weapons,
+amplifying their battle
+screams to inflict severe
+damage on their foes’ nervous
+systems, even so far as causing
+temporary paralysis - leaving
+them helpless as sheer terror
+overwhelmed them. By the
+end of the Great Crusade, the
+war cries of the Banshees had
+heralded the end of many a
+foe - both Imperial and not...
+ELITES
+M WS BS S T W I A Ld Sv
+Howling Banshee 7 5 4 3 3 2 5 2 8 4+
+Awoken only in times of great
+need, the Wraithblades were
+constructs that were kept
+apart from the other
+constructs of a Craftworld,
+lest the anger of the
+inhabitants of their Spirit
+Stones disturb others in the
+infinity circuit from their
+deserved rest.
+When woken by the
+Craftworld’s Wraith Guides,
+their rage was quick to spark,
+and they would set about the
+enemy of their Craftworld
+with weapons and shields
+sung from the same
+wraithbone as their construct
+bodies.
+Furious fighters upon the
+battlefield, the Wraithblades’
+charge into the fray was unto
+the fury of Khaine himself.
+Few could stand against a full
+unit of Wraithblades in close
+combat, as their bodies flowed
+and move with an echo of the
+grace of their former lives.
+42
+ELITES
+Unit Composition
+● 5 Wraithblades
+Unit Type
+● Automata (Asuryani, Wraith)
+Wargear
+● Two Ghostswords
+● Wraithform Shield
+Special Rules
+● It Will Not Die (6+)
+● Bulky (2)
+Dedicated Transport:
+● A unit of Wraithblades numbering no more than five models may take a Wave Serpent as a
+Dedicated Transport. As a Dedicated Transport this does not use up an additional Force
+Organisation slot, but its points cost must still be paid for as part of the army.
+Options:
+● A Wraithblades unit may include:
+- Up to 5 additional Wraithblades ............................................................... +50 points per model
+● Any model may exchange either of their Ghostswords for one of the following options:
+- Forceshield .........................................................................................................................+5 points
+- Ghost Axe..........................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Wraithblade 7 5 4 5 5 3 4 3 8 3+
+WRAITHBLADES ...........................................250POINTS
+43
+Unit Composition
+● 5 Wraithguard
+Unit Type
+● Automata (Asuryani, Wraith)
+Wargear
+● Wraithcannon
+● Wraithform Shield
+Special Rules
+● It Will Not Die (6+)
+● Bulky (2)
+WRAITHGUARD............................................300POINTS
+Dedicated Transport:
+● A unit of Wraithguard numbering no more than five models may take a Wave Serpent as a
+Dedicated Transport. As a Dedicated Transport this does not use up an additional Force
+Organisation slot, but its points cost must still be paid for as part of the army.
+Options:
+● A Wraithguard unit may include:
+- Up to 5 additional Wraithguard ................................................................ +60 points per model
+● The entire squad may exchange their Wraithcannons for one of the following options
+(all models in the unit must take the same option):
+- D-Scythe.........................................................................................................+10 points per model
+The more calm and collected
+kin of the tempestuous
+Wraithblades, the
+Wraithguard made use of
+Wraithcannons and
+D-Scythes to cut their foes
+down from afar.
+Awoken only in times of
+greatest need, the act of
+awakening and committing a
+fallen warrior’s soul into a
+wraithbone construct was
+seen as akin to necromancy,
+immeasurably abhorrent in
+the eyes of the Aeldari.
+Despite these reservations,
+there are few who could deny
+the power these walking dead
+brought to bear upon the
+battlefield, as they waded
+through storms of fire towards
+their objective.
+These venerable warriors were
+mostly from the time shortly
+after the Fall, with most of the
+earliest Wraithform shells
+having being taken from the
+armouries of the Anrathe and
+retrofitted to accept Spirit
+Stones. They are often led in
+battle by a Wraith Guide, to
+offset and account for the
+condition that afflicted many
+such wraiths, known as
+‘Wraithsight’. This dulling of
+the senses and slowing of their
+reactions in comparison to
+what these esteemed warriors
+had been able to achieve in
+life was deemed an acceptable
+side effect to being able to
+field an effective army to
+defend their host Craftworld.
+ELITES
+M WS BS S T W I A Ld Sv
+Wraithguard 7 4 5 5 5 3 4 2 8 3+
+While the anti-gravitic
+technology of the Eldar was
+well established, they were not
+without powerful walkers to
+journey into places that such
+vehicles were unsuited for.
+Most common of these was
+known simply as the War
+Walker, an avian-legged,
+bipedal strider that was both
+fast and powerfully armed.
+Protected by a potent energy
+shield, this scout was capable
+of tirelessly covering vast
+distances through dense
+terrain.
+While not as flexible as the
+Anrathe's Wasp Assault
+Walkers, the Craftworld's War
+Walkers were capable of being
+mass produced even in the
+smallest Craftworld's
+workshops, allowing even the
+limited the ability to bring
+heavy weapons to battle.
+While useful, their pilots had
+to keep mobility to the
+forefront of their minds as
+any weapon that pierced their
+energy screen was likely to do
+incredible damage to the
+machine.
+44
+ELITES
+Unit Composition
+● 1 War Walker
+Unit Type
+● Infantry (Asuryani, Skirmish,
+Mechanised)
+Wargear
+● Power Field
+● Two Shuriken Cannons
+Special Rules
+● Fleet (2)
+● Scout
+● Bulky (5)
+Options:
+● A War Walker Squadron may include:
+- Up to 4 additional War Walkers................................................................ +90 points per model
+● Any War Walker may exchange either of their Shuriken Cannons for one of the following:
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+● Any War Walker may take any of the following
+(all models in the unit must select the same upgrades):
+- Ghostwalker Matrix .......................................................................................+5 points per model
+- Star Engines...................................................................................................+10 points per model
+M WS BS S T W I A Ld Sv
+War Walker 8 4 4 5 6 3 5 2 8 3+
+WARWALKER SQUADRON...................... 95POINTS

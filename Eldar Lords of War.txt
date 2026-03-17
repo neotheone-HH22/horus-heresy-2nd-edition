@@ -1,0 +1,563 @@
+Lords of War
+Unit Composition
+● 1 Wraithknight
+Unit Type
+● Vehicle (Asuryani, Knight)
+Wargear
+● Two Arm Mounted
+Heavy Wraithcannons
+● Holo-Fields
+Special Rules
+● It Will Not Die (5+)
+WRAITHKNIGHT......................................... 500POINTS
+Options:
+● A Wraithknight may select up to two of the following options in any combination:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+- Hull (Front) Mounted Scatter Laser.............................................................................+10 points
+- Hull (Front) Mounted Starcannon ............................................................................... +15 points
+● A Wraithknight may exchange an Arm Mounted Heavy Wraithcannon for one of the
+following options:
+- Arm Mounted Ghostglaive ...................................................................................................... Free
+- Arm Mounted Scattershield .................................................................................................... Free
+- Arm Mounted Suncannon ....................................................................................................... Free
+Wraithknights were towering
+constructs, eclipsing even the
+size and might of a
+Wraithlord with their sheer
+bulk. Many of these knights
+were taken from the ruins of
+Anarathe warships in the
+aftermath of the Fall,
+repurposed as guardians of
+their respective Craftworlds.
+Despite their size, they could
+run across the battlefield,
+their long-legged gait making
+them faster than even a
+charging Questoris Knight -
+whilst their array of ancient
+weaponry allowed them to
+unleash the fury of the Aeldari
+at a moment’s notice.
+Wraithknights provided a
+powerful middle ground
+position between the smaller
+Wraithlords and
+Wraithguards, and the much
+larger Titan sized constructs
+that stood sentinel over the
+largest and most important
+shrines of the Aeldari.
+The Wraithknights differed
+from their smaller kin with
+the fact that along with the
+soul of a slain Eldar, each
+Wraithknight was also piloted
+by an living Eldar - and at
+that, one which was their
+twin. Such a rare occurrence
+lead to a strong psychic link
+between the two pilots, to the
+point that the still-living twin
+was occasionally entombed
+within the cockpit
+permanently, bonding their
+souls and mind beyond death,
+and allowing the
+wraithknight to move with
+the speed and grace of a living
+Eldar.
+78
+LORDS OF WAR
+Armour
+M WS BS S Front Side Rear I A HP
+Wraithknight 16 5 5 10 13 13 12 4 4 8
+79
+Unit Composition
+● 1 Skathach Wraithknight
+Unit Type
+● Vehicle (Asuryani, Knight)
+Wargear
+● Two Arm Mounted
+Deathshroud Cannons
+● Webway Shunt Generator
+● Holo-Fields
+Special Rules
+● It Will Not Die (5+)
+● Hit & Run
+● Guardian of the Gates
+SKATHACHWRAITHKNIGHT ................ 600POINTS
+Options:
+● A Skathach Wraithknight may select up to two of the following options in any
+combination:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+- Hull (Front) Mounted Scatter Laser.............................................................................+10 points
+- Hull (Front) Mounted Starcannon ............................................................................... +15 points
+● A Skathach Wraithknight may exchange an Arm Mounted Deathshroud Cannon for one
+of the following:
+- Arm Mounted Ghostglaive ...................................................................................................... Free
+- Arm Mounted Inferno Lance .................................................................................................. Free
+- Arm Mounted Scattershield .................................................................................................... Free
+Specialised for hunting the
+tunnels of the webway, the
+Skathach Wraithknights were
+a rare and terrible breed of
+Wraithknight. Piloted by a
+living Eldar separated
+permanently from their twin,
+they patrolled the endless
+tunnels of the Webway using
+esoteric weaponry similar in
+design to those of the Fire
+Dragon Aspect Warriors.
+These pilots spent most of
+their time communing with
+the soul of their wraithknight
+as they defended the webway
+from any that would trespass,
+bonding with it in a strange
+symbiosis. Rarely emerging
+into realspace, the rare
+occasions in which they were
+seen to appear were typically
+in defence of a webway portal
+under threat, or otherwise to
+aid an Eldar force upon the
+brink of defeat. Multiple
+hunting bands and small
+armies were been rescued by
+the sudden appearance of a
+Skathach Wraithknight after
+they had met with forces that
+grossly outnumbered and
+overpowered their own.
+Along with their normal
+armament, the Skathach
+mounted Webway Shunt
+Generators, immensely
+powerful engines which
+allowed them to slip in and
+out of the webway seemingly
+with a ghost-like grace;
+keeping a solid location lock
+on them proving near
+impossible in a battle
+condition. This would often
+end only one way for their
+foes - for when they
+reappeared in realspace,
+cannons shining bright, they
+would lay a foe low before
+simply melting back into the
+webway to continue their
+patrols.
+LORDS OF WAR
+Armour
+M WS BS S Front Side Rear I A HP
+Skathach Wraithknight 16 5 5 10 13 13 12 4 4 8
+Unit Composition
+● 1 Vampire Hunter
+Unit Type
+● Vehicle (Flyer, Lumbering, Hover)
+Wargear
+● Hull (Front) Mounted Scatter Laser
+● Two Hull (Front) Mounted Pulsars
+● Two Hull (Front) Mounted
+Twin-Linked Phoenix Missile
+Launchers
+● Improved Holo Fields
+Special Rules
+● Deep Strike
+● Strafing Run
+● Agile
+Armour Transport
+M BS Front Side Rear HP Capacity
+Vampire Hunter 20 4 13 12 12 12 -
+VAMPIRE HUNTER..................................... 700POINTS
+The Eldar Vampire chassis
+was already respected as a
+harbinger of oncoming
+assault elements in its Raider
+form, but rarer and far more
+feared was the deadly
+Vampire Hunter variant.
+Exchanging its transport
+capacity to support the
+systems required to mount
+titan-grade pulsars, the
+Vampire Hunter was capable
+of destroying the largest and
+most powerful machines of
+the Imperium. Indeed, its
+destruction was prioritised
+over all others by the agents of
+the Mechanicum for its ability
+to strike against their Titans,
+whose anti-air weaponry was
+far to slow to track the nimble
+craft during their attack runs.
+Thankfully for the lesser races
+of the galaxy, after the fall,
+the number of Vampire
+Hunters still in use was
+exceptionally small. Building
+new Pulsars was a timeconsuming process that
+required specialist engineers
+and space that was at a
+premium on all but the largest
+of the nascent Craftworlds. As
+such, many Asuryani
+commanders only committed
+their Vampire Hunters to the
+skies as a last resort, or when
+air superiority was so
+thoroughly established as to
+be a foregone conclusion.
+80
+LORDS OF WAR
+81
+Unit Composition
+● 1 Vampire Raider
+Unit Type
+● Vehicle (Flyer, Lumbering,
+Hover, Transport)
+Wargear
+● Hull (Front) Mounted Scatter Laser
+● Two Hull (Front) Mounted
+Gravis Shuriken Cannons
+● Improved Holo Fields
+Special Rules
+● Deep Strike
+● Strafing Run
+● Agile
+VAMPIRERAIDER........................................ 600POINTS
+Access Points:
+● A Vampire Raider has one access point on its rear.
+Options:
+● A Vampire Raider may exchange its Two Hull (Front) Gravis Shuriken Cannons for:
+- Two Hull (Front) Mounted Twin-Linked Pulse Lasers ............................................. +25 points
+● A Vampire Raider may take the following:
+- Two Hull (Front) Mounted Twin-Linked Phoenix Missile Launchers................... +25 points
+● A Vampire Raider may take the following:
+- One Centreline Mounted Pulsar* ................................................................................+50 points
+*A Vampire Raider which selects this option reduces its Transport Capacity to 22.
+Another example of the Eldar
+mastery of anti-gravitic
+technology, the Vampire
+Raider was a void capable
+strike craft capable of
+carrying multiple units of
+Eldar warriors hundreds of
+thousands of kilometres
+through the void, making
+planetfall, and then
+supporting them on the
+battlefield. In this role, the
+Vampire Raider saw use by
+the Craftworlds, the remnants
+of the Anrathe, and the evergrowing threat of Aeldari
+Pirates during the Great
+Crusade. This was
+particularly troublesome for
+local authorities in Imperial
+systems, as their long range
+and small profile for a void
+ship meant that locating their
+bases, or indeed webway
+portals, was nearly impossible.
+Often supported by smaller
+fighter craft, the Vampire
+Raider was still exceptionally
+nimble for a vessel its size;
+making it a difficult target for
+local air defences and a
+favoured transport for Eldar
+commanders looking to make
+landfall in force on a world
+without safely charted
+webway portals.
+LORDS OF WAR
+Armour Transport
+M BS Front Side Rear HP Capacity
+Vampire Raider 20 4 13 12 12 12 32
+Unit Composition
+● 1 Phantom Titan
+Unit Type
+● Vehicle (Asuryani, Titan)
+Wargear
+● Hull (Front) Mounted
+Cloudburst Missile Launcher
+● Hull (Front) Mounted
+Voidstorm Missile Launcher
+● Hull (Front) Mounted
+Gravis Starcannon
+● Two Arm mounted Phantom-Pulsar
+● Holo-Fields
+Special Rules
+● Night Vision
+● Wraithbone Core
+● It Will Not Die (5+)
+PHANTOM TITAN..................................... 2500POINTS
+Options:
+● A Phantom Titan may exchange either of its Arm Mounted Phantom-Pulsars for one of
+the following:
+- Arm Mounted D-Bombard....................................................................................................... Free
+- Arm Mounted Wraith Glaive and Twin-Linked Gravis Starcannon ................................. Free
+● A Phantom Titan may exchange its Hull (Front) Mounted Gravis Starcannon for the
+following:
+- Hull (Front) Mounted Pulse Laser.......................................................................................... Free
+In a striking parallel to the
+scions of Mars, the Eldar
+Titan Clans were self
+contained entities even during
+the fall of their race. As such,
+when the empire was
+destroyed many of these
+ancient households survived,
+their war machines ready to
+face the Age of Darkness and
+the new threats their
+weakened people would see.
+Piloted by exceptionally rare
+triplets, the Phantom Titan
+was one of the largest
+warmachines seen on the field
+of battle during the great
+crusade. Capable of bearing
+truly devastating weapons
+into battle such as the
+Phantom-Pulsar or
+Disruption Bombard, these
+weapons could undo even
+adamantine at range, or rend
+holes in the fabric of reality
+itself. Rumors abounded of
+rare and dread examples of
+this titan known as the
+Warlock-class, who seemed
+capable of summoning
+psychic powers that could
+change the laws of reality on
+entire battlefields and whose
+presence condemned armies
+to the immaterium - but these
+rumours were seemingly
+unfounded...
+82
+LORDS OF WAR
+Armour
+M WS BS S Front Side Rear I A HP
+Phantom Titan 24 9 5 10 14 14 13 5 5 24
+83
+Unit Composition
+● 1 Revenant Titan
+Unit Type
+● Vehicle (Asuryani, Titan)
+Wargear
+● Hull (Front) Mounted
+Cloudburst Missile Launcher
+● Two Arm-Mounted Revenant Pulsars
+● Revenant Jump Engines
+● Holo-Field
+Special Rules
+● Night Vision
+● Wraithbone Core
+● Wraith Conclave
+● It Will Not Die (5+)
+REVENANT TITAN.......................................750POINTS
+Options:
+● A Revenant Titan unit may include:
+- Up to 1 additional Revenant Titan..............................................................................+750 points
+● A Revenant Titan may exchange both of its Arm Mounted Revenant Pulsars for the
+following option:
+- Two Arm Mounted Sonic Lances ................................................................................. +75 points
+● A Revenant Titan may select the following:
+- Hull (Front) Mounted Scatter Laser...............................................................................+5 points
+The Eldar Titan clans stood
+apart from their race even as
+the fall came to the ancient
+empire. Many chose to join
+the forming Craftworlds,
+creating partnerships similar
+to the ones seen between the
+Titan Legios and the Scions of
+Mars. While building new
+titans was a difficult and
+costly affair for these ancient
+households, the larger
+Craftworlds were capable of
+constructing ever more of
+their smallest engines, the
+Revenant Titans, slowly
+growing their stockpile.
+Piloted by exceptionally rare
+Eldar twins, the Revenant
+Titan was blisteringly fast
+and capable of leaping
+through the air vast distances.
+Bringing advanced Pulsar
+weaponry or immense Sonic
+Lances to the battlefield,
+capable of slicing hardened
+bunkers in half or vaporising
+even the mighty hulls of a
+Legiones Astartes Land
+Raider, a Revenant Titan was
+commonly the priority target
+for Imperial forces faced with
+one. Yet, despite this, the foes
+of the Eldar had to be wary,
+for where one Revenant was
+seen, a second was often not
+far behind...
+LORDS OF WAR
+Armour
+M WS BS S Front Side Rear I A HP
+Revenant Titan 16 7 5 10 13 13 12 5 3 12
+Unit Composition
+● 1 Scorpion
+Unit Type
+● Vehicle
+(Asuryani, Super-Heavy, Skimmer)
+Wargear
+● Turret Mounted Twin-Linked
+Revenant Pulsar
+● Pintle Mounted Shuriken Cannon
+Armour Transport
+M BS Front Side Rear HP Capacity
+Scorpion 12 4 14 13 12 10 -
+SCORPION ...................................................... 500POINTS
+Options:
+● A Scorpion may exchange its Pintle Mounted Shuriken Cannon with one of the following:
+- Pintle Mounted Scatter Laser..........................................................................................+5 points
+- Pintle Mounted Starcannon ..........................................................................................+10 points
+- Pintle Mounted Aeldari Missile Launcher
+(with Sunburst, Starshot, and Starhawk Missiles) .....................................................+10 points
+- Pintle Mounted Bright Lance........................................................................................ +15 points
+● A Scorpion may take one of the following:
+- Star Engines........................................................................................................................+5 points
+- Vectored Engines...............................................................................................................+5 points
+● A Scorpion may take any of the following:
+- Searchlight..........................................................................................................................+5 points
+- Holo-Fields ...................................................................................................................... +40 points
+One of the largest anti-grav
+vehicles ever encountered by
+the Imperium, the Scorpion
+Super Heavy Grav-Tank was a
+miracle of technology and a
+beacon of destruction.
+Bringing titan-grade
+weaponry to the battlefield on
+a manoeuvrable chassis, it
+spelled doom for the engines
+of the Craftworld's enemies,
+many of whom never saw the
+nimble vehicle who brought
+their doom upon them.
+The key to this power was the
+Eldar Holo-Field, an esoteric
+technology that upon
+movement took the photons
+reflected from the craft's
+colourful hull and turned it
+into a shifting morass of light,
+confounding even the most
+sophisticated systems of their
+enemies. Rare on the field,
+these craft survived where far
+more rugged vehicles fell, the
+trickery of the Eldar made
+murderously manifest.
+84
+LORDS OF WAR
+85
+Unit Composition
+● 1 Cobra
+Unit Type
+● Vehicle
+(Asuryani, Super-Heavy, Skimmer)
+Wargear
+● Centreline Mounted D-Impaler
+● Pintle Mounted Shuriken Cannon
+COBRA .............................................................. 550POINTS
+Options:
+● A Cobra may exchange its Pintle Mounted Shuriken Cannon with one of the following:
+- Pintle Mounted Scatter Laser..........................................................................................+5 points
+- Pintle Mounted Starcannon ..........................................................................................+10 points
+- Pintle Mounted Aeldari Missile Launcher
+(with Sunburst, Starshot, and Starhawk Missiles) .....................................................+10 points
+- Pintle Mounted Bright Lance........................................................................................ +15 points
+● A Cobra may take one of the following:
+- Star Engines........................................................................................................................+5 points
+- Vectored Engines...............................................................................................................+5 points
+● A Cobra may take any of the following:
+- Searchlight..........................................................................................................................+5 points
+- Holo-Fields ...................................................................................................................... +40 points
+Thought to be a relic of the
+ancient empire, the Cobra was
+built around a devastating
+weapon that uses the
+concentrated force of a black
+hole to literally rend the fabric
+of reality. Known as
+Disruption Impaler, this
+weapon bypassed all known
+defences to simply tear at
+enemies with the tidal forces
+of the empyrean. Those few
+who survived found
+themselves trapped within
+warp space, unable to
+escaped, damned to live their
+last moments in the home of
+daemons.
+Short-ranged, this massive
+grav-tank was frequently used
+as an ambush predator.
+Shrouded in powerful
+holo-fields or hidden by
+cameoline until enemy war
+engines wandered too close -
+such as the attack enacted on
+Urthax, where a single Cobra
+is thought to have been
+responsible for the destruction
+of an entire company of the
+Imperium's Baneblade-class
+battle tanks within minutes,
+before disappearing swiftly
+from local auspex.
+LORDS OF WAR
+Armour Transport
+M BS Front Side Rear HP Capacity
+Cobra 12 4 14 13 12 10 -
+Unit Composition
+● 1 Lynx
+Unit Type
+● Vehicle (Asuryani, Skimmer, Fast)
+Wargear
+● Centreline Mounted Lynx Pulsar
+● Hull (Front) Mounted
+Shuriken Cannon
+Special Rules
+● Skyhunter
+● Deep Strike
+Armour Transport
+M BS Front Side Rear HP Capacity
+Lynx 16 4 13 12 12 5 -
+LYNX..................................................................300POINTS
+Options:
+● A Lynx may exchange its Centreline Mounted Lynx Pulsar with the following:
+- Centreline Mounted Sonic Lance................................................................................. +75 points
+● A Lynx may exchange its Hull (Front) Mounted Shuriken Cannon with one of the
+following:
+- Hull (Front) Mounted Scatter Laser...............................................................................+5 points
+- Hull (Front) Mounted Starcannon ...............................................................................+10 points
+- Hull (Front) Mounted Bright Lance ............................................................................. +15 points
+● A Lynx may take one of the following:
+- Star Engines...................................................................................................................... +15 points
+- Vectored Engines............................................................................................................. +15 points
+● A Lynx may take any of the following:
+- Searchlight..........................................................................................................................+5 points
+- Spirit Stones .....................................................................................................................+10 points
+- Holo-Fields ...................................................................................................................... +20 points

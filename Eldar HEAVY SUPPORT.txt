@@ -1,0 +1,341 @@
+HEAVY SUPPORT
+71
+Unit Composition
+● 1 Fire Prism
+Unit Type
+● Vehicle (Asuryani, Skimmer, Fast)
+Wargear
+● Turret Mounted Prism Cannon
+● Hull (Front) Mounted
+Twin-Linked Shuriken Catapult
+FIRE PRISM SQUADRON............................ 165POINTS
+Options:
+● A Fire Prism Squadron may include:
+- Up to 2 additional Fire Prisms..................................................................+150 points per model
+● A Fire Prism may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+● A Fire Prism may take one of the following:
+- Star Engines...................................................................................................................... +15 points
+- Vectored Engines............................................................................................................. +15 points
+● A Fire Prism may take any of the following:
+- Searchlights ........................................................................................................................+5 points
+- Spirit Stones .....................................................................................................................+10 points
+- Holo-Fields ...................................................................................................................... +20 points
+- Crystal Targeting Matrix............................................................................................... +20 points
+As light permeates everywhere
+in the cosmos, so too did most
+species eventually weaponize
+it using laser technology. The
+Eldar of the Craftworlds did
+so with their expected
+potency, mounting massive
+focusing crystals on the turret
+of their Falcon chassis. This
+setup was known as the Fire
+Prism, and mounted
+additional batteries and
+generation systems to power
+the hungry demands of this
+truly awe-inspiring laser
+cannon.
+Indeed, these focusing crystals
+were capable of directing far
+more energy than the Fire
+Prism was capable of creating
+itself. The earliest pilots were
+quick to take advantage of
+this, leveraging this and the
+advanced targeting systems
+of the chassis to fire directly
+into the crystals of other fire
+prisms, in effect combining
+their firepower into a larger
+and more terrible blast
+capable of damaging even the
+God-Machines of the
+Mechanicum. It was from this
+exceptionally dangerous and
+deadly technique that the Fire
+Prism drew its name, their
+crystals blazing on every facet.
+HEAVY SUPPORT
+Armour Transport
+M BS Front Side Rear HP Capacity
+Fire Prism 12 4 12 12 10 3 -
+Unit Composition
+● 1 Night Spinner
+Unit Type
+● Vehicle (Asuryani, Skimmer, Fast)
+Wargear
+● Turret Mounted Doomweaver
+● Hull (Front) Mounted
+Twin-Linked Shuriken Catapult
+Armour Transport
+M BS Front Side Rear HP Capacity
+Night Spinner 12 4 12 12 10 3 -
+NIGHT SPINNER SQUADRON...................175POINTS
+Options:
+● A Night Spinner Squadron may include:
+- Up to 2 additional Night Spinners.......................................................... +160 points per model
+● A Night Spinner may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult
+for a:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+● A Night Spinner may take one of the following:
+- Star Engines...................................................................................................................... +15 points
+- Vectored Engines............................................................................................................. +15 points
+● A Night Spinner may take any of the following:
+- Searchlights ........................................................................................................................+5 points
+- Spirit Stones .....................................................................................................................+10 points
+- Holo-Fields ...................................................................................................................... +20 points
+- Crystal Targeting Matrix............................................................................................... +20 points
+Another variation of the
+ubiquitous Falcon Chassis, the
+Night Spinner was fitted with
+a large and resource-hungry
+monofilament weapon that
+gave it its name. Capable of
+extruding and accelerating
+literal kilometers of
+monofilament web into a
+large and deadly cloud of
+flensing razor wire, before
+lofting it high up into its
+intended target, the Night
+Spinner proved to be a potent
+area denial weapon - as well
+as devastating to lightly
+armoured troops of any race.
+The Night Spinner was wholly
+dedicated to this task,
+removing its transportation
+ability to store greater
+amounts of ammunition for
+its weaponry. This was small
+consolation for the
+Craftworld's enemies, as these
+barrages were frequently
+followed by hosts of Wave
+Serpents and screaming
+Jetbikes.
+72
+HEAVY SUPPORT
+73
+Unit Composition
+● 1 Firestorm
+Unit Type
+● Vehicle (Asuryani, Skimmer, Fast)
+Wargear
+● Turret Mounted
+Firestorm Scatter Array
+● Hull (Front) Mounted Twin-Linked
+Shuriken Catapult
+● Helical Targeting Array
+FIRESTORM SQUADRON ............................. 115POINTS
+Options:
+● A Firestorm Squadron may include:
+- Up to 2 additional Firestorms.................................................................. +100 points per model
+● A Firestorm may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult for a:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+● A Firestorm may take one of the following:
+- Star Engines...................................................................................................................... +15 points
+- Vectored Engines............................................................................................................. +15 points
+● A Firestorm may take any of the following:
+- Searchlights ........................................................................................................................+5 points
+- Spirit Stones .....................................................................................................................+10 points
+- Holo-Fields ...................................................................................................................... +20 points
+- Crystal Targeting Matrix............................................................................................... +20 points
+The falcon chassis was a
+workhorse frontier vehicle in
+many ways similar to the
+Imperial Rhino Transport.
+Adaptable for many worlds,
+and capable of moving both
+Eldar and materials swiftly
+and securely to new places, it
+was modified in countless
+ways. One such modification
+seen more frequently near the
+time of the 30th millennium
+was the Firestorm. Trading
+out the flexible falcon turret
+for a powerful and long
+ranged ‘Firestorm’ Scatter
+Laser Array, these vehicles
+were capable of filling the sky
+with potent anti-aircraft fire
+to stop both alien raiders and
+aerial wildlife from
+approaching Eldar convoys
+on the ground.
+While the Craftworlds would
+eventually phase these tanks
+out, regarding them as a
+second-line unit due to their
+phenomenal aircraft, in the
+days shortly after the fall the
+chaos of the webway and the
+shattering of supply lines
+meant that these tanks
+provided an important stopgap in their new military.
+Unlike the hyper-specialised
+Aspect Shrines, any on the
+path of the Guardian could
+operate these potent weapons,
+providing an invaluable shield
+to their fellows.
+HEAVY SUPPORT
+Armour Transport
+M BS Front Side Rear HP Capacity
+Firestorm 12 4 12 12 10 3 -
+The Wraithlords were the
+grander kin of the smaller
+wraithguard and
+wraithblades, standing tall far
+above their still-living
+brethren. Only the most
+capable of the warrior dead
+could be summoned from the
+newly-created Infinity
+Circuits to be attached to
+these towering constructs.
+Such an act was only to be
+done in times of direst need,
+as disturbing the rest of the
+souls of the slain to rouse
+them to war once more was
+seen as nothing short of abject
+defilement of their well earned
+slumber.
+Many of these ancient
+constructs owed their origin
+to the armouries of the
+Anrathe, in the same manner
+as their smaller wraith-kin,
+the hallowed chassis they
+inhabited having fought since
+before the Fall of their ancient
+race. Some Craftworlds make
+greater use of these ancient
+warriors than others, with
+some using them in numbers
+unheard of on others, and
+reviled on many.
+Armed with a variety of heavy
+weaponry, a individual
+Wraithlord can be equipped
+for most any task, and
+whichever way they were
+armed, it could be assured
+than they would perform with
+utmost surety; whether
+splitting foes from afar with
+shuriken fire or beams from
+their bright lances, or cutting
+them apart in close combat
+with immense swords or
+bludgeoning them into the
+ground with their gauntlets.
+74
+HEAVY SUPPORT
+Unit Composition
+● 1 Wraithlord
+Unit Type
+● Automata (Asuryani, Wraith)
+Wargear
+● Two Wraith Gauntlets
+(with in-built Shuriken Catapults)
+● Power Field
+Special Rules
+● Wraith Conclave
+● It Will Not Die (6+)
+Options:
+● A Wraithlord Conclave may include:
+- Up to 2 additional Wraithlords............................................................... +180 points per model
+● Any Wraithlord may select up to two of the following options in any combination:
+- Shuriken Cannon ..............................................................................................................+5 points
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+● Any Wraithlord may replace a single Wraith Gauntlet (with in-built Shuriken Catapult)
+for:
+- Wraithsword (with in-built Shuriken Catapult)......................................................... +15 points
+● Any Wraithlord may replace an in-built Shuriken Catapult on either a Wraith Gauntlet or
+Wraithsword with one of the following:
+- Flamer .................................................................................................................................+5 points
+- Fusion Gun .......................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Wraithlord 8 5 5 8 8 5 4 3 8 3+
+WRAITHLORD CONCLAVE ......................180POINTS
+75
+Unit Composition
+● 1 Wraithseer
+Unit Type
+● Automata
+(Asuryani, Wraith, Psyker, Character)
+Wargear
+● Ghostspear
+● Wraithshield
+● Guide Stones
+Special Rules
+● It Will Not Die (5+)
+● Path of the Dead
+0-1 WRAITHSEER .......................................250POINTS
+Options:
+● A Wraithseer may select one of the following options:
+- Shuriken Cannon ..............................................................................................................+5 points
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+- D-Cannon......................................................................................................................... +25 points
+A Wraithseer was a sight very
+rarely seen upon the
+battlefields of the Great
+Crusade or Heresy, as the
+precious souls entombed
+within them were guarded
+jealously by the kin that
+carried their legacy. In times
+of utmost need, an especially
+powerful Warlock could be
+called forth from the Infinity
+Circuit, and asked to stride to
+war once more.
+Such a request was not made
+lightly, for if the wraithbone
+construct that housed such a
+venerable soul fell in battle,
+then the soul within risked
+being forever lost to the
+predations of She Who
+Thirsts. Despite this obvious
+and immense risk, however,
+such a construct was a
+terrifying force that could
+turn the tide of even the most
+desperate battle, and so this
+risk was deemed necessary on
+occasion.
+The armaments of the
+Wraithseers were similar to
+the more common
+Wraithlords, making them a
+considerable threat at range;
+though the unique weapons
+and wargear the Wraithseers
+carried, in conjunction with
+their considerable psychic
+might, made them a deadly
+adversary. Indeed, this psychic
+might helped them overcome
+the 'Wraithsight' that blighted
+other wraiths, lending them a
+greater speed and acuity - and
+making it a deadly mistake to
+underestimate the speed and
+agility of a Wraithseer - and
+not one many make twice.
+HEAVY SUPPORT
+M WS BS S T W I A Ld Sv
+Wraithseer 8 5 5 8 8 5 4 4 9 3+

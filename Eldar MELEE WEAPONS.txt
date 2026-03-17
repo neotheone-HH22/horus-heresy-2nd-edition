@@ -1,0 +1,82 @@
+MELEE WEAPONS
+Weapon Range Str AP Type
+Biting Blade - +2 4 Melee, Two-Handed, Shred, Rending (5+)
+Chainsabre (Melee) - +1 5 Melee, Shred, Breaching (5+)
+Chainsword - User - Melee, Shred
+Scorpion Chainsword - +1 6 Melee, Shred, Breaching (6+)
+Chain Weapons
+Whilst built on the same principle as Imperial Chain weapons, Aeldari ones elevated the technology to a new height, with crystalline teeth
+that chewed through almost any armour.
+All weapons listed here are counted as ‘Chain’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Charnabal Sabre - User - Melee, Breaching (5+), Duellist’s Edge (1)
+Charnabal Tabar - +2 - Melee, Breaching (6+), Duellist’s Edge (1)
+Charnabal Glaive - +1 - Melee, Breaching (5+), Duellist’s Edge (2), Two-Handed
+Charnabal Weapons
+These weapons eschewed the powered fields of more conventional weapons for hyper-sharp blades that relied upon reflexes and raw skill
+alone to cut their targets.
+All weapons listed here are counted as ‘Charnabal’ weapons for those rules that affect such weapons. A model that is eligible to select
+a Charnabal weapon may take any of the weapons included in this entry.
+Weapon Range Str AP Type
+Laser Lance (Melee) - +4 3 Melee, Lance, Reach (1), Breaching (5+)
+Star Lance (Melee) - +5 2 Melee, Lance, Reach (1)
+Las Weapons
+Discharging great cells of power in a confined space allowed for Laser weapons to punch great holes in a target - and the closer that target,
+the greater the damage could be…
+All weapons listed here are counted as ‘Las’ weapons for those rules that affect such weapons.
+Weapon Range Str AP Type
+Power Sword - User 3 Melee, Rending (6+)
+Power Axe - +1 2 Melee, Unwieldy
+Power Maul - +2 3 Melee
+Power Lance - +1 3 Melee, Reach (1)
+Power Weapons
+The energy fields coating these weapons disrupts the very bonds between molecules, slicing apart flesh and armour with ease.
+All weapons listed here are counted as ‘Power’ weapons for those rules that affect such weapons. A model that is eligible
+to select a Power Weapon may select any of the weapons included in this section as a Power Weapon selection.
+Weapon Range Str AP Type
+Executioner - +2 2 Melee, Two-Handed
+Mirrorsword - User 3 Melee, Master-Crafted, Rampage (2), Shred
+Scorpion’s Claw (Melee) - x2 2 Melee, Specialist Weapon, Murderous Strike (6+)
+Star Glaive - +2 2 Melee, Master-Crafted, Two-Handed, Murderous Strike (5+)
+Wraith Gauntlet - User 2 Melee, Brutal (2)
+Wraith Glaive - 14 1 Melee, Destructor, Instant Death, Reaping Blow (3)
+Wraithsword
+- Piercing Blow - 10 1 Melee, Two-Handed, Unwieldy, Murderous Strike (5+)
+- Sweeping Strike - User 3 Melee, Reaping Blow (3), Breaching (6+)
+Although technically operated on the same principle, the following weapons are far rarer and more difficult to master than the more
+common weapons, and so may not be selected by a model eligible to claim a generic Power weapon.
+156
+Exotic and Miscellaneous Weapons of the Aeldari
+Some weapons of the Eldar, already a race given to esoteric technologies, were stranger still - to the point of defying easy classification.
+Weapon Range Str AP Type
+Harlequin’s Caress - User - Melee, Fleshbane, Rending (5+)
+Harlequin’s Edge - User - Melee, Rending (4+), Dimensional Edge (4+), Murderous Strike (6+)
+Harlequin’s Embrace - 6 3 Melee, Monofilament, Embrace of Death (2)
+Harlequin’s Kiss - +1 - Melee, Rending (5+), Murderous Strike (6+)
+Haywire Grenade - - - Melee, Haywire, Detonation
+Mandiblaster - 4 6 Melee, Poisoned (4+), Scorpion’s Sting (1), Specialist Weapon
+Melta Bomb - 8 1 Melee, Detonation, Unwieldy, Armourbane (Melee), Instant Death
+Miststave - +1 - Melee, Reach (1), Concussive (1), Poisoned (3+), Force
+Psytronome Shaper - +1 - Melee, Rending (6+)
+Triskele (Melee) - User 3 Melee
+Zephyrglaive - +1 2 Melee, Rending (5+), Two-Handed
+Witch Weapons
+Rare even to the standards of the Aeldari, these weapons could be called upon to pluck the soul from a victim’s body.
+All weapons listed here are counted as ‘Force’ and ‘Witch’ weapons for those rules that affect such weapons.
+Although technically operated on the same principle, the following weapons are far rarer and more difficult to master than the more
+common weapons, and so may not be selected by a model eligible to claim a generic Witch weapon.
+A model armed with two of the same weapons marked with a * gains +2 attacks, instead of the normal +1 for having two combat
+weapons.
+Weapon Range Str AP Type
+Witchblade - User 3 Melee, Rending (6+), Soul Tear
+Witchstaff - +1 3 Melee, Reach (1), Soul Tear
+Weapon Range Str AP Type
+Diresword - User 3 Melee, Brutal (2), Rending (5+), Murderous Strike (6+), Sanctic
+Ghost Axe - +3 2 Melee, Unwieldy, Specialist Weapon, Brutal (2)
+Ghostglaive
+- Piercing Blow - 12 1 Melee, Two-Handed, Murderous Strike (5+), Brutal (2),
+Armourbane (Melee)
+- Sweeping Strike - User 2 Melee, Reaping Blow (3)
+Ghostspear - User 2 Melee, Force, Brutal (2)
+Ghostsword* - +1 3 Melee, Breaching (5+), Blade Spirit
+Singing Spear (Melee) - User 3 Melee, Breaching (5+), Soul Tear

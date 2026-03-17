@@ -1,0 +1,1115 @@
+
+ASURYANIADVANCED REACTION
+This Advanced Reaction is available only to units in an Asuryani Detachment. Unlike Core Reactions, it is activated in unique and specific
+circumstances, as noted in its description, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s
+Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
+Aspects of War
+This Advanced Reaction may be made once per battle during any phase when any enemy unit fulfils one of the following conditions:
+● Ends a move within 12" and Line of Sight of a unit which is part of an Asuryani Detachment.
+● Makes a Shooting Attack targeting a unit which is part of an Asuryani Detachment.
+● Declares a Charge targeting a unit which is part of an Asuryani Detachment.
+The Reactive Player may immediately choose to perform one of the following actions:
+● The Reacting unit may move a number of inches up to its unmodified Initiative Characteristic in any direction the Reactive Player chooses. In a unit with
+mixed Initiative Characteristics, use the highest unmodified Characteristic. Vehicles may pivot once up to 180° and then move up to 8" directly forwards.
+● The Reacting unit may make a Shooting Attack which is resolved immediately, targeting the unit that triggered this Reaction and following all the usual
+rules for Shooting Attacks. A unit that makes a Shooting Attack as part of this Reaction may not make any attacks indirectly (without line of sight)
+including Barrage weapons or other weapons or Special Rules that otherwise ignore line of sight, and Vehicles may only fire Defensive weapons. Template
+weapons may only be used as part of this Reaction if the target unit is within 8" and must use the Wall of Death rule instead of firing normally. Units
+making a Shooting Attack as part of this Reaction are considered to be Stationary, and may fire weapons of any type as though they had not moved.
+● The Reacting unit may count any charges made against it this turn as Disordered.
+13
+ASURYANIWARLORD TRAITS
+The Asuryani were not a military force at heart, for unlike their Anrathe kin, the Asuryani were a mix of artisans, poets, craftsmen, and more - the average
+citizens of an empire in decline. This was not to say, however, that among their number were not warriors - and as the Path of the Aspects took ahold, many
+among the Asuryani found themselves proficient in the ways of war…
+If your Warlord has the Asuryani Sub-type, instead of choosing a Warlord Trait from the Core Rulebook’s Common Traits, you may instead choose a
+Warlord Trait from the options below.
+ASURYANIWARLORD TRAIT: FALCON’S SWIFTNESS
+This warrior, and those who travel in his wake, move across broken ruins and blasted battlefields with astonishing certainty and dexterity.
+This Warlord, and any unit they have joined, increase the value of the Fleet (X) Special Rule by +1, if they already possess it, If the Warlord, or any unit
+they have joined, does not have the Fleet (X) Special Rule, they gain they gain the Fleet (1) Special Rule instead. In addition, the Warlord gains the
+Pathfinder Special Rule.
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the Opposing Player’s Movement phase so long as the
+Warlord has not been removed as a casualty.
+ASURYANIWARLORD TRAIT:AMBUSH OFBLADES
+The uncanny senses of this warrior pierce the fog of war. Their tranquillity in combat allows them to predict the precise time at which to strike with his kin,
+commanding a storm of blades and blasts to tear apart the foe.
+Once per battle, the Controlling Player of a Warlord of this Trait may declare the use of this Trait at the start of any phase. For the duration of that
+phase only, the Warlord and any unit they have joined gain the Preferred Enemy (Everything!) Special Rule.
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Assault phase so long as the
+Warlord has not been removed as a casualty.
+ASURYANIWARLORD TRAIT: SEER OF THE SHIFTING VECTOR
+Wise enough to read the skeins of destiny, whether at their own prowess or with the counsel of others, this warrior sees the many possible futures amidst the
+mayhem of the oncoming battle, allowing them to better coordinate the forces at their disposal.
+While a Warlord with this Trait is in reserves, or deployed on the battlefield, the Controlling Player may choose to re-roll failed Reserves rolls.
+In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Shooting phase so long as the
+Warlord has not been removed as a casualty.
+14
+ASPECT SHRINES
+The Aspect Shrines were a relatively new concept on the Craftworlds of the Asuryani during the time coinciding with the Great Crusade; though despite this,
+the Shrines spread across the Craftworlds with surprising speed, the success of their doctrines allowing the nascent Asuryani to defend both their minds and
+their homes with greater effectiveness.
+An Exarch or Autarch must select one of the following upgrades at the cost specified on their profile as part of your army list construction. In return,
+they gain all of the Special Rules, Wargear, Unit Types, Unit Sub-types, and Characteristic changes specified for their chosen Path.
+Each Exarch or Autarch may only select a single Aspect Shrine upgrade, unless they are explicitly given the ability to select additional ones from
+another source. If this occurs and a model already possesses a version of the Aspect Shrine (X) Special Rule - and does not have a version to replace -
+simply add the relevant Aspect Shrine (X) Special Rule to its unit profile instead.
+Whilst each Aspect Shrine upgrade notes the amount of times an Exarch from a Detachment may select it (usually only one), an Autarch may select
+any Aspect Shrine upgrade and does not count toward the amount of times it may be selected by Exarchs in the same Detachment.
+ASPECT SHRINE:DARK REAPER
+Embodying death as the inescapable harvester of souls, Dark Reapers were a shrine devoted to annihilation at range. No matter how swift, silent, or hardened
+their enemies, a Dark Reaper would seek them out and destroy them. Tales abound of their legendary accuracy, rumours of missiles that could seek targets
+around corners and inside tunnels or drop ships felled from the sky.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+An Autarch or Exarch which selects the Dark Reaper Aspect Shrine upgrade gains the Heavy Sub-type.
+Special Rules
+An Autarch or Exarch which selects the Dark Reaper Aspect Shrine upgrade gains the Aspect Shrine (Dark Reaper), Relentless, Inescapable Accuracy,
+and Fast Shot Special Rules.
+Wargear
+An Autarch or Exarch which selects the Dark Reaper Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they are not
+already equipped with it), and gains a Reaper Launcher (with Starswarm, Starshot, and Starhawk Missiles) at no additional points cost.
+In addition, an Autarch or Exarch which selects the Dark Reaper Aspect Shrine upgrade may choose to replace their Reaper Launcher (with
+Starswarm, Starshot, and Starhawk Missiles) for one of the following options below at the costs shown:
+● Shuriken Cannon ..................................................................................................................................................................................................Free
+● Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ..............................................................................................+10 points
+● Tempest Launcher..................................................................................................................................................................................... +20 points
+ASPECT SHRINE:DIRE AVENGER
+The most common of the newly emerged Aspect Shrines, the Dire Avengers were the children of Asurmen, the eldest and great of the Phoenix Lords, founder of
+the Path of the Warrior. Devoted to the high ideals of implacable defence and unrelenting assault, those who trod in Asurmen’s footsteps were flexible warriors
+who would face any odds with immeasurable courage.
+This Aspect Shrine upgrade may be selected by up to three Exarchs in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Dire Avengers Aspect Shrine upgrade gains the Aspect Shrine (Dire Avenger), Flexible Tactics, and Feel No
+Pain (5+) Special Rules.
+Wargear
+An Autarch or Exarch which selects the Dire Avenger Aspect Shrine upgrade gains a Shuriken Pistol, Augury Scanner, and Twin-Linked Avenger
+Catapult at no additional points cost.
+In addition, an Autarch or Exarch which selects the Dire Avenger Aspect Shrine upgrade may choose to replace their Twin-Linked Avenger Catapult
+for one of the following options:
+● Power Weapon ...........................................................................................................................................................................................+10 points
+● Diresword................................................................................................................................................................................................... +25 points
+Alternatively, an Autarch or Exarch which selects the Dire Avenger Aspect Shrine upgrade may choose to replace their Twin-Linked Avenger Catapult
+and Shuriken Pistol for one of the following options:
+● Power Weapon and Improved Forceshield ................................................................................................................................................ +20 points
+● Diresword and Improved Forceshield......................................................................................................................................................... +35 points
+15
+ASPECT SHRINE: FIRE DRAGON
+Dragons, creatures of fire and death, the embodiment of destruction and wrath unleashed upon the world. Such was the totem chosen by the Fire Dragons
+Aspect Shrine, and to its tenants of destruction they held - all who opposed them purged by the fusion weapons that turned their base matter into the tools of
+their own destruction.
+This Aspect Shrine upgrade may be selected by up to two Exarchs in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Fire Dragon Aspect Shrine upgrade gains the Aspect Shrine (Fire Dragon), Wrecker, and Crack Shot
+Special Rules.
+Wargear
+An Autarch or Exarch which selects the Fire Dragon Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they are not
+already equipped with it), and gains Melta Bombs and a Fusion Gun at no additional points cost.
+In addition, an Autarch or Exarch which selects the Fire Dragon Aspect Shrine upgrade may exchange their Fusion Gun for one of the following
+options:
+● Khaine’s Fury .........................................................................................................................................................................................................Free
+● Firepike....................................................................................................................................................................................................... +15 points
+ASPECT SHRINE: SHADOW SPECTRE
+Lithe spirits rarely seen, the Shadow Spectres during the Age of Darkness were little more than a rumour, even compared to the secretive nature of the
+Craftworlds as a whole. Called revenants and daemons by those few who observed them, only those of the Aspect itself knew the truth; that they were a martial
+tradition of flowing force, projecting the precision of powerful laser weaponry with pinpoint accuracy.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Shadow Spectre Aspect Shrine upgrade gains the Aspect Shrine (Shadow Spectre), Fear (1), Shadow of Death,
+Relentless, and Shrouded (4+) Special Rules.
+Wargear
+An Autarch or Exarch which selects the Shadow Spectre Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they are
+not already equipped with it), and gains a Spectre Jet Pack, Haywire Grenades, and a Prism Rifle at no additional points cost.
+In addition, an Autarch or Exarch which selects the Shadow Spectre Aspect Shrine upgrade may exchange their Prism Rifle for one of the following
+options:
+● Haywire Launcher........................................................................................................................................................................................ +5 points
+● Prism Blaster ..............................................................................................................................................................................................+10 points
+ASPECT SHRINE: HOWLING BANSHEE
+While some say that all Aspect Shrines embodied aspects of Khaela Mensha Khaine, the Howling Banshees were the voice of Morai-Heg the Crone, Eldar
+Goddess of Death. Terrifying cries broke the field as they charged, the raw psychic force frying the nervous systems of unshielded mortals as the banshee’s blades
+brought the promised end to their enemies.
+This Aspect Shrine upgrade may be selected by up to two Exarchs in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Howling Banshee Aspect Shrine upgrade gains the Aspect Shrine (Howling Banshee), Fleet (2), Fear (1),
+Acrobatic, and War Shout Special Rules.
+Wargear
+An Autarch or Exarch which selects the Howling Banshee Aspect Shrine upgrade gains a Banshee Mask, Shuriken Pistol, and Power Sword at no
+additional points cost.
+In addition, an Autarch or Exarch which selects the Howling Banshee Aspect Shrine upgrade may exchange their Power Sword for one of the
+following options:
+● Triskele..................................................................................................................................................................................................................Free
+● Executioner ................................................................................................................................................................................................+10 points
+● Two Mirrorswords..................................................................................................................................................................................... +20 points
+16
+ASPECT SHRINE: SHINING SPEAR
+The Bringers of Dawn, The Final Charge, The Light of Anaris; shrines of the Shining Spears Aspect drew from an eternity of Eldar myth to describe their
+fundamental truth. A single, powerful blow could fell even the gods of old. Astride the fast moving Skyrunner Jetbikes they called their steeds, they tested this
+truth against the hides of their enemies.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Shining Spear Aspect Shrine upgrade gains the Aspect Shrine (Shining Spear), Monster Hunter, Pathfinder,
+Shrouded (4+), Relentless, Firing Protocols (3), and Outflank Special Rules. In addition, a model which selects this Aspect Shrine upgrade gains +1 to
+their Wounds Characteristic.
+Wargear
+An Autarch or Exarch which selects the Shining Spear Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they are
+not already equipped with it), gains a Laser Lance, Shuriken Pistol, and a Skyrunner Jetbike at no additional points cost.
+In addition, an Autarch or Exarch which selects the Shining Spear Aspect Shrine upgrade may choose to replace their Laser Lance for one of the
+following options:
+● Power Weapon ......................................................................................................................................................................................................Free
+● Star Lance................................................................................................................................................................................................... +15 points
+ASPECT SHRINE: SWOOPING HAWK
+Ancient tales say that Isha wished to gift her children with the power of flight, but the Phoenix King would not allow it, knowing the mischief those same
+children might perform. Now, at the end of their race, the hand of the Phoenix returned to give that gift to the Eldar, whose Aspect Shrines drilled relentlessly
+in the art of flight, using it to deploy the deadly rays of their las weaponry, and the explosive force of their grenade packs. Swiftly spreading as the appeal of
+flight resonated deeply within the minds of every Eldar, the Swooping Hawks were becoming increasingly common as the fall receded into the past.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Swooping Hawk Aspect Shrine upgrade gains the Aspect Shrine (Swooping Hawk), Herald of Victory, Skyleap,
+and Skystrike Special Rules.
+Wargear
+An Autarch or Exarch which selects the Swooping Hawk Aspect Shrine upgrade gains Swooping Hawk Wings, a Hawk Lasblaster, Haywire Grenades,
+and a Grenade Pack at no additional points cost.
+In addition, an Autarch or Exarch which selects the Swooping Hawk Aspect Shrine upgrade may exchange their Hawk Lasblaster for one of the
+following options:
+● Hawk’s Talon..............................................................................................................................................................................................+10 points
+● Sunrifle ....................................................................................................................................................................................................... +15 points
+ASPECT SHRINE: STRIKING SCORPION
+Shrouded in secrecy on the battlefield and the doors of their shrines, the Striking Scorpions knew that timing was the key to victory. Eager to prove themselves
+in the wake of their original Phoenix Lord’s betrayal, Striking Scorpion Aspect warriors were a relentless presence on the battlefield. Those who called upon this
+training were especially subtle commanders, a stark contrast to the brutality of their chain blades.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Striking Scorpion Aspect Shrine upgrade gains the Aspect Shrine (Striking Scorpion), Brutal Ambush,
+Infiltrate, Move Through Cover, Stalker, and Fleet (2) Special Rules.
+Wargear
+An Autarch or Exarch which selects the Striking Scorpion Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they
+are not already equipped with it), and gains a Shuriken Pistol, Scorpion Chainsword, and a Mandiblaster at no additional points cost.
+In addition, an Autarch or Exarch which selects the Striking Scorpion Aspect Shrine upgrade may choose to replace their Shuriken Pistol for one of
+the following options:
+● Biting Blade ................................................................................................................................................................................................+10 points
+● Scorpion’s Claw ......................................................................................................................................................................................... +20 points
+Alternatively, an Autarch or Exarch which selects the Striking Scorpion Aspect Shrine upgrade may choose to replace their Scorpion Chainsword and
+Shuriken Pistol for:
+● Two Chainsabres........................................................................................................................................................................................+10 points
+17
+ASPECT SHRINE:WARP SPIDER
+The Webway was a unique place, existing on the edge of the real and the unreal, the material and the empyrean. The diminutive creatures known as Warp
+Spiders that made their homes here acted like an immune system, hunting daemonic forces and repairing small damage to this intricate system. The Warp
+Spiders themselves fearlessly embraced this ideology, risking their very souls to travel the deeper void and remove their prey’s threat to the skeins of fate.
+This Aspect Shrine upgrade may only be selected by a single Exarch in a Detachment.
+Special Rules
+An Autarch or Exarch which selects the Warp Spider Aspect Shrine upgrade gains the Aspect Shrine (Warp Spider), Flickerjump, Hit & Run, Firing
+Protocols (2) and Iron Resolve Special Rules.
+Wargear
+An Autarch or Exarch which selects the Warp Spider Aspect Shrine upgrade exchanges their Aspect Armour for Heavy Aspect Armour (if they are not
+already equipped with it), and gains a Warp Jump Generator and a Death Spinner at no additional points cost.
+An Autarch or Exarch which selects the Warp Spider Aspect Shrine upgrade may exchange their Death Spinner for one of the following options:
+● Two Death Spinners..................................................................................................................................................................................... +5 points
+● Spinneret Rifle............................................................................................................................................................................................ +15 points
+In addition, an Autarch or Exarch which selects the Warp Spider Aspect Shrine upgrade may choose to purchase the following:
+● Two Power Swords..................................................................................................................................................................................... +15 points
+18
+WORLD-RUNES
+The Craftworlds were possessed of a unique spirit and disposition; a product of the Aeldari they took from the home-worlds as their empire crumbled in the
+Great Fall. These unique combinations of culture and mentality resulted in each Craftworld fighting in individual - and even idiosyncratic - ways.
+This section presents a set of World-Runes, dispositions that allow Aeldari Autarchs to fight in a style most befitting their ancient race’s beliefs.
+Each World-Rune presents one of these cultures, and is chosen when a player selects their army – before the start of a battle. The rules for each
+individual World-Rune will present a number of Effects which will grant the Detachment new options or Special Rules, as well as a number of
+Limitations which will deny the Detachment access to certain options or rules it might otherwise be able to make use of. Unless otherwise stated as
+part of the World-Rune’s rules, all Effects and Limitations must be applied to models and units that are selected as part of the Detachment that it
+has been chosen for. Some World-Runes may only be chosen for a Primary Detachment or an Allied Detachment – such Limitations will be clearly
+stated as part of the World-Rune.
+GAINING ACCESS TOWORLD-RUNES
+Any Detachment that has the Aeldari (Asuryani) Faction, and fulfils at least one of the following conditions, may use a World-Rune:
+• The Detachment includes at least one model with both the Asuryani Sub-type and the Path of Command Special Rule (such as an Autarch).
+• The Detachment can upgrade at least one model from the Detachment to have the Path of Command Special Rule as noted in a specific
+World-Rune that allows this (see Echoes of the Fallen and The Tears of Lileath World Runes that follow).
+WORLD-RUNE:THE SERPENT HOST
+Some Craftworlds played host to vast numbers of those Eldar who claimed Windrider clan ancestry. On these Craftworlds, it was well established that in times
+of war, great lance-banners of anti-grav cavalry would muster, ready to defend their home and ensure the horrors of the fall did not claim those among them
+who had survived it.
+Effects
+● Windrider Squads in a Detachment with this World-Rune do not have the Support Squad Special Rule.
+● Windrider Squads taken as Compulsory Troops in a Detachment with this World-Rune gain the Line Sub-type.
+● Vyper Squadrons may be taken as non-Compulsory Troops in a Detachment with this World-Rune.
+● Shining Spears units may be taken as Elites choices in a Detachment with this World-Rune.
+● When selecting an army using this World-Rune, a single unit made up entirely of models with the Aspect Shrine (Shining Spear) Special Rule may
+be selected, without restriction regardless of which Aspect Shrine Upgrades are selected for the army. A unit selected in this way still occupies a
+Force Organisation Chart slot as normal.
+Limitations
+● A Detachment with this World-Rune must select more units equipped with Skyrunner Jetbikes, Vyper Jetbikes, or Raptor Jetbikes than units
+without.
+● Compulsory HQ choices in a Detachment with this World-Rune must be made up entirely of models with Skyrunner Jetbikes.
+● Any unit made up entirely of models without the Cavalry Unit Type in a Detachment with this World-Rune that does not begin play Embarked on
+a model with the Transport Sub-type, or any model with the Vehicle Unit Type without either the Transport or Fast Sub-types, must begin play in
+Reserve if the mission allows it. If the mission does not allow any units to be placed into Reserves then the unit is instead deployed as normal.
+● A Detachment using this World-Rune may not select any Fortification choices.
+WORLD-RUNE:THE SWORD-WIND
+On those earliest Craftworlds to flee the ancient doom of the Eldar race, the Aspect Shrines saw a ready and willing acceptance. It was on such Craftworlds
+that the Aspects rose rapidly to prominence - and the Asuryani way of war adapted to bring its full use to bear.
+Effects
+● A Detachment with this World-Rune may include up to two Aspect Exarch units, instead of the one normally permitted.
+● An Autarch in a Detachment with this World-Rune may select a second Aspect Shrine Upgrade. This upgrade must be different to the first, and
+they must pay the points cost for it respectively, gaining all Unit Types, Sub-types, Special Rules, and Wargear associated with the upgrades.
+Limitations
+● A Detachment with this World-Rune must include an Autarch, and they must be selected to be the Warlord, unless a model with the Phoenix
+Lord Unit Type is present - in which case, that model must be your Warlord instead.
+● An Allied Detachment may not use this World-Rune.
+● An Detachment with this World-Rune may not include more non-Infantry units than it does Infantry units. Units of Aspect Exarchs, Bonesingers
+Conclaves, Guardian Officer Cadres, Guardian Defenders, and Storm Guardians are not counted for the purposes of this Limitation.
+19
+WORLD-RUNE:ECHOES OF THE FALLEN
+Reviled as a necromantic perversion, and an unacceptable horror, there was nonetheless a dire need for the use of the Wraith-Constructs whose use was
+foremost supported by those known as Wraith Guides. Though shunned by the Eldar race at large, none could deny their effectiveness in war; nor the lives they
+saved in preventing Aeldari blood from being spilled.
+Effects
+● A single Wraith Guide, Wraithseer, or Wraithlord Conclave unit composed of a single model in a Detachment with this World-Rune may be taken
+as a Compulsory HQ choice - if taken in this way, the unit gains the Path of Command Special Rule, as well as the Character Sub-type if they do
+not already possess it. A model selected in this way must be selected to be your Warlord. In addition, if the model selected in this way is not
+already equipped with Guide Stones, they may select them at a cost of +15 points. A Wraithseer selected in this fashion does not count towards the
+0-1 limitation normally present on this unit.
+● Units of Wraithblades and Wraithguard may be taken as Troops in a Detachment with this World-Rune.
+● Units of Wraithblades and Wraithguard taken as Compulsory Troops in a Detachment with this World-Rune gain the Line Sub-type.
+● A Detachment using this World-Rune does not count units of Wraithblades or Wraithguard toward the number of units with the Wraith Sub-type
+they are allowed to select by the Wraith Guide Special Rule.
+Limitations
+● A Detachment with this World-Rune must include a Wraith Guide.
+● A Detachment with this World-Rune must include at least as many units with the Wraith Sub-type as without. Units of Guardian Officer Cadres,
+Guardian Defenders, and Storm Guardians are not counted for the purposes of this Limitation.
+● An Allied Detachment may not use this World-Rune.
+● A Detachment using this World-Rune may only select a single Fast Attack Choice.
+● An army containing a Detachment using this World-Rune may never roll to Seize the Initiative.
+● A Detachment using this World-Rune is counted as Distrusted Allies to all other Aeldari Sub-Factions.
+WORLD-RUNE:THE HUNTER’SMOON
+Whether through oppression or personal rebellion, many chose to walk the Path of the Outcast shortly after The Fall. Many who walked this path, however,
+still held strong ties to their Craftworld. As a result, it fell to these Rangers and Pathfinders to return to protect it. Through a combination of alacrity, precision
+and peerless camouflage, those that fought under the Hunter’s Moon were able to use the battlefield itself to obscure themselves and move effortlessly around
+their clumsy foe with the grace and efficiency that venerated ancient aeldari warfare.
+Effects
+● Any model chosen as part of a Detachment with this World-Rune with the Independent Character special rule may be given an Outcast Cloak at a
+cost of +10 points each. An Independent Character that does so may choose to also gain the Skirmish Sub-type, as well as the Scout special rule, at
+no additional cost in points.
+● Any model chosen as part of a Detachment with this World-Rune with the Character Sub-type may be equipped with a Ranger Long-Rifle at a cost
+of +10 points each.
+● A single model within every unit chosen as part of a Detachment with this World-Rune with the Infantry Unit Type that does not have the
+Character Sub-type may be given a Gloom-Field at a cost of +15 points each.
+● All models in a Detachment with this World-Rune that have the Infantry Unit type gain the Move Through Cover special rule.
+● Units of Shroud Runners in a Detachment with this World-Rune gain the Line Unit Sub-type.
+● Units of Rangers in a Detachment with this World-Rune gain the Pathfinder Special Rule, and lose the Support Squad Special Rule.
+Limitations
+● All models with the Vehicle Unit Type in a detachment using this World-Rune must begin play in Reserves.
+● A Detachment using this World-Rune cannot include more Heavy Support choices than Fast Attack choices.
+● All Compulsory Troops Choices in a Detachment using this World-Rune must be Rangers.
+20
+WORLD-RUNE:THETEARS OF LILEATH
+Many of the Craftworlds that departed in the wake of the Fall harboured extremely powerful Psykers, or found themselves with exaggerated amounts of
+Psykers in their population. Those which were blessed with such a curse balanced on the tightrope of dread. Where their increased psychic capability provided
+their Craftworld with Intuition and foresight bordering that of prescience, they knew that skeining the threads of fate with such hubris could draw the
+attention of the daemons that haunt them. Whatever the reason a Craftworld cradled them, many Warlocks, Seers, and other psychic warriors followed their
+armies into battle to lend their psychic powers to their comrades. However, this did not save them from the fear and suspicion using such power uncaringly
+bestowed, and what recourse could have occurred as a result.
+Effects
+● A single Farseer in a Detachment with this World-Rune gains the Path of Command Special Rule.
+● A Detachment with this World-Rune may ignore the 0-1 limit on Seer Council units.
+● All non-Vehicle models in a detachment with this World-Rune gain the Adamantium Will (6+) Special Rule. If a model has the Psyker Unit Subtype, that model gains Adamantium Will (3+) Special Rule instead.
+● Guardian Defenders, Storm Guardians, and Vaul’s Wrath Support Batteries in a Detachment with this World-Rune may add a single Warlock to
+the unit, at a cost of +35 points (see Seer Council unit profile). A Warlock selected in this way may not be upgraded to a Warlock Skyrunner.
+● Windrider squads in a Detachment with this World-Rune may add a single Warlock Skyrunner to the unit, at a cost of +50 points (see Seer
+Council unit profile).
+● A player whose army includes a Primary Detachment using this World-Rune may re-roll any dice they roll to see which player takes the first turn,
+or when attempting to Seize the Initiative.
+Limitations
+● A detachment with this World-Rune must have a Farseer, or Eldrad Ulthran, as its Warlord.
+● An Allied Detachment may not use this World-Rune.
+● A detachment with this World-Rune must include at least one Seer Council selected as an Elites Choice.
+● A detachment using this World-Rune cannot include more units with the Psyker Sub-type than units without.
+● Any unit from a Detachment using this World-Rune that suffers Perils of the Warp as the result of making a Psychic Check is immediately Pinned
+- this overrides any effect of Unit Types which would normally allow a unit to ignore being Pinned (such as the Cavalry Unit Type, or a Unit Type
+granting the Fearless Special Rule), though this cannot affect any unit which does not have a Leadership Characteristic.
+WORLD-RUNE:THE SHATTERED CHAINS
+The birth of the Eye of Terror was unforgiving to the Craftworlds caught in its Vortex during the rapture of the Aeldari. Many escaped its pull, and many fell
+victim to the Great Rift that was created in the wake of their once great empire. There were, however, few who fell under an estranged limbo, not wholly
+consumed by the terrible rift but still caught in its pull. Whether stuck in its proximity for a period of time, or permanently frozen within its reach, these
+shadowy people received little aid and were treated with open suspicion and hostility, for many believe no Aeldari could remain untouched by the predations
+of Chaos for so long. Despite this, those survivors harboured and harnessed an inner steel, granting great strength to those who survived against all odds.
+Effects
+● Independent Characters which were not selected as a Primarch Choice in a Detachment with this World-Rune may select a Guardian Officer
+Cadre as part of the same Force Organisation Slot choice. A unit selected in this manner is considered a “Retinue Squad” and must have a
+minimum of 2 models. The Retinue Squad does not use up a Force Organisation Slot and is considered a part of the same unit as the Independent
+Character. The Retinue Squad must be deployed with the Independent Character as part of the unit and the Independent Character may not
+voluntarily leave the Guardian Officer Cadre during play. All models in a Guardian Officer Cadre unit taken as a Retinue Squad lose the Guardian
+Officers Special Rule and the Character Sub-type, and gain the Chosen Warriors Special Rule. If an Independent Character has a Skyrunner
+Jetbike, their Retinue Squad must all have Skyrunner Jetbikes. If an Independent Character does not have a Skyrunner Jetbike, their Retinue Squad
+must not have Skyrunner Jetbikes.
+● A Detachment with this World-Rune may ignore the 0-1 limit on Guardian Officer Cadre units, and may take them as HQ choices; Guardian
+Officer Cadre units taken as HQ Choices lose the Guardian Officers Special Rule and the Character Sub-type, and gain the Chosen Warriors
+Special Rule.
+● Guardian Defenders may be selected as Elites choices. When Guardian Defenders are taken in this manner, increase the Ballistic Skill
+Characteristic of all Guardian Defender and Defender Platform models in that unit to 5.
+● Storm Guardians may be selected as Elites choices. When Storm Guardians are taken in this manner, increase the Weapon Skill Characteristic of
+all Storm Guardian and Defender Platform models in that unit to 5.
+● All models without the Aspect Shrine (X) Special Rule or the Wraith Unit Sub-Type gain the Stubborn Special Rule. If a model does not have a
+Leadership Characteristic, they instead ignore the effects of any Crew Shaken result on the Vehicle Damage table.
+Limitations
+● A Detachment using this World-Rune is counted as Distrusted Allies to all other Eldar Sub-Factions.
+● All Compulsory Troops choices taken in a Detachment using this World-Rune must be Guardian Defenders or Storm Guardians.
+● All Compulsory Troops choices taken in a Detachment using this World-Rune must take the maximum number of models possible for that unit
+(though note that this does not include Defender Platforms, where applicable).
+21
+WORLD-RUNE:THECRUCIBLE OFBLOOD
+Many Craftworlds who fled following the Fall of the Aeldari harboured more talented craftspeople than talented warriors. These bonesingers’ skills were
+redirected from once peaceful professions to instead produce only the finest Weapons and Engines of Vaul, upscaling their dwindling military power with
+Grav-Tanks and Walkers of consummate firepower. Warhosts provisioned in such a way fielded War-smiths to bring the talented capabilities of their
+bonesingers to practise their art in the heat of battle and even the leaders of such hosts knew the true capabilities of Vaul’s Engines, and spent time amongst
+their own conclaves to learn the ways of the shaper.
+Effects
+● All units using this World-Rune eligible to take a Wave Serpent as a Dedicated Transport may instead take a single Falcon as a Dedicated
+Transport if the unit numbers 5 models or less.
+● Falcon Squadrons in a Detachment using this World-Rune may be selected as Non-Compulsory Troops Choices.
+● Firestorm Squadrons and Night Spinner Squadrons in a Detachment using this World-Rune may be selected as Elites choices.
+● Models with the Bonesinger Companions Special Rule may ignore the restrictions applied to units they are permitted to join, and may instead join
+any with the Infantry Unit Type and the Asuryani Sub-type.
+● A Detachment with this World-Rune may ignore the 0-1 limit on Bonesinger Conclaves, and may take them as Non-Compulsory Troops choices.
+● If the Warlord of this army does not have the Unique Sub-type, the Warlord of this army gains the Path of the Shaper Special Rule.
+Limitations
+● All units in a Detachment using this World-Rune with the Infantry Unit Type must begin the battle Embarked upon a model with the Transport
+Sub-Type; any Infantry models in a Detachment using this using this World-Rune, both those deployed on the battlefield and in Reserves, that are
+not Embarked upon a model with the Transport Sub-type at the beginning of the first Game Turn must be removed as casualties.
+● At least one Bonesinger Conclave must be selected in a Detachment with this World-Rune.
+● An Allied Detachment may not use this World-Rune.
+● A Detachment with this World-Rune may not select any units with the Wraith Sub-type.
+22
+THERUNES OF THEASURYANI
+In order to protect themselves and their kin from the uncontrolled perils of the Warp, Aeldari Seers channel their psychic energies through Wraithbone Runes.
+This section presents a set of Psychic Disciplines unique to the Asuryani; access to these is limited to models with the Asuryani Sub-type, and each is
+assigned to relevant units by Special Rules on their unit profile.
+Psychic Discipline: The Runes of Battle
+A Psyker with this Discipline gains a single one of the listed Psychic Powers or Weapons, including both sub-powers, unless they have a Special Rule
+or other ability that allows them to gain more, as well as the Aetheric Lightning Psychic Weapon (see page 322 of the Horus Heresy: Age of Darkness
+Core Rulebook) - unless they have already gained this power from another source.
+Each power is actually comprised of two sub-powers or weapons – each time the unit which selected a power from the Runes of Battle Psychic
+Discipline attempts to cast it, they must first decide which of its two sub-powers or weapons they wish to use.
+Conceal / Reveal (Psychic Power)
+The Seer obscures their allies with a psychic shroud, while the shadows that would hide their foe are cast aside, leaving them in the Aeldari’s sights.
+Conceal
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18”, that unit gains the Shrouded (6+)
+Special Rule until the beginning of the controlling player’s next turn. When using this power, the controlling player may choose to have the Psyker
+take a Psychic check. If the Check is passed then the target unit instead gains the Shrouded (5+) Special Rule until the beginning of the controlling
+player’s next turn. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.
+Reveal
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18” and line of sight of the Psyker, and
+take a Psychic check. If that Check is passed all models in the target unit may not benefit from the Shrouded (X) Special Rule, and decrease all Cover
+Saves granted by terrain by one (a unit with an existing 6+ cover save would therefore receive no cover save) until the beginning of the Controlling
+Player’s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.
+Embolden / Horrify (Psychic Power)
+Reaching into the minds of their kin, the Seer inspired them onward with images of their inevitable victory, or else drained the fleeting resolve of their enemy
+through terrifying visions of doom.
+Embolden
+Instead of making a Shooting Attack, a Psyker with this power may select a single friendly unit within 18”, that unit gains the Stubborn Special Rule
+until the beginning of the controlling player’s next turn. When using this power, the controlling player may choose to have the Psyker take a Psychic
+check. If the Check is passed then the target unit instead gains the Fearless Special Rule until the beginning of the controlling player’s next turn. If
+the Check is failed then no additional benefits are gained and the Psyker suffers Perils of the Warp.
+Horrify
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18” and line of sight of the Psyker and
+take a Psychic check. If that Check is passed all models in the target unit must reduce their Leadership by -2 until the beginning of the Controlling
+Player’s next turn.
+Quicken / Restrain (Psychic Power)
+Time itself bends at the Seer’s behest, transporting their kin across the battlefield at seemingly impossible speeds and forcing their enemies to trudge sluggishly
+against an invisible burden.
+Quicken
+At the start of the Movement Phase, a Psyker with this power may select a single friendly Infantry unit within 18”, that unit increases its Move
+characteristic by +2 for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a
+Psychic check. If the Check is passed then the target unit also gains the Move Through Cover Special Rule until the beginning of the controlling
+player’s next turn. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.
+Restrain
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy Infantry unit within 18” and line of sight of the
+Psyker and take a Psychic check. If that Check is passed all models in the target unit reduce their Movement characteristic by -2 (to a minimum of 1)
+and cannot Run until the beginning of the controlling player’s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.
+23
+Empower / Enervate (Psychic Power)
+The Seer imbues their kin with newfound physical might, while their enemies feel their bodies wither and strain as their strength is drained away.
+Empower
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18", that unit increases its Strength
+Characteristic by +1 for the duration of the current player turn. When using this power, the controlling player may choose to have the Psyker take a
+Psychic check. If the Check is passed then both Strength and Toughness Characteristics are increased by +1 for the duration of the current player
+turn. If the Check is failed, then the target unit gains no benefit and the Psyker suffers Perils of the Warp.
+Enervate
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single enemy unit within 18” and line of sight of the Psyker and
+take a Psychic Check. If that Check is passed all models in the target unit reduce their Strength Characteristic by -1 (to a minimum of 1) until the
+beginning of the controlling player’s next turn. If the Check is failed then the Psyker suffers Perils of the Warp.
+Renewer (Psychic Power) / Destructor (Psychic Weapon)
+The wounds of the Seer’s kin are rapidly mended by a focused concentration of their psychic will, or unleashed upon the foe in waves of destructive energy that
+engulfs them in azure flame.
+Renewer
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with at least one model within 18”, one model
+of the Controlling Player’s choice regains a single lost Wound. When using this power, the Controlling Player may choose to have the Psyker take a
+Psychic Check. If the Check is passed then up to three lost Wounds are regained across the target unit. If the Check is failed, then the target unit
+gains no benefit and the Psyker suffers Perils of the Warp. This ability cannot be used to increase a model’s Wounds beyond its starting Wounds
+Characteristic.
+Destructor Range Str AP Type
+Destructor Template 5 5 Assault 1, Fleshbane, Torrent (9“), Breaching (6+), Psychic Focus
+24
+Psychic Discipline: The Runes of Fate
+A Psyker with this Discipline gains all powers, attacks and other rules included as part of the Discipline, as well as the Aetheric Lightning Psychic
+Weapon (see page 322 of the Horus Heresy: Age of Darkness Core Rulebook) - unless they have already gained this power from another source.
+Fortune (Psychic Power)
+The Farseer twists and warps the skein with a gentle hand; not so much as to damage it, but enough that their fellow warriors are able to dodge shots that
+would otherwise have proved fatal, or otherwise shrug them off. This was often written off as insane luck to many hapless onlookers - but the Asuryani
+understood the truth of the matter.
+Once per turn, at the start of any Phase, a Psyker with this Psychic Power’s Controlling Player may select a single friendly unit with the Aeldari
+Faction within 18”, and take a Psychic Check. If the Psychic Check is passed then the target unit may re-roll all failed Armour Saves or Invulnerable
+Saves for the duration of that Phase, but these re-rolls are taken at a penalty of -1 to Save roll, to a maximum of 6+ (meaning an Armour Save or
+Invulnerable Save of 3+ would only succeed on a dice roll of a ‘4’, and so on).
+Guide (Psychic Power)
+By reaching into the future the Farseer gleams the knowledge of exactly where their enemy will be, and thus directs and maximises the firepower of their kin
+accordingly.
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit within 18” and take a Psychic check. If the
+Psychic check is passed then the target unit’s ranged weapons gain the Twin-Linked Special Rule for the duration of the current player turn.
+Eldritch Storm (Psychic Weapon)
+The Farseer generates an enormous storm of psychic energy that crashes into the battlefield with forces capable of tearing apart man and machine with ease -
+the devastation spreading with time and focus.
+Range Str AP Type
+Eldritch Storm 24” 3 4 Assault 1, Large Blast (5”), Fleshbane, Haywire, Pinning, Psychic Focus, Gathering Storm
+25
+Psychic Discipline: The Runes of Twilight
+A Psyker with this Discipline gains all powers, attacks and other rules included as part of the Discipline, as well as the Aetheric Lightning Psychic
+Weapon (see page 322 of the Horus Heresy: Age of Darkness Core Rulebook) - unless they have already gained this power from another source.
+Voice of Twilight (Psychic Power)
+By submerging their mind into the shadow realm the psyker is able to further empower their accompanying wraiths.
+Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with a model within 18” which contains at
+least one model with the Wraith Sub-Type and apply one of the following effects to all models with the Wraith Sub-Type in the unit. All effects last
+until the beginning of the Controlling Player’s next turn:
+• The unit gains the Precision Shots (5+) Special Rule.
+• The unit gains the Precision Strikes (5+) Special Rule.
+• The unit gains the Split Fire Special Rule.
+• The unit gains the Furious Charge Special Rule.
+When using this power, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then two different options
+may be applied to the target unit instead of one. If the Check is failed then no benefits are gained and the Psyker suffers Perils of the Warp.
+Executioner (Psychic Weapon)
+The psyker conjures an apparition to cleave through the enemy ranks, the mirror-image’s killing edge renewed and ever more deadly with every foe torn apart
+by the baleful psychic energies.
+Range Str AP Type
+Executioner 18” 4 - Assault 4, Fleshbane, Deflagrate, Disruption (5+), Precision Shots (5+), Psychic Focus
+ASURYANI:
+HQ
+The Eldar Path system
+covered all aspects of life;
+from the path of the life, to
+the path of the warrior, the
+heart scribe, and even the
+bonesinger. Some paths were
+rarer than others, and the
+Autarch was one such.
+Autarchs were experienced
+warriors, having trod the
+paths of both guardian and
+Aspect, before finally treading
+the Path of Command.
+Focused on the art of strategy
+and logistics, an Autarch was
+capable of crafting
+campaigns, leading from the
+front or from orbit with equal
+precision. Availed of the
+psychic technologies of their
+people an Autarch was able to
+take in the data of thousands
+of warriors when needed and
+issue commands to fights vast
+distances away.
+These leaders were greatly
+needed to lead Eldar
+warhosts. With the fall recent
+in the minds of all Asuryani,
+and the hunger of She Who
+Thirsts lurking in the warp,
+the flawless victories and
+clever strategies crafted by the
+Autarchs were pivotal to
+preserving those who
+remained. When combined
+with the peerless foresight of
+the Farseers, Autarchs
+provided the means to give
+Craftworlds the success they
+needed to survive the brutality
+of the Age of Darkness.
+28
+HQ
+Unit Composition
+● 1 Autarch
+Unit Type
+● Infantry (Asuryani, Character)
+Wargear
+● Heavy Aspect Armour
+● Improved Forceshield
+● Plasma Grenades
+● Close Combat Weapon
+Special Rules
+● Aspect Shrine (X)
+● Independent Character
+● Stubborn
+● Fleet (1)
+● Battle-Hardened (1)
+● Path of Command
+Options:
+● An Autarch may select up to two of the following options, in any combination:
+- Chainsword ........................................................................................................................+2 points
+- Shuriken Pistol...................................................................................................................+2 points
+- Shuriken Catapult .............................................................................................................+5 points
+- Power Weapon.................................................................................................................+10 points
+- Charnabal Weapon..........................................................................................................+10 points
+- Fusion Pistol..................................................................................................................... +15 points
+- Star Glaive........................................................................................................................ +20 points
+M WS BS S T W I A Ld Sv
+Autarch 7 6 6 3 3 3 6 4 10 3+
+0-1 AUTARCH................................................ 80POINTS
+Aspect Shrines
+An Autarch must select a single Aspect Shrine upgrade; no model may take more than one such
+upgrade unless they are explicitly given the ability to select additional ones from another source.
+The various Aspect Shrine upgrades and their relevant costs are listed here, but full rules for them
+can be found in the Aspect Shrine Upgrades section:
+● Dark Reaper ........................................................... +30 points
+● Dire Avenger .......................................................... +15 points
+● Fire Dragon ............................................................ +15 points
+● Howling Banshee.................................................. +15 points
+● Shadow Spectre ..................................................... +25 points
+● Shining Spear......................................................... +25 points
+● Striking Scorpion .................................................. +25 points
+● Swooping Hawk .................................................... +20 points
+● Warp Spider ........................................................... +20 points
+29
+Unit Composition
+● 1 Exarch
+Unit Type
+● Infantry (Asuryani, Character)
+Wargear
+● Aspect Armour
+● Plasma Grenades
+Special Rules
+● Aspect Shrine (X)
+● Fleet (1)
+● Aspect Ascendant
+0-1 ASPECT EXARCHS .............................. 20POINTS
+Options:
+● An Aspect Exarchs unit may include:
+- Up to 3 additional Exarchs ......................................................................... +20 points per model
+The Path system of the
+Craftworlds focused and
+shielded the mind of an Eldar
+from its own vast potential to
+harm itself. This focus was
+levels beyond what ordinary
+humans could achieve,
+encompassing every aspect of
+the walker's life; yet that in
+and of itself became a trap for
+many minds. To the horror of
+early Craftworlders, the Path
+of the Warrior could be trod
+so far and so deeply that the
+walker could not find their
+way off the path to pursue
+any other endeavour.
+Such Eldar became known as
+Exarchs. Living entirely
+within their temples these
+warriors trained to a peerless
+height and both crafted and
+wielded powerful weapons of
+artisanal quality. These same
+Exarchs also trained new
+warriors, and even founded
+new Shrines upon new worlds.
+Through their tireless and
+focused efforts the Aspect
+Shrines spread from
+Craftworld to Craftworld and
+strengthened the forces of the
+recovering Asuryani.
+HQ
+M WS BS S T W I A Ld Sv
+Exarch 7 5 5 3 3 2 6 3 9 4+
+Aspect Shrines
+Each Exarch must select a single Aspect Shrine upgrade; no model may take more than one such
+upgrade unless they are explicitly given the ability to select additional ones from another source.
+The various Aspect Shrine upgrades and their relevant costs are listed here, but full rules for them
+can be found in the Aspect Shrine Upgrades section:
+● Dark Reaper ........................................................... +30 points
+● Dire Avenger .......................................................... +15 points
+● Fire Dragon ............................................................ +15 points
+● Howling Banshee.................................................. +15 points
+● Shadow Spectre ..................................................... +25 points
+● Shining Spear......................................................... +25 points
+● Striking Scorpion .................................................. +25 points
+● Swooping Hawk .................................................... +20 points
+● Warp Spider ........................................................... +20 points
+Of all the paths that the
+Asuryani walked, the Path of
+the Seer was perhaps the most
+respected. Eldar technology
+was based upon their innate
+psychic potential, with even
+the smallest constructions
+using psychic controls or
+being powered by psychic
+forces. Yet, much like the
+Aspect Exarchs, this same
+path-based life that protected
+their minds and focused their
+abilities trapped some in a
+singular way of life. For many
+upon the path of the Seer, this
+lead them down to the way of
+the Farseer, powerful diviners
+capable of travelling the skein
+of fate both forward and
+back.
+Such journeys were often
+wrought with danger.
+Thousands of possibilities
+could bubble up from even the
+most innocuous of acts, and
+only the most powerful minds
+could hope to contain this
+information and divine the
+important junctions from the
+unending flow of time itself.
+Farseers used runes, powerful
+symbols that assisted them in
+unlocking parts of their mind
+usually sealed unconsciously
+as to control their mental
+voyage upon the skein. This
+made farseers perhaps the
+most powerful diviners of
+their time, capable of
+foreseeing the outcomes of
+actions centuries before into
+the future thousands of years
+hence.
+30
+HQ
+Unit Composition
+● 1 Farseer
+Unit Type
+● Farseer: Infantry
+(Asuryani, Character, Psyker)
+● Farseer Skyrunner: Cavalry
+(Asuryani, Antigrav, Character, Psyker)
+Wargear
+● Rune Armour
+● Shuriken Pistol
+● Witch Weapon
+● Plasma Grenades
+● Skyrunner Jetbike
+(Farseer Skyrunner only)
+Special Rules
+● Independent Character
+● Fleet (1)
+● Adamantium Will (3+)
+● Path of the Farseer
+● Runes of Warding
+● Runes of Witnessing
+● Psychic Mastery (2)
+Options:
+● A Farseer may be upgraded to a:
+- Farseer Skyrunner ........................................................................................................... +25 points
+● A Farseer may exchange their Witch Weapon for the following:
+- Singing Spear......................................................................................................................+5 points
+M WS BS S T W I A Ld Sv
+Farseer 7 5 5 3 3 3 5 2 10 -
+FARSEER........................................................... 150POINTS
+Farseer Skyrunner 18 5 5 3 3 4 5 2 10 -
+31
+Unit Composition
+● 1 Wraith Guide
+Unit Type
+● Infantry (Asuryani, Psyker, Character)
+Wargear
+● Rune Armour
+● Shuriken Pistol
+● Witch Weapon
+● Plasma Grenades
+● Guide Stones
+Special Rules
+● Independent Character
+● Fleet (1)
+● Path of the Dead
+● Psychic Mastery (2)
+WRAITH GUIDE ........................................... 80POINTS
+In the aftermath of the fall,
+the ability of the Anrathe to
+craft and maintain the Ghost
+Warrior automatons was lost;
+their cold wraithbone shells
+falling into disuse and
+disrepair. As the Craftworlds
+began to realise the shape of
+their doom, however, and
+Spirit Stone technology rose
+to prevalence, so too did a
+new class of Aeldari, and a
+new path - the Wraith Guides,
+and the Path of the Dead.
+Seen as necromancers by
+many Eldar, and reviled by
+some, the Wraith Guides held
+their duty to safeguard the
+lives and souls of their fellow
+Aeldari as a sacred task. It
+was into this duty that the
+first Wraith Guides entombed
+the Spirit Stones of their
+Craftworld kin into the husks
+of the ancient Ghost Warriors,
+replacing their automata
+minds with that of once-living
+Eldar.
+In times of direst need, the
+Wraith Guides took upon
+themselves the task of guiding
+these new warriors into battle,
+the souls of the once-dead
+denied rest at the behest of an
+age of battle, and of darkness.
+HQ
+M WS BS S T W I A Ld Sv
+Wraith Guide 7 5 5 3 3 2 5 2 9 -
+The Aeldari known as Eldrad
+Ulthran was still relatively
+young - for one of his longlived kind - when the nascent
+Imperium set out across the
+stars to begin the Great
+Crusade. A talented Seer even
+at his young age, he watched
+with eyes both envious and
+sad; Eldrad knew the empire
+humanity set forth to build
+would never again be within
+the purview of the Eldar.
+This envy and sadness soured
+to fear within a dangerously
+short time.
+Stabbing pain precluded
+visions of treachery, of brother
+turned upon brother, and a
+second race fallen prey to the
+powers of the beyond.
+Desperate to prevent this
+same ancient doom affecting
+another race, he reached to
+contact one of the Primarchs -
+only realising too late that
+Fulgrim, despite his earnest
+outward perception, was in
+fact already tainted...
+Reeling from his discovery,
+Eldrad was forced to watch
+from the sidelines as the
+Imperium turned inward
+upon itself in madness, and
+the events of the fall of his
+race were replayed again in
+another…
+32
+HQ
+Unit Composition
+● 1 Eldrad Ulthran
+Unit Type
+● Infantry
+(Asuryani, Character, Psyker, Unique)
+Wargear
+● Armour of the Last Runes
+● Shuriken Pistol
+● Witchblade
+● Plasma Grenades
+● Staff of Ulthamar
+Special Rules
+● Independent Character
+● Fleet (1)
+● Stubborn
+● Adamantium Will (2+)
+● Battle-Hardened (1)
+● Path of the Farseer
+● Path of Command
+● Runes of Warding
+● Runes of Witnessing
+● Psychic Mastery (3)
+● Warlord: Fate Reader
+M WS BS S T W I A Ld Sv
+Eldrad Ulthran 7 5 5 3 3 3 5 3 10 -
+High Farseer of Craftworld Ulthwé
+Warlord: Fate Reader
+If chosen as the army’s Warlord, Eldrad Ulthran automatically has Fate Reader as his Warlord Trait
+and may not select any other.
+If an army’s Warlord has this Trait, then at the start of the battle before any models are deployed,
+up to three units with the Infantry or Cavalry Unit Type in your army may be given the Infiltrate
+and Scout Special Rule.
+In addition, an army whose Warlord has this Trait may make an additional Reaction in any one
+Phase of the Controlling Player’s choice once per turn, as long as the Warlord has not been removed
+as a casualty.
+Armour of the Last Runes
+The Armour of the Last Runes confers a 3+ Invulnerable Save.
+Staff of Ulthamar
+The Staff of Ulthamar counts as a ‘Witch’ weapon for all rules which affect such weapons.
+Range Str AP Type
+Staff of Ulthamar - +1 2 Melee, Soul Tear, Force, Reach (1)
+Master-Crafted
+ELDRAD ULTHRAN ................................... 240POINTS
+33
+ASURYANI:
+Elites
+Guardians were the mainstay
+of Asyurani armies - militias
+raised from a Craftworld’s
+civilian population. Guardian
+Officers were veterans of
+conflicts before and after the
+Fall, though the innumerable
+dangers the Craftworlds faced
+quickly cultivated many
+battle-hardened troops.
+Inevitably, the responsibility
+of leading Guardian squads
+fell upon these most
+experienced of soldiers.
+Whether they led on foot or
+were mounted on a jetbike,
+Guardian Officers were
+afforded more individualised
+equipment both for personal
+protection from would-be
+assassins and to better
+support their squads.
+As the expansion of the
+fledgling Aspect Shrines
+continued in the centuries
+after the Fall, it was inevitable
+that many of those who trod
+the Path of the Warrior had
+previously served as Guardian
+Officers – and would do so
+again upon leaving it.
+36
+ELITES
+Unit Composition
+● 1 Guardian Officer
+Unit Type
+● Guardian Officer: Infantry
+(Asuryani, Character)
+● Skyrunner Officer: Cavalry
+(Asuryani, Antigrav, Character)
+Wargear
+● Heavy Mesh Armour
+● Shuriken Pistol
+● Chainsword
+● Plasma Grenades
+● Skyrunner Jetbike
+(Skyrunner Officer only)
+Special Rules
+● Fleet (1)
+● Guardian Officers
+● Stubborn
+Options:
+● A Guardian Officer Cadre may include:
+- Up to eight additional Guardian Officers................................................ +20 points per model
+● Any Guardian Officer may be upgraded to a:
+- Skyrunner Officer............................................................................................................ +15 points
+● Any Guardian Officer may take one of the following:
+- Shuriken Catapult .............................................................................................................+2 points
+- Flamer .................................................................................................................................+5 points
+- Fusion Gun .......................................................................................................................+10 points
+● Any Guardian Officer or Skyrunner Officer may take exchange their Chainsword for:
+- Power Weapon...................................................................................................................+5 points
+● Any Guardian Officer or Skyrunner Officer may take exchange their Shuriken Pistol for:
+- Fusion Pistol.....................................................................................................................+10 points
+● Any Guardian Officer or Skyrunner Officer may take a:
+- Forceshield ....................................................................................................................... +15 points
+M WS BS S T W I A Ld Sv
+Guardian Officer 7 5 5 3 3 2 5 2 8 4+
+0-1 GUARDIAN OFFICERCADRE ..........20POINTS
+Skyrunner Officer 18 5 5 3 3 3 5 2 8 4+
+37
+Unit Composition
+● 1 Warlock
+Unit Type
+● Warlock: Infantry (Asuryani, Psyker)
+● Warlock Skyrunner: Cavalry
+(Asuryani, Antigrav, Psyker)
+Wargear
+● Rune Armour
+● Witch Weapon
+● Shuriken Pistol
+● Plasma Grenades
+● Skyrunner Jetbike
+(Warlock Skyrunner only)
+Special Rules
+● Fleet (1)
+● Communion of Minds
+● Seer Council Retinue
+● The Runes of War
+● Chosen Warriors
+0-1 SEERCOUNCIL ......................................35POINTS
+Dedicated Transport:
+● A Seer Council composed entirely of only Warlocks may take a Wave Serpent as a
+Dedicated Transport. As a Dedicated Transport this does not use up an additional Force
+Organisation slot, but its point cost must still be paid for as part of the army.
+Options:
+● A Seer Council may include:
+- Up to 9 additional Warlocks....................................................................... +35 points per model
+● The unit may have all models in it upgraded to (the whole unit must be so upgraded):
+- Warlock Skyrunners..................................................................................... +15 points per model
+● Any Warlock may exchange their Witch Weapon for a:
+- Singing Spear.................................................................................................................... +15 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+Eldar seers were powerful
+opponents to anyone on the
+field, unleashing psychic
+blasts and seeming to change
+the laws of reality to bend to
+their will. Fearsome beyond
+doubt, rumours and rare
+pict-captures showed the
+deployment of entire units of
+seers bearing ancient weapons
+of distinct Eldar provenance -
+commonly called 'witch'
+weapons in low gothic - to
+battlezones throughout the
+galaxy.
+These Warlocks, as they
+became known, displayed
+fighting styles akin to those of
+Aspect Warriors, rumoured to
+have walked both the Path of
+the Warrior and of the Seer, to
+devastating effect. Such living
+weapons were thankfully rare
+in the early days of the
+Craftworlds, and most
+frequently used as bodyguard
+units for valuable diviners
+known as Farseers. Their
+presence was a statement of
+the importance of a conflict to
+the Eldar, and a warning of
+powerful weapons taking
+shape not yet seen by Imperial
+Commanders at the end of
+the Great Crusade...
+ELITES
+M WS BS S T W I A Ld Sv
+Warlock 7 4 4 3 3 2 5 1 8 -
+Warlock Skyrunner 18 4 4 3 3 3 5 1 8 -
+Those Eldar craftspeople who
+escaped the fall upon the
+Craftworlds found their
+talents in demand in the years
+that followed; for Aeldari
+technology had long relied
+upon the substance known as
+Wraithbone, and the
+Bonesingers were capable of
+literally singing it into shape,
+encouraging its growth into
+any shape and form they
+required.
+This skill was not without
+need on the battlefield, much
+to the sadness and reluctance
+of those who had taken the
+path of the shaper - for those
+wounds upon the battlefield
+both flesh and Wraithbone
+could be sung together,
+stitched by needles that
+threaded themselves, or hullplates bound back together
+with impossible speed as their
+craft healed under the Singer’s
+direction.
+38
+ELITES
+Unit Composition
+● 1 Bonesinger
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Rune Armour
+● Psytronome Shaper
+Special Rules
+● Fleet (1)
+● Path of the Shaper
+● Bonesinger Companions
+Options:
+● A Bonesinger Conclave may include:
+- Up to 8 additional Bonesingers..................................................................+45 points per model
+M WS BS S T W I A Ld Sv
+Bonesinger 7 4 4 3 3 1 5 1 8 -
+0-1 BONESINGERCONCLAVE ................. 45POINTS
+39
+Unit Composition
+● 4 Fire Dragons
+Unit Type
+● Infantry (Asuryani)
+Wargear
+● Heavy Aspect Armour
+● Melta Bombs
+● Fusion Gun
+● Plasma Grenades
+Special Rules
+● Aspect Shrine (Fire Dragon)
+● Fleet (1)
+● Wrecker
+FIREDRAGONS............................................. 110POINTS
+Dedicated Transport:
+● A unit of Fire Dragons may take a Wave Serpent as a Dedicated Transport. As a Dedicated
+Transport this does not use up an additional Force Organisation slot, but its point cost
+must still be paid for as part of the army.
+Options:
+● A Fire Dragons unit may include:
+- Up to 6 additional Fire Dragons ............................................................... +26 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+In Eldar myth, the Dragon is
+a creature of wanton
+destruction, laying waste to
+everything in its path in fire
+and flame. The Fire Dragon
+Aspect Shrine sought to
+embody this aspect of war, the
+all-consuming flame of their
+fusion weapons ripping
+through armor and
+fortification alike with the
+power of a star.
+Heavily armoured and toting
+ferocious firepower, the Aspect
+Warriors of the Fire Dragons
+quickly gained a place on
+many Craftworlds reeling
+from the fall of the old empire
+due to the prolific journeys of
+their founder, Fuegan.
+Seemingly tireless, Fuegan
+was witnessed across the
+galaxy destroying the
+mightiest foes who would
+snuff out the last embers of
+the Eldar people. His students
+followed in his wake, showing
+that even after the fall, the
+light of the Eldar burned
+brightly into an Age of
+Darkness.
+ELITES
+M WS BS S T W I A Ld Sv
+Fire Dragon 7 4 5 3 3 2 5 1 8 3+
