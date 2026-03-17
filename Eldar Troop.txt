@@ -1,0 +1,463 @@
+ASURYANI:
+Troops
+With the already meagre
+population of the Craftworlds
+continuing to decline and the
+Aspect Shrines in their relative
+infancy, it became necessary
+for the Aeldari to raise militia
+levies to serve as the mainstay
+of their armies. It was a
+testament to the prowess of
+the Aeldari that, despite these
+militias being ostensibly
+composed of civilians,
+Guardians proved more than
+capable of standing against
+the Craftworlds myriad
+enemies time and again.
+Guardian Defenders were the
+most common configuration
+of Guardian squad
+encountered, serving a
+battlefield role not dissimilar
+to the basic line infantry of
+humanity’s armies. Defenders
+acted in support of the more
+specialised, offensivelyfocused Aspect Warriors and
+Storm Guardians, claiming
+ground and laying down
+withering hailstorms of fire.
+Guardian Defenders
+nonetheless appeared wary of
+allowing the enemy to close
+into melee with them, always
+ready to manoeuvre to
+another position and deny
+their enemy a chance to close
+into melee.
+In addition to their standard
+armament of Shuriken
+Catapults and Plasma
+Grenades, Guardian
+Defenders regularly crewed
+heavy weapon platforms,
+acting as mobile fire-bases
+that suppressed or outright
+destroyed many a foe.
+48
+TROOPS
+Unit Composition
+● 10 Guardian Defenders
+Unit Type
+● Guardian Defender: Infantry
+(Asuryani, Line)
+● Defender Platform: Infantry
+(Asuryani, Grav-Platform)
+Wargear
+● Plasma Grenades
+● Mesh Armour
+(Guardian Defenders only)
+● Shuriken Catapult
+(Guardian Defenders only)
+● Shuriken Cannon
+(Defender Platforms only)
+Special Rules
+● Fleet (1) (Guardian Defenders only)
+● Bulky (2) (Defender Platforms only)
+Dedicated Transport:
+● A unit of Guardian Defenders numbering no more than twelve models may take a Wave
+Serpent as a Dedicated Transport. As a Dedicated Transport this does not use up an
+additional Force Organisation slot, but its points cost must still be paid for as part of the
+army.
+Options:
+● A Guardian Defender unit may include:
+- Up to 10 additional Guardian Defenders................................................... +8 points per model
+● For every ten Guardian Defenders in the unit, you may add one of the following:
+- Defender Platform.......................................................................................................... +20 points
+● Any Defender Platform in the unit may exchange its Shuriken Cannon for one of the
+following:
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+- Serpentscale Shield ........................................................................................................ +20 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Guardian Defender 7 4 4 3 3 1 5 1 7 5+
+GUARDIAN DEFENDERS ............................. 85POINTS
+Defender Platform 7 1 4 1 5 2 1 1 - 3+
+49
+Unit Composition
+● 10 Storm Guardians
+Unit Type
+● Storm Guardian: Infantry
+(Asuryani, Line)
+● Defender Platform: Infantry
+(Asuryani, Grav-Platform)
+Wargear
+● Plasma Grenades
+● Mesh Armour
+(Storm Guardians only)
+● Shuriken Pistol
+(Storm Guardians only)
+● Chainsword
+(Storm Guardians only)
+● Shuriken Cannon
+(Defender Platform only)
+Special Rules
+● Fleet (1) (Storm Guardians only)
+● Bulky (2) (Defender Platforms only)
+STORM GUARDIANS ..................................... 75POINTS
+Dedicated Transport:
+● A unit of Storm Guardians numbering no more than twelve models may take a Wave
+Serpent as a Dedicated Transport. As a Dedicated Transport this does not use up an
+additional Force Organisation slot, but its points cost must still be paid for as part of the
+army.
+Options:
+● A Storm Guardians unit may include:
+- Up to 10 additional Storm Guardians.........................................................+7 points per model
+● For every ten Storm Guardians in the unit, you may add one of the following:
+- Defender Platform.......................................................................................................... +20 points
+● Any Defender Platform in the unit may exchange its Shuriken Cannon for one of the
+following:
+- Scatter Laser.......................................................................................................................+5 points
+- Starcannon .......................................................................................................................+10 points
+- Aeldari Missile Launcher (with Sunburst, Starshot, and Starhawk Missiles) ........+10 points
+- Bright Lance ..................................................................................................................... +15 points
+- Serpentscale Shield ........................................................................................................ +20 points
+● For every five Storm Guardians in the unit, one Storm Guardian may exchange their
+Chainsword for the following:
+- Power Weapon...................................................................................................................+5 points
+● For every five Storm Guardians in the unit, one Storm Guardian may exchange their
+Chainsword and Shuriken Pistol for one of the following:
+- Flamer .................................................................................................................................+5 points
+- Fusion Gun ....................................................................................................................... +15 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+Comparatively rarer than
+Defender squads, Storm
+Defenders were called upon
+when the grim calculus of war
+required ever-conservative
+Aeldari commanders to
+nonetheless commit dedicated
+shock troops to the fiercest
+sectors of the battle.
+Appropriately, many Storm
+Guardians were drawn from
+those civilian Aeldari with
+notable experience of war, but
+who were not otherwise
+serving as officers.
+Storm Guardians forwent
+Shuriken Catapults in favour
+of pistols and close-combat
+weaponry, better suited to the
+bloody carnage of melee,
+though some were afforded
+more specialised armaments
+such as flamers and Fusion
+Blasters, apparently
+uncoupled from the rigidity of
+their Defender counterparts,
+perhaps befitting their history
+as warriors.
+TROOPS
+M WS BS S T W I A Ld Sv
+Storm Guardian 7 4 4 3 3 1 5 1 7 5+
+Defender Platform 7 1 4 1 5 2 1 1 - 3+
+Those who fought the Eldar
+during the Great Crusade
+would often speak of their
+speed and powerful weapons.
+This was embodied at most in
+their Windriders, highly
+mobile jetbike formations
+mounting powerful shuriken
+or laser weaponry. Some
+Craftworlds fielded these as
+hereditary family units, or
+‘Windrider Clans’, and were
+capable of bringing hundreds
+or even thousands of such
+vehicles on to bear on the field
+at a time.
+Only the small populations of
+post-fall craftworlds kept
+these formations from
+overwhelming Imperial
+outposts and agri-worlds
+unchallenged. Imperial
+commanders frequently had
+to call in aerial assets or
+Legiones Astartes forces to
+hunt down Eldar Windriders,
+so manoeuvrable were they.
+50
+TROOPS
+Unit Composition
+● 3 Windriders
+Unit Type
+● Cavalry (Asuryani, Antigrav)
+Wargear
+● Heavy Mesh Armour
+● Skyrunner Jetbike
+● Plasma Grenades
+Special Rules
+● Support Squad
+● Fleet (2)
+● Firing Protocols (2)
+● Hit & Run
+● Hammer of Wrath (1)
+● Relentless
+● Battle-Hardened (1)
+● Shrouded (5+)
+● Deep Strike
+Options:
+● A Windrider unit may include:
+- Up to 7 additional Windriders ...................................................................+25 points per model
+● Any model in the unit may replace its Skyrunner Jetbike’s Twin-Linked Shuriken Catapult
+with one of the following:
+- Shuriken Cannon ..............................................................................................................+5 points
+- Scatter Laser.....................................................................................................................+10 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Windrider 18 4 4 3 3 2 5 1 7 4+
+WINDRIDERS.................................................. 80POINTS
+51
+Unit Composition
+● 4 Dire Avengers
+Unit Type
+● Infantry (Asuryani, Line)
+Wargear
+● Aspect Armour
+● Plasma Grenades
+● Avenger Catapult
+● Augury Scanner
+Special Rules
+● Aspect Shrine (Dire Avenger)
+● Fleet (1)
+● Flexible Tactics
+DIREAVENGERS ........................................... 80POINTS
+Dedicated Transport:
+● A unit of Dire Avengers may take a Wave Serpent as a Dedicated Transport. As a Dedicated
+Transport this does not use up an additional Force Organisation slot, but its points cost
+must still be paid for as part of the army.
+Options:
+● A Dire Avengers unit may include:
+- Up to 6 additional Dire Avengers...............................................................+18 points per model
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+The Dire Avengers were the
+first among the nascent
+Aspect Shrines, as well as the
+most common, for Asurmen
+founded more Shrines on
+more Craftworlds than any
+other Phoenix Lord. They
+were regarded as the
+protectors and the avengers of
+their Craftworlds; the
+representation of Khaine as a
+noble warrior.
+They were the least specialised
+of the Aspect Warriors,
+affording them greater
+tactical flexibility in their role
+as elite ranged infantry, often
+acting in support of Guardian
+squads at the heart of a
+conflict – rapidly shifting
+between offensive and defence
+tactics as necessary, for they
+possessed a seemingly
+preternatural ability to read
+the ebb and flow of battle.
+While the Shuriken Catapult
+was a firearm synonymous
+with the Asuryani, the Dire
+Avengers were deemed the
+masters of its use – its
+wielding an art-form.
+Although numerous variants
+existed, the more
+sophisticated Avenger-pattern
+was unique to these Aspect
+Warriors. Although the Dire
+Avengers eschewed the
+carnage of melee, they were
+no less deadly for it, as all
+carried ceremonial knives as a
+weapon of last resort.
+TROOPS
+M WS BS S T W I A Ld Sv
+Dire Avengers 7 4 4 3 3 2 5 2 8 4+
+The foundation of the
+Asuryani is the Path. The path
+is not just a synonym for
+profession; far more than
+simply that, it embodies a
+series of restrictions and
+guides that work with the
+Eldar mind to contain its
+power and psychic abilities,
+channelling them into a
+productive and effective state.
+Even in the early days of the
+Craftworlds, perhaps
+especially so, there were many
+who found this restrictive
+framework chaffing. With the
+empire fallen, the navy
+scattered, and the Exodites
+quietly isolating themselves,
+the Craftworlds became a
+major way-point for these
+roving wanderers in their
+travels throughout the galaxy.
+To protect themselves in their
+journeys, these Rangers
+frequently carried Long-Rifles,
+to stop threats before they
+were detected, and purchased
+as much with vital
+information as they did with
+relics of a bygone era brought
+to the last cradles of their
+people. In time most of these
+wayfarers would find a home
+and settle into a path of their
+choosing, but in the
+meantime, their welcomes
+had to be kept short so as to
+not draw the eye of the ever
+hungry malignity of She Who
+Thirsts.
+52
+TROOPS
+Unit Composition
+● 5 Rangers
+Unit Type
+● Infantry (Asuryani, Skirmish, Line)
+Wargear
+● Mesh Armour
+● Outcast Cloaks
+● Ranger Long-Rifle
+● Shuriken Pistol
+● Plasma Grenades
+Special Rules
+● Fleet (1)
+● Scout
+● Infiltrate
+● Move Through Cover
+● Support Squad
+Options:
+● A Ranger unit may include:
+- Up to 5 additional Rangers......................................................................... +20 points per model
+● One model in the unit may take a:
+- Wireweave Net...................................................................................................................+5 points
+● One model in the unit may take a:
+- Gloom Field...................................................................................................................... +15 points
+● One model in the unit may take a:
+- Craftworld Standard .......................................................................................................+10 points
+● One model in the unit may take a:
+- Augury Scanner ...............................................................................................................+10 points
+● One model in the unit may take a:
+- Comm-Bead .....................................................................................................................+10 points
+M WS BS S T W I A Ld Sv
+Ranger 8 4 4 3 3 1 5 1 7 5+
+RANGERS ......................................................... 105POINTS
+53
+Unit Composition
+● 1 Wave Serpent
+Unit Type
+● Vehicle (Asuryani, Transport,
+Skimmer, Fast)
+Wargear
+● Turret Mounted Gravis
+Shuriken Cannon
+● Hull (Front) Mounted Twin-Linked
+Shuriken Catapult
+● Wave Serpent Shield
+WAVE SERPENT.............................................125POINTS
+Access Points:
+● A Wave Serpent has one access point on its rear.
+Options:
+● A Wave Serpent may exchange its Hull (Front) Mounted Twin-Linked Shuriken Catapult
+for a:
+- Hull (Front) Mounted Shuriken Cannon ....................................................................+10 points
+● A Wave Serpent may exchange its Turret Mounted Gravis Shuriken Cannon for one of the
+following:
+- Turret Mounted Gravis Scatter Laser ............................................................................+5 points
+- Turret Mounted Gravis Starcannon.............................................................................+10 points
+- Turret Mounted Twin-Linked Aeldari Missile Launcher
+(with Sunburst, Starshot, and Starhawk Missiles) .....................................................+10 points
+- Turret Mounted Gravis Bright Lance.......................................................................... +20 points
+● A Wave Serpent may take one of the following:
+- Star Engines...................................................................................................................... +15 points
+- Vectored Engines............................................................................................................. +15 points
+● A Wave Serpent may take any of the following:
+- Searchlights ........................................................................................................................+5 points
+- Spirit Stones .....................................................................................................................+10 points
+- Holo-Fields ...................................................................................................................... +20 points
+- Crystal Targeting Matrix............................................................................................... +20 points
+The Wave Serpent was one of
+the more common forms of
+transport available to the
+Asuryani. Being both fast and
+capable of traversing the
+majority of gates in the
+webway network, the Wave
+Serpent traded much of the
+firepower seen in similar
+vehicles for approximately
+twice the transport bay. While
+this in and of itself was
+undoubtedly of great use to
+the early Craftworlds, the
+lower energy requirements
+also allowed it to mount a
+potent energy shield known as
+the Serpent Shield, and it was
+from this vehicle drew its
+name.
+The Serpent was a guardian
+figure in Eldar mythology, as
+well as a deadly creature. The
+Serpent Shield embodies this
+duality, both reducing the
+impact of incoming fire and
+storing the kinetic energy of
+attacks to unleash in a
+terrifying wave known as a
+Serpent Strike. While this
+discharge frequently disabled
+the system for a short time,
+the effect was noted to pin
+entrenched forces to their
+fortifications or knock down
+those in the open field. This
+provided openings for the
+Eldar warriors inside to
+disembark and strike
+unopposed.
+DEDICATED
+TRANSPORT
+Armour Transport
+M BS Front Side Rear HP Capacity
+Wave Serpent 12 4 12 12 10 3 14
