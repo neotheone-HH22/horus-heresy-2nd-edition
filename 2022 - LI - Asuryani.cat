@@ -3654,6 +3654,11 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="e1da-dp03-el-kd01" name="Khaine's Destrier" hidden="false" collective="false" import="true" targetId="e1da-dp03-gear-kd01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1da-dp03-cn-kd01" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3712,6 +3717,8 @@
         <infoLink id="05fd-bf95-3352-8685" name="Crack Shot" hidden="false" targetId="66f1-2258-298b-2cac" type="rule" />
         <infoLink id="7c68-5919-5239-ab5f" name="Split Fire" hidden="false" targetId="dea8-564e-9d1b-c685" type="rule" />
         <infoLink id="d66f-a212-4690-3784" name="Wrecker" hidden="false" targetId="843a-7c1d-abb1-fc24" type="rule" />
+        <infoLink id="e1da-dp04-il-dm01" name="Dragon of Myth" hidden="false" targetId="e1da-dp04-rule-dm01" type="rule" />
+        <infoLink id="e1da-dp04-il-ur01" name="Unquenchable Resolve" hidden="false" targetId="e1da-dp04-rule-ur01" type="rule" />
       <infoLink id="b218-e153-5053-495a" name="Melta Bomb" hidden="false" targetId="7d22-0b7a-87f2-e694" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5cb48641-4ac2-4a26-9329" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -3792,6 +3799,7 @@
             <modifier type="set" field="name" value="Shrouded (4+)" />
           </modifiers>
         </infoLink>
+        <infoLink id="e1da-dp05-il-dt01" name="Dawn of Twilight" hidden="false" targetId="e1da-dp05-rule-dt01" type="rule" />
       <infoLink id="f038-8d59-a158-4832" name="Haywire Grenade" hidden="false" targetId="0f92-e17c-2f0d-9bbe" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6224e1ae-bdb9-4461-a1c5" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -3957,6 +3965,7 @@
         </infoLink>
         <infoLink id="9626-1c0e-cdb3-54a8" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule" />
         <infoLink id="84c3-e161-b312-63cb" name="Inescapable Accuracy" hidden="false" targetId="6365-c9ce-9713-cc64" type="rule" />
+        <infoLink id="e1da-dp07-il-wd01" name="Whirlwind of Death" hidden="false" targetId="e1da-dp07-rule-wd01" type="rule" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="56f32d18-4349-4322-b983" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -4032,6 +4041,8 @@
           </modifiers>
         </infoLink>
         <infoLink id="db4e-e80d-f523-2d27" name="War Shout" hidden="false" targetId="1f62-3bb4-97bf-a767" type="rule" />
+        <infoLink id="e1da-dp08-il-ac01" name="Acrobatic" hidden="false" targetId="e1da-dp08-rule-ac01" type="rule" />
+        <infoLink id="e1da-dp08-il-ds01" name="Disarming Strike" hidden="false" targetId="e1da-dp08-rule-ds01" type="rule" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0d75f760-3044-4b06-97d7" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -4044,6 +4055,11 @@
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e1da-dp08-el-tl01" name="Terror's Lament" hidden="false" collective="false" import="true" targetId="e1da-dp08-gear-tl01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1da-dp08-cn-tl01" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
