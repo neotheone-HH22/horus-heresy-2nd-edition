@@ -1806,7 +1806,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="e499-d4d3-738a-c787" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
-      <infoLink id="f06f-da62-6525-4b3c" name="Laser Lance (Ranged)" hidden="false" targetId="8561-b798-e3a5-cc38" type="profile" /><infoLink id="996e-4d89-3caa-494e" name="Laser Lance (Melee)" hidden="false" targetId="f9a9-b3df-bc22-4409" type="profile" /><infoLink id="1e44-711e-db1b-41b6" name="Shuriken Pistol" hidden="false" targetId="fcda-c30c-0ab4-e89c" type="profile" /><infoLink id="ab96-e8a4-871e-46cf" name="Shuriken Catapult" hidden="false" targetId="9b1f-a979-378e-4d43" type="profile" /></infoLinks>
+      <infoLink id="f06f-da62-6525-4b3c" name="Laser Lance (Ranged)" hidden="false" targetId="8561-b798-e3a5-cc38" type="profile" /><infoLink id="996e-4d89-3caa-494e" name="Laser Lance (Melee)" hidden="false" targetId="f9a9-b3df-bc22-4409" type="profile" /><infoLink id="1e44-711e-db1b-41b6" name="Shuriken Pistol" hidden="false" targetId="fcda-c30c-0ab4-e89c" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ea8e7712-cdfa-4a6c-b051" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -1841,6 +1841,38 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ss01-ws01-0001-0001" name="May exchange Skyrunner Jetbike's Twin-Linked Shuriken Catapult for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ss01-ws01-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ss01-ws01-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ss01-ws01-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ss01-ws01-def0-0001" name="Shuriken Catapult" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ss01-ws01-il01-0001" name="Shuriken Catapult" hidden="false" targetId="9b1f-a979-378e-4d43" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ss01-ws01-opt1-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ss01-ws01-il02-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ss01-ws01-opt2-0001" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ss01-ws01-il03-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -2130,7 +2162,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="ab9f-e16f-8b85-e5b9" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
-      <infoLink id="e7f9-5634-2a33-4a70" name="Shuriken Catapult" hidden="false" targetId="9b1f-a979-378e-4d43" type="profile" /><infoLink id="3060-7d3d-9c6b-4577" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /></infoLinks>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="eeb8d05c-1ea3-47d7-8313" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -2165,6 +2197,80 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vyp1-ws01-0001-0001" name="May exchange Vyper Jetbike's Twin-Linked Shuriken Catapult for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="vyp1-ws01-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vyp1-ws01-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vyp1-ws01-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="vyp1-ws01-def0-0001" name="Shuriken Catapult" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws01-il01-0001" name="Shuriken Catapult" hidden="false" targetId="9b1f-a979-378e-4d43" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vyp1-ws01-opt1-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws01-il02-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="vyp1-ws02-0001-0001" name="May exchange Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="vyp1-ws02-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vyp1-ws02-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vyp1-ws02-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="vyp1-ws02-def0-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws02-il01-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vyp1-ws02-opt1-0001" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws02-il02-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vyp1-ws02-opt2-0001" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws02-il03-0001" name="Starcannon" hidden="false" targetId="9f69-a068-8ec6-98b1" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vyp1-ws02-opt3-0001" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws02-il04-0001" name="Aeldari Missile Launcher - Sunburst" hidden="false" targetId="78cb-5d12-1034-a5c1" type="profile" />
+                <infoLink id="vyp1-ws02-il05-0001" name="Aeldari Missile Launcher - Starshot" hidden="false" targetId="7c78-8ffd-62d3-d2c0" type="profile" />
+                <infoLink id="vyp1-ws02-il06-0001" name="Aeldari Missile Launcher - Starhawk" hidden="false" targetId="8280-5fc6-a132-706e" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="vyp1-ws02-opt4-0001" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="vyp1-ws02-il07-0001" name="Bright Lance" hidden="false" targetId="8f1d-de4d-2b34-cae8" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -2280,10 +2386,52 @@
         </infoLink>
         <infoLink id="7c9b-12b0-7394-600e" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
         <infoLink id="e1da-fa01-0008-hf01" name="Holo-Fields" hidden="false" targetId="b2c3-d4e5-f6a7-8901" type="rule" />
-      <infoLink id="7241-079d-438b-40ce" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /><infoLink id="31a7-58ca-8421-42fb" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" /></infoLinks>
+      <infoLink id="7241-079d-438b-40ce" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="90abe3ee-77ce-423f-8539" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks></entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="nw01-ws01-0001-0001" name="May exchange Two Hull (Front) Mounted Scatter Lasers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="nw01-ws01-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="nw01-ws01-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="nw01-ws01-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="nw01-ws01-def0-0001" name="Two Scatter Lasers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="nw01-ws01-il01-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="nw01-ws01-opt1-0001" name="Two Starcannons" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="nw01-ws01-il02-0001" name="Starcannon" hidden="false" targetId="9f69-a068-8ec6-98b1" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="nw01-ws01-opt2-0001" name="Two Aeldari Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="nw01-ws01-il03-0001" name="Aeldari Missile Launcher - Sunburst" hidden="false" targetId="78cb-5d12-1034-a5c1" type="profile" />
+                <infoLink id="nw01-ws01-il04-0001" name="Aeldari Missile Launcher - Starshot" hidden="false" targetId="7c78-8ffd-62d3-d2c0" type="profile" />
+                <infoLink id="nw01-ws01-il05-0001" name="Aeldari Missile Launcher - Starhawk" hidden="false" targetId="8280-5fc6-a132-706e" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="nw01-ws01-opt3-0001" name="Two Bright Lances" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="nw01-ws01-il06-0001" name="Bright Lance" hidden="false" targetId="8f1d-de4d-2b34-cae8" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -2336,7 +2484,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="f527-6bed-a002-3a53" name="Strafing Run (X)" hidden="false" targetId="6b78-4ec2-3604-78a3" type="rule" />
-      <infoLink id="f2e9-b6f3-2ff9-4e4a" name="Pulse Laser" hidden="false" targetId="a0f6-ba16-0c68-f7ac" type="profile" /><infoLink id="c7fb-40b6-2494-445c" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /><infoLink id="290a-d1fb-a63c-4fb9" name="Phoenix Missile Launcher" hidden="false" targetId="405f-1878-7650-0c10" type="profile" /></infoLinks>
+      <infoLink id="c7fb-40b6-2494-445c" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="58e9d67f-76ce-47a0-824b" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -2346,6 +2494,62 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="phx1-ws01-0001-0001" name="May exchange Hull (Front) Mounted Pulse Laser for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="phx1-ws01-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="phx1-ws01-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="phx1-ws01-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="phx1-ws01-def0-0001" name="Pulse Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="phx1-ws01-il01-0001" name="Pulse Laser" hidden="false" targetId="a0f6-ba16-0c68-f7ac" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="phx1-ws01-opt1-0001" name="Gravis Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="phx1-ws01-il02-0001" name="Gravis Starcannon" hidden="false" targetId="1301-5b1c-05eb-f1b3" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="phx1-ws01-opt2-0001" name="Gravis Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="phx1-ws01-il03-0001" name="Gravis Bright Lance" hidden="false" targetId="ae67-0939-a6c2-f4a7" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="phx1-ws02-0001-0001" name="May exchange Two Hull (Front) Mounted Phoenix Missile Launchers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="phx1-ws02-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="phx1-ws02-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="phx1-ws02-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="phx1-ws02-def0-0001" name="Phoenix Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="phx1-ws02-il01-0001" name="Phoenix Missile Launcher" hidden="false" targetId="405f-1878-7650-0c10" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="phx1-ws02-opt1-0001" name="Nightfire Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="phx1-ws02-il02-0001" name="Nightfire Missile Launcher" hidden="false" targetId="a556-fa97-3c03-0428" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -4616,7 +4820,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="62a7-6da5-b3e1-3cb4" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
-      <infoLink id="f5a1-424d-279a-4808" name="Star Bolas" hidden="false" targetId="7333-fde8-dd80-6f82" type="profile" /><infoLink id="c8bb-1a7e-e064-4150" name="Shuriken Pistol" hidden="false" targetId="fcda-c30c-0ab4-e89c" type="profile" /><infoLink id="1d03-8890-adac-4636" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /></infoLinks>
+      <infoLink id="c8bb-1a7e-e064-4150" name="Shuriken Pistol" hidden="false" targetId="fcda-c30c-0ab4-e89c" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="47bbd380-e89c-4441-ac04" name="Aeldari Wargear" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -4641,6 +4845,54 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="skw1-ws01-0001-0001" name="May exchange Skyweaver Jetbike's Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="skw1-ws01-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skw1-ws01-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skw1-ws01-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="skw1-ws01-def0-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="skw1-ws01-il01-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="skw1-ws01-opt1-0001" name="Haywire Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="skw1-ws01-il02-0001" name="Haywire Cannon" hidden="false" targetId="8d6a-1f9d-5f06-9e92" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="skw1-ws02-0001-0001" name="May exchange Star Bolas for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="skw1-ws02-def0-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skw1-ws02-con1-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="skw1-ws02-con2-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="skw1-ws02-def0-0001" name="Star Bolas" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="skw1-ws02-il01-0001" name="Star Bolas" hidden="false" targetId="7333-fde8-dd80-6f82" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="skw1-ws02-opt1-0001" name="Zephyrglaive" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="skw1-ws02-il02-0001" name="Zephyrglaive" hidden="false" targetId="252f-04ac-8848-3802" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
