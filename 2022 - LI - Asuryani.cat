@@ -1971,11 +1971,17 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51efaa56-a73e-4da3-9200" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="b5279cca-bdd5-4c66-9169" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
               <constraints>
@@ -1986,6 +1992,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
             </entryLink>
             <entryLink id="da01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
