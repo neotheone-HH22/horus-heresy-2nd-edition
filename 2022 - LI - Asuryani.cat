@@ -1595,6 +1595,11 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="a1b2c3d4-0001-4fa1-b001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2c3d4-0001-4fa1-c001" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c89f075-a2f8-4fc5-8314" type="max"/>
@@ -1684,6 +1689,11 @@
             <entryLink id="b5279cca-bdd5-4c66-9169" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a1b2c3d4-0002-4fa2-b002" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2c3d4-0002-4fa2-c002" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
@@ -1790,6 +1800,11 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="a1b2c3d4-0003-4fa3-b003" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2c3d4-0003-4fa3-c003" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c89f075-a2f8-4fc5-8314" type="max"/>
@@ -1875,6 +1890,11 @@
             <entryLink id="b5279cca-bdd5-4c66-9169" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a1b2c3d4-0004-4fa4-b004" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2c3d4-0004-4fa4-c004" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
@@ -1980,6 +2000,11 @@
             <entryLink id="b5279cca-bdd5-4c66-9169" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31bd768-8d16-47c5-9437" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a1b2c3d4-0005-4fa5-b005" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2c3d4-0005-4fa5-c005" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="76db320e-d8ee-449c-8740" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
@@ -2171,6 +2196,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink id="d139-d41f-8cca-3e4d" name="Vector Dancer" hidden="false" targetId="2e9b-e607-a052-27a8" type="rule" />
+        <infoLink id="e1da-fa01-0007-ag01" name="Agile" hidden="false" targetId="a1b2-c3d4-e5f6-7890" type="rule" />
         <infoLink id="34fc-4f6f-75cf-902f" name="Shrouded (X)" hidden="false" targetId="10c3-fdb0-089f-ca65" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shrouded (5+)" />
@@ -2231,12 +2257,14 @@
       </categoryLinks>
       <infoLinks>
         <infoLink id="5866-fd7b-cbea-eb66" name="Vector Dancer" hidden="false" targetId="2e9b-e607-a052-27a8" type="rule" />
+        <infoLink id="e1da-fa01-0008-ag01" name="Agile" hidden="false" targetId="a1b2-c3d4-e5f6-7890" type="rule" />
         <infoLink id="5442-580d-8547-76e8" name="Shrouded (X)" hidden="false" targetId="10c3-fdb0-089f-ca65" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shrouded (6+)" />
           </modifiers>
         </infoLink>
         <infoLink id="7c9b-12b0-7394-600e" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
+        <infoLink id="e1da-fa01-0008-hf01" name="Holo-Fields" hidden="false" targetId="b2c3-d4e5-f6a7-8901" type="rule" />
       <infoLink id="7241-079d-438b-40ce" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" /><infoLink id="31a7-58ca-8421-42fb" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" /></infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="90abe3ee-77ce-423f-8539" name="Aeldari Wargear" hidden="false" collective="false" import="true">
@@ -2285,6 +2313,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink id="7a33-7a3a-df56-ab01" name="Vector Dancer" hidden="false" targetId="2e9b-e607-a052-27a8" type="rule" />
+        <infoLink id="e1da-fa01-0009-ag01" name="Agile" hidden="false" targetId="a1b2-c3d4-e5f6-7890" type="rule" />
         <infoLink id="139e-07e5-75d0-9f5c" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule" />
         <infoLink id="fc12-f86f-3771-bf24" name="Shrouded (X)" hidden="false" targetId="10c3-fdb0-089f-ca65" type="rule">
           <modifiers>
@@ -4834,6 +4863,9 @@
     </entryLink>
   </entryLinks>
   <sharedRules>
+    <rule id="a1b2-c3d4-e5f6-7890" name="Agile" hidden="false">
+      <description>A model with this Special Rule may re-roll failed Shrouded Damage Mitigation rolls.</description>
+    </rule>
     <rule id="ad54-ff37-4299-0586" name="Aspect Shrine (X)" hidden="false">
       <description>The budding Aspect Shrines were a facet of the paths of which the
 Aeldari walked, a discipline of which one dedicated themselves to - at
@@ -5297,6 +5329,9 @@ Cover Save for models obscured by it. In addition, any Wounds
 inflicted by attacks with the Blast special rule targeting a model
 that claims a Cover Save due to a model with this Special Rule
 must be re-rolled.</description>
+    </rule>
+    <rule id="b2c3-d4e5-f6a7-8901" name="Holo-Fields" hidden="false">
+      <description>A model equipped with Holo-Fields has a 5+ Invulnerable Save against Shooting Attacks, unless it is Immobilised.</description>
     </rule>
     <rule id="6365-c9ce-9713-cc64" name="Inescapable Accuracy" hidden="false">
       <description>Completely at one with their weapon, these warriors entered a killing
@@ -6823,6 +6858,12 @@ Damage is altered to resolve at AP2.</description>
       <comment>Banner with morale bonuses</comment>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7c8d3e1-9a2b-4c5d-b6e0" name="Comm-Bead" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Re-roll Scatter rolls and ignore Night Fighting Leadership penalty</comment>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
       </costs>
     </selectionEntry>
     <selectionEntry id="4292a33c-40cd-49ec-a8f1" name="Crystal Targeting Matrix" hidden="false" collective="false" import="true" type="upgrade">
