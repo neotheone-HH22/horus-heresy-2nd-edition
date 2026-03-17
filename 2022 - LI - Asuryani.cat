@@ -7521,7 +7521,7 @@ In addition, the Controlling Player may choose to have a model with Plasma Grena
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Raptor Jetbike has a Scatter Laser.
 In addition, a model with a Raptor Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
-Any model equipped with a Raptor Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes it Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (3), Hit &amp; Run, Hammer of Wrath (1), Relentless, Scout, Infiltrate, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+Any model equipped with a Raptor Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (3), Hit &amp; Run, Hammer of Wrath (1), Relentless, Scout, Infiltrate, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7634,7 +7634,7 @@ Any model equipped with a Skyrunner Jetbike must change its Unit Type to Cavalry
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Skyweaver Jetbike has a Shuriken Cannon.
 In addition, a model with a Skyweaver Jetbike may choose to move up to their unmodified Initiative Characteristic at the start of the Controlling Player's Charge Sub-Phase. A model that chooses to do so may not declare a Charge.
-Any model equipped with a Skyweaver Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes it Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (1), Relentless, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
+Any model equipped with a Skyweaver Jetbike must change its Unit Type to Cavalry (Antigrav) (keeping any other Unit Sub-types it previously had) changes its Movement Characteristic to 18, and gains the Fleet (2), Firing Protocols (2), Hit &amp; Run, Hammer of Wrath (1), Relentless, Battle-Hardened (1), Shrouded (5+), and Deep Strike Special Rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
