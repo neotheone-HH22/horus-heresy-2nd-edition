@@ -1128,9 +1128,9 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="48350a25-6a71-4a11-ba4f" name="Serpentscale Shield" hidden="false" collective="false" import="true" targetId="abb89d59-789c-4ef7-86d4" type="selectionEntry">
+            <entryLink id="gd01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005c186c-4ffd-40f7-aa51" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gd01-cb01-con1-0001" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1162,6 +1162,99 @@
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e1da-tr01-0000-0001-m02" name="Defender Platform" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="increment" field="e1da-tr01-0000-0001-m02-c2" value="1">
+              <repeats>
+                <repeat field="selections" scope="e1da-tr01-0000-0001" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-tr01-0000-0001-m01" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Defender Platform" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0001-m02-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Grav-Platform)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">1</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">1</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">1</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">-</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="gd01-ws01-0001-0001" name="May exchange Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="gd01-ws01-def0-0001">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gd01-ws01-con1-0001" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="gd01-ws01-con2-0001" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="gd01-ws01-def0-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="gd01-ws01-il01-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="gd01-ws01-opt1-0001" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="gd01-ws01-il02-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="gd01-ws01-opt2-0001" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="gd01-ws01-il03-0001" name="Starcannon" hidden="false" targetId="9f69-a068-8ec6-98b1" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="gd01-ws01-opt3-0001" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="gd01-ws01-il04-0001" name="Aeldari Missile Launcher - Sunburst" hidden="false" targetId="78cb-5d12-1034-a5c1" type="profile" />
+                    <infoLink id="gd01-ws01-il05-0001" name="Aeldari Missile Launcher - Starshot" hidden="false" targetId="7c78-8ffd-62d3-d2c0" type="profile" />
+                    <infoLink id="gd01-ws01-il06-0001" name="Aeldari Missile Launcher - Starhawk" hidden="false" targetId="8280-5fc6-a132-706e" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="gd01-ws01-opt4-0001" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="gd01-ws01-il07-0001" name="Bright Lance" hidden="false" targetId="8f1d-de4d-2b34-cae8" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="gd01-ws01-opt5-0001" name="Serpentscale Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="gd01-ws01-el01-0001" name="Serpentscale Shield" hidden="false" collective="false" import="true" targetId="abb89d59-789c-4ef7-86d4" type="selectionEntry" />
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-m02-c1" />
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0001-m02-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1213,12 +1306,64 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="48350a25-6a71-4a11-ba4f" name="Serpentscale Shield" hidden="false" collective="false" import="true" targetId="abb89d59-789c-4ef7-86d4" type="selectionEntry">
+            <entryLink id="sg01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005c186c-4ffd-40f7-aa51" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sg01-cb01-con1-0001" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="sg01-ws01-0001-0001" name="May exchange Chainsword for:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="sg01-ws01-con1-0001" value="1">
+              <repeats>
+                <repeat field="selections" scope="e1da-tr01-0000-0002" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-tr01-0000-0002-m01" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sg01-ws01-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="sg01-ws01-opt1-0001" name="Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="sg01-ws01-el01-0001" name="Power Weapon" hidden="false" collective="false" import="true" targetId="5ff5-48c0-b9f1-5a05" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="sg01-ws02-0001-0001" name="May exchange Chainsword and Shuriken Pistol for:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="sg01-ws02-con1-0001" value="1">
+              <repeats>
+                <repeat field="selections" scope="e1da-tr01-0000-0002" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-tr01-0000-0002-m01" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sg01-ws02-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="sg01-ws02-opt1-0001" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="sg01-ws02-il01-0001" name="Flamer" hidden="false" targetId="f8fe-834e-abce-8586" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="sg01-ws02-opt2-0001" name="Fusion Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="sg01-ws02-il02-0001" name="Fusion Gun" hidden="false" targetId="d09d-f173-1531-bf81" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -1247,6 +1392,99 @@
           </constraints>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="7" />
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e1da-tr01-0000-0002-m02" name="Defender Platform" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="increment" field="e1da-tr01-0000-0002-m02-c2" value="1">
+              <repeats>
+                <repeat field="selections" scope="e1da-tr01-0000-0002" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1da-tr01-0000-0002-m01" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Defender Platform" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit" hidden="false" id="e1da-tr01-0000-0002-m02-p1">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Asuryani, Grav-Platform)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">1</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">1</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">1</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">-</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="sg01-dp01-0001-0001" name="May exchange Shuriken Cannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="sg01-dp01-def0-0001">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sg01-dp01-con1-0001" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sg01-dp01-con2-0001" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="sg01-dp01-def0-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="sg01-dp01-il01-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="sg01-dp01-opt1-0001" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="sg01-dp01-il02-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="sg01-dp01-opt2-0001" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="sg01-dp01-il03-0001" name="Starcannon" hidden="false" targetId="9f69-a068-8ec6-98b1" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="sg01-dp01-opt3-0001" name="Aeldari Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="sg01-dp01-il04-0001" name="Aeldari Missile Launcher - Sunburst" hidden="false" targetId="78cb-5d12-1034-a5c1" type="profile" />
+                    <infoLink id="sg01-dp01-il05-0001" name="Aeldari Missile Launcher - Starshot" hidden="false" targetId="7c78-8ffd-62d3-d2c0" type="profile" />
+                    <infoLink id="sg01-dp01-il06-0001" name="Aeldari Missile Launcher - Starhawk" hidden="false" targetId="8280-5fc6-a132-706e" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="sg01-dp01-opt4-0001" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="sg01-dp01-il07-0001" name="Bright Lance" hidden="false" targetId="8f1d-de4d-2b34-cae8" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="sg01-dp01-opt5-0001" name="Serpentscale Shield" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="sg01-dp01-el01-0001" name="Serpentscale Shield" hidden="false" collective="false" import="true" targetId="abb89d59-789c-4ef7-86d4" type="selectionEntry" />
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-m02-c1" />
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e1da-tr01-0000-0002-m02-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1316,7 +1554,35 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ca4d4a-d702-42ef-b018" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="wr01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wr01-cb01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="wr01-ws01-0001-0001" name="May replace Twin-Linked Shuriken Catapult with:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wr01-ws01-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="wr01-ws01-opt1-0001" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="wr01-ws01-il01-0001" name="Shuriken Cannon" hidden="false" targetId="a5e4-1605-3a74-7f7f" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="wr01-ws01-opt2-0001" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="wr01-ws01-il02-0001" name="Scatter Laser" hidden="false" targetId="67de-0483-7fcf-ed62" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
@@ -1396,6 +1662,11 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="da01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da01-cb01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1467,6 +1738,31 @@
             <entryLink id="ce2a3288-d597-4bf7-8095" name="Plasma Grenades" hidden="false" collective="false" import="true" targetId="9ac83887-2db3-4d68-b36c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22afca1-50b4-4bdb-8628" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="rn01-wn01-0000-0001" name="Wireweave Net" hidden="false" collective="false" import="true" targetId="23f7fe64-4e64-4395-903e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rn01-wn01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="rn01-gf01-0000-0001" name="Gloom Field" hidden="false" collective="false" import="true" targetId="d070e7dd-8e2d-468f-aa01" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rn01-gf01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="rn01-cs01-0000-0001" name="Craftworld Standard" hidden="false" collective="false" import="true" targetId="72fdd5d1-f531-4d79-95d3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rn01-cs01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="rn01-as01-0000-0001" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="61a97fd9-ba08-4102-8f30" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rn01-as01-con1-0001" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="rn01-cb01-0000-0001" name="Comm-Bead" hidden="false" collective="false" import="true" targetId="f7c8d3e1-9a2b-4c5d-b6e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="rn01-cb01-con1-0001" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -4747,6 +5043,90 @@
               </constraints>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tp01-ws01-0001-0001" name="Any model may exchange Shuriken Pistol for:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tp01-ws01-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tp01-ws01-opt1-0001" name="Neuro Disruptor" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws01-il01-0001" name="Neuro Disruptor" hidden="false" targetId="077b-1852-fc5d-44ac" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="tp01-ws01-opt2-0001" name="Fusion Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws01-il02-0001" name="Fusion Pistol" hidden="false" targetId="128b-2d45-7aad-9b35" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tp01-ws02-0001-0001" name="Any model may exchange Power Sword for:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tp01-ws02-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tp01-ws02-opt1-0001" name="Harlequin's Kiss" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws02-il01-0001" name="Harlequin's Kiss" hidden="false" targetId="2947-f63c-29c7-416a" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="tp01-ws02-opt2-0001" name="Harlequin's Embrace" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws02-il02-0001" name="Harlequin's Embrace" hidden="false" targetId="fabf-5f7b-f012-384b" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="tp01-ws02-opt3-0001" name="Harlequin's Caress" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws02-il03-0001" name="Harlequin's Caress" hidden="false" targetId="f809-e7e5-37ad-6d75" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tp01-ws03-0001-0001" name="Lead Player may exchange Power Sword for:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tp01-ws03-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tp01-ws03-opt1-0001" name="Harlequin's Edge" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws03-il01-0001" name="Harlequin's Edge" hidden="false" targetId="a306-8efb-d6f9-39a9" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tp01-ws04-0001-0001" name="Lead Player may take:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tp01-ws04-con1-0001" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tp01-ws04-opt1-0001" name="Haywire Grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="tp01-ws04-il01-0001" name="Haywire Grenade" hidden="false" targetId="0f92-e17c-2f0d-9bbe" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
 
