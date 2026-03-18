@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="orks-main-0000-0001" name="LI - Orks" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="130" type="catalogue">
+  <readme>Orks (Xenos) faction for Horus Heresy 2.0. Based on Xenologica 2e - Waaaaagh! The Orks! (v2.2).
+
+Faction: Xenos, Orks sub-faction
+
+Alliance Levels:
+- Sworn Brothers: None
+- Fellow Warriors: None
+- Distrusted Allies: Agents of the Warmaster, Legiones Astartes, Imperial Army, unlisted Xenos
+- By the Emperor's Order: Agents of the Imperium, Mechanicum, Daemons of the Ruinstorm, T'au Empire, Leagues of Votann
+
+Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks, Stubborn within 12" of Orks units)</readme>
+
+  <categoryEntries>
+    <categoryEntry id="orks-cat0-0001-0001" name="Orks Sub-type" hidden="false" />
+  </categoryEntries>
+
+  <selectionEntries>
+  </selectionEntries>
+
+  <entryLinks>
+    <entryLink id="orks-main-0000-el01" name="Orks" hidden="false" collective="false" import="false" targetId="orks-main-0000-gst1" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="7b69-bf2f-4547-e83b">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5430-5be1-1613-be44" type="instanceOf" />
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-main-0000-el02" type="min" />
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="orks-main-0000-el03" name="Allegiance:" hidden="false" targetId="e90d-e5a8-f42d-da84" primary="true" />
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+
+  <sharedRules>
+    <rule id="orks-rule-kolo-0001" name="Da Kolours (X)" hidden="false">
+      <description>The Orks of the galaxy are a deeply superstitious species, and among the most fundamental of their beliefs is that colour itself carries power. An Ork who paints himself or his equipment a certain colour does so in the unshakeable belief that it will bestow upon him some tangible benefit - and through the mysterious power of the Waaagh!, it does.
+
+The notation in brackets that is included as part of the Da Kolours (X) Special Rule defines which Kolour the unit has been painted. Each unit in a Detachment with the Orks Sub-faction may select one Da Kolour. All models in a unit must have the same Da Kolour - a unit may not contain models with different Da Kolours. A unit without the Da Kolours (X) Special Rule does not benefit from any Kolour effects. The effects of each Kolour are detailed in the individual Kolour rules.</description>
+    </rule>
+    <rule id="orks-rule-kolo-red0" name="Red Wunz Go Faster" hidden="false">
+      <description>A unit with Da Kolours (Red) gains +1 to its Movement Characteristic and gains the Light Sub-type. If a model already has the Heavy Sub-type, it instead loses the Heavy Sub-type rather than gaining the Light Sub-type.</description>
+    </rule>
+    <rule id="orks-rule-kolo-blk0" name="Black Is Ded 'Ard" hidden="false">
+      <description>When resolving Wounds against a model with Da Kolours (Black) where the Strength of the attack is equal to the Toughness of the target, the Wound roll succeeds only on a roll of 5+ instead of the usual 4+. In addition, when resolving attacks against a Vehicle with Da Kolours (Black), if the AP of the attack exceeds the Armour Value by only 1, the result is a Glancing Hit rather than a Penetrating Hit.</description>
+    </rule>
+    <rule id="orks-rule-kolo-yel0" name="Yellow Goes Bomm" hidden="false">
+      <description>When a model with Da Kolours (Yellow) makes a shooting attack and scores a To Hit roll of 6 (before any modifiers), the Strength of that hit is increased by +1. For weapons with the Blast special rule, if the Scatter dice result is a Direct Hit, the Strength of all hits from that attack is increased by +1.</description>
+    </rule>
+    <rule id="orks-rule-kolo-blu0" name="Blue Gots All Da Luck" hidden="false">
+      <description>Once per phase, a unit with Da Kolours (Blue) may re-roll a single failed To Hit roll, To Wound roll, or Saving Throw.</description>
+    </rule>
+    <rule id="orks-rule-kolo-wht0" name="White Means Deff" hidden="false">
+      <description>When a model with Da Kolours (White) scores a To Wound roll or Armour Penetration roll of 5+, the target suffers a -1 modifier to its Armour Saves and Damage Mitigation rolls against that attack.</description>
+    </rule>
+    <rule id="orks-rule-kolo-grn0" name="But Green Is Best" hidden="false">
+      <description>A model with Da Kolours (Green) gains +1 to its Weapon Skill Characteristic when fighting in close combat if there is at least one other friendly unit with Da Kolours (Green) also engaged in close combat within 6&quot;. In addition, models with Da Kolours (Green) gain +1 Strength when resolving Ram and Hammer of Wrath attacks.</description>
+    </rule>
+    <rule id="orks-rule-kolo-pur0" name="No Wun's Eva Seen A Purple Ork" hidden="false">
+      <description>When an enemy unit targets a unit with Da Kolours (Purple) with a Shooting Attack, Charge, or Reaction, the effective range for that attack or action is increased by +2&quot;. This means the enemy unit must be 2&quot; closer than normal to be in range.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0001" name="Arch-Tyrant" hidden="false">
+      <description>All friendly units with the Mob Sub-type within 12&quot; of this Warlord gain the Fearless Special Rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0002" name="Blessed by Gork (or possibly Mork)" hidden="false">
+      <description>At the start of each of the Controlling Player's turns, this Warlord generates 3 Blessing Dice. These dice may be used during the turn to modify any single die roll made by this Warlord or any unit they have joined by +1 or -1 per Blessing Die spent. Unused Blessing Dice are lost at the end of the turn. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0003" name="Like a Thunderbolt" hidden="false">
+      <description>Whenever this Warlord or the unit they have joined is targeted by a shooting attack during the opposing player's Shooting phase, the unit may immediately move up to 6&quot; directly towards the attacking unit, after the attack has been resolved. This movement does not count as a Charge or trigger Reactions. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0004" name="Brutal (but kunnin')" hidden="false">
+      <description>This Warlord gains the Rage (D3+1) and Counter-Attack (D3) Special Rules. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0005" name="Kunnin' (but brutal)" hidden="false">
+      <description>This Warlord gains the Scouts Special Rule. In addition, for every full 1000 points in the army, the Controlling Player may select one unit with the Troops Force Organisation slot that also gains the Scouts and Outflank Special Rules. These units must be nominated before deployment begins. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-wlt0-rule-0006" name="Best of the Beasts" hidden="false">
+      <description>This Warlord gains the Battle-Hardened (1) Special Rule. In addition, the Controlling Player may select one unit of Nobz, Meganobz, or Nob Bikerz in the army. That unit gains the Skarboyz upgrade at no additional cost. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</description>
+    </rule>
+    <rule id="orks-rule-gite-0001" name="Git'em!" hidden="false">
+      <description>Git'em! - Advanced Reaction (Assault Phase)
+
+This Advanced Reaction may be made once per battle, during the opposing player's Assault phase. When an enemy unit fails a Charge against a friendly unit with the Orks Sub-faction, one friendly unit with the Orks Sub-faction within 12&quot; of the unit that was the target of the failed Charge may immediately declare a Charge against the enemy unit that failed its Charge. The reacting unit gains the Rage (2) Special Rule for the duration of that Assault phase.</description>
+    </rule>
+    <rule id="orks-rule-digg-0001" name="Digganobz" hidden="false">
+      <description>Digganobz - Imperial Militia Provenance
+
+A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a Detachment with this Provenance are treated as Fellow Warriors with any Detachment with the Orks Sub-faction in the same army. In addition, all units in a Detachment with this Provenance gain the Stubborn Special Rule while within 12&quot; of any friendly unit with the Orks Sub-faction.</description>
+    </rule>
+  </sharedRules>
+
+  <sharedProfiles>
+    <profile id="orks-prof-gite-0001" name="Advanced Reaction: Git'em!" hidden="false" typeId="90b9-7fab-87db-aed3" typeName="Reactions">
+      <characteristics>
+        <characteristic name="Description" typeId="c627-4637-8de5-65fb">Git'em! - This Advanced Reaction may be made once per battle, during the opposing player's Assault phase. When an enemy unit fails a Charge against a friendly unit with the Orks Sub-faction, one friendly unit with the Orks Sub-faction within 12&quot; of the unit that was the target of the failed Charge may immediately declare a Charge against the enemy unit that failed its Charge. The reacting unit gains the Rage (2) Special Rule for the duration of that Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+
+  <sharedSelectionEntries>
+  </sharedSelectionEntries>
+
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="orks-kolo-0000-0001" name="Da Kolours" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-kolo-0000-0001-c1" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-kolo-0000-0001-c2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="orks-kolo-red0-0001" name="Da Kolours (Red)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-red0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-red0-pr01" name="Da Kolours (Red)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Red Wunz Go Faster: A unit with Da Kolours (Red) gains +1 to its Movement Characteristic and gains the Light Sub-type. If a model already has the Heavy Sub-type, it instead loses the Heavy Sub-type rather than gaining the Light Sub-type.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-red0-il01" name="Red Wunz Go Faster" hidden="false" targetId="orks-rule-kolo-red0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-blk0-0001" name="Da Kolours (Black)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-blk0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-blk0-pr01" name="Da Kolours (Black)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Black Is Ded 'Ard: When resolving Wounds against a model with Da Kolours (Black) where the Strength of the attack is equal to the Toughness of the target, the Wound roll succeeds only on a roll of 5+ instead of the usual 4+. In addition, when resolving attacks against a Vehicle with Da Kolours (Black), if the AP of the attack exceeds the Armour Value by only 1, the result is a Glancing Hit rather than a Penetrating Hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-blk0-il01" name="Black Is Ded 'Ard" hidden="false" targetId="orks-rule-kolo-blk0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-yel0-0001" name="Da Kolours (Yellow)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-yel0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-yel0-pr01" name="Da Kolours (Yellow)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Yellow Goes Bomm: When a model with Da Kolours (Yellow) makes a shooting attack and scores a To Hit roll of 6 (before any modifiers), the Strength of that hit is increased by +1. For weapons with the Blast special rule, if the Scatter dice result is a Direct Hit, the Strength of all hits from that attack is increased by +1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-yel0-il01" name="Yellow Goes Bomm" hidden="false" targetId="orks-rule-kolo-yel0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-blu0-0001" name="Da Kolours (Blue)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-blu0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-blu0-pr01" name="Da Kolours (Blue)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Blue Gots All Da Luck: Once per phase, a unit with Da Kolours (Blue) may re-roll a single failed To Hit roll, To Wound roll, or Saving Throw.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-blu0-il01" name="Blue Gots All Da Luck" hidden="false" targetId="orks-rule-kolo-blu0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-wht0-0001" name="Da Kolours (White)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-wht0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-wht0-pr01" name="Da Kolours (White)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">White Means Deff: When a model with Da Kolours (White) scores a To Wound roll or Armour Penetration roll of 5+, the target suffers a -1 modifier to its Armour Saves and Damage Mitigation rolls against that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-wht0-il01" name="White Means Deff" hidden="false" targetId="orks-rule-kolo-wht0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-grn0-0001" name="Da Kolours (Green)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-grn0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-grn0-pr01" name="Da Kolours (Green)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">But Green Is Best: A model with Da Kolours (Green) gains +1 to its Weapon Skill Characteristic when fighting in close combat if there is at least one other friendly unit with Da Kolours (Green) also engaged in close combat within 6". In addition, models with Da Kolours (Green) gain +1 Strength when resolving Ram and Hammer of Wrath attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-grn0-il01" name="But Green Is Best" hidden="false" targetId="orks-rule-kolo-grn0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-kolo-pur0-0001" name="Da Kolours (Purple)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-kolo-pur0-c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-kolo-pur0-pr01" name="Da Kolours (Purple)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">No Wun's Eva Seen A Purple Ork: When an enemy unit targets a unit with Da Kolours (Purple) with a Shooting Attack, Charge, or Reaction, the effective range for that attack or action is increased by +2". This means the enemy unit must be 2" closer than normal to be in range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="orks-kolo-pur0-il01" name="No Wun's Eva Seen A Purple Ork" hidden="false" targetId="orks-rule-kolo-pur0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="orks-wlt0-0000-0001" name="Ork Warlord Traits" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-0000-0001-c1" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-0000-0001-c2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="orks-wlt0-arch-0001" name="Arch-Tyrant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-arch-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-arch-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-arch-pr01" name="Arch-Tyrant" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All friendly units with the Mob Sub-type within 12&quot; of this Warlord gain the Fearless Special Rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wlt0-bles-0001" name="Blessed by Gork (or possibly Mork)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-bles-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-bles-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-bles-pr01" name="Blessed by Gork (or possibly Mork)" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">At the start of each of the Controlling Player's turns, this Warlord generates 3 Blessing Dice. These dice may be used during the turn to modify any single die roll made by this Warlord or any unit they have joined by +1 or -1 per Blessing Die spent. Unused Blessing Dice are lost at the end of the turn. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wlt0-thun-0001" name="Like a Thunderbolt" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-thun-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-thun-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-thun-pr01" name="Like a Thunderbolt" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Whenever this Warlord or the unit they have joined is targeted by a shooting attack during the opposing player's Shooting phase, the unit may immediately move up to 6&quot; directly towards the attacking unit, after the attack has been resolved. This movement does not count as a Charge or trigger Reactions. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wlt0-brut-0001" name="Brutal (but kunnin')" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-brut-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-brut-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-brut-pr01" name="Brutal (but kunnin')" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord gains the Rage (D3+1) and Counter-Attack (D3) Special Rules. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wlt0-kunn-0001" name="Kunnin' (but brutal)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-kunn-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-kunn-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-kunn-pr01" name="Kunnin' (but brutal)" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord gains the Scouts Special Rule. In addition, for every full 1000 points in the army, the Controlling Player may select one unit with the Troops Force Organisation slot that also gains the Scouts and Outflank Special Rules. These units must be nominated before deployment begins. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wlt0-best-0001" name="Best of the Beasts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wlt0-best-c1" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-wlt0-best-c2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="orks-wlt0-best-pr01" name="Best of the Beasts" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord gains the Battle-Hardened (1) Special Rule. In addition, the Controlling Player may select one unit of Nobz, Meganobz, or Nob Bikerz in the army. That unit gains the Skarboyz upgrade at no additional cost. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player's Assault phase so long as the Warlord has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
