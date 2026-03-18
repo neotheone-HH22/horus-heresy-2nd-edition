@@ -344,7 +344,7 @@ gh issue create --repo "$REPO" \
 - [ ] **Ork Wazbom Blastajet** (p51) — Vehicle (Flyer, Ramshackle); Smasha Gun + KFF
 
 ### Implementation Notes
-- 4 different Flyer units (Warkopta, Dakkajet, Blitza-Bommer, Burna-Bommer, Wazbom)
+- 5 different Flyer units (Warkopta, Dakkajet, Blitza-Bommer, Burna-Bommer, Wazbom Blastajet)
 - Warkopta doubles as Flyer Transport
 - Mek Kartz and Gun Trukks are vehicle squadrons
 - Squighog Boyz interact with Stampedin' Waaagh! and Beast Snaggin' Waaagh!
