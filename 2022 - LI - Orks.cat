@@ -61,7 +61,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
   </categoryEntries>
 
   <selectionEntries>
-    <selectionEntry id="orks-tr01-0000-0001" name="Slugboyz Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr01-0000-0001" name="Ork Slugboyz Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr01-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr01-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -116,7 +116,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-tr01-dtgr-cn1" type="max"/>
             </constraints>
             <entryLinks>
-                <entryLink id="orks-tr01-dtgr-el01" name="Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
+                <entryLink id="orks-tr01-dtgr-el01" name="Ork Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
             </entryLinks>
         </selectionEntryGroup>
         </selectionEntryGroups>
@@ -307,7 +307,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr02-0000-0001" name="Shotboyz Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr02-0000-0001" name="Ork Shotboyz Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr02-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr02-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -362,7 +362,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-tr02-dtgr-cn1" type="max"/>
             </constraints>
             <entryLinks>
-                <entryLink id="orks-tr02-dtgr-el01" name="Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
+                <entryLink id="orks-tr02-dtgr-el01" name="Ork Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
             </entryLinks>
         </selectionEntryGroup>
         </selectionEntryGroups>
@@ -569,7 +569,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr03-0000-0001" name="Wildboyz Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr03-0000-0001" name="Ork Wildboyz Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr03-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr03-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -790,7 +790,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr04-0000-0001" name="Kommandos Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr04-0000-0001" name="Ork Kommandos Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr04-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr04-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -1105,7 +1105,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr05-0000-0001" name="Tankbustas Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr05-0000-0001" name="Ork Tankbustas Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr05-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr05-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -1182,7 +1182,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-tr05-dtgr-cn1" type="max"/>
             </constraints>
             <entryLinks>
-                <entryLink id="orks-tr05-dtgr-el01" name="Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
+                <entryLink id="orks-tr05-dtgr-el01" name="Ork Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
             </entryLinks>
         </selectionEntryGroup>
         </selectionEntryGroups>
@@ -1369,7 +1369,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr06-0000-0001" name="Wrecka Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr06-0000-0001" name="Ork Wrecka Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr06-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr06-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -1445,7 +1445,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-tr06-dtgr-cn1" type="max"/>
             </constraints>
             <entryLinks>
-                <entryLink id="orks-tr06-dtgr-el01" name="Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
+                <entryLink id="orks-tr06-dtgr-el01" name="Ork Trukk" hidden="false" collective="false" import="true" targetId="orks-dt01-0000-0001" type="selectionEntry" />
             </entryLinks>
         </selectionEntryGroup>
         </selectionEntryGroups>
@@ -1646,7 +1646,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-tr07-0000-0001" name="Stormboyz Mob" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-tr07-0000-0001" name="Ork Stormboyz Mob" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-tr07-0000-0001-cl1" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true" />
             <categoryLink id="orks-tr07-0000-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
@@ -2009,7 +2009,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
         </costs>
     </selectionEntry>
-    <selectionEntry id="orks-dt01-0000-0001" name="Trukk" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="orks-dt01-0000-0001" name="Ork Trukk" hidden="false" collective="false" import="true" type="unit">
         <categoryLinks>
             <categoryLink id="orks-dt01-0000-0001-cl1" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
             <categoryLink id="orks-dt01-0000-0001-cl2" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
