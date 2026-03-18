@@ -7791,6 +7791,1921 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
       </costs>
     </selectionEntry>
 
+    <selectionEntry id="orks-hs01-0006-0001" name="Ork Battlewagons" page="58" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0006-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0006-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0006-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0006-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
+        <infoLink id="orks-hs01-0006-0001-rl02" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule" />
+        <infoLink id="orks-hs01-0006-0001-wl01" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0006-0001-wl02" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0006-0001-ws01" name="May exchange Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0006-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0006-0001-ws01-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws01-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws01-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws01-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws01-a2" name="Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws01-a2-il1" name="Lobba" hidden="false" targetId="orks-wpn0-0009-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0006-0001-ws02" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0006-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0006-0001-ws02-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws02-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws02-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws02-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws02-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws02-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws02-a3" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws02-a3-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws02-a4" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws02-a4-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0006-0001-ws03" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0006-0001-ws03-a1" name="2 Sponson-mounted Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws03-a2" name="2 Sponson-mounted Rokkit Launchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0006-0001-ws03-a3" name="2 Sponson-mounted Skorchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0006-0001-ws04" name="May exchange Firing Deck for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0006-0001-ws04-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws04-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws04-c2" type="max" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="orks-hs01-0006-0001-ws04-d1" name="Firing Deck (Right, Left, Rear, 10)" hidden="false" collective="false" import="true" targetId="orks-warg-fdek-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Firing Deck (Right, Left, Rear, 10)" />
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws04-d1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0006-0001-ws04-a1" name="More &apos;Ull" hidden="false" collective="false" import="true" targetId="orks-warg-mhul-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws04-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0006-0001-ws05" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0006-0001-ws05-a2" name="Deff Rolla" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-ws05-a2-il1" name="Deff Rolla" hidden="false" targetId="orks-wpn0-0129-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0006-0001-ws05-a1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-ws05-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0006-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0006-0001-owg0-bk01" name="Boom Kannister" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0006-0001-owg0-bk01-il1" name="Boom Kannister" hidden="false" targetId="orks-wpn0-0032-0001" type="profile" />
+              </infoLinks>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-owg0-bk01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0006-0001-wg01" name="Boarding Plank" hidden="false" collective="false" import="true" targetId="orks-warg-bpla-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-wg01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0006-0001-wg02" name="Grot Riggers" hidden="false" collective="false" import="true" targetId="orks-warg-grig-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0006-0001-wg02-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <entryLink id="orks-hs01-0006-0001-dk01" name="Da Kolours" hidden="false" collective="false" import="true" targetId="orks-kolo-0000-0001" type="selectionEntryGroup" />
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0006-0001-m01" name="Battlewagon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Battlewagon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0006-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Right, Left, Rear</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0006-0001-m01-c1" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0006-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0006-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0007-0001" name="Ork Gunwagon" page="59" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0007-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0007-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0007-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0007-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
+        <infoLink id="orks-hs01-0007-0001-rl02" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule" />
+        <infoLink id="orks-hs01-0007-0001-wl01" name="Kannon" hidden="false" targetId="orks-wpn0-0008-0001" type="profile" />
+        <infoLink id="orks-hs01-0007-0001-wl02" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0007-0001-wl03" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0007-0001-wl04" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws01" name="May exchange 1st Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0007-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws01-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws01-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws01-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws01-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws01-a2" name="Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws01-a2-il1" name="Lobba" hidden="false" targetId="orks-wpn0-0009-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws02" name="May exchange 2nd Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0007-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws02-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws02-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws02-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws02-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws02-a2" name="Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws02-a2-il1" name="Lobba" hidden="false" targetId="orks-wpn0-0009-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws03" name="May exchange Turret-mounted Kannon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0007-0001-ws03-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws03-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws03-d1" name="Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws03-d1-il1" name="Kannon" hidden="false" targetId="orks-wpn0-0008-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws03-a1" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws03-a1-il1" name="Zzap Gun" hidden="false" targetId="orks-wpn0-0083-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws03-a2" name="Kill Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws03-a2-il1" name="Kill Kannon" hidden="false" targetId="orks-wpn0-0011-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws03-a3" name="Big Zzapa" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws03-a3-il1" name="Big Zzapa" hidden="false" targetId="orks-wpn0-0084-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws03-a4" name="Supa-Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws03-a4-il1" name="Supa-Skorcha" hidden="false" targetId="orks-wpn0-0005-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws04" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0007-0001-ws04-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws04-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws04-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws04-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws04-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws04-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws04-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws04-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws04-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws04-a3" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws04-a3-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws04-a4" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws04-a4-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws05" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws05-a1" name="2 Sponson-mounted Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws05-a2" name="2 Sponson-mounted Rokkit Launchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0007-0001-ws05-a3" name="2 Sponson-mounted Skorchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-ws06" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws06-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-ws06-a2" name="Deff Rolla" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-ws06-a2-il1" name="Deff Rolla" hidden="false" targetId="orks-wpn0-0129-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0007-0001-ws06-a1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-ws06-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0007-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0007-0001-owg0-bk01" name="Boom Kannister" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0007-0001-owg0-bk01-il1" name="Boom Kannister" hidden="false" targetId="orks-wpn0-0032-0001" type="profile" />
+              </infoLinks>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-owg0-bk01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0007-0001-wg01" name="Boarding Plank" hidden="false" collective="false" import="true" targetId="orks-warg-bpla-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-wg01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0007-0001-wg02" name="Grot Riggers" hidden="false" collective="false" import="true" targetId="orks-warg-grig-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0007-0001-wg02-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <entryLink id="orks-hs01-0007-0001-dk01" name="Da Kolours" hidden="false" collective="false" import="true" targetId="orks-kolo-0000-0001" type="selectionEntryGroup" />
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0007-0001-m01" name="Gunwagon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Gunwagon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0007-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Right, Left, Rear</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0007-0001-m01-c1" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0007-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="105" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0007-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0008-0001" name="Ork Killwagons" page="60" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0008-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0008-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0008-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0008-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
+        <infoLink id="orks-hs01-0008-0001-wl01" name="Supa-Lobba" hidden="false" targetId="orks-wpn0-0016-0001" type="profile" />
+        <infoLink id="orks-hs01-0008-0001-wl02" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0008-0001-wl03" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0008-0001-ws01" name="May exchange Centreline-mounted Supa-Lobba for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0008-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-ws01-d1" name="Supa-Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws01-d1-il1" name="Supa-Lobba" hidden="false" targetId="orks-wpn0-0016-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws01-a1" name="Supa-Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws01-a1-il1" name="Supa-Kannon" hidden="false" targetId="orks-wpn0-0017-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws01-a2" name="Lifta-Droppa" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws01-a2-il1" name="Lifta-Droppa - Lifta Beam" hidden="false" targetId="orks-wpn0-0075-0001" type="profile" />
+                <infoLink id="orks-hs01-0008-0001-ws01-a2-il2" name="Lifta-Droppa - Power Overload" hidden="false" targetId="orks-wpn0-0076-0001" type="profile" />
+                <infoLink id="orks-hs01-0008-0001-ws01-a2-il3" name="Lifta-Droppa (X)" hidden="false" targetId="orks-rule-lfdr-0001" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0008-0001-ws02" name="May exchange Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0008-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-ws02-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws02-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws02-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws02-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws02-a2" name="Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws02-a2-il1" name="Lobba" hidden="false" targetId="orks-wpn0-0009-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0008-0001-ws03" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0008-0001-ws03-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws03-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-ws03-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws03-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws03-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws03-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws03-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws03-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws03-a3" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws03-a3-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws03-a4" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws03-a4-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0008-0001-ws04" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws04-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-ws04-a1" name="2 Sponson-mounted Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws04-a2" name="2 Sponson-mounted Rokkit Launchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0008-0001-ws04-a3" name="2 Sponson-mounted Skorchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0008-0001-ws05" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-ws05-a2" name="Deff Rolla" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-ws05-a2-il1" name="Deff Rolla" hidden="false" targetId="orks-wpn0-0129-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0008-0001-ws05-a1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-ws05-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0008-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0008-0001-owg0-bk01" name="Boom Kannister" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0008-0001-owg0-bk01-il1" name="Boom Kannister" hidden="false" targetId="orks-wpn0-0032-0001" type="profile" />
+              </infoLinks>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-owg0-bk01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0008-0001-wg02" name="Grot Riggers" hidden="false" collective="false" import="true" targetId="orks-warg-grig-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0008-0001-wg02-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <entryLink id="orks-hs01-0008-0001-dk01" name="Da Kolours" hidden="false" collective="false" import="true" targetId="orks-kolo-0000-0001" type="selectionEntryGroup" />
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0008-0001-m01" name="Killwagon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Killwagon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0008-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle, Bombard)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0008-0001-m01-c1" />
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="orks-hs01-0008-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="165" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0008-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0009-0001" name="Ork Big Trakks" page="61" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0009-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0009-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0009-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0009-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
+        <infoLink id="orks-hs01-0009-0001-rl02" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule" />
+        <infoLink id="orks-hs01-0009-0001-wl01" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0009-0001-wl02" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0009-0001-ws01" name="May exchange 1st Hull-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0009-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-ws01-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws01-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws01-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws01-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws01-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws01-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws01-a3" name="Supa-Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws01-a3-il1" name="Supa-Shoota" hidden="false" targetId="orks-wpn0-0061-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0009-0001-ws02" name="May exchange 2nd Hull-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0009-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-ws02-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws02-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws02-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws02-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws02-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws02-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws02-a3" name="Supa-Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws02-a3-il1" name="Supa-Shoota" hidden="false" targetId="orks-wpn0-0061-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0009-0001-ws03" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a1" name="Flakk Gunz" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a1-il1" name="Flakk Gunz" hidden="false" targetId="orks-wpn0-0064-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a2" name="Big Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a2-il1" name="Big Lobba" hidden="false" targetId="orks-wpn0-0010-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a3" name="Big Zzapa" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a3-il1" name="Big Zzapa" hidden="false" targetId="orks-wpn0-0084-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a4" name="Kill Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a4-il1" name="Kill Kannon" hidden="false" targetId="orks-wpn0-0011-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a5" name="Supa-Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a5-il1" name="Supa-Skorcha" hidden="false" targetId="orks-wpn0-0005-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a6" name="Supa-Lobba" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a6-il1" name="Supa-Lobba" hidden="false" targetId="orks-wpn0-0016-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws03-a7" name="Supa-Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws03-a7-il1" name="Supa-Kannon" hidden="false" targetId="orks-wpn0-0017-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0009-0001-ws04" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws04-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-ws04-a1" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws04-a1-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0009-0001-ws04-a2" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws04-a2-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0009-0001-ws05" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-ws05-a2" name="Deff Rolla" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-ws05-a2-il1" name="Deff Rolla" hidden="false" targetId="orks-wpn0-0129-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0009-0001-ws05-a1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-ws05-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0009-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0009-0001-owg0-bk01" name="Boom Kannister" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0009-0001-owg0-bk01-il1" name="Boom Kannister" hidden="false" targetId="orks-wpn0-0032-0001" type="profile" />
+              </infoLinks>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-owg0-bk01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0009-0001-wg01" name="Boarding Plank" hidden="false" collective="false" import="true" targetId="orks-warg-bpla-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-wg01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0009-0001-wg02" name="Grot Riggers" hidden="false" collective="false" import="true" targetId="orks-warg-grig-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-wg02-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0009-0001-wg03" name="Stikkbom Chukka" hidden="false" collective="false" import="true" targetId="orks-warg-stch-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-wg03-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0009-0001-wg04" name="Rumblin&apos; Trakks" hidden="false" collective="false" import="true" targetId="orks-warg-rmtk-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-wg04-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0009-0001-wg05" name="Firing Deck (Right, Left, Rear, 14)" hidden="false" collective="false" import="true" targetId="orks-warg-fdek-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Firing Deck (Right, Left, Rear, 14)" />
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0009-0001-wg05-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <entryLink id="orks-hs01-0009-0001-dk01" name="Da Kolours" hidden="false" collective="false" import="true" targetId="orks-kolo-0000-0001" type="selectionEntryGroup" />
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0009-0001-m01" name="Big Trakk" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Big Trakk" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0009-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">16</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Right, Left, Rear</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0009-0001-m01-c1" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0009-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="65" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0009-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0010-0001" name="Ork Looted Wagon" page="62" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0010-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0010-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0010-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0010-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
+        <infoLink id="orks-hs01-0010-0001-rl02" name="Tank Riders" hidden="false" targetId="orks-rule-trid-0001" type="rule" />
+        <infoLink id="orks-hs01-0010-0001-wl01" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws01" name="Looted Kannon:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws01-a1" name="Boom Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws01-a1-il1" name="Boom Kannon" hidden="false" targetId="orks-wpn0-0028-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws01-a2" name="Choom Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws01-a2-il1" name="Choom Kannon" hidden="false" targetId="orks-wpn0-0029-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws01-a3" name="Dyoon Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws01-a3-il1" name="Dyoon Kannon" hidden="false" targetId="orks-wpn0-0030-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws01-a4" name="Fwoosh Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws01-a4-il1" name="Fwoosh Kannon" hidden="false" targetId="orks-wpn0-0031-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws02" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0010-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws02-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws02-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws02-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws02-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws02-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws02-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws03" name="May take up to two additional Pintle weapons:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws03-a1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws03-a1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws03-a2" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws03-a2-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws03-a3" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws03-a3-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws04" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws04-c2" type="max" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="orks-hs01-0010-0001-ws04-a1" name="Firing Deck (Right, Left, Rear, 10)" hidden="false" collective="false" import="true" targetId="orks-warg-fdek-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Firing Deck (Right, Left, Rear, 10)" />
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws04-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0010-0001-ws04-a2" name="Firing Deck (Front, Left, Right, 10)" hidden="false" collective="false" import="true" targetId="orks-warg-fdek-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Firing Deck (Front, Left, Right, 10)" />
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws04-a2-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0010-0001-ws04-a3" name="More &apos;Ull" hidden="false" collective="false" import="true" targetId="orks-warg-mhul-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws04-a3-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws05" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws05-a1" name="2 Sponson-mounted Skorchas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws05-a2" name="2 Sponson-mounted Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws05-a3" name="2 Sponson-mounted Zzap Guns" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws05-a4" name="2 Sponson-mounted Twin-Linked Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws05-a5" name="2 Sponson-mounted Twin-Linked Zzap Guns" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws06" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws06-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws06-a1" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws06-a1-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0010-0001-ws06-a2" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws06-a2-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-ws07" name="May take one of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws07-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-ws07-a2" name="Deff Rolla" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-ws07-a2-il1" name="Deff Rolla" hidden="false" targetId="orks-wpn0-0129-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="orks-hs01-0010-0001-ws07-a1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-ws07-a1-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="orks-hs01-0010-0001-wg01" name="Boarding Plank" hidden="false" collective="false" import="true" targetId="orks-warg-bpla-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-wg01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0010-0001-wg02" name="Grot Riggers" hidden="false" collective="false" import="true" targetId="orks-warg-grig-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-wg02-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+            <entryLink id="orks-hs01-0010-0001-wg03" name="Stikkbom Chukka" hidden="false" collective="false" import="true" targetId="orks-warg-stch-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-wg03-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0010-0001-mk01" name="Mekboy Junka Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0010-0001-mk01-a1" name="Mekboy Junka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0010-0001-mk01-a1-il1" name="Battlesmith (X)" hidden="false" targetId="5d57-4d02-1e36-4a82" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Battlesmith (5+)" />
+                  </modifiers>
+                </infoLink>
+                <infoLink id="orks-hs01-0010-0001-mk01-a1-il2" name="It Will Not Die (X)" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="It Will Not Die (5+)" />
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="orks-hs01-0010-0001-mk01-ws01" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0010-0001-mk01-ws01-d1">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-ws01-c1" type="min" />
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-ws01-c2" type="max" />
+                  </constraints>
+                  <selectionEntries>
+                <selectionEntry id="orks-hs01-0010-0001-mk01-ws01-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0010-0001-mk01-ws01-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="orks-hs01-0010-0001-mk01-ws01-a3" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0010-0001-mk01-ws01-a3-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                <entryLink id="orks-hs01-0010-0001-mk01-ws01-a1" name="Mini Kombi-Wepon" hidden="false" collective="false" import="true" targetId="orks-warg-mkom-0001" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-ws01-a1-c1" type="max" />
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+                  </costs>
+                </entryLink>
+                <entryLink id="orks-hs01-0010-0001-mk01-ws01-a2" name="Mega Kombi-Wepon" hidden="false" collective="false" import="true" targetId="orks-warg-xkom-0001" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-ws01-a2-c1" type="max" />
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="orks-hs01-0010-0001-mk01-a1-wg01" name="Gitfinda" hidden="false" collective="false" import="true" targetId="orks-warg-gitf-0001" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0010-0001-mk01-a1-wg01-c1" type="max" />
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <entryLink id="orks-hs01-0010-0001-dk01" name="Da Kolours" hidden="false" collective="false" import="true" targetId="orks-kolo-0000-0001" type="selectionEntryGroup" />
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0010-0001-m01" name="Looted Wagon" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Looted Wagon" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0010-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">2</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">8</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0010-0001-m01-c1" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0010-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0010-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0011-0001" name="Grot Tanks Skwadron" page="64" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0011-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0011-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0011-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0011-0001-rl01" name="Rolling Scrap Pile" hidden="false" targetId="orks-rule-rscr-0001" type="rule" />
+        <infoLink id="orks-hs01-0011-0001-rl02" name="Variable Speed" hidden="false" targetId="orks-rule-vspd-0001" type="rule" />
+        <infoLink id="orks-hs01-0011-0001-wl01" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0011-0001-ws01" name="May exchange Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0011-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0011-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0011-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0011-0001-ws01-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-ws01-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0011-0001-ws01-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-ws01-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0011-0001-ws01-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-ws01-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0011-0001-ws01-a3" name="Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-ws01-a3-il1" name="Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0011-0001-ws01-a4" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-ws01-a4-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0011-0001-mk01" name="Kommanda Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0011-0001-mk01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0011-0001-mk01-a1" name="Kommanda" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0011-0001-mk01-a1-il1" name="Full Speed Ahead" hidden="false" targetId="orks-rule-fsah-0001" type="rule" />
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="orks-hs01-0011-0001-mk01-ws01" name="Additional Hull weapon:" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0011-0001-mk01-ws01-c1" type="min" />
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0011-0001-mk01-ws01-c2" type="max" />
+                  </constraints>
+                  <selectionEntries>
+                <selectionEntry id="orks-hs01-0011-0001-mk01-ws01-a1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0011-0001-mk01-ws01-a1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="orks-hs01-0011-0001-mk01-ws01-a2" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0011-0001-mk01-ws01-a2-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="orks-hs01-0011-0001-mk01-ws01-a3" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0011-0001-mk01-ws01-a3-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="orks-hs01-0011-0001-mk01-ws01-a4" name="Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0011-0001-mk01-ws01-a4-il1" name="Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="orks-hs01-0011-0001-mk01-ws01-a5" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="orks-hs01-0011-0001-mk01-ws01-a5-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15" />
+                  </costs>
+                </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0011-0001-m01" name="Grot Tank" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Grot Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0011-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">2D6</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">10</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">10</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">2</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0011-0001-m01-c1" />
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="orks-hs01-0011-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0011-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="orks-hs01-0012-0001" name="Grot Mega-Tank Skwadron" page="65" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="orks-hs01-0012-0001-cl1" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true" />
+        <categoryLink id="orks-hs01-0012-0001-cl2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false" />
+        <categoryLink id="orks-hs01-0012-0001-cl3" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false" />
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="orks-hs01-0012-0001-rl01" name="Rolling Scrap Pile" hidden="false" targetId="orks-rule-rscr-0001" type="rule" />
+        <infoLink id="orks-hs01-0012-0001-rl02" name="Variable Speed" hidden="false" targetId="orks-rule-vspd-0001" type="rule" />
+        <infoLink id="orks-hs01-0012-0001-rl03" name="Rowdy Krew" hidden="false" targetId="orks-rule-rwkw-0001" type="rule" />
+        <infoLink id="orks-hs01-0012-0001-wl01" name="Twin-Linked Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0012-0001-wl02" name="Twin-Linked Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0012-0001-wl03" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0012-0001-wl04" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+        <infoLink id="orks-hs01-0012-0001-wl05" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-hs01-0012-0001-ws01" name="May exchange 1st Turret Twin-Linked Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0012-0001-ws01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-ws01-d1" name="Twin-Linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws01-d1-il1" name="Twin-Linked Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws01-a1" name="Twin-Linked Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws01-a1-il1" name="Twin-Linked Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws01-a2" name="Twin-Linked Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws01-a2-il1" name="Twin-Linked Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws01-a3" name="Twin-Linked Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws01-a3-il1" name="Twin-Linked Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws01-a4" name="Twin-Linked Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws01-a4-il1" name="Twin-Linked Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-ws02" name="May exchange 2nd Turret Twin-Linked Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0012-0001-ws02-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws02-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws02-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-ws02-d1" name="Twin-Linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws02-d1-il1" name="Twin-Linked Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws02-a1" name="Twin-Linked Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws02-a1-il1" name="Twin-Linked Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws02-a2" name="Twin-Linked Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws02-a2-il1" name="Twin-Linked Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws02-a3" name="Twin-Linked Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws02-a3-il1" name="Twin-Linked Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws02-a4" name="Twin-Linked Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws02-a4-il1" name="Twin-Linked Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-ws03" name="May exchange Turret-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0012-0001-ws03-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws03-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws03-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-ws03-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws03-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws03-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws03-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws03-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws03-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws03-a3" name="Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws03-a3-il1" name="Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws03-a4" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws03-a4-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-ws04" name="May exchange 1st Sponson-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0012-0001-ws04-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws04-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws04-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-ws04-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws04-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws04-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws04-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws04-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws04-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws04-a3" name="Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws04-a3-il1" name="Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws04-a4" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws04-a4-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-ws05" name="May exchange 2nd Sponson-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0012-0001-ws05-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws05-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-ws05-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-ws05-d1" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws05-d1-il1" name="Big Shoota" hidden="false" targetId="orks-wpn0-0057-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws05-a1" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws05-a1-il1" name="Rokkit Launcha" hidden="false" targetId="orks-wpn0-0034-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws05-a2" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws05-a2-il1" name="Skorcha" hidden="false" targetId="orks-wpn0-0004-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws05-a3" name="Grotzooka" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws05-a3-il1" name="Grotzooka" hidden="false" targetId="orks-wpn0-0007-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-hs01-0012-0001-ws05-a4" name="Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-ws05-a4-il1" name="Kustom Mega-Blasta" hidden="false" targetId="orks-wpn0-0026-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-owg0" name="Ork Wargear" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="orks-hs01-0012-0001-wg01" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-wg01-c1" type="max" />
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="orks-hs01-0012-0001-mk01" name="Kommanda Upgrade" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-hs01-0012-0001-mk01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-hs01-0012-0001-mk01-a1" name="Kommanda" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-hs01-0012-0001-mk01-a1-il1" name="Full Speed Ahead" hidden="false" targetId="orks-rule-fsah-0001" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry id="orks-hs01-0012-0001-m01" name="Grot Mega-Tank" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile name="Grot Mega-Tank" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle" hidden="false" id="orks-hs01-0012-0001-m01-p1">
+            <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Ramshackle)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">2D6</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+            </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="orks-hs01-0012-0001-m01-c1" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="orks-hs01-0012-0001-m01-c2" />
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60" />
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="orks-hs01-0012-0001-uc2" />
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
+      </costs>
+    </selectionEntry>
+
 
   </selectionEntries>
 
