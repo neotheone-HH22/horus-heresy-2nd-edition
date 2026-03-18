@@ -18,7 +18,7 @@ This document tracks the progress of implementing the Waaagh! The Orks! homebrew
 ### Army List — Unit Entries
 - [ ] HQ Units (p10–20) - Issue: TBD
 - [ ] Elite Units (p22–30) - Issue: TBD
-- [ ] Troops & Dedicated Transports (p32–40) - Issue: TBD
+- [x] Troops & Dedicated Transports (p32–40) - Issue: #198
 - [ ] Fast Attack Units (p42–51) - Issue: TBD
 - [x] Heavy Support: Infantry, Walkers & Beasts (p53–57) - Lootas Mob, Mega-Dread, Squiggoth, Hunta Rig, Kill Rig
 - [ ] Heavy Support: Vehicles (p58–65) - Issue: TBD
