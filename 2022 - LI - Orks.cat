@@ -2510,6 +2510,13 @@ However, a model with a Cybork Body may not move or shoot as part of Reactions i
     <rule id="orks-rule-dokt-0001" name="Dok Tools" hidden="false">
       <description>All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with Dok Tools gain the Feel No Pain (5+) special rule. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</description>
     </rule>
+    <rule id="orks-rule-face-0001" name="Flyin' Ace" hidden="false">
+      <description>A model with this special rule has a 5+ invulnerable save against Shooting Attacks. This is increased to 4+ against attacks made by models with the Flyer or Antigrav unit Sub-type.
+In addition, if a model with this special rule makes the Return Fire reaction, you can pivot the unit on the spot so it faces any direction before determining which weapons can be used as part of the reaction, and it gains the Shrouded (5+) special rule against all Hits inflicted as part of the Shooting Attack that triggered the reaction. That reaction does not count towards your Reaction allotment for that phase; this does not allow the model to make more than one Reaction in a single phase or a player to make more than three Reactions in a single phase.</description>
+    </rule>
+    <rule id="orks-rule-wrdb-0001" name="Weirdboy" hidden="false">
+      <description>A Weirdboy selects a single Psychic Discipline from the following list: The Pyromancy or Telekinesis disciplines from the Core disciplines, the Waaagh! discipline, or the Beasthead discipline.</description>
+    </rule>
   </sharedRules>
 
   <sharedProfiles>
@@ -4121,6 +4128,82 @@ Power Vomit (Psychic Weapon)</description>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-mkom-0001" name="Mini Kombi-Wepon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="orks-warg-mkom-il01" name="Shoota" hidden="false" targetId="orks-wpn0-0054-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-warg-mkom-sg01" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-warg-mkom-sg01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-warg-mkom-sg01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-warg-mkom-sg01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-warg-mkom-sg01-d1" name="Rokkit Launcha (secondary)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-warg-mkom-sg01-d1-il1" name="Kombi-Wepon - Rokkit Launcha (secondary)" hidden="false" targetId="orks-wpn0-0021-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-warg-mkom-sg01-a1" name="Shokka Gun (secondary)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-warg-mkom-sg01-a1-il1" name="Shokka Gun (secondary)" hidden="false" targetId="orks-wpn0-0048-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-warg-mkom-sg01-a2" name="Zzap Blasta (secondary)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-warg-mkom-sg01-a2-il1" name="Kombi-Wepon - Zzap Blasta (secondary)" hidden="false" targetId="orks-wpn0-0024-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-xkom-0001" name="Mega Kombi-Wepon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="orks-warg-xkom-il01" name="Shoota" hidden="false" targetId="orks-wpn0-0054-0001" type="profile" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="orks-warg-xkom-sg01" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-warg-xkom-sg01-d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-warg-xkom-sg01-c1" type="min" />
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-warg-xkom-sg01-c2" type="max" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="orks-warg-xkom-sg01-d1" name="Skorcha (secondary)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-warg-xkom-sg01-d1-il1" name="Kombi-Wepon - Skorcha (secondary)" hidden="false" targetId="orks-wpn0-0022-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="orks-warg-xkom-sg01-a1" name="Boomstick (secondary)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="orks-warg-xkom-sg01-a1-il1" name="Kombi-Wepon - Boomstick (secondary)" hidden="false" targetId="orks-wpn0-0023-0001" type="profile" />
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
