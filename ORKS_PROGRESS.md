@@ -20,7 +20,7 @@ This document tracks the progress of implementing the Waaagh! The Orks! homebrew
 - [ ] Elite Units (p22–30) - Issue: TBD
 - [ ] Troops & Dedicated Transports (p32–40) - Issue: TBD
 - [ ] Fast Attack Units (p42–51) - Issue: TBD
-- [ ] Heavy Support: Infantry, Walkers & Beasts (p53–57) - Issue: TBD
+- [x] Heavy Support: Infantry, Walkers & Beasts (p53–57) - Lootas Mob, Mega-Dread, Squiggoth, Hunta Rig, Kill Rig
 - [ ] Heavy Support: Vehicles (p58–65) - Issue: TBD
 - [ ] Heavy Support: Aircraft & Artillery (p66–70) - Issue: TBD
 - [ ] Lords of War (p72–84) - Issue: TBD
