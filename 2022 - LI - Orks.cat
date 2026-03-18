@@ -100,6 +100,1047 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
         <characteristic name="Description" typeId="c627-4637-8de5-65fb">Git'em! - This Advanced Reaction may be made once per battle, during the opposing player's Assault phase. When an enemy unit fails a Charge against a friendly unit with the Orks Sub-faction, one friendly unit with the Orks Sub-faction within 12&quot; of the unit that was the target of the failed Charge may immediately declare a Charge against the enemy unit that failed its Charge. The reacting unit gains the Rage (2) Special Rule for the duration of that Assault phase.</characteristic>
       </characteristics>
     </profile>
+    <profile id="orks-wpn0-0001-0001" name="Bubblechukka" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Variable Strength, Breaching (5+), Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0002-0001" name="Bubbleshunta" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy D3, Blast (3&quot;), Breaching (5+), Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0003-0001" name="Burna (ranged)" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0004-0001" name="Skorcha" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0005-0001" name="Supa-Skorcha" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Hellstorm</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Rending (6+), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0006-0001" name="Flamebelcha" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Hellstorm</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (8&quot;), Rending (6+), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0007-0001" name="Grotzooka" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Blast (3&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0008-0001" name="Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Rending (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0009-0001" name="Lobba" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">6&quot;-36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Barrage, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0010-0001" name="Big Lobba" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0011-0001" name="Kill Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Rending (5+), Murderous Strike (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0012-0001" name="Krusha Kannon - Boom Shell" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0013-0001" name="Krusha Kannon - Tankhamma Shell" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Sunder, Brutal (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0014-0001" name="Krusha Kannon - Skrap Kannister" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Hellstorm</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Rending (6+), Pinning, Shell Shock (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0015-0001" name="Krusha Kannon - Blast-Burna Shell" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Massive Blast (7&quot;), Ignores Cover, Pinning, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0016-0001" name="Supa-Lobba" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-64&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Barrage, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0017-0001" name="Supa-Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">11</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (5+), Murderous Strike (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0018-0001" name="Bursta Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (4+), Direct Impact</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0019-0001" name="Deff Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">13</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), Murderous Strike (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0020-0001" name="Gargant Belly Kannon" page="109" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">120&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">13</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 4, Large Blast (5&quot;), Barrage, Apocalyptic Barrage, Murderous Strike (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0021-0001" name="Kombi-Wepon - Rokkit Launcha (secondary)" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0022-0001" name="Kombi-Wepon - Skorcha (secondary)" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0023-0001" name="Kombi-Wepon - Boomstick (secondary)" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), One Shot, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0024-0001" name="Kombi-Wepon - Zzap Blasta (secondary)" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0025-0001" name="Kustom Mega-Slugga" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Kustom</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0026-0001" name="Kustom Mega-Blasta" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Kustom</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0027-0001" name="Kustom Mega-Kannon" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Kustom</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0028-0001" name="Boom Kannon" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0029-0001" name="Choom Kannon" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Deflagrate, Shred, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0030-0001" name="Dyoon Kannon" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6+6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Variable Strength, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0031-0001" name="Fwoosh Kannon" page="110" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (18&quot;), Breaching (6+), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0032-0001" name="Boom Kannister" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">10&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Pinning, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0033-0001" name="Rokkit Pistol" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0034-0001" name="Rokkit Launcha" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0035-0001" name="Rokkit Storma" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault D3+1, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0036-0001" name="Big Bomm" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">8&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), One Shot, Ignores Cover</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0037-0001" name="Skorcha Missile Array" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Blast (3&quot;), Shred, Pinning, Ignores Cover, Limited Ammunition</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0038-0001" name="Grot Bomm" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Guided Fire, Twin-Linked, Ignores Cover, Rending (4+), One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0039-0001" name="Boom Bomm" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Large Blast (5&quot;), One Shot, Rending (4+), Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0040-0001" name="Burna Bomm" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Massive Blast (7&quot;), Shred, Pinning, One Shot, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0041-0001" name="Supa-Rokkit" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0042-0001" name="Supa-Rokkit Array" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Blast (3&quot;), Limited Ammunition</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0043-0001" name="Pulsa Rokkit" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">120&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Apocalyptic Blast (10&quot;), Guided Fire, Pulsa Wave, Haywire, Concussive (2), Waaagh! Artillery</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0044-0001" name="Mega Bomm" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10/7/5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2/4/6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Apocalyptic Mega-Blast, Direct Impact, One Shot, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0045-0001" name="Mega-Rokkit" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0046-0001" name="Mega-Rokkit Storma" page="111" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer D3+1, Massive Blast (7&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0047-0001" name="Shokka Pistol" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Haywire, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0048-0001" name="Shokka Gun" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Haywire, Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0049-0001" name="Shokk Blasta" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0050-0001" name="Shokk Rifle" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Instant Death, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0051-0001" name="Shokk Attack Gun" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">2D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Variable Strength, Gets Hot, Pinning, Shell Shock (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0052-0001" name="Grot Blasta" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0053-0001" name="Slugga" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">9&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0054-0001" name="Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">16&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0055-0001" name="Dakka-Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">16&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0056-0001" name="Dakkagun" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">16&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0057-0001" name="Big Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0058-0001" name="Dakkagun Array" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Twin-Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0059-0001" name="Boomstick" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Concussive (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0060-0001" name="Rattler Kannon" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy D6, Pinning, Shell Shock (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0061-0001" name="Supa-Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 10, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0062-0001" name="Flak Shootas" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Twin-Linked, Skyfire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0063-0001" name="Rivet Gun" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0064-0001" name="Flakk Gunz" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Twin-Linked, Skyfire, Defensive Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0065-0001" name="Deffstorm Mega-Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2D6+8, Pinning, Shell Shock (1), Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0066-0001" name="Killstorm Giga-Shoota" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4D6+16, Pinning, Shell Shock (1), Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0067-0001" name="Aporkalypse Gatler" page="112" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">64&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4D6+16, Pinning, Shell Shock (1), Rending (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0068-0001" name="Squig Launcha" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Gnaw, Guided Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0069-0001" name="Big Squig Launcha" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Large Blast (5&quot;), Gnaw, Guided Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0070-0001" name="Tellyport Blasta" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Lance, Rending (4+), Murderous Strike (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0071-0001" name="Tellyport Mega-Blasta" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Lance, Rending (4+), Murderous Strike (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0072-0001" name="Trakktor Blasta" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0073-0001" name="Traktor Kannon" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire, Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0074-0001" name="Smasha Gun" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6+6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Variable Strength, Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0075-0001" name="Lifta-Droppa - Lifta Beam" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Lifta-Droppa (D6), Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0076-0001" name="Lifta-Droppa - Power Overload" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Waaagh! Artillery, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0077-0001" name="Mega-Lifta - Lifta Beam" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Lifta-Droppa (2D6), Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0078-0001" name="Mega-Lifta - Power Overload" page="113" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance D3+1, Massive Blast (7&quot;), Waaagh! Artillery, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0079-0001" name="Snazzgun" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Breaching (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0080-0001" name="Speshul Snazzgun" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Breaching (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0081-0001" name="Deffgun" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy D3, Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0082-0001" name="Zzap Blasta" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0083-0001" name="Zzap Gun" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">2D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0084-0001" name="Big Zzapa" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0085-0001" name="Supa-Zappa" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">64&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0086-0001" name="Gaze of Mork (or Gork)" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Variable Strength, Zzap!, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0087-0001" name="Deff Beam" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">Hellstorm</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3D6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Torrent (48&quot;), Variable Strength, Exoshock (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0088-0001" name="Waaagh! Blasta" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Deflagrate, Force, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0089-0001" name="Waaagh! Busta" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault D3, Deflagrate, Force, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0090-0001" name="Psycho-Dakka Blaster" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3D6, Psycho-Dakka Blast!!, Limited Ammunition, Gets Hot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0091-0001" name="Choppa" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0092-0001" name="Stikka (melee)" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reach (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0093-0001" name="Smasha" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0094-0001" name="&apos;Urty Bitz" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Poisoned (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0095-0001" name="Big Choppa" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Brutal (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0096-0001" name="Big Smasha" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Brutal (2), Unwieldy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0097-0001" name="Burna (melee)" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0098-0001" name="Knuckle Busta" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Specialist Weapon, Sunder, Unwieldy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0099-0001" name="Breacha Ram" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (melee), Brutal (2), Cumbersome</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0100-0001" name="Grabba" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Reach (2), Sniper</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0101-0001" name="Shokk Prod" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Concussive (1), Haywire, Reach (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0102-0001" name="Kan Drilla" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (melee)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0103-0001" name="Stikka (Ranged)" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">10&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0104-0001" name="Syrinj&apos; Flinga" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">1</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 3, Poisoned (3+), Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0105-0001" name="Stikka Gun" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Concussive (2), Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0106-0001" name="Grabbin&apos; Klaw" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">4&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (ranged), Snare</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0107-0001" name="Wreckin&apos; Ball" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">4&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Sunder, Brutal (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0108-0001" name="Krushin&apos; Ball" page="115" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">10&quot;</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Brutal (3), Direct Impact</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0109-0001" name="Killsaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Specialist Weapon, Ritual Pair, Unwieldy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0110-0001" name="Kustom Killchoppa" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Two-Handed, Unwieldy, Brutal (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0111-0001" name="Kan Saw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Murderous Strike (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0112-0001" name="Deff Saw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Murderous Strike (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0113-0001" name="Rippa Killsaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (melee), Shred, Murderous Strike (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0114-0001" name="Mega Choppa" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Destructor</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0115-0001" name="Giga Choppa" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">16</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Destructor</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0116-0001" name="Power Stabba" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Precision Strikes (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0117-0001" name="Power Klaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Unwieldy</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0118-0001" name="Medi-Klaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Specialist Weapon, Unwieldy, Poisoned (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0119-0001" name="Kan Shears" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0120-0001" name="Power Shears" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0121-0001" name="Rippa Klaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0122-0001" name="Mega Klaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Sunder, Destructor</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0123-0001" name="Giga Klaw" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">16</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Sunder, Destructor</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0124-0001" name="Meltabomm" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Detonation, Unwieldy, Armourbane (melee), Instant Death</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0125-0001" name="Tankhammer" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Instant Death, Perilous, Reach (1), Wrathful Blows (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0126-0001" name="Squiggoth Maw" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Rending (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0127-0001" name="Gargantuan Maw" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (3), Rending (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0128-0001" name="Weird Stikk" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Two-Handed, Force</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0129-0001" name="Deff Rolla" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Hammering (D6), Ram (D6), Two-Handed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="orks-wpn0-0130-0001" name="Big Deff Rolla" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+        <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+        <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+        <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Hammering (2D6), Ram (2D6), Two-Handed</characteristic>
+      </characteristics>
+    </profile>
+
   </sharedProfiles>
 
   <sharedSelectionEntries>
