@@ -22,3 +22,6 @@
 
 # Don't ignore .yml for CI build definitions
 !*.yml
+
+# Don't ignore shell scripts
+!*.sh
