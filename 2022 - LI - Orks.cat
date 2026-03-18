@@ -29,7 +29,7 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
         <rule id="orks-rule-rams-cat1" name="Ramshackle Sub-type" hidden="false">
           <description>The following rules apply to all models with the Ramshackle sub-type:
 • A model with the Ramshackle sub-type has a 6+ Invulnerable Save. That save may not be taken against Wounds, Glancing Hits or Penetrating Hits inflicted by weapons with the Ordnance or Destroyer type.
-• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burn result), roll a D6 and apply the result on the following table:
+• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burns result), roll a D6 and apply the result on the following table:
  -1-2: Skrrronk: Replace that result with the Immobilized result.
  -3-4: Vlam!: Resolve the Explodes result as normal, except the Strength of any Hits inflicted as part of the Explodes result is reduced to 4.
  -5-6: Carreen: The model can make a Move of up to D6+6&quot; before resolving the Explodes result.
@@ -145,7 +145,7 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
     <rule id="orks-rule-rams-0001" name="Ramshackle Sub-type" hidden="false">
       <description>The following rules apply to all models with the Ramshackle sub-type:
 • A model with the Ramshackle sub-type has a 6+ Invulnerable Save. That save may not be taken against Wounds, Glancing Hits or Penetrating Hits inflicted by weapons with the Ordnance or Destroyer type.
-• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burn result), roll a D6 and apply the result on the following table:
+• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burns result), roll a D6 and apply the result on the following table:
  -1-2: Skrrronk: Replace that result with the Immobilized result.
  -3-4: Vlam!: Resolve the Explodes result as normal, except the Strength of any Hits inflicted as part of the Explodes result is reduced to 4.
  -5-6: Carreen: The model can make a Move of up to D6+6&quot; before resolving the Explodes result.
