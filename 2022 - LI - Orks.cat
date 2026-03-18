@@ -9120,8 +9120,16 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
           <selectionEntries>
             <selectionEntry id="orks-hs01-0010-0001-mk01-a1" name="Mekboy Junka" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="orks-hs01-0010-0001-mk01-a1-il1" name="Battlesmith (X)" hidden="false" targetId="5d57-4d02-1e36-4a82" type="rule" />
-                <infoLink id="orks-hs01-0010-0001-mk01-a1-il2" name="It Will Not Die (X)" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule" />
+                <infoLink id="orks-hs01-0010-0001-mk01-a1-il1" name="Battlesmith (X)" hidden="false" targetId="5d57-4d02-1e36-4a82" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Battlesmith (5+)" />
+                  </modifiers>
+                </infoLink>
+                <infoLink id="orks-hs01-0010-0001-mk01-a1-il2" name="It Will Not Die (X)" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="It Will Not Die (5+)" />
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="orks-hs01-0010-0001-mk01-ws01" name="May exchange Pintle-mounted Big Shoota for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="orks-hs01-0010-0001-mk01-ws01-d1">
