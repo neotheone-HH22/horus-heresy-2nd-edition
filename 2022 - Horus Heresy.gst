@@ -9722,6 +9722,13 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
       </costs>
     </selectionEntry>
     <selectionEntry id="orks-main-0000-gst1" name="Orks" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="orks-main-0000-gst3" value="0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2573-bb4c-e468-dd81" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-main-0000-gst2" type="max"/>
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="orks-main-0000-gst4" type="max"/>

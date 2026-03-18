@@ -344,5 +344,227 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="orks-wagh-0000-0001" name="Waaagh! Armies" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-wagh-0000-c001" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="orks-wagh-0001-0001" name="Air Waaagh!" page="95" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0001-r001" name="Air Waaagh!" page="95" hidden="false">
+              <description>Effects
+• Any unit in a Detachment using this Waaagh! Army that is eligible to take a Trukk as a Dedicated Transport may instead take a Warkopta as a Dedicated Transport.
+• All models with the Vehicle Unit Type and the Flyer Sub-type in a Detachment using this Waaagh! Army gain Strafing Run (1) on the turn they arrive from Reserves.
+• When resolving a Crashes &amp; Burns result for a model with the Flyer Sub-type from a Detachment using this Waaagh! Army, the controlling player may re-roll the scatter dice.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be an Ork Baron with the Waaagh! special rule.
+• A Detachment using this Waaagh! Army must include more units with the Flyer Sub-type than Troops choices.
+• A Detachment using this Waaagh! Army may not include any Heavy Support or Lords of War choices that do not have the Flyer Sub-type.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p95)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0002-0001" name="Beast Snaggin&apos; Waaagh!" page="95" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0002-r001" name="Beast Snaggin&apos; Waaagh!" page="95" hidden="false">
+              <description>Effects
+• All models in a Detachment using this Waaagh! Army with the Monster Hunter special rule may re-roll failed To Wound rolls against models with the Gargantuan or Super-Heavy Sub-types.
+• Any Wildboyz unit with 10 or fewer models in a Detachment using this Waaagh! Army may take a Kill Rig as a Dedicated Transport.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Wildboss with the Waaagh! special rule.
+• An army using this Waaagh! Army must include at least one Weirdboy or Weirdboss.
+• A Detachment using this Waaagh! Army must include more units with the Monstrous Creature Unit Type than units with the Vehicle or Dreadnought Unit Types.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p95–96)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0003-0001" name="Da &apos;Ardest Waaagh!" page="96" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0003-r001" name="Da &apos;Ardest Waaagh!" page="96" hidden="false">
+              <description>Effects
+• Meganobz units may be taken as Troops choices in a Detachment using this Waaagh! Army.
+• Any Meganobz unit with 3 or fewer models in a Detachment using this Waaagh! Army may take a Gorkanaut or Morkanaut as a Dedicated Transport.
+• A Detachment using this Waaagh! Army gains +2 additional Elites slots, which may only be used for Nobz, Meganobz or Bikers units.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Megaboss or Ghazghkull.
+• A Detachment using this Waaagh! Army may include a maximum of 1 Fast Attack choice and 1 Heavy Support choice.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p96)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0004-0001" name="Da Green Tide" page="96" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0004-r001" name="Da Green Tide" page="96" hidden="false">
+              <description>Effects
+• All Boyz Wave and Unwashed Hordes units in a Detachment using this Waaagh! Army gain the Unending Horde (4+) special rule.
+• Units in a Detachment using this Waaagh! Army that declare a Charge targeting a unit that is already the target of a Charge by another friendly unit in the same Phase are not considered Disordered.
+• Units from a Detachment using this Waaagh! Army that are placed into Reserves may enter play from any table edge when they arrive from Reserves.
+• A Detachment using this Waaagh! Army gains +2 additional Compulsory Troops slots, which may only be filled by Boyz Wave units.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Waaagh! Army must be Boyz Wave or Unwashed Hordes units.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p96–97)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0005-0001" name="Dread Waaagh!" page="97" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0005-r001" name="Dread Waaagh!" page="97" hidden="false">
+              <description>Effects
+• All Killa Kans units in a Detachment using this Waaagh! Army gain the Line Sub-type.
+• All models with the Dreadnought Unit Type in a Detachment using this Waaagh! Army gain the Rampage (1) special rule and may declare Charges of up to 18&quot; during a turn in which a Waaagh! has been called.
+• Killa Kans may be taken as Troops choices in a Detachment using this Waaagh! Army.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Big Mek or Meka-Dread with the Waaagh! special rule.
+• A Detachment using this Waaagh! Army may include a maximum of 1 Fast Attack choice.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p97)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0006-0001" name="Looted Waaagh!" page="97" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0006-r001" name="Looted Waaagh!" page="97" hidden="false">
+              <description>Effects
+• A Detachment using this Waaagh! Army may include one Vehicle unit chosen from the Fast Attack or Heavy Support section of another army list. This unit gains BS 2, the Ramshackle Sub-type, and Da Kolours.
+• Looted Wagons may be taken as Troops choices in a Detachment using this Waaagh! Army and gain the Line Sub-type.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Waaagh! Army must be Lootas units.
+• A Detachment using this Waaagh! Army must include at least one Mekaniaks unit for each Lootas unit in the Detachment.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p97–98)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0007-0001" name="Mek Waaagh!" page="98" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0007-r001" name="Mek Waaagh!" page="98" hidden="false">
+              <description>Effects
+• A Detachment using this Waaagh! Army may take one Lords of War choice as a Heavy Support choice instead, provided it is a single model.
+• Any unit in a Detachment using this Waaagh! Army that is eligible to take a Trukk as a Dedicated Transport may instead take a Battlewagon, Gunwagon or Big Trakk as a Dedicated Transport.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Big Mek with the Waaagh! special rule.
+• A Detachment using this Waaagh! Army must include more units with the Vehicle Unit Type than units without the Vehicle Unit Type.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p98)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0008-0001" name="Speed Waaagh!" page="98" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0008-r001" name="Speed Waaagh!" page="98" hidden="false">
+              <description>Effects
+• Warbikers and Deffkoptas may be taken as Troops choices in a Detachment using this Waaagh! Army. Any Warbikers taken as Compulsory Troops choices gain the Line Sub-type.
+• All models with the Vehicle Unit Type in a Detachment using this Waaagh! Army gain the Mega-Charga special rule.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Speedboss.
+• A Detachment using this Waaagh! Army may not include any models with the Dreadnought Unit Type, the Reinforced Sub-type, the Bombard Sub-type, or the Artillery Sub-type.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p98–99)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-0009-0001" name="Stampedin&apos; Waaagh!" page="99" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-0009-r001" name="Stampedin&apos; Waaagh!" page="99" hidden="false">
+              <description>Effects
+• Squighog Boyz may be taken as Compulsory Troops choices in a Detachment using this Waaagh! Army and gain the Line Sub-type.
+• Any unit in a Detachment using this Waaagh! Army that is eligible to take a Trukk as a Dedicated Transport may instead take a Squiggoth as a Dedicated Transport.
+• A Detachment using this Waaagh! Army may take a Gargantuan Squiggoth as a Heavy Support choice.
+• All units in a Detachment using this Waaagh! Army gain +2 to their Movement characteristic during the first game turn.
+Limitations
+• The Warlord of an army using this Waaagh! Army must have a mount (e.g. Squighog, Smasha Squig, or similar).
+• A Detachment using this Waaagh! Army may include a maximum of 1 unit with the Vehicle Unit Type and 1 model with the Dreadnought Unit Type.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p99)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-000a-0001" name="Sekret Waaagh!" page="99" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-000a-r001" name="Sekret Waaagh!" page="99" hidden="false">
+              <description>Effects
+• All Kommandos units in a Detachment using this Waaagh! Army lose the Support Squad special rule.
+• During a turn in which a Waaagh! has been called, any Flanking Assault rolls made for units from a Detachment using this Waaagh! Army automatically succeed.
+• One unit in a Detachment using this Waaagh! Army that does not already have the Infiltrate special rule may gain it.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Snikboss.
+• All Compulsory Troops choices in a Detachment using this Waaagh! Army must be Kommandos units.
+• A Detachment using this Waaagh! Army may include a maximum of 1 Heavy Support choice.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p99–100)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-000b-0001" name="Tellyported Waaagh!" page="100" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-000b-r001" name="Tellyported Waaagh!" page="100" hidden="false">
+              <description>Effects
+• All units in a Detachment using this Waaagh! Army that do not have the Super-Heavy Sub-type gain the Deep Strike special rule.
+• Units from a Detachment using this Waaagh! Army gain the Line Sub-type on the turn they arrive via Deep Strike Assault.
+Limitations
+• The Warlord of an army using this Waaagh! Army must be a Big Mek with a Tellyport Beacon that is deployed on the battlefield.
+• At least half the units in a Detachment using this Waaagh! Army (rounding up) must be placed into Deep Strike Reserves.
+• A Detachment using this Waaagh! Army may not include any models with the Flyer Sub-type.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p100)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="orks-wagh-000c-0001" name="Wreckin&apos; Waaagh!" page="100" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="orks-wagh-000c-r001" name="Wreckin&apos; Waaagh!" page="100" hidden="false">
+              <description>Effects
+• All Tankbustas and Wreckas units in a Detachment using this Waaagh! Army gain the Line Sub-type and lose the Support Squad special rule.
+• When a model in a Detachment using this Waaagh! Army makes an attack against a model with the Vehicle or Dreadnought Unit Type and is within 12&quot;, the controlling player may re-roll any Armour Penetration or Vehicle Damage Table results of 1.
+• Any Tankbustas or Wreckas unit with 8 or fewer models in a Detachment using this Waaagh! Army may take a Looted Wagon as a Dedicated Transport.
+Limitations
+• A Detachment using this Waaagh! Army must include at least one Tankbustas unit and at least one Wreckas unit as Compulsory Troops choices.
+
+^Manually check restrictions and limitations against source (Xenologica 2e p100)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
