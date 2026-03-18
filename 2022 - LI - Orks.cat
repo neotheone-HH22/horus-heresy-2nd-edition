@@ -209,7 +209,7 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
           <profiles>
             <profile id="orks-kolo-grn0-pr01" name="Da Kolours (Green)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">But Green Is Best: A model with Da Kolours (Green) gains +1 to its Weapon Skill Characteristic when fighting in close combat if there is at least one other friendly unit with Da Kolours (Green) also engaged in close combat within 6". In addition, models with Da Kolours (Green) gain +1 Strength when resolving Ram and Hammer of Wrath attacks.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">But Green Is Best: A model with Da Kolours (Green) gains +1 to its Weapon Skill Characteristic when fighting in close combat if there is at least one other friendly unit with Da Kolours (Green) also engaged in close combat within 6&quot;. In addition, models with Da Kolours (Green) gain +1 Strength when resolving Ram and Hammer of Wrath attacks.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -227,7 +227,7 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
           <profiles>
             <profile id="orks-kolo-pur0-pr01" name="Da Kolours (Purple)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">No Wun's Eva Seen A Purple Ork: When an enemy unit targets a unit with Da Kolours (Purple) with a Shooting Attack, Charge, or Reaction, the effective range for that attack or action is increased by +2". This means the enemy unit must be 2" closer than normal to be in range.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">No Wun's Eva Seen A Purple Ork: When an enemy unit targets a unit with Da Kolours (Purple) with a Shooting Attack, Charge, or Reaction, the effective range for that attack or action is increased by +2&quot;. This means the enemy unit must be 2&quot; closer than normal to be in range.</characteristic>
               </characteristics>
             </profile>
           </profiles>
