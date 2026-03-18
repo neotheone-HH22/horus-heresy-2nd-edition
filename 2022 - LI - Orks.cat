@@ -14,6 +14,50 @@ Imperial Militia Provenance: Digganobz (Xenos faction, Fellow Warriors with Orks
 
   <categoryEntries>
     <categoryEntry id="orks-cat0-0001-0001" name="Orks Sub-type" hidden="false" />
+    <categoryEntry id="orks-cat0-mob0-0001" name="Mob Sub-type" hidden="false">
+      <rules>
+        <rule id="orks-rule-mob0-cat1" name="Mob Sub-type" hidden="false">
+          <description>The following rules apply to all models with the Mob sub-type:
+• A unit that contains a majority of models with the Mob sub-type can substitute the amount of models in its unit for its Leadership characteristic whenever it takes a Morale or Pinning check, up to a maximum of 10.
+• Whilst a unit contains 11 or more models with the Mob sub-type, all models in that unit gain the Fearless special rule.
+• A model with the Bulky (X) special rule counts as a number of models equal to the number listed in brackets in its Bulky special rule for the purpose of the Mob sub-type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="orks-cat0-rams-0001" name="Ramshackle Sub-type" hidden="false">
+      <rules>
+        <rule id="orks-rule-rams-cat1" name="Ramshackle Sub-type" hidden="false">
+          <description>The following rules apply to all models with the Ramshackle sub-type:
+• A model with the Ramshackle sub-type has a 6+ Invulnerable Save. That save may not be taken against Wounds, Glancing Hits or Penetrating Hits inflicted by weapons with the Ordnance or Destroyer type.
+• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burn result), roll a D6 and apply the result on the following table:
+ -1-2: Skrrronk: Replace that result with the Immobilized result.
+ -3-4: Vlam!: Resolve the Explodes result as normal, except the Strength of any Hits inflicted as part of the Explodes result is reduced to 4.
+ -5-6: Carreen: The model can make a Move of up to D6+6&quot; before resolving the Explodes result.
+• When a model with this Sub-type that has a Wounds characteristic loses its last Wound, but before it is removed as a casualty, each model, friendly and enemy, within D6&quot; suffers a Hit with AP- and a Strength equal to the Toughness value of the model.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="orks-cat0-prmk-0001" name="Prime-Ork Unit Type" hidden="false">
+      <rules>
+        <rule id="orks-rule-prmk-cat1" name="Prime-Ork Unit Type" hidden="false">
+          <description>The following rules apply to all models with the Prime-Ork unit type:
+• Prime-Orks are counted as Primarchs during army creation, and count against your Lords of War and Primarch allowance. In addition, for the purpose of any special rule that affects or has additional effects that target models with the Primarch Unit Type, a model with the Prime-Ork Unit Type is considered to have the Primarch Unit Type.
+• All Prime-Orks have the following special rules: Eternal Warrior, Fearless, It Will Not Die (5+), Bulky (6), Independent Character, and Relentless. In addition, all models with the Prime-Ork unit type always count as Character models.
+• Prime-Orks are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, Prime-Orks always resolve Snap Shots at their normal BS.
+• Any Hits inflicted by a Prime-Ork, as part of either Shooting Attacks or in close combat, are allocated by the Prime-Ork's controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
+• If an army includes any Prime-Ork models, then one of those models must be chosen as the army's Warlord.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="orks-cat0-gprm-0001" name="Gargantuan Prime-Ork Unit Type" hidden="false">
+      <rules>
+        <rule id="orks-rule-gprm-cat1" name="Gargantuan Prime-Ork Unit Type" hidden="false">
+          <description>The following rules apply to all models with the Gargantuan Prime-Ork unit type:
+• Models with the Gargantuan Prime-Ork Unit Type follow all rules for the Gargantuan and Prime-Ork unit Types, except they do not have the Independent Character special rule and are not Character models.
+• For the purposes of any special rule that affects or has additional effects that target models with the Gargantuan or Prime-Ork Unit Type, a model with the Gargantuan Prime-Ork Unit Type is considered to have the Gargantuan and Prime-Ork Unit Types.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
   </categoryEntries>
 
   <selectionEntries>
@@ -91,6 +135,249 @@ This Advanced Reaction may be made once per battle, during the opposing player's
       <description>Digganobz - Imperial Militia Provenance
 
 A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a Detachment with this Provenance are treated as Fellow Warriors with any Detachment with the Orks Sub-faction in the same army. In addition, all units in a Detachment with this Provenance gain the Stubborn Special Rule while within 12&quot; of any friendly unit with the Orks Sub-faction.</description>
+    </rule>
+    <rule id="orks-rule-mob0-0001" name="Mob Sub-type" hidden="false">
+      <description>The following rules apply to all models with the Mob sub-type:
+• A unit that contains a majority of models with the Mob sub-type can substitute the amount of models in its unit for its Leadership characteristic whenever it takes a Morale or Pinning check, up to a maximum of 10.
+• Whilst a unit contains 11 or more models with the Mob sub-type, all models in that unit gain the Fearless special rule.
+• A model with the Bulky (X) special rule counts as a number of models equal to the number listed in brackets in its Bulky special rule for the purpose of the Mob sub-type.</description>
+    </rule>
+    <rule id="orks-rule-rams-0001" name="Ramshackle Sub-type" hidden="false">
+      <description>The following rules apply to all models with the Ramshackle sub-type:
+• A model with the Ramshackle sub-type has a 6+ Invulnerable Save. That save may not be taken against Wounds, Glancing Hits or Penetrating Hits inflicted by weapons with the Ordnance or Destroyer type.
+• When a Vehicle model with this Sub-type suffers the Explodes result from the Vehicle Damage Table (but not the Crashes and Burn result), roll a D6 and apply the result on the following table:
+ -1-2: Skrrronk: Replace that result with the Immobilized result.
+ -3-4: Vlam!: Resolve the Explodes result as normal, except the Strength of any Hits inflicted as part of the Explodes result is reduced to 4.
+ -5-6: Carreen: The model can make a Move of up to D6+6&quot; before resolving the Explodes result.
+• When a model with this Sub-type that has a Wounds characteristic loses its last Wound, but before it is removed as a casualty, each model, friendly and enemy, within D6&quot; suffers a Hit with AP- and a Strength equal to the Toughness value of the model.</description>
+    </rule>
+    <rule id="orks-rule-prmk-0001" name="Prime-Ork Unit Type" hidden="false">
+      <description>The following rules apply to all models with the Prime-Ork unit type:
+• Prime-Orks are counted as Primarchs during army creation, and count against your Lords of War and Primarch allowance. In addition, for the purpose of any special rule that affects or has additional effects that target models with the Primarch Unit Type, a model with the Prime-Ork Unit Type is considered to have the Primarch Unit Type.
+• All Prime-Orks have the following special rules: Eternal Warrior, Fearless, It Will Not Die (5+), Bulky (6), Independent Character, and Relentless. In addition, all models with the Prime-Ork unit type always count as Character models.
+• Prime-Orks are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, Prime-Orks always resolve Snap Shots at their normal BS.
+• Any Hits inflicted by a Prime-Ork, as part of either Shooting Attacks or in close combat, are allocated by the Prime-Ork's controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
+• If an army includes any Prime-Ork models, then one of those models must be chosen as the army's Warlord.</description>
+    </rule>
+    <rule id="orks-rule-gprm-0001" name="Gargantuan Prime-Ork Unit Type" hidden="false">
+      <description>The following rules apply to all models with the Gargantuan Prime-Ork unit type:
+• Models with the Gargantuan Prime-Ork Unit Type follow all rules for the Gargantuan and Prime-Ork unit Types, except they do not have the Independent Character special rule and are not Character models.
+• For the purposes of any special rule that affects or has additional effects that target models with the Gargantuan or Prime-Ork Unit Type, a model with the Gargantuan Prime-Ork Unit Type is considered to have the Gargantuan and Prime-Ork Unit Types.</description>
+    </rule>
+    <rule id="orks-rule-wagh-0001" name="The Waaagh!" hidden="false">
+      <description>Calling a Waaagh!:
+At the start of a friendly turn, if any Detachments in an army are taken from the Waaaaagh! The Orks! army list, and that Detachment includes any model that is on the battlefield and has the Waaagh! special rule, the controlling player may activate that model's Waaagh! special rule. This is referred to as &quot;Calling a Waaagh!&quot;.
+If a player does so, then until the end of that turn:
+• All models with the Mob unit Sub-type in the Detachment gain the Rage (2) Special Rule. If any of those models already have the Rage (X) Special Rule, increase the value in brackets of their Rage special rule by 1 instead.
+• All units in the Detachment that include a majority of models with the Mob unit Sub-type roll an additional die to determine their charge distance. Those units may select enemy units up to 18&quot; away as a charge target, and may move up to a maximum of 18&quot; when making Charge moves, rather than 12&quot;.
+Each Detachment may only call a Waaagh! once per battle, even if it includes multiple models with the Waaagh! special rule.
+Some other special rules may refer directly to the Waaagh! special rule, and gain additional effects during the turn in which you call a Waaagh!, such as the Flyin' 'Eadbutt and Pyromania special rules. Where that is the case, those effects are only applied during the turn in which the controlling player calls a Waaagh!.</description>
+    </rule>
+    <rule id="orks-rule-ardc-0001" name="'Ard Case" hidden="false">
+      <description>Any model with this special rule that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses 3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.</description>
+    </rule>
+    <rule id="orks-rule-bwav-0001" name="Boyz Wave" hidden="false">
+      <description>Up to two units with this special rule may be selected to fill a single Troops choice slot instead of only one.
+All units selected in this manner count as part of the same Troops choice for the purposes of Army Selection and Deployment only; when deployed onto the battlefield or into Reserves they are counted as a single unit and all units selected as part of the same Troops choice must be deployed at the same time (but are not required to deploy in proximity with each other) – and if placed into Reserves then all units in that choice must be placed into Reserves. Likewise, when making Reserves rolls one roll is made for all units selected as part of the same choice.
+Once deployed onto the battlefield, all units selected in this manner are treated as separate and distinct units or choices for any Primary or Secondary Objectives or other special rules and operate as separate units in all ways. Units selected as part of the same Troops choice may have different options selected for them, and are not required to be identical.</description>
+    </rule>
+    <rule id="orks-rule-dbos-0001" name="Da Boss" hidden="false">
+      <description>A Detachment can only include a single model with the Da Boss special rule for every 1000 points of your army which are selected from that Detachment. If your army includes any models with this special rule, one of them must be your Warlord and, during deployment, no models with the Da Boss special rule in the controlling player's army may be deployed within 24&quot; of each other.</description>
+    </rule>
+    <rule id="orks-rule-drnz-0001" name="Da Runtz" hidden="false">
+      <description>The opposing player never gains Victory points for removing a unit that includes any models with this special rule as casualties. However, if a unit that includes any models with this special rule fails a Morale check, it does not Fall Back, but instead all models in the unit are removed from play as casualties immediately.</description>
+    </rule>
+    <rule id="orks-rule-dfar-0001" name="Deff Arsenal" hidden="false">
+      <description>During each of the controlling player's Movement phase, a model with this special rule may make up to 4 Bombing Runs each time it makes a Zoom move, rather than just one. Each Bombing Run may target different units. If the model performs more than one Bombing Run this way, it may only make Snap Shots with its other weapons during the following Shooting Phase.</description>
+    </rule>
+    <rule id="orks-rule-dstr-0001" name="Destructor" hidden="false">
+      <description>Any model which suffers an unsaved Wound or Hull Point loss from a weapon with this special rule instead suffers D6 unsaved Wounds or Hull Points of damage. In addition, if the target of this attack is a model with the Knight, Titan, Super-heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
+    </rule>
+    <rule id="orks-rule-detn-0001" name="Detonation" hidden="false">
+      <description>A weapon with this special rule may only be used to attack models of the Vehicle, Dreadnought or Automata Unit Types, any model with a Movement Characteristic of 0 or '-', or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Assault phase may only make a single attack in the Fight subphase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
+    </rule>
+    <rule id="orks-rule-dimp-0001" name="Direct Impact" hidden="false">
+      <description>A weapon with this special rule also has a variant of the Blast special rule. If, after determining the final position of the Blast Template when making a Shooting Attack with a weapon with this special rule, a model is under the exact center of the template, then at least one Hit from that attack must be allocated to that model. When rolling To Wound or for Armour Penetration for that attack, roll for that Hit first and it gains the Destructor special rule.</description>
+    </rule>
+    <rule id="orks-rule-dmob-0001" name="Dread Mob" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.</description>
+    </rule>
+    <rule id="orks-rule-drun-0001" name="Drop Run" hidden="false">
+      <description>Units can disembark from a model with this special rule during a turn in which it made a Zoom move.
+When a unit Disembarks from a model with this special rule, use the following procedure instead of disembarking normally: place one model from the disembarking unit on a point that the transport moved over this turn that is more than 1&quot; from any enemy model, battlefield edge or piece of impassible terrain, then scatter that model, stopping if the model would get within 1&quot; of any enemy model or piece of impassible terrain.
+Once the model's final position has been determined, deploy the rest of the unit in coherency with it. Any models that cannot be placed in coherency with the unit and at least 1&quot; away from enemy models are destroyed.
+Models equipped with Rokkit Packs must activate their Rokkit Packs to disembark from a model with this special rule, including when performing an emergency disembarkation.</description>
+    </rule>
+    <rule id="orks-rule-eadg-0001" name="'Eadbutt o' da Godz" hidden="false">
+      <description>During a turn in which the controlling player called a Waaagh!, a model with this special rule can Ram, even though it has the Flyer Sub-type. If it does, the model is immediately reduced to 0 Hull Points and subsequently suffers Catastrophic Damage.</description>
+    </rule>
+    <rule id="orks-rule-efgy-0001" name="Effigy" hidden="false">
+      <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack's Strength value.
+In addition, all friendly units with the Ork faction with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
+    </rule>
+    <rule id="orks-rule-enfc-0001" name="Enforcer" hidden="false">
+      <description>If a detachment includes a model with this special rule, and your army includes less than 1000 points' worth of models, then that detachment may select a Waaagh! Army, even though it includes less than 1000 points' worth of models. This does not allow the detachment to call a Waaagh! if it includes no models with the Waaagh! special rule. Any other restriction to that Waaagh! Army still applies.</description>
+    </rule>
+    <rule id="orks-rule-ewgo-0001" name="'Ere We Go!" hidden="false">
+      <description>When a unit that includes a majority of models with this special rule makes a Charge move, roll an additional D6 to determine the Charge distance and before determining the result discard the lowest single dice rolled.</description>
+    </rule>
+    <rule id="orks-rule-flok-0001" name="Flash of Kolours" hidden="false">
+      <description>At the start of the controlling player's turn, that player can change the Da Kolours (X) special rule of a unit to a different Kolour, so long as all models in the unit have the Flash of Kolours special rule.</description>
+    </rule>
+    <rule id="orks-rule-ffor-0001" name="Flying Fortress" hidden="false">
+      <description>Only models equipped with Deffkoptas or Rokkit Packs may be embarked upon a model with this special rule. Models equipped with Deffkoptas can Embark upon a model with this special rule, even though they have the Cavalry unit Type, and are counted as 4 models each for the purpose of transport capacity.</description>
+    </rule>
+    <rule id="orks-rule-febt-0001" name="Flyin' 'Eadbutt" hidden="false">
+      <description>During a turn in which the controlling player called a Waaagh!, a model with this special rule can Ram, even though it has the Flyer Sub-type. If it does, it immediately Crashes and Burns (see the Vehicle Damage Table) after resolving the Ram.</description>
+    </rule>
+    <rule id="orks-rule-fsah-0001" name="Full Speed Ahead" hidden="false">
+      <description>Whilst a unit includes a model with this Special Rule, all Vehicles in that unit gain the Fast Vehicle Sub-type.</description>
+    </rule>
+    <rule id="orks-rule-gtrn-0001" name="Gargantuan Transport" hidden="false">
+      <description>For the purpose of the Transport Sub-type, a model with this Special Rule is counted as a Super-heavy Vehicle.</description>
+    </rule>
+    <rule id="orks-rule-gnaw-0001" name="Gnaw" hidden="false">
+      <description>Successful Armour Saves made against a weapon with this special rule must be re-rolled.</description>
+    </rule>
+    <rule id="orks-rule-hamr-0001" name="Hammering (X)" hidden="false">
+      <description>When a model with a weapon with this special rule performs a Hammer of Wrath attack, it inflicts a number of additional hits equal to the value of X. Both the model's Hammer of Wrath attacks and these additional hits are resolved using the profile of the weapon with this special rule.</description>
+    </rule>
+    <rule id="orks-rule-kbom-0001" name="Kaboom! (X)" hidden="false">
+      <description>When a model with this special rule is destroyed, its Catastrophic Damage is modified corresponding to the term in brackets listed in this special rule, as follows:
+Ear-Splitting: When destroyed, a model with this special rule resolves Hits caused by Catastrophic Damage as Destroyer attacks.
+Earth-Shattering: When destroyed, a model with this special rule resolves Hits caused by Catastrophic Damage as Destroyer attacks at AP2.
+Armour-Geddem: When destroyed, a model with this special rule resolves Hits caused by Catastrophic Damage as Destroyer attacks at AP2, and doubles the range of the Catastrophic Damage effect.</description>
+    </rule>
+    <rule id="orks-rule-kstm-0001" name="Kustom" hidden="false">
+      <description>Each time a model fires a weapon that has this special rule, the controlling player can choose to have that shooting attack gain one or more of the following special rules: Deflagrate, Shred, and/or Brutal (2). If a player does, that weapon gains the Gets Hot special rule until that attack is resolved. If two special rules are chosen, the weapon will Get Hot on a To Hit roll of 1 or 2; if all three are chosen, the weapon will Get Hot on a To Hit roll of 1, 2 or 3.</description>
+    </rule>
+    <rule id="orks-rule-lfdr-0001" name="Lifta-Droppa (X)" hidden="false">
+      <description>Each time an attack is made with a weapon that has this special rule, do not roll To Hit. Instead, select a Vehicle model (except a Super-heavy, Knight or Titan model) or a model with 6 or more Wounds (except a Gargantuan model) within range of the weapon and scatter that model, stopping if it would get within 1&quot; of another model, a battlefield edge, or a piece of impassible terrain.
+If an arrow is rolled when scattering the model, the weapon inflicts a number of Hits upon the model equal to the value listed in brackets in this Special Rule. Your opponent can then move any other models in that model's unit, if any, the shortest distance possible so that they remain in coherency with the lifted model.
+If a Hit is rolled, the model remains in place and the weapon inflicts a number of Hits upon the model equal to twice the value listed in brackets in this Special Rule.</description>
+    </rule>
+    <rule id="orks-rule-mwrk-0001" name="Mekaniaks Workshop" hidden="false">
+      <description>A Mekaniaks Workshop is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in a Mekaniaks Workshop must be assigned to another unit from the same Detachment of the army they were selected as part of. Meks that have not selected a Warbike or Deffkopta may only be assigned to units composed entirely of models with the Infantry Unit Type, and may not join units with Mega-armour. Meks that have selected a Warbike may only be assigned to units composed entirely of models with Warbikes, and any Meks that have selected a Deffkopta may only be assigned to units composed entirely of models with Deffkoptas. No Mek may be assigned to any unit that includes one or more models with the Independent Character special rule or Unique Sub-type (but such models may join a unit that includes a Mek as normal during either deployment or any following turn). No more than one Mek may be assigned to any given unit.
+Once assigned to a unit, the Mek is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Mek is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Mek as a casualty.
+When assigned to a unit, a Mek gains all of the special rules (with the exception of those that specifically forbid it) and Unit Sub-types listed for the unit to which it is attached, including that unit's Da Kolours (X) special rule, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+    </rule>
+    <rule id="orks-rule-mtrn-0001" name="Monstrous Transport" hidden="false">
+      <description>For the purpose of the Transport Sub-type, a model with this Special Rule is counted as a Vehicle.</description>
+    </rule>
+    <rule id="orks-rule-mdak-0001" name="More Dakka!" hidden="false">
+      <description>When a model with this special rule makes a Shooting attack with an Auto weapon, for each To Hit roll of 6, that model immediately makes another attack with the same ranged weapon against the same target. Those additional attacks can generate further attacks. This special rule has no effect on attacks that have any variant of the Blast or Template special rule, or on attacks that are resolved as Snap Shots.</description>
+    </rule>
+    <rule id="orks-rule-pwrk-0001" name="Painboyz Workshop" hidden="false">
+      <description>A Painboyz Workshop is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in a Painboyz Workshop must be assigned to another unit from the same Detachment of the army they were selected as part of. Painboys that have not selected a Warbike or Deffkopta may only be assigned to units composed entirely of models with the Infantry Unit Type, and may not join units with Mega-armour. Painboys that have selected a Warbike may only be assigned to units composed entirely of models with Warbikes, and any Painboys that have selected a Deffkopta may only be assigned to units composed entirely of models with Deffkoptas. No Painboy may be assigned to any unit that includes one or more models with the Independent Character special rule or Unique Sub-type (but such models may join a unit that includes a Painboy as normal during either deployment or any following turn). No more than one Painboy may be assigned to any given unit.
+Once assigned to a unit, the Painboy is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Painboy is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Painboy as a casualty.
+When assigned to a unit, a Painboy gains all of the special rules (with the exception of those that specifically forbid it) and Unit Sub-types listed for the unit to which it is attached, including that unit's Da Kolours (X) special rule, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+    </rule>
+    <rule id="orks-rule-perl-0001" name="Perilous" hidden="false">
+      <description>A model may only ever make a single Attack when attacking with a weapon that has this special rule, regardless of their Attacks Characteristic and any bonuses gained for Charging.
+If a model causes a Hit when attacking with a weapon that has this special rule, then for the remainder of the current game that weapon can no longer be used, even if the Hit fails to Wound.</description>
+    </rule>
+    <rule id="orks-rule-pfld-0001" name="Power Fields (X)" hidden="false">
+      <description>A model with this special rule has a number of Power Fields, as listed on its profile. Shooting Attacks which Hit a model with this special rule instead target this model's Power Fields while at least one remains active. Power Fields have an Armour Value of 10. A successful Glancing Hit, Penetrating Hit or any successful Hit from a Destroyer weapon which targets a Power Field causes it to collapse, reducing the number 'X' by -1. When the number of Power Fields is reduced to 0, this special rule has no further effect and subsequent Shooting Attacks target the model instead. Power Fields have no effect on close combat attacks, and may not be affected by close combat attacks.</description>
+    </rule>
+    <rule id="orks-rule-pdbl-0001" name="Psycho-Dakka Blast!!" hidden="false">
+      <description>Before making attacks with a Weapon with this special rule, one friendly Psyker model with either the Waaagh! Energy or Waaagh! Locus special rule within 12&quot; of the firing model may take a Psychic Check. If the Check is successful then the Strength value of any attacks made is doubled. If the Check is failed then Perils of the Warp is resolved targeting the unit containing the model that failed its Check, though the weapon may still be fired normally (even if the Psyker is destroyed).
+A Weapon with this special rule is treated as having the Force special rule for the purpose of rules that refer to the Force special rule.</description>
+    </rule>
+    <rule id="orks-rule-plsw-0001" name="Pulsa Wave" hidden="false">
+      <description>Each unit that is hit by a weapon with this special rule suffers D3 Hits for each of its models under the template, rather than just one. This is increased to D6 for Knight, Titan and Super-Heavy Vehicle models, as well as for models with 8 or more Wounds.
+In addition, leave the Blast Marker in place after resolving all Wounds caused by a weapon with this special rule, or otherwise mark the area. This area counts as both Difficult Terrain and Dangerous Terrain until the end of the next Game Turn.</description>
+    </rule>
+    <rule id="orks-rule-pyro-0001" name="Pyromania" hidden="false">
+      <description>During a turn in which the controlling player calls a Waaagh!, a model with this special rule makes one additional shot each time it fires a Flame weapon.</description>
+    </rule>
+    <rule id="orks-rule-ramx-0001" name="Ram (X)" hidden="false">
+      <description>When a model with a weapon with this special rule performs a Ram Attack, it inflicts a number of additional hits equal to the value of X. These additional hits are resolved using the profile of the weapon with this special rule (if the weapon has a strength modifier instead of a strength characteristic, then the strength of the attack is equal to half the Front Armour of the vehicle with all modifiers taken into account).</description>
+    </rule>
+    <rule id="orks-rule-rcol-0001" name="Ramshackle Colossus" hidden="false">
+      <description>A model with this special rule improves the Invulnerable Save it receives from the Ramshackle unit Sub-type to 5+.
+In addition, when a model with this special rule suffers the Explodes result from the Vehicle Damage Table, roll on the following table instead of rolling on the standard table in the Ramshackle unit Sub-type:
+ -1: Nuffin ta Eet: The Explodes result is ignored and no additional Hull Points are lost.
+ -2-5: Oh No: Resolve the Explodes result as normal.
+ -6: Structural Collapse: Each unit, friendly and enemy, within 8&quot; of the Vehicle and in the facing that the Penetrating Hit that caused the Explodes result was inflicted on suffers a number of Hits at S8, AP- for each of its models that is within range. Then resolve the Explodes result as normal.</description>
+    </rule>
+    <rule id="orks-rule-rtpr-0001" name="Ritual Pair" hidden="false">
+      <description>A model that is equipped with two Melee weapons that have this special rule, and chooses one to fight with in close combat, receives +2 attacks instead of the usual +1 for fighting with two Melee weapons.</description>
+    </rule>
+    <rule id="orks-rule-rscr-0001" name="Rolling Scrap Pile" hidden="false">
+      <description>A model with this special rule improves the Invulnerable Save it receives from the Ramshackle unit Sub-type to 5+.
+In addition, when a model with this special rule suffers the Explodes result from the Vehicle damage table, instead the model is destroyed and removed from the battlefield (it does not inflict any Hits on nearby units, but does not leave a Wreck).</description>
+    </rule>
+    <rule id="orks-rule-rwkw-0001" name="Rowdy Krew" hidden="false">
+      <description>A Vehicle with this special rule can target a different unit with each of its Ranged weapons in the Shooting phase, and must target at least two different units each time it is selected to make a Shooting attack unless there is only one unit that can be targeted.</description>
+    </rule>
+    <rule id="orks-rule-snar-0001" name="Snare" hidden="false">
+      <description>Each time a weapon with this special rule causes a Penetrating Hit against a Vehicle that causes a roll on the Vehicle Damage Table, that model automatically suffers the Immobilized result, without having to roll.
+In addition, if a unit suffers any unsaved Wounds from a weapon that has this special rule, its Movement speed is halved and it may not run or charge until the end of the following turn.</description>
+    </rule>
+    <rule id="orks-rule-sngz-0001" name="Sneaky Gitz" hidden="false">
+      <description>Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit that includes only models with this special rule is considered to be 6&quot; further than the actual range between the two units – enemy models with the Night Vision special rule and models with the Primarch Unit Type ignore this effect.
+In addition, when attacked by a weapon with the Barrage special rule, a unit that includes only models with this special rule is always treated as though it was out of line of sight when scattering any attacks.</description>
+    </rule>
+    <rule id="orks-rule-tbst-0001" name="Tankbustas" hidden="false">
+      <description>During the turn in which the controlling player calls a Waaagh!, any Hit inflicted by a model with this special rule with a Melee Weapon, Ranged Weapon or Bomb Squig gains the Sunder special rule.</description>
+    </rule>
+    <rule id="orks-rule-trid-0001" name="Tank Riders" hidden="false">
+      <description>A model with the Tank Riders special rule gains the Infantry Transport and Assault Vehicle special rules.
+Units can Embark onto or Disembark from a Vehicle with this special rule from any point on its Side and/or Rear facings.
+Each time a Vehicle with this special rule is hit with a weapon that has any variant of the Blast or Template special rule, each unit Embarked upon it suffers D6 Hits, at the weapon's Strength and AP and with all of the weapon's special rules, in addition to any other effects.</description>
+    </rule>
+    <rule id="orks-rule-tant-0001" name="Tantrum" hidden="false">
+      <description>Whenever a model with this special rule makes Stomp attacks, double the number of attacks made.</description>
+    </rule>
+    <rule id="orks-rule-uwhr-0001" name="The Unwashed Hordes" hidden="false">
+      <description>Up to three units with this special rule may be selected to fill a single Troops choice slot instead of only one.
+All units selected in this manner count as part of the same Troops choice for the purposes of Army Selection and Deployment only; when deployed onto the battlefield or into Reserves they are counted as a single unit and all units selected as part of the same Troops choice must be deployed at the same time (but are not required to deploy in proximity with each other) – and if placed into Reserves then all units in that choice must be placed into Reserves. Likewise, when making Reserves rolls one roll is made for all units selected as part of the same choice.
+Once deployed onto the battlefield, all units selected in this manner are treated as separate and distinct units or choices for any Primary or Secondary Objectives or other special rules and operate as separate units in all ways. Units selected as part of the same Troops choice may have different options selected for them, and are not required to be identical.</description>
+    </rule>
+    <rule id="orks-rule-twmn-0001" name="Towering Monstrosity" hidden="false">
+      <description>No melee attack made by models with the Knight Unit Sub-type or the Super-heavy Unit Sub-type may successfully hit a model with this special rule on better than a 5+. No melee attack made by models with the Automata, Cavalry, Dreadnoughts, and Infantry Unit Types may successfully hit a model with this special rule on better than a 6+.</description>
+    </rule>
+    <rule id="orks-rule-trmp-0001" name="Trample" hidden="false">
+      <description>A model with this special rule that is engaged in combat may make a special type of attack called a Trample attack. The Trample attacks are made in addition to the model's normal attacks. Trample attacks are resolved during the Fight subphase at the Initiative 1 step. A model makes a number of Trample attacks equal to the roll of a D3 + the model's unmodified Attacks Characteristic. All Trample attacks are made at the model's unmodified WS and resolved at the model's unmodified Strength with an AP value of 2. Trample attacks cannot be made against Knights and Titans, Flyers, Super-heavy Vehicles or any model with 8 or more Wounds.</description>
+    </rule>
+    <rule id="orks-rule-vspd-0001" name="Variable Speed" hidden="false">
+      <description>Each time a unit with this special rule is selected to make a Move or Ram, roll once the amount of dice indicated in brackets in its Movement characteristic to determine the Movement characteristic of all models in the unit until the end of the current phase.</description>
+    </rule>
+    <rule id="orks-rule-vstr-0001" name="Variable Strength" hidden="false">
+      <description>Each time a weapon with this special rule inflicts one or more Hits as part of a Shooting Attack, roll once the amount of D6 listed in the weapon's Strength characteristic, and add any additive modifiers, to determine the Strength of all of those Hits. When determining whether a weapon with this special rule is a defensive or battle weapon, always use its maximum possible Strength.</description>
+    </rule>
+    <rule id="orks-rule-wart-0001" name="Waaagh! Artillery" hidden="false">
+      <description>A Weapon with this special rule can only be fired once per battle, and only during a turn in which the controlling player calls a Waaagh!. If a weapon with this special rule has multiple profiles, and one of them has this special rule, this only applies to the profile with this special rule.
+Once a weapon with the Waaagh! Artillery special rule has been used to attack, it is no longer counted as a weapon and may not be destroyed (for example, by rolls on the Vehicle Damage Table) or repaired by any other rules or effects, unless it has multiple profiles and only one profile has the Waaagh! Artillery special rule.</description>
+    </rule>
+    <rule id="orks-rule-weng-0001" name="Waaagh! Energy" hidden="false">
+      <description>When making a Psychic Check for a model with this special rule, substitute the model's Leadership characteristic with the amount of other models with the Mob unit Sub-type within 12&quot;, to a minimum of 1. If this causes the model's Leadership to be greater than 12, the Psychic Check is automatically successful, but the model suffers an automatic Wound after resolving the effects of the Psychic Power. Only Invulnerable Saves may be taken against that Wound.</description>
+    </rule>
+    <rule id="orks-rule-wloc-0001" name="Waaagh! Locus" hidden="false">
+      <description>When making a Psychic Check for a model with this special rule, substitute the model's Leadership characteristic with the amount of models with the Mob unit Sub-type that are embarked upon the model and within 3&quot; of it. If this causes the model's Leadership characteristic to be greater than 10, the Psychic Check is automatically successful, but the model suffers an automatic Wound after resolving the effects of the Psychic Power. Only Invulnerable Saves may be taken against that Wound.</description>
+    </rule>
+    <rule id="orks-rule-wrkw-0001" name="Wreckin' Krew" hidden="false">
+      <description>During the turn in which the controlling player calls a Waaagh!, any Hit inflicted by a model with this special rule with a Melee Weapon, Ranged Weapon or Bomb Squig gains the Wrecker special rule.</description>
+    </rule>
+    <rule id="orks-rule-zzap-0001" name="Zzap!" hidden="false">
+      <description>When making a Shooting Attack with a weapon with this special rule, a model is counted as having a Ballistic Skill characteristic of 5 for the purpose of those attacks, unless the attack is resolved as a Snap Shot. Any other modifiers to the model's Ballistic Skill (such as the -1 BS penalty for the Night Fighting provision) are applied to the model's modified Ballistic Skill.</description>
+    </rule>
+    <rule id="orks-rule-megc-0001" name="Mega-Charga" hidden="false">
+      <description>Each time a unit that includes only models with this special rule is selected to Move or Ram, you can roll a D6 for each model in the unit. If the result of the die is 2 or more, the Movement characteristic of the model being rolled for is increased by the result of the die until the end of that Move or Ram. On a roll of 1, the Movement characteristic of the model being rolled for is halved (rounded up) until the end of that Move or Ram instead. If this causes a model to be unable to move far enough to Ram its target, the model must move at Cruising Speed so that it ends this move as close as possible to the target instead.</description>
+    </rule>
+    <rule id="orks-rule-unhd-0001" name="Unending Horde (X)" hidden="false">
+      <description>When a unit composed entirely of models with this special rule has its last model removed as a casualty, the controlling player may choose to roll a D6. On a result equal to or greater than the value in brackets, a unit identical to the one that was removed as casualties (with all models and Wargear listed on the controlling player's army roster) is placed in Reserves – and treated as a new unit. On any other result, the unit is removed as casualties with no further effect. Any Victory points that would be scored for the unit removed as casualties are unaffected and scored as normal, and any new unit that enters Reserves may be used to score Victory points if also removed as casualties. Furthermore, if a new unit placed in Reserves due to this special rule is later removed from play as casualties – it too can be returned to Reserves instead of being removed as casualties by the same method.</description>
+    </rule>
+    <rule id="orks-rule-tlbc-0001" name="Tellyport Beacon" hidden="false">
+      <description>The controlling player may re-roll any Scatter rolls made as part of the deployment of a model or unit via a Deep Strike Assault, as long as a model with this special rule is within 12&quot; of the point chosen as the target of the deployment.
+In addition, whilst at least one model with this special rule is on the battlefield, the controlling player may re-roll the die to see if units performing a Deep Strike Assault arrive from reserves.</description>
+    </rule>
+    <rule id="orks-rule-cybk-0001" name="Cybork Body" hidden="false">
+      <description>A model with a Cybork Body adds +1 to its Invulnerable Save (to a maximum of 3+), or gains an Invulnerable Save of 6+ if they do not already possess one. In addition, successful To Wound rolls made for weapons with the Poisoned or Fleshbane special rule must be re-rolled against models with a Cybork Body.
+However, a model with a Cybork Body may not move or shoot as part of Reactions its unit makes.</description>
+    </rule>
+    <rule id="orks-rule-dokt-0001" name="Dok Tools" hidden="false">
+      <description>All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with Dok Tools gain the Feel No Pain (5+) special rule. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</description>
     </rule>
   </sharedRules>
 
