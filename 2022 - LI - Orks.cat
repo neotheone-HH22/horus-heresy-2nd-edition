@@ -103,6 +103,567 @@ A Detachment with the Digganobz Provenance uses the Xenos Faction. Units in a De
   </sharedProfiles>
 
   <sharedSelectionEntries>
+    <selectionEntry id="orks-warg-bpla-0001" name="Boarding Plank" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-bpla-pr01" name="Boarding Plank" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Boarding Plank gains the Assault Vehicle special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-boss-0001" name="Bosspole" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-boss-pr01" name="Bosspole" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Bosspole counts as one additional model for the purpose of the Mob unit Sub-type.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-cybk-0001" name="Cybork Body" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-cybk-pr01" name="Cybork Body" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Cybork Body adds +1 to its Invulnerable Save (to a maximum of 3+), or gains an Invulnerable Save of 6+ if they do not already possess one. In addition, successful To Wound rolls made for weapons with the Poisoned or Fleshbane special rule must be re-rolled against models with a Cybork Body.
+
+However, a model with a Cybork Body may not move or shoot as part of Reactions its unit makes.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-earm-0001" name="&apos;Eavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-earm-pr01" name="&apos;Eavy Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with &apos;Eavy Armour has a 4+ Armour saving throw, and any model with &apos;Eavy Armour gains the Heavy unit Sub-type.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-eslb-0001" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-eslb-pr01" name="&apos;Eavy Slab" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an &apos;Eavy Slab can re-roll failed Dangerous Terrain tests. In addition, the Strength of any Hits inflicted by a Vehicle with an &apos;Eavy Slab on an enemy model as part of a Ram or Hammer of Wrath Attack is increased by 1.
+
+An &apos;Eavy Slab is not considered a weapon and may not be targeted by the Weapon Destroyed result on the Vehicle Damage Table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-dokt-0001" name="Dok Tools" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-dokt-pr01" name="Dok Tools" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with Dok Tools gain the Feel No Pain (5+) special rule. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-fdek-0001" name="Firing Deck (Arc, X)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-fdek-pr01" name="Firing Deck (Arc, X)" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Firing Deck is a mount that does not include any weapons, instead it allows models Embarked upon the Transport to fire the weapons they are equipped with from the Vehicle. A Firing Deck will note in brackets both the arc into which it can fire as well as the number of embarked models that can fire from it. Each embarked model firing from a Firing Deck measures its range and line of sight from the hull of the Transport on the listed facing and may fire one Ranged weapon it is equipped with as per the normal rules for Shooting.
+
+All weapons used by Embarked models are counted as being Defensive Weapons, regardless of their Strength. Models attacking from a Firing Deck may select a different target from the rest of the Vehicle&apos;s weapons, but all attacks made from a Firing Deck must have the same target.
+
+Models firing from a Firing Deck are not counted towards the maximum amount of weapons a Vehicle can attack with in the Shooting Phase. Embarked models count as having moved for the purpose of shooting from a Firing Deck if their Transport moved during the previous Movement phase, and may only fire Snap Shots if their Transport moved over half its Movement characteristic.
+
+If a Vehicle with a Firing Deck suffers a Penetrating Hit from a weapon with any variant of the Blast or Template (X) special rule, then in addition to any other damage the unit inside the transport suffers D6 Hits using the weapon&apos;s Strength and AP characteristics.
+
+Note that a Firing Deck is not itself a weapon and may not be targeted by the Weapon Destroyed result on the Vehicle Damage Chart.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-gitf-0001" name="Gitfinda" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-gitf-pr01" name="Gitfinda" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Gitfinda gains the Night Vision special rule. In addition, when a model equipped with a Gitfinda makes a Shooting Attack, it gains +1 to its BS if any of the following conditions are fulfilled:
+- The model remained stationary during its controlling player&apos;s previous Movement phase.
+- The model is making an attack as part of a Reaction.
+
+These are not cumulative; a model may only gain a maximum of +1 to its BS from Gitfindas.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-ammo-0001" name="Ammo Runtz" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-ammo-pr01" name="Ammo Runtz" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One use only. When a unit that is equipped with any Ammo Runtz is selected to make a Shooting Attack, you can declare that this unit will expend one of its Ammo Runtz. If it does, then for that Shooting Attack all models in that unit roll an additional dice when firing any Auto weapon that does not have the Blast or Template special rules. After an Ammo Runt has been expended, it cannot be used for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-dgrt-0001" name="Distraction Grot" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-dgrt-pr01" name="Distraction Grot" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One use only. When a unit equipped with any Distraction Grot is targeted with the Overwatch, Return Fire or Interceptor Reactions, it can expend one of its Distraction Grots. If it does, all models shooting as part of that Reaction have a -1 penalty to their Ballistic Skill characteristic when making those attacks, to a minimum of 1.
+
+In addition, when an enemy unit completes a Charge move against a unit equipped with any Distraction Grots, that unit can expend one of its Distraction Grots. If it does, that charge becomes Disordered. After a Distraction Grot has been expended, it cannot be used for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-gitb-0001" name="Gitbusta" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-gitb-pr01" name="Gitbusta" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Gitbusta is equipped with a ranged weapon (if no ranged weapon is indicated next to the Gitbusta in the model&apos;s profile, that weapon is a Big Shoota). That weapon is always fired at Ballistic Skill 3, including when firing Snap Shots. When a model with a Gitbusta makes a Shooting attack, the Gitbusta may always be fired in addition to any of the model&apos;s other weapons, even if the model does not have the Firing Protocols special rule, and can shoot at a different target than the rest of the model&apos;s unit. Shooting attacks made by Gitbustas are resolved after the rest of the unit&apos;s Shooting attacks, and may not target a unit forced to disembark as a result of the unit&apos;s other Shooting attacks.
+
+If a Vehicle is equipped with a Gitbusta, the Gitbusta&apos;s weapon can always be fired in addition to any weapons the Vehicle would normally be eligible to fire, and is always considered to be a Defensive weapon, regardless of its Strength. The Gitbusta&apos;s weapon may be targeted with, and destroyed by, the Weapon Destroyed result on the Vehicle Damage Table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-goil-0001" name="Grot Oiler" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-goil-pr01" name="Grot Oiler" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One use only. Once per battle, when a model equipped with a Grot Oiler fails a Battlesmith roll, you can expend one of that model&apos;s Grot Oilers. If you do, that roll is automatically successful instead. After a Grot Oiler has been expended, it cannot be used for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-gord-0001" name="Grot Orderly" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-gord-pr01" name="Grot Orderly" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One use only. Once per battle, before a unit that includes at least one model equipped with a Grot Orderly fails any Damage Mitigation roll granted by the Feel No Pain special rule, you can expend one of that model&apos;s Grot Orderlies. If you do, then until the end of the phase the value X of that unit&apos;s Feel No Pain special rule is improved by 1 (to a maximum of 2+). After a Grot Orderly has been expended, it cannot be used for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-grig-0001" name="Grot Riggers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-grig-pr01" name="Grot Riggers" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with Grot Riggers gains the It Will Not Die (6+) special rule. If a model that already has the It Will Not Die (X) special rule selects a Grot Rigger as an upgrade, that model improves the value of its It Will Not Die (X) special rule by 1 instead (from 5+ to 4+, for instance).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-mega-0001" name="Mega-Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-mega-pr01" name="Mega-Armour" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Mega-Armour has a 2+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-mhul-0001" name="More &apos;Ull" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-mhul-pr01" name="More &apos;Ull" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model that selects More &apos;Ull as an upgrade improves its Front and Rear Armour Values by 1 each.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-dwtr-0001" name="Deffkilla Wartrike" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-dwtr-pr01" name="Deffkilla Wartrike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Deffkilla Wartrike has two Dakkaguns. In addition, a model with a Deffkilla Wartrike that chooses to Run gains the Shrouded (4+) special rule until the start of the controlling player&apos;s next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-dkpt-0001" name="Deffkopta" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-dkpt-pr01" name="Deffkopta" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Deffkopta has one Dakkagun. A model with the Infantry Unit Type that selects a Deffkopta as an upgrade must change its Unit Type to Cavalry, keeping any Unit Sub-types it previously had, gains the Antigrav unit Sub-type, and may choose to gain the Skirmish unit Sub-type. In addition, the model must change its Movement Characteristic to 16, increases its Wounds characteristic by 1 and gains the Battle-Hardened and Firing Protocols (2) special rules, and, if its armour save is worse than 4+, changes its armour save to 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-wbik-0001" name="Warbike" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-wbik-pr01" name="Warbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Warbike has one Dakkagun. In addition, a model with a Warbike that chooses to Run gains the Shrouded (4+) special rule until the start of the controlling player&apos;s next turn.
+
+A model with the Infantry Unit Type that selects a Warbike as an upgrade must change its Unit Type to Cavalry, keeping any unit Sub-types it previously had, and may choose to gain the Skirmish Unit Sub-type. In addition, the model must change its Movement Characteristic to 14, increases its Wounds characteristic by 1 and gains the Battle-Hardened, Firing Protocols (2) and Hammer of Wrath (1) special rules, and, if its armour save is worse than 4+, changes its armour save to 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-atsq-0001" name="Attack Squig" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-atsq-pr01" name="Attack Squig" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Attack Squig makes 1 additional attack per turn, in addition to any it is eligible to make. That attack is made at Strength 5, AP-, and has the Rending (6+) and Sniper special rules, but does not have and cannot gain additional special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-bmsq-0001" name="Bomb Squig" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-bmsq-pr01" name="Bomb Squig" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">One use only. If a unit is equipped with Bomb Squigs, any model in that unit may unleash a Bomb Squig instead of firing a weapon when its unit makes a Shooting attack. If it does, pick a model in one of the units targeted by the attack which is within 18&quot; and within range and line of sight, except a model with the Flyer, Lumbering Flyer or Antigrav sub-type. Roll a D6. On a 2+, that model suffers a Strength 8, AP3 Hit. After a Bomb Squig has been unleashed, it cannot be used for the rest of the game, even if it failed to inflict any Hits.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-sqhg-0001" name="Squighog" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-sqhg-pr01" name="Squighog" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Squighog makes 2 additional attacks per turn, in addition to any it is eligible to make. These attacks are made at Strength 5, AP-, and have the Rending (6+) special rule, but do not have and cannot gain additional special rules.
+
+A model with the Infantry Unit Type that selects a Squighog as an upgrade must change its Unit Type to Cavalry and may choose to gain the Skirmish sub-type, keeping any unit Sub-types it previously had. In addition, the model must change its Movement Characteristic to 9, increases its Wounds characteristic by 1 and gains the Fleet (1) and Hammer of Wrath (1) special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-smsq-0001" name="Smasha Squig" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-smsq-pr01" name="Smasha Squig" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Smasha Squig makes 2 additional attacks per turn, in addition to any it is eligible to make. These attacks are made at Strength 5, AP-, and have the Rending (6+) special rule, but do not have and cannot gain additional special rules.
+
+A model with the Infantry Unit Type that selects a Smasha Squig as an upgrade must change its Unit Type to Cavalry and may choose to gain the Skirmish sub-type, keeping any unit Sub-types it previously had. In addition, the model must change its Movement Characteristic to 9, increases its Wounds characteristic by 1 and gains the Fleet (1) and Hammer of Wrath (3) special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-sqgs-0001" name="Squigosaur" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-sqgs-pr01" name="Squigosaur" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Squigosaur makes 3 additional attacks per turn, in addition to any it is eligible to make. These attacks are made at Strength 6, AP-, and have the Rending (5+) special rule, but do not have and cannot gain additional special rules.
+
+A model with the Infantry Unit Type that selects a Squigosaur as an upgrade must change its Unit Type to Cavalry and may choose to gain the Skirmish Sub-type, keeping any unit Sub-types it previously had. In addition, the model must change its Movement Characteristic to 9, increases its Wound characteristic by 2 and gains the Fleet (1) and Hammer of Wrath (1) special rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-blex-0001" name="Billowing Exhaust" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-blex-pr01" name="Billowing Exhaust" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Billowing Exhaust that chooses to Run, or moves at Cruising Speed or faster, gains the Shrouded (4+) special rule until the start of the controlling player&apos;s next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-sken-0001" name="Shokk Engine" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-sken-pr01" name="Shokk Engine" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Shokk Engine gains the Deep Strike special rule. In addition, if a unit contains only models with Shokk Engines, its controlling player may choose to scatter it 2D6&quot; at the end of their Movement phase. If the final position of any model in the unit is within 1&quot; of an enemy model, any battlefield edge or a piece of Impassable Terrain, then move that model the shortest distance possible so it is more than 1&quot; from enemy models, any battlefield edge or Impassable Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-rken-0001" name="Rokkit Engine" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-rken-pr01" name="Rokkit Engine" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Rokkit Engine changes its Movement characteristic to 20. However, a model with a Rokkit Engine treats all terrain, including open ground, as Dangerous Terrain. In addition, a model with a Rokkit Engine increases the Strength of any Hits it inflicts as part of a Hammer of Wrath or Ram attack by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-rmtk-0001" name="Rumblin&apos; Trakks" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-rmtk-pr01" name="Rumblin&apos; Trakks" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Rumblin&apos; Trakks gains the Slow and Purposeful special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-kff0-0001" name="Kustom Forcefield" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-kff0-pr01" name="Kustom Forcefield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">While a model with a Kustom Forcefield is on the battlefield, that model, and all friendly models within 12&quot; of that model, gain a 5+ Invulnerable Save against Shooting attacks made by models that are more than 12&quot; away from the model with the Kustom Forcefield.
+
+If a model with a Kustom Forcefield is embarked inside a Vehicle, then instead that Vehicle receives a 5+ Invulnerable Save against Shooting attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-blff-0001" name="Blastajet Forcefield" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-blff-pr01" name="Blastajet Forcefield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Blastajet Forcefield, and all friendly models with the Flyer unit Sub-type within 12&quot; of that model, gain a 5+ Invulnerable Save against Shooting attacks, except Shooting Attacks made by models with the Flyer or Antigrav unit Sub-type that are within 12&quot; of the model with the Blastajet Forcefield.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-rkpk-0001" name="Rokkit Pack" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-rkpk-pr01" name="Rokkit Pack" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Rokkit Packs may set its Movement Characteristic to a value of 14 (referred to as &apos;activating&apos; the Rokkit Pack) for the duration of the controlling player&apos;s turn. This allows the unit to move up to 14&quot;, regardless of the Movement Characteristic shown on its profile, and gain any other benefits of a Movement Characteristic of 14. In addition, if the controlling player activates the Rokkit Pack, the unit ignores terrain while Moving and Charging, and may move over friendly and enemy models/units. A unit that ends or begins its Movement or a Charge in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Rokkit Packs. In fact, a model with an activated Rokkit Pack treats all terrain, including open ground, as Dangerous Terrain.
+
+Any model equipped with a Rokkit Pack also gains the Bulky (2), Hammer of Wrath (1) and Deep Strike special rules, or, if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. A model with a Rokkit Pack may Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with an activated Rokkit Pack, add the Initiative Characteristic of that model to 14 to determine how far it may move - the model ignores terrain and models from other units while making a Run move with a Rokkit Pack as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
+
+During Reactions made in any Phase, a unit equipped with Rokkit Packs may not activate them to gain any bonus to their Movement Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-shgb-0001" name="Shiny Gubbinz" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-shgb-pr01" name="Shiny Gubbinz" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with Shiny Gubbinz has a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-skbs-0001" name="Shokk Boosta" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-skbs-pr01" name="Shokk Boosta" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Shokk Boosta, and all models in any unit it joins (including during or prior to deployment) gains the Deep Strike special rule and must be assigned to a Deep Strike Assault. Additionally, any unit that includes a model with a Shokk Boosta that enters play using the Deep Strike special rule must roll a dice for each model in the unit after it has been completely deployed on the battlefield and any Pinning tests or Reactions required have been resolved. For each dice rolled that results in a &apos;1&apos;, a single Wound against which only Invulnerable Saves may be taken is inflicted on the unit with the Shokk Boosta.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-stik-0001" name="Stikkboms" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-stik-pr01" name="Stikkboms" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with Stikkboms makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-stch-0001" name="Stikkbom Chukka" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-stch-pr01" name="Stikkbom Chukka" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">If a model with a Stikkbom Chukka makes the Evade reaction, that model gains the Shrouded (4+) special rule instead of Shrouded (5+). Stikkbom Chukkas do not count as a weapon and may not be targeted by Weapon Destroyed results on the Vehicle Damage table.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-wban-0001" name="Waaagh! Banner" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-wban-pr01" name="Waaagh! Banner" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Waaagh! Banner gains the Fear (1) special rule, and counts as 2 additional models for the purpose of the Mob unit Sub-type. Whilst a unit includes at least one model with a Waaagh! Banner, all models in its unit gain the Line Unit Sub-Type.
+
+Additionally, an army that includes any models with a Waaagh! Banner may declare a Waaagh!, even if you have no models with the Waaagh! special rule on the battlefield.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-warg-tlpb-0001" name="Tellyport Beacon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-warg-tlpb-pr01" name="Tellyport Beacon" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may re-roll any Scatter rolls made as part of the deployment of a model or unit via a Deep Strike Assault, as long as a model with this special rule is within 12&quot; of the point chosen as the target of the deployment.
+
+In addition, whilst at least one model with this special rule is on the battlefield, the controlling player may re-roll the die to see if units performing a Deep Strike Assault arrive from reserves.
+
+If the last model with this special rule on the controlling player&apos;s side is destroyed and removed as casualties, that player must immediately perform a Deep Strike Assault before that model is removed as a casualty if any unit on their side are held back in reserves as part of a Deep Strike Assault.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-psyd-wagh-0001" name="Psychic Discipline: Waaagh!" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-psyd-wagh-pr01" name="Da Jump" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of its unit Moving in the Movement phase, a Psyker with this psychic power may instead activate this Psychic power. The Psyker takes a Psychic check. Regardless of the result, remove the Psyker and all models in its unit from the battlefield. Then place the Psyker anywhere on the battlefield that is at least 1&quot; from any enemy model, table edge or piece of Impassable Terrain.
+
+If the Psychic Check was successful, the model remains in place. If it was failed, the controlling player&apos;s opponent may move that model to any position within 18&quot; that is more than 1&quot; from any enemy model, battlefield edge or piece of Impassable Terrain. If there is no suitable position within 18&quot; then the model may be repositioned anywhere on the battlefield that is more than 1&quot; from any enemy model, battlefield edge or piece of Impassable Terrain. If possible, the Psyker must be placed in a position that will allow the remainder of the squad to deploy (as follows), and may only be placed in a position that denies the remainder of the squad a place within unit coherency if no other position is available.
+
+Once the Psyker&apos;s final position has been decided, the remainder of the unit may be deployed anywhere that is within unit coherency and more than 1&quot; from any enemy model or piece of Impassable Terrain. Any models that cannot be placed are removed as casualties. If the Psychic Check was failed, the Psyker suffers Perils of the Warp once the effects of the power have been fully resolved.
+
+Once all models in the unit are deployed, any enemy units that are neither Pinned or Falling Back and are within line of sight and range may choose to make the Interceptor Reaction targeting the unit deployed with Da Jump. Note that no Reaction other than Interceptor may be made against a unit deployed with Da Jump.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="orks-psyd-wagh-pr02" name="Da Krunch" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">2D6</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">4</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Large Blast (5&quot;), Barrage, Godly Pummel, Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="orks-psyd-wagh-rl01" name="Psychic Discipline: Waaagh!" hidden="false">
+          <description>A Psyker with this Discipline gains all the listed Powers, weapons and other special rules, as well as the Aetheric Lightning Psychic Weapon (see core rules page 322).
+
+Da Jump (Psychic Power)
+Da Krunch (Psychic Weapon)
+
+Godly Pummel: Each time you place a Template for an attack made with Da Krunch, roll 2D6 to determine the Strength of all Hits inflicted by that template. If you roll any double when determining the weapon&apos;s Strength, completely resolve the attack and then resolve a second attack against the original target of the weapon (if it still has any surviving models), rolling another 2D6. If this second attack also rolls a double for its Strength, resolve another attack as described above. Continue repeating this process until either you do not roll a double when determining the attack&apos;s Strength, or all models in the original target have been removed as a casualty.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="orks-psyd-wagh-il01" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink id="orks-psyd-wagh-il02" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink id="orks-psyd-wagh-il03" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="orks-psyd-wagh-il04" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="orks-psyd-bshd-0001" name="Psychic Discipline: Beasthead" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="orks-psyd-bshd-pr01" name="Beastscent" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of shooting with a ranged weapon in the Shooting phase, a Psyker with this psychic power may instead activate this Psychic power. Select an enemy unit. Until the end of the current player turn, that unit cannot gain the benefits of cover, cannot take the Evade reaction, and loses and cannot gain the Shrouded special rule. When activating this power, the controlling player may have the Psyker take a Psychic check. If the check is successful, then until the end of the current player turn, each time a melee or ranged attack is made targeting that unit, the attacking model gains +1 to its Weapon Skill and Ballistic Skill for that attack. If the check is failed, then the power does not have any effect and the Psyker suffers Perils of the Warp.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="orks-psyd-bshd-pr02" name="Power Vomit" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="62ec-fbf5-5252-0d17">Template</characteristic>
+            <characteristic name="Strength" typeId="17ff-12e7-77d3-2fbe">7</characteristic>
+            <characteristic name="AP" typeId="f431-a7b9-d9d0-36c9">2</characteristic>
+            <characteristic name="Type" typeId="2159-62b6-4337-d516">Assault 1, Pinning, Shell Shock (1), Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="orks-psyd-bshd-rl01" name="Psychic Discipline: Beasthead" hidden="false">
+          <description>A Psyker with this Discipline gains all the listed Powers, weapons and other special rules, as well as the Aetheric Lightning Psychic Weapon (see core rules page 322).
+
+Beastscent (Psychic Power)
+Power Vomit (Psychic Weapon)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="orks-psyd-bshd-il01" name="Psychic Focus" hidden="false" targetId="bff3-3548-b2b8-72f1" type="rule"/>
+        <infoLink id="orks-psyd-bshd-il02" name="Aetheric Lightning" hidden="false" targetId="3d0c-e779-247f-0332" type="profile"/>
+        <infoLink id="orks-psyd-bshd-il03" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="orks-psyd-bshd-il04" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="orks-psyd-bshd-il05" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 
   <sharedSelectionEntryGroups>
