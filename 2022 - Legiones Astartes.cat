@@ -48608,7 +48608,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <entryLink id="f8ec-6097-895c-4599" name="Legion Decurions" hidden="false" collective="false" import="true" targetId="8763-74b0-d57f-ebab" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="285"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
