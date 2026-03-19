@@ -11,27 +11,27 @@ This document tracks the progress of implementing the Waaagh! The Orks! homebrew
 ## Implementation Status
 
 ### Core Rules
-- [ ] Faction Rules, Warlord Traits, Advanced Reaction & Da Kolours (p4–8) - Issue: TBD
-- [ ] Waaagh! Armies (p95–100) - Issue: TBD
-- [ ] Ork Unit Types & Special Rules (p92–94, p101–108) - Issue: TBD
+- [x] Faction Rules, Warlord Traits, Advanced Reaction & Da Kolours (p4–8)
+- [x] Waaagh! Armies (p95–100) — 12 Waaagh! Army types implemented
+- [x] Ork Unit Types & Special Rules (p92–94, p101–108) — 80 sharedRules
 
 ### Army List — Unit Entries
-- [ ] HQ Units (p10–20) - Issue: TBD
-- [ ] Elite Units (p22–30) - Issue: TBD
-- [x] Troops & Dedicated Transports (p32–40) - Issue: #198
-- [ ] Fast Attack Units (p42–51) - Issue: TBD
-- [x] Heavy Support: Infantry, Walkers & Beasts (p53–57) - Lootas Mob, Mega-Dread, Squiggoth, Hunta Rig, Kill Rig
-- [ ] Heavy Support: Vehicles (p58–65) - Issue: TBD
-- [ ] Heavy Support: Aircraft & Artillery (p66–70) - Issue: TBD
-- [ ] Lords of War (p72–84) - Issue: TBD
-- [ ] Fortifications (p87–90) - Issue: TBD
+- [x] HQ Units (p10–20) — 9 generic HQ entries + Ork Baron
+- [x] Elite Units (p22–30) — 9 entries
+- [x] Troops & Dedicated Transports (p32–40) — Issue: #198, 8 troops + 1 DT
+- [x] Fast Attack Units (p42–51) — Issue: #199, 10 entries (3 Cavalry + 2 Squadrons + 5 Flyers/Vehicles)
+- [x] Heavy Support: Infantry, Walkers & Beasts (p53–57) — Lootas Mob, Mega-Dread, Squiggoth, Hunta Rig, Kill Rig
+- [x] Heavy Support: Vehicles (p58–65) — Issue: #201, Battlewagons, Gunwagon, Killwagons, Big Trakks, Looted Wagon, Grot Tanks, Grot Mega-Tanks
+- [x] Heavy Support: Aircraft & Artillery (p66–70) — Issue: #202 (merged into vehicles)
+- [x] Lords of War (p72–84) — Issue: #203, 12 entries
+- [x] Fortifications (p87–90) — Issue: #204, 4 entries (Big Waaagh! Banner, Gargant 'Ead Bunka, Kustom Workshop, Mek Supa-Gunz)
 
 ### Shared Resources
-- [ ] Weapon Profiles — Ranged & Melee (p109–117) - Issue: TBD
-- [ ] Wargear & Psychic Disciplines (p118–124) - Issue: TBD
+- [x] Weapon Profiles — Ranged & Melee (p109–117) — 136 weapon profiles
+- [x] Wargear & Psychic Disciplines (p118–124) — 37 wargear + 2 disciplines
 
 ### Named Characters
-- [ ] Dramatis Personae (p125–136) - Issue: TBD
+- [x] Dramatis Personae (p125–136) — 10 named characters (Zagstruk, Badrukk, Snikrot, Grotsnik, Zhadsnark, Mozrog, Buzzgob, Zodgrod, Ghazghkull, Makari)
 
 ---
 
@@ -61,26 +61,26 @@ The following order is recommended to minimize dependencies between issues:
 
 | Section | Pages | Units/Items | Issue |
 |---------|-------|-------------|-------|
-| Faction & Allegiances | 4 | Allegiances, Digganobz Provenance | TBD |
-| Warlord Traits | 5 | 6 traits | TBD |
-| Advanced Reaction | 6 | Git'em! | TBD |
-| Da Kolours | 7–8 | 7 colours | TBD |
-| **HQ** | 10–20 | 10 entries (Warboss with 5 upgrades) | TBD |
-| **Elites** | 22–30 | 9 entries | TBD |
-| **Troops & DT** | 32–40 | 8 troops + 1 DT | TBD |
-| **Fast Attack** | 42–51 | 10 entries | TBD |
-| **Heavy Support** | 53–70 | 18 entries (split into 3 issues) | TBD |
-| **Lords of War** | 72–84 | 12 entries | TBD |
-| **Fortifications** | 87–90 | 4 entries | TBD |
-| Ork Unit Types | 92–93 | 7 types (Mob, Ramshackle, Skirmish, Emplacement, Gargantuan, Prime-Ork, Gargantuan Prime-Ork) | TBD |
-| Waaagh! Special Rule | 94 | Calling a Waaagh! | TBD |
-| Waaagh! Armies | 95–100 | 12 army types | TBD |
-| Ork Special Rules | 101–108 | ~25 special rules | TBD |
-| Ranged Weapons | 109–114 | ~50+ profiles | TBD |
-| Melee Weapons | 115–117 | ~25+ profiles | TBD |
-| Wargear | 118–122 | ~20+ items | TBD |
-| Psychic Disciplines | 123–124 | 2 disciplines (Waaagh!, Beasthead) | TBD |
-| Dramatis Personae | 125–136 | 10 named characters | TBD |
+| Faction & Allegiances | 4 | Allegiances, Digganobz Provenance | ✅ Done |
+| Warlord Traits | 5 | 6 traits | ✅ Done |
+| Advanced Reaction | 6 | Git'em! | ✅ Done |
+| Da Kolours | 7–8 | 7 colours | ✅ Done |
+| **HQ** | 10–20 | 10 entries (Warboss with 5 upgrades) | ✅ Done |
+| **Elites** | 22–30 | 9 entries | ✅ Done |
+| **Troops & DT** | 32–40 | 8 troops + 1 DT | #198 ✅ |
+| **Fast Attack** | 42–51 | 10 entries | #199 ✅ |
+| **Heavy Support** | 53–70 | 18 entries (split into 3 issues) | #200/#201/#202 ✅ |
+| **Lords of War** | 72–84 | 12 entries | #203 ✅ |
+| **Fortifications** | 87–90 | 4 entries | #204 ✅ |
+| Ork Unit Types | 92–93 | 7 types (Mob, Ramshackle, Skirmish, Emplacement, Gargantuan, Prime-Ork, Gargantuan Prime-Ork) | ✅ Done |
+| Waaagh! Special Rule | 94 | Calling a Waaagh! | ✅ Done |
+| Waaagh! Armies | 95–100 | 12 army types | ✅ Done |
+| Ork Special Rules | 101–108 | ~25 special rules | ✅ Done |
+| Ranged Weapons | 109–114 | ~50+ profiles | ✅ Done |
+| Melee Weapons | 115–117 | ~25+ profiles | ✅ Done |
+| Wargear | 118–122 | ~20+ items | ✅ Done |
+| Psychic Disciplines | 123–124 | 2 disciplines (Waaagh!, Beasthead) | ✅ Done |
+| Dramatis Personae | 125–136 | 10 named characters | ✅ Done |
 | FAQ | 137 | 3 Q&A entries | — |
 | Base Size Guide | 138–139 | All unit base sizes | — |
 | Changelog | 140 | v2.1 and v2.2 changes | — |
@@ -130,5 +130,5 @@ The following order is recommended to minimize dependencies between issues:
 
 ---
 
-**Last Updated:** 2026-03-18
-**Status:** Issues being created; implementation not yet started
+**Last Updated:** 2026-03-19
+**Status:** All sections implemented — 76 units across 7 Force Org slots (HQ, Elites, Troops, Fast Attack, Heavy Support, Lords of War, Fortifications) + Primarch
