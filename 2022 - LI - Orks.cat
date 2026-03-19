@@ -9720,7 +9720,7 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
       </rules>
       <infoLinks>
         <infoLink id="orks-lw01-0001-0001-rl01" name="Da Kolours (X)" hidden="false" targetId="orks-rule-kolo-0001" type="rule" />
-        <infoLink id="orks-lw01-0001-0001-rl02" name="&amp;apos;Ard Case" hidden="false" targetId="orks-rule-ardc-0001" type="rule" />
+        <infoLink id="orks-lw01-0001-0001-rl02" name="&apos;Ard Case" hidden="false" targetId="orks-rule-ardc-0001" type="rule" />
         <infoLink id="orks-lw01-0001-0001-rl03" name="Hammer of Wrath (D6+4)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Hammer of Wrath (D6+4)" />
@@ -10007,7 +10007,7 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
               </costs>
             </entryLink>
-            <entryLink id="orks-lw01-0002-0001-wg02" name="&amp;apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+            <entryLink id="orks-lw01-0002-0001-wg02" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-lw01-0002-0001-wg02-c1" type="max" />
               </constraints>
@@ -10515,17 +10515,17 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="orks-lw01-0005-0001-ws05-a2" name="Grabbin&amp;apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="orks-lw01-0005-0001-ws05-a2" name="Grabbin&apos; Klaw" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="orks-lw01-0005-0001-ws05-a2-il1" name="Grabbin&amp;apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
+                <infoLink id="orks-lw01-0005-0001-ws05-a2-il1" name="Grabbin&apos; Klaw" hidden="false" targetId="orks-wpn0-0106-0001" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="orks-lw01-0005-0001-ws05-a3" name="Wreckin&amp;apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="orks-lw01-0005-0001-ws05-a3" name="Wreckin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="orks-lw01-0005-0001-ws05-a3-il1" name="Wreckin&amp;apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
+                <infoLink id="orks-lw01-0005-0001-ws05-a3-il1" name="Wreckin&apos; Ball" hidden="false" targetId="orks-wpn0-0107-0001" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10" />
@@ -10596,7 +10596,7 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-                <entryLink id="orks-lw01-0005-0001-ws08-el1" name="&amp;apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
+                <entryLink id="orks-lw01-0005-0001-ws08-el1" name="&apos;Eavy Slab" hidden="false" collective="false" import="true" targetId="orks-warg-eslb-0001" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="orks-lw01-0005-0001-ws08-el1-c1" type="max" />
               </constraints>
@@ -10856,7 +10856,7 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
                     <modifier type="set" field="name" value="Power Fields (2)" />
                   </modifiers>
                 </infoLink>
-        <infoLink id="orks-lw01-0008-0001-rl03" name="&amp;apos;Eadbutt o&amp;apos; da Godz" hidden="false" targetId="orks-rule-eadg-0001" type="rule" />
+        <infoLink id="orks-lw01-0008-0001-rl03" name="&apos;Eadbutt o&apos; da Godz" hidden="false" targetId="orks-rule-eadg-0001" type="rule" />
         <infoLink id="orks-lw01-0008-0001-rl04" name="Kaboom! (Ear-Splitting)" hidden="false" targetId="orks-rule-kbom-0001" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Kaboom! (Ear-Splitting)" />
@@ -11178,9 +11178,9 @@ Additionally, if Makari was destroyed by an attack made by an enemy model, then 
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="orks-lw01-0009-0001-ws05-a3" name="Krushin&amp;apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="orks-lw01-0009-0001-ws05-a3" name="Krushin&apos; Ball" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="orks-lw01-0009-0001-ws05-a3-il1" name="Krushin&amp;apos; Ball" hidden="false" targetId="orks-wpn0-0108-0001" type="profile" />
+                <infoLink id="orks-lw01-0009-0001-ws05-a3-il1" name="Krushin&apos; Ball" hidden="false" targetId="orks-wpn0-0108-0001" type="profile" />
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0" />
