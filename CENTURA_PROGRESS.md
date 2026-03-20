@@ -13,7 +13,7 @@
 - [x] Legion Saturnine Centurion (140 pts)
 - [x] Legion Indomitus Command Squad (150 pts)
 - [x] Legion Contemptor Centurion (225 pts) — Dreadnought HQ with Pater Consularis
-- [ ] Legion Castra Ferrum Centurion (175 pts) — Dreadnought HQ with Pater Consularis
+- [x] Legion Castra Ferrum Centurion (175 pts) — Dreadnought HQ with Pater Consularis
 
 ### Elites
 - [x] Legion Terminator Indomitus Squad (200 pts base)
@@ -28,7 +28,7 @@
 - [ ] Legion Sky-Seeker Squadron (144 pts)
 - [ ] Legion Assault Support Squad (120 pts)
 - [ ] Legion Novicii Squad (90 pts)
-- [ ] Legion Rhino Advancer (80 pts) — Open-topped transport, 22 capacity
+- [x] Legion Rhino Advancer (80 pts) — Open-topped transport, 22 capacity
 - [ ] Legion Whispercutter (75 pts) — Skimmer transport, 6 capacity
 
 ### Fast Attack
@@ -38,7 +38,7 @@
 ### Heavy Support
 - [ ] Legion Sicaran Incinerator Squadron (190 pts)
 - [ ] Legion Vindicator Thunderer Squadron (145 pts)
-- [ ] Legion Fire Raptor Destroyer (300 pts) — Flyer, Neutron Cannon
+- [x] Legion Fire Raptor Destroyer (300 pts) — Flyer, Neutron Cannon
 - [ ] Early Great Crusade Havoc Squad (160 pts)
 - [ ] Legion Tartaros Heavy Destroyer Squad (190 pts) — Terminator Destroyers
 - [ ] Legion Cataphractii Heavy Destroyer Squad (215 pts) — Terminator Destroyers
@@ -53,10 +53,10 @@
 
 ## Weapon Option Groups
 - [x] Detailed weapon options for Contemptor Centurion
-- [ ] Detailed weapon options for Castra Ferrum Centurion
-- [ ] Detailed weapon options for Rhino Advancer
+- [x] Detailed weapon options for Castra Ferrum Centurion
+- [x] Detailed weapon options for Rhino Advancer
 - [ ] Detailed weapon options for Whispercutter
-- [ ] Detailed weapon options for Fire Raptor Destroyer
+- [x] Detailed weapon options for Fire Raptor Destroyer
 - [ ] Detailed weapon options for Tartaros Heavy Destroyer Squad
 - [ ] Detailed weapon options for Cataphractii Heavy Destroyer Squad
 - [ ] Detailed weapon options for Basilisk AA Emplacement
