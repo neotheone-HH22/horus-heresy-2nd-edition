@@ -16,52 +16,51 @@ All content is fanmade and does not violate any copyright law.
 | Paired Weapons | ✅ Done | id: d123-4437-4646-81d8 |
 | Inexorable | ✅ Done | id: d863-8a5e-ddb6-d5a4 (in GST) |
 | Tank Desant (X) | ✅ Done | id: a3b4-c5d6-e7f8-9012 |
-| Combat Transporter | ⬜ Todo | |
-| Debilitating | ⬜ Todo | |
-| Dreadnought Magna-Grapples | ⬜ Todo | |
-| Air Defence Screen | ⬜ Todo | |
-| Reactor Overcharge | ⬜ Todo | |
-| Misericordia | ⬜ Todo | |
-| Pater Consularis | ⬜ Todo | |
-| Open-Topped (X) | ⬜ Todo | |
-| Mindless Aggression | ⬜ Todo | |
-| Neverborn | ⬜ Todo | |
-| Transport Skiff | ⬜ Todo | |
-| Synthetica Mindlock | ⬜ Todo | |
-| Vox Override | ⬜ Todo | |
-| Whispercutter (rule) | ⬜ Todo | |
-| Volatile Ordnance | ⬜ Todo | |
-| Unstable Internment | ⬜ Todo | |
-| Tremor | ⬜ Todo | |
+| Combat Transporter | ✅ Done | id: f4d5-6e7f-8a9b-0c1d |
+| Debilitating | ✅ Done | id: a5b6-7c8d-9e0f-1a2b |
+| Dreadnought Magna-Grapples | ✅ Done | id: b6c7-8d9e-0f1a-2b3c |
+| Air Defence Screen | ✅ Done | id: c7d8-9e0f-1a2b-3c4d |
+| Reactor Overcharge | ✅ Done | id: d8e9-0f1a-2b3c-4d5e |
+| Misericordia | ✅ Done | id: e9f0-1a2b-3c4d-5e6f |
+| Pater Consularis | ✅ Done | id: f0a1-2b3c-4d5e-6f7a |
+| Open-Topped (X) | ✅ Done | id: a1b2-3c4d-5e6f-7a8b |
+| Mindless Aggression | ✅ Done | id: b2c3-4d5e-6f7a-8b9c |
+| Neverborn | ✅ Done | id: c3d4-5e6f-7a8b-9c0d |
+| Transport Skiff | ✅ Done | id: d4e5-6f7a-8b9c-0d1e |
+| Synthetica Mindlock | ✅ Done | id: e5f6-7a8b-9c0d-1e2f |
+| Vox Override | ✅ Done | id: f6a7-8b9c-0d1e-2f3a |
+| Whispercutter (rule) | ✅ Done | id: a7b8-9c0d-1e2f-3a4b |
+| Volatile Ordnance | ✅ Done | id: b8c9-0d1e-2f3a-4b5c |
+| Unstable Internment | ✅ Done | id: c9d0-1e2f-3a4b-5c6d |
+| Tremor | ✅ Done | id: d0e1-2f3a-4b5c-6d7e |
 
 ## Phase 2: Shared Weapons & Wargear
 
 | Weapon/Wargear | Status | Notes |
 |----------------|--------|-------|
-| Quake Cannon | ⬜ Todo | 72" S12 AP1 Destroyer 1 |
-| Earthshaker Cannon - Airburst | ⬜ Todo | 12-72" S7 AP4 |
-| Heavy Disintegrator | ⬜ Todo | 24" S6 AP2 |
-| Neutron Cannon | ⬜ Todo | 36" S10 AP1 |
-| Distortion Cannon | ⬜ Todo | 36" S10 AP2 |
-| Magma Cannon | ⬜ Todo | 36" S10 AP2 |
-| Gravis Heavy Flamer | ⬜ Todo | Template S6 AP4 |
-| Toxiferno Cannon | ⬜ Todo | Template S6 AP4 |
-| Grenade Launcher (Frag/Krak) | ⬜ Todo | |
-| Mole Mortar | ⬜ Todo | 48" S6 AP4 |
-| Gravis Missile Launcher - Rad | ⬜ Todo | 48" S4 AP3 |
-| Fallout Discharger | ⬜ Todo | Template S1 |
-| Rad-Fragmentation Charge Launcher | ⬜ Todo | 18" S5 AP3 |
-| Phosphex Cluster Bombs | ⬜ Todo | Bomb |
-| EM-Storm Charge Bomb | ⬜ Todo | Bomb |
-| Melta Destroyer | ⬜ Todo | 36" S10 AP1 |
-| Volkite Columbiad | ⬜ Todo | 35" (two modes) |
-| Gravis Force Weapon | ⬜ Todo | S6 AP2 Melee |
-| Charnabal Longsword | ⬜ Todo | +2 S Melee |
-| Gravis Siege Drill | ⬜ Todo | S10 AP2 Melee |
-| Seismic Hammer | ⬜ Todo | S8 AP4 Melee |
-| Twisted Talons | ⬜ Todo | +1 S AP4 Melee |
-| Mutated Appendages | ⬜ Todo | +2 S AP4 Melee |
-| Power Claw | ⬜ Todo | User AP4 Melee |
+| Volkite Columbiad | ✅ Done | 35" (two modes) |
+| Quake Cannon | ✅ Done | 72" S12 AP1 Destroyer 1 |
+| Earthshaker Cannon - Airburst | ✅ Done | 12-72" S7 AP4 |
+| Heavy Disintegrator | ✅ Done | 24" S6 AP2 |
+| Neutron Cannon | ✅ Done | 36" S10 AP1 |
+| Distortion Cannon | ✅ Done | 36" S10 AP2 |
+| Magma Cannon | ✅ Done | 36" S10 AP2 |
+| Gravis Heavy Flamer | ✅ Done | Template S6 AP4 |
+| Toxiferno Cannon | ✅ Done | Template S6 AP4 |
+| Mole Mortar | ✅ Done | 48" S6 AP4 |
+| Gravis Missile Launcher - Rad | ✅ Done | 48" S4 AP3 |
+| Fallout Discharger | ✅ Done | Template S1 |
+| Rad-Fragmentation Charge Launcher | ✅ Done | 18" S5 AP3 |
+| Phosphex Cluster Bombs | ✅ Done | Bomb |
+| EM-Storm Charge Bomb | ✅ Done | Bomb |
+| Melta Destroyer | ✅ Done | 36" S10 AP1 |
+| Gravis Force Weapon | ✅ Done | S6 AP2 Melee |
+| Charnabal Longsword | ✅ Done | +2 S Melee |
+| Gravis Siege Drill | ✅ Done | S10 AP2 Melee |
+| Seismic Hammer | ✅ Done | S8 AP4 Melee |
+| Twisted Talons | ✅ Done | +1 S AP4 Melee |
+| Mutated Appendages | ✅ Done | +2 S AP4 Melee |
+| Power Claw | ✅ Done | User AP4 Melee |
 | Atomantic Repulsor (wargear) | ⬜ Todo | |
 | Atomantic Dispersion Shield | ⬜ Todo | |
 | Aspectum-Pattern Occularis Array | ⬜ Todo | |
@@ -316,9 +315,10 @@ All content is fanmade and does not violate any copyright law.
 
 ---
 
-## Summary Statistics
-- **Total Special Rules to add:** ~17 new rules
-- **Total Weapons/Wargear to add:** ~35+ new items
-- **Total Generic Units to add:** ~20 units
-- **Total Legion-Specific items:** ~80+ items across 18 legions
-- **Total estimated items:** 150+ distinct data entries
+## Current Implementation Status (v1)
+- **Shared Special Rules added:** 18 new rules
+- **Shared Weapons/Wargear added:** 24 new profiles
+- **Generic Units added:** 15 units (6 Elites, 4 Troops, 2 Fast Attack, 3 Heavy Support, 2 Lords of War)
+- **Remaining Generic Units:** ~8 (Contemptor/Castra Ferrum Centurion HQ, Rhino Advancer, Whispercutter, Fire Raptor Destroyer, Heavy Destroyer Squads, Basilisk AA)
+- **Legion-Specific content:** ~80+ items across 18 legions (not yet started)
+- **Total estimated remaining items:** ~90+
