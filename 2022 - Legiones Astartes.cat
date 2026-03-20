@@ -74983,6 +74983,81 @@ Any Solar Auxilia Rifles Sections included through the use of the Overseer’s R
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry id="lc16-con1-0001-0001" name="Terran-Born Crusader" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lc16-con1-0001-0020"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="lc16-con1-0001-0021"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="lc16-con1-0001-0002" name="Blood of a Thousand Worlds" hidden="false">
+              <description>The Terran-Born Crusader, and any unit he joins, gain the Preferred Enemy (Traitor) and Stubborn Special Rules.</description>
+            </rule>
+            <rule id="lc16-con1-0001-0003" name="In the Light of the Emperor" hidden="false">
+              <description>The Terran-Born Crusader gains the Adamantium Will (5+) Special Rule. When any unit with either the Corrupted or Daemon Unit Sub-types is within 12&quot; of the Terran-Born Crusader, that unit receives a -1 penalty to its Leadership for all Morale tests it takes. In addition, when determining what bonuses or penalties a unit with the Daemon Sub-type receives as a result of the current Game Turn, any unit within 12&quot; of the Terran-Born Crusader counts the turn counter as one higher than its true value.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="lc16-con1-0001-0030" name="Preferred Enemy (Traitor)" hidden="false" targetId="37ab-d4db-891a-de8c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Preferred Enemy (Traitor)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="lc16-con1-0001-0031" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Legion Consularis:" hidden="false" id="lc16-con1-0001-0010" targetId="4171-e276-e90d-b8e5" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="lc16-con2-0001-0001" name="Lodgemaster" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="lc16-con2-0001-0020"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="lc16-con2-0001-0021"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="lc16-con2-0001-0002" name="Exemplar of Treason" hidden="false">
+              <description>The Lodge Master has a Leadership Characteristic of 10. In addition, the Lodge Master and any unit they have joined automatically pass any Leadership Tests they are required to make.</description>
+            </rule>
+            <rule id="lc16-con2-0001-0003" name="I Can&apos;t Say" hidden="false">
+              <description>Before the game begins, a Detachment which contains a Lodge Master must select a secret objective from the list below. This should be noted down, and only revealed to your opponent after the game ends. If at the end of the game, this objective has not been achieved, your opponent gains 1 Victory Point.
+
+&#x2022; Mentor to All - Select a friendly Independent Character from the same Detachment as the Lodge Master (note this cannot be the Lodge Master himself). If that model survives the game, you gain 1 Victory Point.
+
+&#x2022; Hand of the Warmaster &#x2013; At the end of the game, whilst totalling up Victory Points, the Lodge Master is counted as having the Line Sub-type for the purposes of determining whether they are controlling Objectives. If the Lodge Master is holding an Objective outside of your deployment zone at the end of the game, you gain 1 Victory Point.
+
+&#x2022; Killer of Gods and Kings &#x2013; If an enemy model with the Primarch Unit type is slain by a model with the same Legiones Astartes (X) Special Rule as the Lodge Master, you gain 1 Victory Point.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="lc16-con2-0001-0030" name="Preferred Enemy (Loyalists)" hidden="false" targetId="37ab-d4db-891a-de8c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Preferred Enemy (Loyalists)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Legion Consularis:" hidden="false" id="lc16-con2-0001-0010" targetId="4171-e276-e90d-b8e5" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink id="b1a4-9e87-ed6b-e517" name="Legiones Consularis" targetId="5a1d-d2f6-692b-d834" type="rule"/>
