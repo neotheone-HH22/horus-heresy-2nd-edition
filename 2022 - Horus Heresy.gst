@@ -31,6 +31,7 @@
     <publication name="Exemplary Battles of the Age of Darkness - The Assault on Castrum Velx" id="2489-0c1d-8ed5-2515" hidden="false" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2024/06/zxc5pjdMmgEBrmJT.pdf" publicationDate="2024-06-11" publisher="Warhammer Community"/>
     <publication name="Campaigns in the Age of Darkness - Martian Civil War" id="4934-46f7-208b-b4af" hidden="false" shortName="CotAoD - MCW" publicationDate="Sept 2024"/>
     <publication name="Legion Tarantula Sentry Gun Battery" id="5b2d-881e-a870-a7d1" hidden="false" publisherUrl="https://assets.warhammer-community.com/eng_jun25_thehorusheresy_additionalrules_tarantula-nq1r50lr4a-ec6sail0d9.pdf" publicationDate="June 2025"/>
+    <publication name="Liber Centura - The Awakened Armoury V1.6" id="c3a1-b2d4-e5f6-7890" hidden="false" shortName="Lib Centura" publicationDate="May 2023"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
