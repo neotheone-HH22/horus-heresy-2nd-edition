@@ -13835,6 +13835,95 @@ Limitations
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="lc16-row1-0001-0001" name="Destroyer Company" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="lc16-row1-0001-0002" name="Destroyer Company" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+              <description>Effects
+• Legion Destroyer Assault Squads and Legion Mortalis Destroyer Squads may be selected as Troops choices in a detachment using this Rite of War.
+• Any unit composed entirely of models with the Bitter Duty, Cult of Morkai, or Shadow of Death Special Rules (though excluding any models with the Independent Character Special Rule) may be included in a Detachment using this Rite of War as a Troops choice.
+• Any model with the Character Sub-type in a Detachment who are not equipped with any pattern of Terminator Armour may be equipped with Rad Grenades for +10 points per model.
+• Any model equipped with a Missile Launcher may be equipped with Rad Missiles in addition to their normal equipment for +5 points per model.
+• Any model equipped with a Gravis Missile Launcher may be equipped with Rad Missiles in addition to their normal equipment for +5 points per model.
+• Models with the Independent Character Special Rule in a Detachment using this Rite of War may purchase the Bitter Duty Special Rule for +15 points per model.
+• Any enemy Scoring or Denial unit destroyed whilst they are within control range of an Objective by a unit from a Detachment using this Rite of War awards the Controlling Player +1 Victory Point.
+Limitations
+• A model with the Siege Breaker or Moritat Legiones Consularis upgrade must be taken as the Compulsory HQ choice for an army using this Rite of War (but need not be chosen as the army Warlord).
+• An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
+• An Allied Detachment may not use this Rite of War.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="lc16-row2-0001-0001" name="Breacher Spearhead" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="lc16-row2-0001-0002" name="Breacher Spearhead" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+              <description>Effects
+• Any model with a Boarding Shield which is in base-to-base contact with at least one other friendly model from the same unit gains +1 to their Invulnerable Save provided by a Boarding Shield, to a maximum of 4+.
+• Legion Tactical Support Squads may be equipped with Boarding Shields for +5 points per model. Any units upgraded in this manner gain the Heavy Sub-type.
+• Legion Veteran Squads may be equipped with Boarding Shields for +5 points per model. Any units upgraded in this manner gain the Heavy Sub-type.
+• Any unit with the Infantry (Heavy) sub-type gains the Relentless Special Rule.
+• Any unit with the Infantry (Heavy) sub-type equipped with Boarding Shields gains the Heart of the Legion Special Rule.
+Limitations
+• Units composed entirely of the Infantry (Heavy) sub-type and equipped with Boarding Shields must be taken as Compulsory Troops choices for a Detachment using this Rite of War.
+• The Detachment must include an Independent Character equipped with a Boarding Shield as its Warlord.
+• An army whose Primary Detachment is using this Rite of War may not select any units equipped with any type of Jump or Jet Pack, or any type of Bike or Jetbike.
+• This Detachment must contain more Infantry units with the (Heavy) sub-type than Infantry units without the (Heavy) Sub-type.
+• An Allied Detachment may not use this Rite of War.
+• A Detachment using this Rite of War may not select any Fortification choices.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="lc16-row3-0001-0001" name="Tactica Obliqua" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="lc16-row3-0001-0002" name="Tactica Obliqua" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+              <description>Effects
+• A Detachment using this Rite of War gains access to the Shifting Tides Special Rule.
+• Legion Veteran Squads and Legion Veteran Assault Squads may benefit from any of the Doctrines provided by the Shifting Tides Special Rule – in the case of the Tactical Advance Doctrine, gaining the Heart of the Legion Special Rule (but not the range increase) for the turn in which it is active.
+Limitations
+• A Detachment using this Rite of War must select at least two Legion Tactical Squads, and these squads must be used to fill its Compulsory Troops Slots. These squads must be at their maximum unit size.
+• A Detachment using this Rite of War must select at least one Legion Assault Squad or Legion Despoiler Squad.
+• A Detachment using this Rite of War must select at least one Legion Heavy Support Squad.
+• This Rite of War may only be selected by a Detachment with the Loyalist Allegiance.
+• This Rite of War may only be selected by a Primary Detachment.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d684-5b63-caa7-adc4" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="lc16-row4-0001-0001" name="Storm-Lance Tumen" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="lc16-row4-0001-0002" name="Storm-Lance Tumen" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+              <description>Effects
+• Legion Outrider Squadrons and Legion Spatha Attack Bike Squadrons may be taken as Troops choices in a Detachment using this Rite of War.
+• Any Legion Outrider Squadrons taken as Troops choices gain the Line Sub-type.
+• Any model equipped with a Legion Spatha Attack Bike gains the Hammer of Wrath (2) Special Rule.
+• Legion Hussar Squadrons taken in a Detachment using this Rite of War gain the Scout Special Rule.
+Limitations
+• Your Warlord must be equipped with a Legion Spatha Combat Bike.
+• Models with the Vehicle Unit Type included in a Detachment using this Rite of War must have one of the following Unit Sub-types: Flyer, Fast, or Skimmer.
+• All units in a Detachment using this Rite of War composed entirely of models with the Infantry Unit Type must begin the battle Embarked upon a model with both the Flyer and Transport Sub-types.
+• A Detachment using this Rite of War may not include any models with the Dreadnought or Automata Unit Type.
+• An Allied Detachment may not use this Rite of War.
+• A Detachment using this Rite of War may not select any Fortification choices.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="907e-21b4-1aef-10be" name="Steel Fist (DA)" publicationId="817a-6288-e016-7469" page="153" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
