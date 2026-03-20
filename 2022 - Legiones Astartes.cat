@@ -73055,6 +73055,107 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="baae-0001-unit-0001" name="Basilisk Anti-Air Emplacement Battery" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="6d0b-fe0e-911e-486f">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="a335-d5b0-79b6-8117">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="9edf-ad4f-0fe2-9b73">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="2bcf-6bbe-58a1-e082">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c83-69fb-8066-a773" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="1bb5-d88b-e1fe-2984">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d75-f1c7-d6a7-a055" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="11f2-472f-c1d1-9ae9" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="d684-5b63-caa7-adc4" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="baae-0001-catl-0001" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink id="baae-0001-catl-0002" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="false"/>
+        <categoryLink id="baae-0001-catl-0003" name="Fortification Unit Type" hidden="false" targetId="679d-ec21-2940-fb9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="baae-0001-modl-0001" name="Basilisk Emplacement" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-cmin-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-cmax-0001" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="baae-0001-prof-0001" name="Basilisk Emplacement" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="eeec-bde3-8ee4-35b0" typeName="Fortification">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="61e0-0fff-1638-759c">Fortification (Battlements)</characteristic>
+                <characteristic name="BS" typeId="728e-b496-e2b2-ca81">4</characteristic>
+                <characteristic name="Front" typeId="d8de-057f-70b2-4a08">13</characteristic>
+                <characteristic name="Side" typeId="bf04-0a1d-3347-3320">13</characteristic>
+                <characteristic name="Rear" typeId="5915-639f-15d6-230e">13</characteristic>
+                <characteristic name="HP" typeId="3ec4-e581-338c-dfb1">4</characteristic>
+                <characteristic name="Transport Capacity" typeId="6faf-828d-4a08-151d">-</characteristic>
+                <characteristic name="Fire Points" typeId="9d06-02d5-cc06-9698">One Per Hull Arc, 4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="baae-0001-weap-0001" name="Earthshaker cannon" hidden="false" collective="false" import="true" targetId="cc2e-df5f-1778-29d8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Emplacement-Mounted Earthshaker Cannon"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-wmin-0001" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-wmax-0001" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="baae-0001-weap-0002" name="Earthshaker Cannon - Airburst Shells" hidden="false" collective="false" import="true" targetId="lc16-wpn0-0021-0001" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-wmin-0002" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baae-0001-wmax-0002" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink id="baae-0001-rule-0001" name="Battlements" hidden="false" targetId="a03c-5d6f-c219-4f3f" type="rule"/>
+        <infoLink id="baae-0001-rule-0002" name="Air Defence Screen" hidden="false" targetId="c7d8-9e0f-1a2b-3c4d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="61a2-7005-1e6c-c08e" name="Hexagrammaton Choice:" hidden="true" collective="false" import="true">
