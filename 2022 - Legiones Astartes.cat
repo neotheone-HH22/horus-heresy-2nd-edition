@@ -34606,10 +34606,19 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <entryLink id="6b85-ab8c-9c9c-4969" name="Terminator Ranged Weapon" hidden="false" collective="false" import="true" targetId="bb49-6a88-7ffa-6aa7" type="selectionEntryGroup"/>
             <entryLink id="08f9-2868-cdf5-41bc" name="Terminator Lightning Claws (Optional)" hidden="false" collective="false" import="true" targetId="bf84-ba90-0a9c-fc3d" type="selectionEntryGroup"/>
             <entryLink import="true" name="The Legacy of Nikaea" hidden="false" id="13d6-90e5-7b49-4cce" type="selectionEntryGroup" targetId="4930-e52e-883d-11a7"/>
-            <entryLink id="53b4-3a79-ff7e-42f9" name="Legiones Consularis" hidden="false" collective="false" import="true" targetId="3cbf-9466-2558-2c22" type="selectionEntryGroup"/>
             <entryLink id="3fde-0a21-830e-4b49" name="Consul Additional Wargear and Options" hidden="false" collective="false" import="true" targetId="244a-2a7c-1349-94e7" type="selectionEntryGroup"/>
           </entryLinks>
           <selectionEntryGroups>
+            <selectionEntryGroup id="e4a1-7b3c-2d5f-9e8a" name="Legiones Consularis (Saturnine)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c2-3a1e-8d4b-5e9f" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="c1a8-4b2e-7d3f-9e5c" name="Forge Lord" hidden="false" collective="false" import="true" targetId="62c8-8f27-9673-8450" type="selectionEntry"/>
+                <entryLink id="d2b9-5c3f-8e4a-1f6d" name="Siege Breaker" hidden="false" collective="false" import="true" targetId="9335-7da8-087e-30de" type="selectionEntry"/>
+                <entryLink id="e3ca-6d4f-9a5b-2c7e" name="Mortificator" hidden="false" collective="false" import="true" targetId="368d-0cdc-5ce6-eb38" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
             <selectionEntryGroup id="24db-aecf-659e-40e2" name="Shoulder-Mounted Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8814-ca0d-101e-433e" type="max"/>
@@ -34716,6 +34725,8 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
       </infoLinks>
       <categoryLinks>
         <categoryLink id="64da-a808-1e1e-416e" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink id="a1c3-7d8e-5f4b-9e2d" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
+        <categoryLink id="e8b2-4a1f-6c3d-7f5e" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="b017-7b4b-0faf-40bd" name="Terminators:" hidden="false" targetId="bab3-f50d-3e5f-2f78" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -34728,13 +34739,13 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             <entryLink id="604d-e0fd-a835-4ef3" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="bbe8-818d-3068-d79c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="aad3-f634-750a-41ee" name="1) Legion Indomitus Standard Bearer" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="aad3-f634-750a-41ee" name="1) Legion Indomitus Standard Bearer" hidden="false" collective="false" import="true" defaultSelectionEntryId="97aa-36c6-8b8a-47fa">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c20c-35ac-6704-4cfd" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5cdf-421c-cbad-433f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="97aa-36c6-8b8a-47fa" name="Indomitus Standard Bearer" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="97aa-36c6-8b8a-47fa" name="Indomitus Standard Bearer w/Melee Weapon" hidden="false" collective="false" import="true" type="model">
               <profiles>
                 <profile id="ebe1-b63d-e15d-4be6" name="Legion Indomitus Standard Bearer" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
                   <modifiers>
@@ -34749,7 +34760,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     </modifier>
                   </modifiers>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -34793,6 +34804,40 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="ccfb-d486-6a03-4766" name="Infantry Unit Type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
+            <selectionEntry id="b4e2-7a3d-9c1f-5d6e" name="Indomitus Standard Bearer w/Ranged Weapon" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="c7a1-8e3b-4d2f-6a5c" name="Legion Indomitus Standard Bearer" hidden="false" targetId="ebe1-b63d-e15d-4be6" type="profile"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="a9d3-6e7b-1c4f-8b2a" name="Terminator Ranged Weapon" hidden="false" collective="false" import="true" targetId="bb49-6a88-7ffa-6aa7" type="selectionEntryGroup"/>
+                <entryLink id="f1c8-4a2e-7d3b-9e5f" name="Grenade Harness" hidden="false" collective="false" import="true" targetId="251a-860d-2c4d-62cc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2b4-5e1a-8c3f-7a6d" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e5a7-3b9d-2c1f-4e8a" name="Legion Standard" hidden="false" collective="false" import="true" targetId="7e13-cc1f-6bd7-7ac6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3c6-7d4e-1a2f-9e5b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8d1-4f3e-6b2c-7e9a" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="c4b7-2e9a-5d1f-3a8c" name="Indomitus Terminator Armour" hidden="false" collective="false" import="true" targetId="5a55-baa5-1602-7223" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9e2-7a3b-1c4f-5e8d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6a4-8b2c-3d1e-9c7f" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e3a5-7c1d-4b2f-9d6e" name="Infantry Unit Type" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="ffb2-927c-368c-41b0" name="2) Legion Indomitus Chosen" hidden="false" collective="false" import="true">
@@ -34816,7 +34861,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
                     </modifier>
                   </modifiers>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">5</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">4</characteristic>
@@ -34833,6 +34878,15 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               <entryLinks>
                 <entryLink id="7dbe-2ec9-b7a4-4670" name="Terminator Ranged Weapon" hidden="false" collective="false" import="true" targetId="bb49-6a88-7ffa-6aa7" type="selectionEntryGroup"/>
                 <entryLink id="6288-c194-893e-4a8e" name="Terminator Melee Weapon" hidden="false" collective="false" import="true" targetId="8b46-faad-df3a-6929" type="selectionEntryGroup"/>
+                <entryLink id="d3a7-5b1e-8c4f-2e9a" name="Terminator Lightning Claws (Optional)" hidden="false" collective="false" import="true" targetId="bf84-ba90-0a9c-fc3d" type="selectionEntryGroup"/>
+                <entryLink id="a7b3-5c1d-9e2f-4d8a" name="Havoc Launcher" hidden="false" collective="false" import="true" targetId="bde9-5abf-ec3d-2273" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c4-2e1a-7d3f-5a9e" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="bfbd-e162-1847-48cf" name="Indomitus Terminator Armour" hidden="false" collective="false" import="true" targetId="5a55-baa5-1602-7223" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f2a-6439-bb74-4a2b" type="min"/>
