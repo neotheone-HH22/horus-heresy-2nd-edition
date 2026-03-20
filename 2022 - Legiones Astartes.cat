@@ -10061,6 +10061,222 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="280"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="frd1-0001-0001-0001" name="Fire Raptor Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="9edf-ad4f-0fe2-9b73">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="2bcf-6bbe-58a1-e082">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c83-69fb-8066-a773" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="11f2-472f-c1d1-9ae9" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="d684-5b63-caa7-adc4" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="268b-74a8-395f-6f27" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="frd1-0002-0001-0001" name="Power of the Machine Spirit" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
+        <infoLink id="frd1-0002-0002-0001" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+        <infoLink id="frd1-0002-0003-0001" name="Strafing Run (X)" hidden="false" targetId="6b78-4ec2-3604-78a3" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Strafing Run (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="frd1-0002-0004-0001" name="Legiones Hereticus (Emperor's Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="frd1-0003-0001-0001" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="frd1-0003-0002-0001" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+        <categoryLink id="frd1-0003-0003-0001" name="Deep Strike:" hidden="false" targetId="0d4f-ff28-d819-a512" primary="false"/>
+        <categoryLink id="frd1-0003-0004-0001" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="frd1-0003-0005-0001" name="Flyer Sub-type" hidden="false" targetId="4e84-2d57-4986-2b23" primary="false"/>
+        <categoryLink id="frd1-0003-0006-0001" name="Hover Sub-type" hidden="false" targetId="3a7a-8bb7-b0d3-e2e7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="frd1-0004-0001-0001" name="Legion Fire Raptor Destroyer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0004-0001-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0004-0001-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="frd1-0004-0001-0004" name="Legion Fire Raptor Destroyer" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <modifiers>
+                <modifier type="set" field="3614-4a2d-bffb-90e4" value="19*">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e01e-5cdd-e512-8353" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Flyer, Hover)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">18</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">12</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">12</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">4</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="frd1-0004-0001-0005" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="4e84-2d57-4986-2b23" id="frd1-0004-0001-0006" name="Flyer Sub-type" primary="false"/>
+            <categoryLink targetId="3a7a-8bb7-b0d3-e2e7" id="frd1-0004-0001-0007" name="Hover Sub-type" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="frd1-0005-0001-0001" name="Centreline Mounted Neutron Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0005-0001-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0005-0001-0003" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="frd1-0005-0001-0004" name="Neutron Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Shock Pulse, Concussive (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="frd1-0005-0001-0005" name="Shock Pulse" hidden="false" targetId="9222-f6c5-dc19-905a" type="rule"/>
+            <infoLink id="frd1-0005-0001-0006" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Concussive (1)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="frd1-0006-0001-0001" name="Sponson Weapons:" hidden="false" collective="false" import="true" defaultSelectionEntryId="frd1-0006-0002-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0006-0001-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0006-0001-0003" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="frd1-0006-0002-0001" name="Two Sponson Mounted Gravis Melta Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="frd1-0006-0002-0002" name="Gravis Melta Cannon" hidden="false" targetId="a470-d7ab-fdbd-e101" type="profile"/>
+                <infoLink id="frd1-0006-0002-0003" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Armourbane (Melta)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="frd1-0006-0002-0004" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="frd1-0006-0003-0001" name="Two Sponson Mounted Lascannon Arrays" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="frd1-0006-0003-0002" name="Lascannon Array" hidden="false" targetId="83f2-b582-e502-0d31" type="profile"/>
+                <infoLink id="frd1-0006-0003-0003" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                <infoLink id="frd1-0006-0003-0004" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="frd1-0007-0001-0001" name="Hull (Front) Mounted Weaponry:" hidden="false" collective="false" import="true" defaultSelectionEntryId="frd1-0007-0002-0001">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0007-0001-0002" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0007-0001-0003" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="frd1-0007-0002-0001" name="Four Hull (Front) Mounted Tempest Rockets" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="frd1-0007-0002-0005" name="Tempest Rockets" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Twin-linked, Ignores Cover</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="frd1-0007-0002-0002" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                <infoLink id="frd1-0007-0002-0003" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="frd1-0007-0003-0001" name="Four Hull (Front) Mounted Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="frd1-0007-0003-0002" name="Hellstrike Missile" hidden="false" targetId="facd-1b53-731d-a9f6" type="profile"/>
+                <infoLink id="frd1-0007-0003-0003" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+                <infoLink id="frd1-0007-0003-0004" name="One Use/One Shot" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="frd1-0008-0001-0001" name="May take:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="frd1-0008-0002-0001" name="Blessed Auto-simulacra" hidden="true" collective="false" import="true" targetId="dc49-518b-0f77-5e3e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bfc9-c99c-bf8a-3917" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="frd1-0008-0003-0001" name="Preysight" hidden="false" collective="false" import="true" targetId="b905-4d78-c141-4e63" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="frd1-0008-0003-0002" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="frd1-0009-0001-0001" name="Hexagrammaton Choice:" hidden="false" collective="false" import="true" targetId="61a2-7005-1e6c-c08e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="bfdf-831f-2171-c1e7" name="Deredeo Dreadnought Talon" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="add" field="category" value="2bcf-6bbe-58a1-e082">
