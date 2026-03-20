@@ -69484,6 +69484,366 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="165"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0001-0001" name="Volkite Columbiad - Dispersal Beam" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0001-0002" name="Volkite Columbiad - Dispersal Beam" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">35&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 10, Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0002-0001" name="Volkite Columbiad - Focused Beam" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0002-0002" name="Volkite Columbiad - Focused Beam" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">35&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Heavy Beam, Deflagrate, Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0003-0001" name="Quake Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0003-0002" name="Quake Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Large Blast (5&quot;), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0004-0001" name="Magma Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0004-0002" name="Magma Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 2, Large Blast (5&quot;), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0005-0001" name="Neutron Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0005-0002" name="Neutron Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Concussive (3), Shock Pulse, Sunder, Gets Hot, Feedback</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0006-0001" name="Melta Destroyer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0006-0002" name="Melta Destroyer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 5, Armourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0007-0001" name="Heavy Disintegrator" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0007-0002" name="Heavy Disintegrator" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0008-0001" name="Gravis Heavy Flamer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0008-0002" name="Gravis Heavy Flamer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (8&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0009-0001" name="Toxiferno Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0009-0002" name="Toxiferno Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Poisoned (3+), Rending (6+), Torrent (8&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0010-0001" name="Mole Mortar" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0010-0002" name="Mole Mortar" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Ignores Cover, Tremor</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0011-0001" name="Distortion Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0011-0002" name="Distortion Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Blast (3&quot;), Murderous Strike (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0012-0001" name="Fallout Discharger" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0012-0002" name="Fallout Discharger" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Debilitating</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0013-0001" name="Rad-Fragmentation Charge Launcher" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0013-0002" name="Rad-Fragmentation Charge Launcher" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Rad-Phage</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0014-0001" name="Gravis Missile Launcher - Rad" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0014-0002" name="Gravis Missile Launcher - Rad" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Fleshbane, Rad-Phage</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0015-0001" name="Gravis Force Weapon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0015-0002" name="Gravis Force Weapon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Force</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0016-0001" name="Gravis Siege Drill" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0016-0002" name="Gravis Siege Drill" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred, Armourbane (Melee)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0017-0001" name="Seismic Hammer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0017-0002" name="Seismic Hammer" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Brutal (2), Concussive (3), Breaching (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0018-0001" name="Twisted Talons" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0018-0002" name="Twisted Talons" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0019-0001" name="Mutated Appendages" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0019-0002" name="Mutated Appendages" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Rending (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0020-0001" name="Power Claw" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0020-0002" name="Power Claw" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+), Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0021-0001" name="Earthshaker Cannon - Airburst Shells" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0021-0002" name="Earthshaker Cannon - Airburst Shells" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12-72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Skyfire, Pinning, Ignores Cover, Airburst Munitions</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0022-0001" name="Phosphex Cluster Bombs" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0022-0002" name="Phosphex Cluster Bombs" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Bomb</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 3, Blast (3&quot;), Barrage, Poisoned (3+), Crawling Fire, Lingering Death, One Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0023-0001" name="EM-Storm Charge Bomb" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0023-0002" name="EM-Storm Charge Bomb" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">3</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 2, Large Blast (5&quot;), Haywire, Concussive, One Use</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-wpn0-0024-0001" name="Charnabal Longsword" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-wpn0-0024-0002" name="Charnabal Longsword" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+), Duellist&apos;s Edge (1), Two-Handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="61a2-7005-1e6c-c08e" name="Hexagrammaton Choice:" hidden="true" collective="false" import="true">
@@ -75881,6 +76241,60 @@ When included in a Shattered Legions Detachment, this model must represent the L
     </rule>
     <rule name="Lethal Exposure" hidden="false" id="5ec4-39ed-2360-824c" publicationId="d882-d2a-5da1-92c4">
       <description>If a unit makes attacks with one or more weapons with this special rule as part of a Shooting attack in any Phase, including as part of a Reaction, roll a D6. If the result is equal to or less than the number of weapons in the unit with the Lethal Exposure special rule, the unit suffers a single Wound with no Saves or Damage Mitigation rolls allowed - this wound is allocated to any model in the unit by the controlling player.</description>
+    </rule>
+    <rule id="f4d5-6e7f-8a9b-0c1d" name="Combat Transporter" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>The sheer weight of the cargo this vehicle carries makes it hard to properly deploy countermeasures. If a Legion Storm Eagle Transporter is carrying a Vehicle or any Dreadnoughts in its Auxiliary Vehicle Bay, reduce any rolls for Countermeasures Saves it makes by 1.</description>
+    </rule>
+    <rule id="a5b6-7c8d-9e0f-1a2b" name="Debilitating" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>These weapons caused great pain and disfiguring wounds in their targets - bringing them low and rendering them easier prey. A unit hit by a weapon with this Special Rule has its Strength Characteristic reduced by -1 until the end of the Controlling Player&apos;s Next Game Turn. This effect is not cumulative with other attacks with the Debilitating Special Rule, but can be stacked with other Special Rules that also reduce the Strength Characteristic. Note that this special rule can never reduce a model&apos;s Strength below 1.</description>
+    </rule>
+    <rule id="b6c7-8d9e-0f1a-2b3c" name="Dreadnought Magna-Grapples" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Magnetic Clamps allow any vehicular cargo to be transported effectively. Instead of carrying a vehicle in its Auxiliary Vehicle Bay, a Legion Storm Eagle Transporter may instead elect to carry up to two Legion Contemptor Dreadnoughts, Legion Contemptor-Cortus Dreadnoughts, Legion Castra Ferrum Dreadnoughts, Legion Contemptor Centurion, or Legion Castra Ferrum Centurions in any combination. These models embark and disembark as per normal rules for an Auxiliary Vehicle Bay. Note that Dreadnoughts transported in this manner do not gain the benefit of the Assault Vehicle Special Rule when disembarking.</description>
+    </rule>
+    <rule id="c7d8-9e0f-1a2b-3c4d" name="Air Defence Screen" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>When used properly, multiple batteries of interlinked anti-air weapons may effectively deny entire areas of the sky to the foe. When deployed onto the battlefield before the game begins, all models with this Special Rule in a unit are placed as separate units, operate independently, and are treated as separate units for the duration of the game for all purposes. In addition, a model with this Special Rule must always target the closest enemy model with the Flyer Sub-type, if there is a valid target in range.</description>
+    </rule>
+    <rule id="d8e9-0f1a-2b3c-4d5e" name="Reactor Overcharge" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Desperate times can call for desperate measures, and when a little more power could be the difference between life and death, some are more than comfortable to take the risk. Once per game, in the controlling player&apos;s turn, a model with this Special Rule may declare it is going to overcharge its reactor. The model must first take D3 wounds with no saves or mitigation rolls allowed. If the model survives, it receives the following bonuses until the start of the controlling player&apos;s next turn: Add 2&quot; to maximum Move and Charge distances; Add +1 to Attacks and Initiative Characteristics; Invulnerable Save from Atomantic Repulsor is now 5+. If removed as a casualty whilst overcharged, the distance for Atomantic Repulsor&apos;s automatic hits is automatically 6&quot;.</description>
+    </rule>
+    <rule id="e9f0-1a2b-3c4d-5e6f" name="Misericordia" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Inertial suppression clamps lock transported troops into place, protecting them from impact. A model with this Special Rule can carry models in any type of Legion Terminator armour and that have the Bulky (2) Special Rule as though they did not have that Special Rule. Note that this includes Legion Specific Terminator units.</description>
+    </rule>
+    <rule id="f0a1-2b3c-4d5e-6f7a" name="Pater Consularis" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>For the greatest leaders of the Legiones Astartes, there can be no rest - for even in death, they are still expected to serve. A model with this Special Rule must select a single Pater Consularis upgrade; no model may take more than one such upgrade. When a model with this Special Rule is slain, your opponent gains an additional Victory Point. You may only include a single model with the Pater Consularis Special Rule in your army.</description>
+    </rule>
+    <rule id="a1b2-3c4d-5e6f-7a8b" name="Open-Topped (X)" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Some vehicle hulls are open to the elements, allowing for their occupants to fire - but at the cost of protection. Any unit embarked upon a Transport with this Special Rule may fire up to (X) ranged weapons (where X is the number in brackets), measuring from the Transport&apos;s model. If the unit chooses to fire in this way, they are counted as having moved. Units with Special Rules allowing them to count as stationary (such as Relentless, Legiones Astartes (Death Guard), etc) may not benefit from them whilst embarked on a Transport with this Special Rule. In addition, any rolls on the Vehicle Damage Table that target a model with this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="b2c3-4d5e-6f7a-8b9c" name="Mindless Aggression" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Whilst mutated in form beyond recognition, one trait survives - the desire to kill. A unit with this Special Rule must always charge in the Assault phase, if possible. If multiple targets are available, the Controlling Player may choose their charge target. The unit must always attempt to Sweeping Advance, if able. In addition, each time a model with this Special Rule makes an attack, roll a D6 to determine the number of attacks it makes.</description>
+    </rule>
+    <rule id="c3d4-5e6f-7a8b-9c0d" name="Neverborn" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>The soul of these creatures is more daemon than man - and thus is irrevocably damned. A unit with this Special Rule may be taken in a Legiones Astartes (X) detachment with the Traitor Allegiance, despite not having the Legiones Astartes (X) Special Rule itself.</description>
+    </rule>
+    <rule id="d4e5-6f7a-8b9c-0d1e" name="Transport Skiff" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Whilst little more than an engine strapped to grav-plate, transport skiffs have a unique and useful place in the armouries of the Legiones. A model with the Transport Skiff Special Rule gains the Infantry Transport and Assault Vehicle Special Rules. For the purposes of these Special Rules, as well as the Transport Sub-type, a Legion Whispercutter is counted as a Vehicle. In addition, when a model with this Special Rule loses its last wound, all models embarked upon it immediately suffer a S6 AP- hit. Surviving passengers are placed where the model used to be (or as close as possible) in unit coherency, at least 1&quot; away from any enemy models.</description>
+    </rule>
+    <rule id="e5f6-7a8b-9c0d-1e2f" name="Synthetica Mindlock" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Possessed of no true will of their own, when unaccompanied these automatons will revert to basic programming - often grinding to a halt in the process. A unit with this Special Rule is able to React, ignoring restrictions applied by the Automata Sub-type, as long as the unit includes a Legion Techmarine.</description>
+    </rule>
+    <rule id="f6a7-8b9c-0d1e-2f3a" name="Vox Override" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Some communications arrays rely not on subtle encryption or masked frequencies - instead projecting a barrage of data across multiple channels to break the static. As long as a model with this Special Rule is deployed on the battlefield, you may re-roll any failed dice roll for determining if a Reserve is Disordered.</description>
+    </rule>
+    <rule id="a7b8-9c0d-1e2f-3a4b" name="Whispercutter" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Casting false images and scatter-shrouds from projectors and imager units, the vehicle obscures its true form and position. A model with this Special Rule that moves at least half of its Movement Characteristic gains the Shrouded (6+) Special Rule until the start of its Controlling Player&apos;s next Movement Phase.</description>
+    </rule>
+    <rule id="b8c9-0d1e-2f3a-4b5c" name="Volatile Ordnance" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Prototype weaponry can often be prone to malfunction - though the field data gathered by testing such potent armaments is often deemed worth the risk. All weapons with the Heavy Type a model with this Special Rule is equipped with have the Gets Hot Special Rule. As long as at least one Havoc Master is present in the squad, the unit may ignore the first Gets Hot result it suffers per phase.</description>
+    </rule>
+    <rule id="c9d0-1e2f-3a4b-5c6d" name="Unstable Internment" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>The corruption of the mind caused by low-quality cybernetics is often slow to manifest - but once it manifests, the degradation and madness is irreversible. A model with this Special Rule must always attempt to make a Charge or Sweeping Advance if it is possible to do so. A model with this Special Rule can never count as Scoring.</description>
+    </rule>
+    <rule id="d0e1-2f3a-4b5c-6d7e" name="Tremor" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>Whilst most conventional barrage ordnance describes great looping arcs through the sky, these weapons instead burrow into the earth itself. A unit successfully hit by a weapon with this Special Rule treats all Terrain, including open Terrain, as Difficult and Dangerous Terrain until the end of their Controlling Player&apos;s Next Game Turn. In addition, for the purposes of line of sight, a weapon with this Special Rule should be treated as if it had the Barrage Special Rule, but note that it can still be fired in Zone Mortalis Games without Line of Sight.</description>
+    </rule>
+    <rule id="e1f2-3a4b-5c6d-7e8f" name="Automata Attendants" publicationId="c3a1-b2d4-e5f6-7890" hidden="false">
+      <description>A unit with this Special Rule may be attached to a Legion Techmarine or Legion Forge Lord in the same manner as an Apothecarion Detachment is assigned. Once assigned, the unit is considered part of the same unit and may not leave it. Note that the assigned unit does not gain any additional special rules from the unit it is assigned to.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
