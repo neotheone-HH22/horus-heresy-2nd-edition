@@ -32,6 +32,7 @@
     <publication name="Campaigns in the Age of Darkness - Martian Civil War" id="4934-46f7-208b-b4af" hidden="false" shortName="CotAoD - MCW" publicationDate="Sept 2024"/>
     <publication name="Legion Tarantula Sentry Gun Battery" id="5b2d-881e-a870-a7d1" hidden="false" publisherUrl="https://assets.warhammer-community.com/eng_jun25_thehorusheresy_additionalrules_tarantula-nq1r50lr4a-ec6sail0d9.pdf" publicationDate="June 2025"/>
     <publication name="Liber Centura - The Awakened Armoury V1.6" id="c3a1-b2d4-e5f6-7890" hidden="false" shortName="Lib Centura" publicationDate="May 2023"/>
+    <publication name="Liber Panoptica - Community FAQ and Balance Document" id="pano-pub1-0001-0001" hidden="false" shortName="Lib Panoptica" publicationDate="2024"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -13688,7 +13689,7 @@ Limitations
             <rule id="3cb1-9be8-c256-7909" name="Pride Of The Legion" publicationId="a716-c1c4-7b26-8424" page="100" hidden="false">
               <description>Effects
 • Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
-• Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
 Limitations
 • An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
@@ -13758,7 +13759,7 @@ Limitations
 • All units in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead select a Legion Land Raider Proteus Carrier as a Dedicated Transport if they number ten models or less.
 • Legion Predator Squadrons in a Detachment using this Rite of War may be selected as Troops choices. Legion Predator Squadrons taken as Compulsory Troops choices gain the Line Sub-type.
 • Legion Sicaran Squadrons in a Detachment using this Rite of War may be selected as Elites choices.
-• In a Detachment using this Rite of War, a single Legion Sicaran Squadron, Legion Predator Squadron or Legion Kratos Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion special rule and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
+• In a Detachment using this Rite of War, a single Legion Sicaran Squadron, Legion Predator Squadron, or Legion Kratos Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion and Legiones Astartes Command Tank Special Rules and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
 
 Limitations
 • All units in a Detachment using this Rite of War with the Infantry Type must begin the battle Embarked upon a model with the Transport Sub-type; any Infantry models in a Detachment using this Rite of War, both those deployed on the battlefield and in Reserves, that are not Embarked upon a model with the Transport Subtype at the beginning of the battle must be removed as casualties.
@@ -15292,6 +15293,156 @@ Until Fulgrim Transfigured is placed on the battlefield in this manner, all mode
 For the purposes of Movement, Shooting Attacks, and Charges, a model deployed via this Special Rule should be treated as though they were deployed via a Deep Strike Assault.</description>
             </rule>
           </rules>
+        <selectionEntry id="pano-crow-0001-0001" name="Centurion Rite of War: Ambush Contingent" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0001-0002" name="Centurion Rite of War: Ambush Contingent" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• All models with the Scout or Infiltrate Special Rules gain the Shrouded (6+) Special Rule, or a +1 to their Shrouded Special Rule if they already have it, during the first Game Turn.
+• You may re-roll the dice to determine who gets the first turn, and re-roll an attempt to Seize the Initiative.
+• Rather than rolling to see if Night Fighting is in effect, the Controlling Player of this army may choose if the Night Fighting Special Rule is in effect or not. If both players have this effect, use the regular Night Fighting Rules instead.
+• Legion Scout Squads or Legion Reconnaissance Squads in a Detachment using this Rite of War do not have the Support Squad Special Rule.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Scout Squads or Legion Reconnaissance Squads.
+• No model equipped with any variant of Legion Terminator Armour may be selected in a Detachment using this Rite of War.
+• No Infantry model with the Heavy or Artillery Sub-types may be selected in a Detachment using this Rite of War.
+• A Legion Centurion with the Vigilator or Pathfinder Legiones Consularis upgrade must be taken as the Compulsory HQ choice for a Detachment using this Rite of War.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0002-0001" name="Centurion Rite of War: Ravager Warband" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0002-0002" name="Centurion Rite of War: Ravager Warband" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• A unit equipped with any pattern of Jump Pack in a Detachment using this Rite of War may re-roll the dice to determine their charge distance - but must accept the second result, even if it is worse.
+• A unit equipped with any pattern of Jump Pack in a Detachment using this Rite of War which deploys via Deep Strike gains the Shrouded (5+) Special Rule on the turn it arrives.
+• Legion Veteran Assault Squads gain the Line Sub-type in a Detachment using this Rite of War.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Assault Squads.
+• In a Detachment using this Rite of War, at least one Legion Assault Support Squad must be taken as a non-Compulsory Troops choice.
+• A model equipped with any pattern of jump pack must be taken as the Compulsory HQ choice for a Detachment using this Rite of War.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0003-0001" name="Centurion Rite of War: Tactical Strike Force" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0003-0002" name="Centurion Rite of War: Tactical Strike Force" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• All models in a Detachment using this Rite of War equipped with a Bolter (including those armed with Specialist Ammunition such as Asphyx or Shrapnel, etc.) may use the Fury of the Legion Special Rule, even if they would not normally be able to do so.
+• All Legion Tactical Support Squad units in a Detachment using this Rite of War gain the Heart of the Legion Special Rule.
+• Any model in a Detachment using this Rite of War which benefits from the Heart of the Legion Special Rule gains the Feel No Pain (5+) Special Rule, instead of Feel No Pain (6+) Special Rule. The Feel No Pain (5+) cannot be improved by any source.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Tactical Squads.
+• In a Detachment using this Rite of War, at least one Legion Tactical Support Squad must be taken as a Troops choice.
+• A Detachment using this Rite of War must take a model with the Independent Character Special Rule which is not equipped with any pattern of Jump Pack, Terminator Armour, Bike, or Jetbike as a Compulsory HQ choice.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0004-0001" name="Centurion Rite of War: Blooded Veterans" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0004-0002" name="Centurion Rite of War: Blooded Veterans" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• Legion Veteran Squads may be taken as Troops choices in a Detachment using this Rite of War.
+• Legion Veteran Squads taken as Compulsory Troops choices gain the Line Sub-type.
+• Legion Veteran Assault Squads may be taken as non-Compulsory Troops choices in a Detachment using this Rite of War.
+• Whilst constructing your army, you may choose to give each Legion Veteran Squad and Legion Veteran Assault Squad in a Detachment using this Rite of War either the Precision Strikes (6+) or Precision Shots (6+) Special Rules.
+Limitations
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Veteran Squads.
+• If all Legion Veteran Squads taken in a Detachment using this Rite of War are removed from play, the Opposing Player gains an additional Victory Point.
+• A Detachment using this Rite of War must take a Legion Centurion with the Champion Legiones Consularis upgrade as a Compulsory HQ choice.
+• If a Legion Centurion with the Champion Legiones Consularis upgrade taken in a Detachment using this Rite of War is removed from play, the Opposing Player gains an additional Victory Point.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0005-0001" name="Centurion Rite of War: Destroyer Conclave" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0005-0002" name="Centurion Rite of War: Destroyer Conclave" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• Any model which may take a Havoc Launcher in a Detachment using this Rite of War may instead take a Phosphex Discharger for +20 points.
+• Any unit which has any models equipped with a Missile Launcher in a Detachment using this Rite of War may purchase Rad Missiles in addition to their normal ammunition types for +10 points per model.
+• Legion Destroyer Assault Squads and Legion Destroyer Mortalis Squads may be taken as Troops choices in a Detachment using this Rite of War.
+• In a Detachment using this Rite of War, Legion Destroyer Assault Squads and Legion Destroyer Mortalis Squads may act as a Denial unit as long as they are within 6&quot; of an Objective, instead of the usual 3&quot;.
+Limitations
+• A Detachment using this Rite of War must take a Legion Centurion with the Siege Breaker or Moritat Legiones Consularis upgrade as a Compulsory HQ choice.
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Destroyer Assault Squads or Legion Destroyer Mortalis Squads.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0006-0001" name="Centurion Rite of War: Command Brigade" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0006-0002" name="Centurion Rite of War: Command Brigade" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• In a Detachment using this Rite of War, the effect range of the Legion Standard wargear is increased to 12&quot;.
+• Any unit equipped with a Nuncio-Vox in a Detachment using this Rite of War may benefit from the effects of the Cognis Signum carried by a Master of Signals - though this bonus can only be claimed by one unit per turn.
+• A Legion Command Squad may be taken for any Centurion in a Detachment using this Rite of War.
+Limitations
+• In a Detachment using this Rite of War, the Warlord must be a Legion Centurion with the Delegatus Legiones Consularis upgrade.
+• In a Detachment using this Rite of War you must select a Legion Command Squad, of which the Delegatus must be the Leader.
+• A Legion Centurion with the Master of Signals Legiones Consularis upgrade must be selected as part of a Detachment using this Rite of War. This Centurion occupies the same Force Organisation slot as the Delegatus, and must be attached to the Command Squad including the Delegatus.
+• In a Detachment using this Rite of War, when a Legion Command Squad or model with the Independent Character Special Rule is removed from play, the Opposing Player gains an additional Victory Point.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0007-0001" name="Centurion Rite of War: Breacher Shieldwall" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0007-0002" name="Centurion Rite of War: Breacher Shieldwall" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• In a Detachment using this Rite of War, any model armed with a Boarding Shield in unit coherency with at least two other models also equipped with Boarding Shields may re-roll Invulnerable Saves of 1.
+• In a Detachment using this Rite of War, any model armed with a Boarding Shield in base-to-base contact with at least two other models also equipped with Boarding Shields counts their Weapon Skill as +1 whilst any model attempts to hit them in close combat.
+• In a Detachment using this Rite of War, Legion Breacher Squads gain the Relentless Special Rule.
+• Legion Tactical Support Squads may be equipped with Boarding Shields for +5 points per model. If this upgrade is selected, the whole squad must be so upgraded. Any units upgraded in this manner gain the Heavy Sub-type.
+Limitations
+• A model equipped with a Boarding Shield must be taken as the Compulsory HQ choice for a Detachment using this Rite of War.
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Breacher Squads.
+• A Detachment using this Rite of War must take at least one Legion Tactical Support Squad, and this squad must be equipped with Boarding Shields.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="pano-crow-0008-0001" name="Centurion Rite of War: Seeker Cadre" publicationId="pano-pub1-0001-0001" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="pano-crow-0008-0002" name="Centurion Rite of War: Seeker Cadre" publicationId="pano-pub1-0001-0001" hidden="false">
+              <description>This Rite of War may only be used with the Incursio Force Organisation Chart. It does not require a model with the Master of the Legion Special Rule.
+Effects
+• Legion Seeker Squads may be taken as Troops choices in a Detachment using this Rite of War.
+• All units in a Detachment using this Rite of War gain the Preferred Enemy (Warlord) Special Rule.
+• In a Detachment using this Rite of War, if you successfully slay the enemy Warlord, you gain an additional Victory Point.
+Limitations
+• In a Detachment using this Rite of War, if you do not successfully slay the enemy Warlord, the Opposing Player gains an additional Victory Point.
+• All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Seeker Squads.
+• In a Detachment using this Rite of War, all models equipped with any variant of Terminator Armour, with the Artillery Sub-type, or with the Vehicle Unit Type must begin the game in Reserve.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
