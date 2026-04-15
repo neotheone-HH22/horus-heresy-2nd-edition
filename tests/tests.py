@@ -113,7 +113,7 @@ class GameTests(unittest.TestCase):
         tests_dir = os.path.join(self.game_directory, 'tests')
         for filename in os.listdir(tests_dir):
             name, extension = os.path.splitext(filename)
-            if extension in ["ros", "rosz"]:
+            if extension in [".ros", ".rosz"]:
                 if not os.path.exists(
                         os.path.join(tests_dir, name + ".test")):  # If this isn't a copy we made of a .test
                     self.fail(
