@@ -719,6 +719,60 @@ Additional rules are given to units based on Legion and Unit.</description>
         <categoryLink id="lc16-hs01-sicaran-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="lc16-el08-servauto-link" name="Legion Servo-Automata Maniple" hidden="false" collective="false" import="true" targetId="lc16-unit-servauto-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-el08-servauto-el" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="lc16-el08-servauto-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-tr01-hussar-link" name="Legion Hussar Squadron" hidden="false" collective="false" import="true" targetId="lc16-unit-hussar-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-tr01-hussar-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="lc16-tr01-hussar-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-tr02-skyseeker-link" name="Legion Sky-Seeker Squadron" hidden="false" collective="false" import="true" targetId="lc16-unit-skyseeker-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-tr02-skyseeker-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="lc16-tr02-skyseeker-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-tr03-asssupp-link" name="Legion Assault Support Squad" hidden="false" collective="false" import="true" targetId="lc16-unit-asssupp-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-tr03-asssupp-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="lc16-tr03-asssupp-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-tr04-novicii-link" name="Legion Novicii Squad" hidden="false" collective="false" import="true" targetId="lc16-unit-novicii-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-tr04-novicii-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="lc16-tr04-novicii-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-hs02-vindthun-link" name="Legion Vindicator Thunderer Squadron" hidden="false" collective="false" import="true" targetId="lc16-unit-vindthun-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-hs02-vindthun-hs" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="lc16-hs02-vindthun-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-hs03-havoc-link" name="Early Great Crusade Havoc Squad" hidden="false" collective="false" import="true" targetId="lc16-unit-havoc-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-hs03-havoc-hs" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="lc16-hs03-havoc-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-fa02-stormtrans-link" name="Legion Storm Eagle Transporter" hidden="false" collective="false" import="true" targetId="lc16-unit-stormtrans-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-fa02-stormtrans-fa" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+        <categoryLink id="lc16-fa02-stormtrans-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="lc16-lw01-orthrus-link" name="Legion Orthrus Destroyer Squadron" hidden="false" collective="false" import="true" targetId="lc16-unit-orthrus-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="lc16-lw01-orthrus-low" name="Lords of War:" hidden="false" targetId="c658-dc6b-727b-c488" primary="true"/>
+        <categoryLink id="lc16-lw01-orthrus-ut" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="82f5-cca1-51a0-31dd" name="Venom Spheres" hidden="false" collective="false" import="true" type="upgrade">
