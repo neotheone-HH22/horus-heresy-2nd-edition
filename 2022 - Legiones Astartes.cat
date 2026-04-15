@@ -41338,6 +41338,23 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
               </costs>
             </entryLink>
             <entryLink id="8d8d-dece-1b84-3813" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry"/>
+            <entryLink id="da-lc16-hss-xbcn-link" name="Xenobane Cannon" hidden="true" collective="false" import="true" targetId="da-lc16-wpn-xbcn-0001" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b2b4-2198-0b90-dd9f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="bac9-5389-e2e7-0b1f" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1f87-b709-2c56-cefd" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+              </costs>
+            </entryLink>
             <entryLink id="4986-232e-7ac5-32f9" name="Dragon&apos;s Breath Heavy Flamer" hidden="false" collective="false" import="true" targetId="1a5c-0c5f-d798-a067" type="selectionEntry"/>
             <entryLink id="7292-41b9-8ebc-4d60" name="Heavy Alchem Flamer" hidden="false" collective="false" import="true" targetId="2a3d-a4bb-5326-a16a" type="selectionEntry"/>
             <entryLink id="0836-25ca-9b0c-aa70" name="Iliastus Assault Cannon" hidden="false" collective="false" import="true" targetId="10aa-3c70-2bbe-9509" type="selectionEntry">
@@ -74664,6 +74681,42 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="da-lc16-wpn-xbcn-0001" name="Xenobane Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="true" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="da-lc16-wpn-xbcn-0002" name="Xenobane Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 4, Poisoned (3+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="da-lc16-wpn-gxbc-0001" name="Gravis Xenobane Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="true" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="da-lc16-wpn-gxbc-0002" name="Gravis Xenobane Cannon" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Poisoned (3+), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="da-lc16-wpn-gxbb-0001" name="Gravis Xenobane Cannon Battery" publicationId="c3a1-b2d4-e5f6-7890" hidden="true" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="da-lc16-wpn-gxbb-0002" name="Gravis Xenobane Cannon Battery" publicationId="c3a1-b2d4-e5f6-7890" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Poisoned (3+), Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
