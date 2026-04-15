@@ -115,7 +115,7 @@ class GameTests(unittest.TestCase):
             name, extension = os.path.splitext(filename)
             if extension in ["ros", "rosz"]:
                 if not os.path.exists(
-                        os.path.join(tests_dir, name, ".test")):  # If this isn't a copy we made of a .test
+                        os.path.join(tests_dir, name + ".test")):  # If this isn't a copy we made of a .test
                     self.fail(
                         "There is a .ros file in the tests directory, which will break appspot."
                         " Rename the file to .test")
