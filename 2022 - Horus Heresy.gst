@@ -13586,6 +13586,7 @@ Limitations
               <description>Effects
 • Any unit in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead take a Legion Storm Eagle Gunship as a Dedicated Transport. In addition, any unit in a Detachment using this Rite of War that exceeds the transport capacity of a Legion Rhino Transport may take a Legion Storm Eagle Gunship as a Dedicated Transport.
 • For any model with the Vehicle Unit Type and both the Flyer and Transport Sub-types from a Detachment that is using this Rite of War, and that is in Reserve, the controlling player may choose to automatically have them enter play at the start of their first turn without making a Reserves roll. If they are not brought into play on Turn One then Reserves rolls are made for the models normally from Turn Two onwards.
+• Any unit in a Detachment using this Rite of War eligible to take a Legion Land Raider Proteus Carrier as a Dedicated Transport may instead take a Legion Caestus Assault Ram as a Dedicated Transport. (Liber Centura)
 Limitations
 • All models with the Infantry Unit Type in a Detachment using this Rite of War that do not have jump packs of any kind must begin the battle Embarked upon a model with the Vehicle Unit Type and both the Flyer and Transport Sub-types.
 • All models with both the Infantry Unit Type and a jump pack of any kind in a Detachment using this Rite of War must begin the battle in Reserves, but may be assigned to a Deep Strike Assault as normal.
@@ -13624,6 +13625,7 @@ Limitations
               <description>Effects
 • Legion Sky-hunter Squadrons and Legion Proteus Land Speeder Squadrons may be taken as Troops choices in a Detachment using this Rite of War.
 • Any Legion Sky-hunter Squadrons selected as Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Any Legion Sky-Seeker Squadrons in a Detachment using this Rite of War do not have the Support Squad Special Rule. (Liber Centura)
 Limitations
 • Models with the Vehicle Unit Type included in a Detachment using this Rite of War must have one of the following Unit Sub-types: Flyer, Fast, or Skimmer.
 • All units in a Detachment using this Rite of War composed entirely of models with the Infantry Unit Type must begin the battle Embarked upon a model with both the Flyer and Transport Sub-types.
@@ -13691,6 +13693,9 @@ Limitations
 • Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
+• Legion Assault Veteran Squads may be selected as Troops Choices in a Detachment using this Rite of War. (Liber Centura)
+• Legion Assault Veteran Squads taken as Compulsory Troops Choices in a Detachment using this Rite of War gain the Line Sub-type. (Liber Centura)
+• Legion Terminator Saturnine Squads may be selected as Heavy Support Choices in a Detachment using this Rite of War. (Liber Centura)
 Limitations
 • An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
 • A Detachment using this Rite of War may only select a single Heavy Support choice and a single Fast Attack choice.
@@ -13822,6 +13827,10 @@ Limitations
 • In a Detachment using this Rite of War, Legion Contemptor Dreadnought Talons may be taken as Troops choices.
 • Legion Contemptor Dreadnought Talons taken as Compulsory Troops in the Detachment gain the Line Sub-type. When a Dreadnought unit with the Line Sub-type from this Rite of War is destroyed, the opposing player gains an additional +1 Victory Point.
 • A single Legion Contemptor Dreadnought Talon in the Detachment, composed of only one Dreadnought, must be selected as the Detachment’s Compulsory HQ choice. A Legion Contemptor Dreadnought Talon selected in this manner must take the Venerable Ancient upgrade for +30 points.
+• In a Detachment using this Rite of War, Legion Castra Ferrum Dreadnought Talons may be taken as Troops choices, and selected as Compulsory Troops choices. (Liber Centura)
+• In a Detachment using this Rite of War, Legion Contemptor-Cortus Talons may be taken as Troops choices. (Liber Centura)
+• Legion Castra Ferrum Dreadnought Talons taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type. (Liber Centura)
+• You may take a unit with the Dreadnought Unit Type and Character Sub-type as your Warlord, instead of a Legion Contemptor Dreadnought with the Venerable Ancient Upgrade. (Liber Centura)
 Limitations
 • All Compulsory Troops choices in a Detachment using this Rite of War must be Legion Contemptor Dreadnought Talons.
 • No model with the Legiones Consularis special rule in a Detachment using this Rite of War may select a Consul choice other than Legion Forge Lord, Legion Primus Medicae or Legion Mortificator.

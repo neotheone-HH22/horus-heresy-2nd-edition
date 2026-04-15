@@ -14,69 +14,77 @@
 - [x] Legion Indomitus Command Squad (150 pts)
 - [x] Legion Contemptor Centurion (225 pts) — Dreadnought HQ with Pater Consularis
 - [x] Legion Castra Ferrum Centurion (175 pts) — Dreadnought HQ with Pater Consularis
+- [x] Legion Land Raider Dionysus (300 pts) — Vehicle HQ
+- [x] Legion Land Raider Tartaros — Vehicle HQ
 
 ### Elites
 - [x] Legion Terminator Indomitus Squad (200 pts base)
-- [ ] Legion Terminator Saturnine Squad (200 pts base)
-- [ ] Legion Assault Veteran Squad (135 pts)
-- [ ] Legion Contemptor-Cortus Dreadnought Talon (150 pts)
-- [ ] Possessed Legionnaires (150 pts)
-- [ ] Legion Servo-Automata Maniple (175 pts)
+- [x] Legion Terminator Saturnine Squad (200 pts base)
+- [x] Legion Assault Veteran Squad (135 pts)
+- [x] Legion Contemptor-Cortus Dreadnought Talon (150 pts)
+- [x] Possessed Legionnaires (150 pts)
+- [x] Legion Servo-Automata Maniple (175 pts)
 
 ### Troops
-- [ ] Legion Hussar Squadron (120 pts)
-- [ ] Legion Sky-Seeker Squadron (144 pts)
-- [ ] Legion Assault Support Squad (120 pts)
-- [ ] Legion Novicii Squad (90 pts)
+- [x] Legion Hussar Squadron (120 pts)
+- [x] Legion Sky-Seeker Squadron (144 pts)
+- [x] Legion Assault Support Squad (120 pts)
+- [x] Legion Novicii Squad (90 pts)
 - [x] Legion Rhino Advancer (80 pts) — Open-topped transport, 22 capacity
-- [ ] Legion Whispercutter (75 pts) — Skimmer transport, 6 capacity
+- [x] Legion Whispercutter (75 pts) — Skimmer transport, 6 capacity
 
 ### Fast Attack
-- [ ] Mutated Spawn (50 pts)
-- [ ] Legion Storm Eagle Transporter (210 pts)
+- [x] Mutated Spawn (50 pts)
+- [x] Legion Storm Eagle Transporter (210 pts)
 
 ### Heavy Support
-- [ ] Legion Sicaran Incinerator Squadron (190 pts)
-- [ ] Legion Vindicator Thunderer Squadron (145 pts)
+- [x] Legion Sicaran Incinerator Squadron (190 pts)
+- [x] Legion Vindicator Thunderer Squadron (145 pts)
 - [x] Legion Fire Raptor Destroyer (300 pts) — Flyer, Neutron Cannon
-- [ ] Early Great Crusade Havoc Squad (160 pts)
-- [ ] Legion Tartaros Heavy Destroyer Squad (190 pts) — Terminator Destroyers
-- [ ] Legion Cataphractii Heavy Destroyer Squad (215 pts) — Terminator Destroyers
+- [x] Early Great Crusade Havoc Squad (160 pts)
+- [x] Legion Tartaros Heavy Destroyer Squad (190 pts) — Terminator Destroyers
+- [x] Legion Cataphractii Heavy Destroyer Squad (215 pts) — Terminator Destroyers
 
 ### Lords of War
-- [ ] Legion Banesword (450 pts)
-- [ ] Legion Doomhammer (500 pts)
-- [ ] Legion Orthrus Destroyer Squadron (280 pts)
+- [x] Legion Banesword (450 pts)
+- [x] Legion Doomhammer (500 pts)
+- [x] Legion Orthrus Destroyer Squadron (280 pts)
 
 ### Fortifications
-- [ ] Basilisk Anti-Air Emplacement Battery (125 pts per model)
+- [x] Basilisk Anti-Air Emplacement Battery (125 pts per model)
 
 ## Weapon Option Groups
 - [x] Detailed weapon options for Contemptor Centurion
 - [x] Detailed weapon options for Castra Ferrum Centurion
 - [x] Detailed weapon options for Rhino Advancer
-- [ ] Detailed weapon options for Whispercutter
+- [x] Detailed weapon options for Whispercutter
 - [x] Detailed weapon options for Fire Raptor Destroyer
-- [ ] Detailed weapon options for Tartaros Heavy Destroyer Squad
-- [ ] Detailed weapon options for Cataphractii Heavy Destroyer Squad
-- [ ] Detailed weapon options for Basilisk AA Emplacement
+- [x] Detailed weapon options for Tartaros Heavy Destroyer Squad
+- [x] Detailed weapon options for Cataphractii Heavy Destroyer Squad
+- [x] Detailed weapon options for Basilisk AA Emplacement
 
 ## Rites of War (Additional Unaligned)
-- [ ] Destroyer Company
-- [ ] Breacher Spearhead
-- [ ] Tactica Obliqua
-- [ ] Storm-Lance Tumen
+- [x] Destroyer Company (GST: lc16-row1-0001-0001)
+- [x] Breacher Spearhead (GST: lc16-row2-0001-0001)
+- [x] Tactica Obliqua (GST: lc16-row3-0001-0001)
+- [x] Storm-Lance Tumen (GST: lc16-row4-0001-0001)
+
+## Rites of War Modifications (existing RoW)
+- [x] Angel's Wrath — Caestus Assault Ram as DT option
+- [x] Sky-Hunter Phalanx — Sky-Seeker Squadrons lose Support Squad rule
+- [x] Pride of the Legion — Assault Veteran as Troops + Saturnine as Heavy Support
+- [x] Fury of the Ancients — Castra Ferrum/Contemptor-Cortus as Troops + Dreadnought HQ
 
 ## Consularis & Pater Consularis
-- [ ] Pater Consularis: Librarian (+50 pts)
-- [ ] Pater Consularis: Master of Signals (+40 pts)
-- [ ] Pater Consularis: Forge Lord (+50 pts)
-- [ ] Pater Consularis: Siege Breaker (+55 pts)
-- [ ] Pater Consularis: Chaplain (+50 pts)
-- [ ] Pater Consularis: Armistos (+30 pts)
-- [ ] Pater Consularis: Herald (+40 pts)
-- [ ] Legiones Consularis: Terran-Born Crusader (+30 pts)
-- [ ] Legiones Consularis: Lodgemaster (+30 pts)
+- [x] Pater Consularis: Librarian (+50 pts) — in Contemptor/Castra Ferrum Centurion
+- [x] Pater Consularis: Master of Signals (+40 pts)
+- [x] Pater Consularis: Forge Lord (+50 pts)
+- [x] Pater Consularis: Siege Breaker (+55 pts)
+- [x] Pater Consularis: Chaplain (+50 pts)
+- [x] Pater Consularis: Armistos (+30 pts)
+- [x] Pater Consularis: Herald (+40 pts)
+- [x] Legiones Consularis: Terran-Born Crusader (lc16-con1-0001-0001)
+- [x] Legiones Consularis: Lodgemaster (lc16-con2-0001-0001)
 
 ## Legion-Specific Content
 
@@ -240,21 +248,21 @@ All content is fanmade and does not violate any copyright law.
 | Twisted Talons | ✅ Done | +1 S AP4 Melee |
 | Mutated Appendages | ✅ Done | +2 S AP4 Melee |
 | Power Claw | ✅ Done | User AP4 Melee |
-| Atomantic Repulsor (wargear) | ⬜ Todo | |
-| Atomantic Dispersion Shield | ⬜ Todo | |
-| Aspectum-Pattern Occularis Array | ⬜ Todo | |
-| Battle Servitor Control | ⬜ Todo | |
-| Deredeo Atomantic Pavaise | ⬜ Todo | |
-| Frag Launchers | ⬜ Todo | |
-| Hyperios Command Platform | ⬜ Todo | |
-| Full-Spectra Comms Array | ⬜ Todo | |
-| Legion Saturnine Terminator Armour | ⬜ Todo | |
-| Legion Estoc Jetbike | ⬜ Todo | |
-| Oracle Array | ⬜ Todo | |
-| Teleportation Transponders | ⬜ Todo | |
-| Signum-Primus | ⬜ Todo | |
-| Tarantula Deployment | ⬜ Todo | |
-| Skytracker Augury | ⬜ Todo | |
+| Atomantic Repulsor (wargear) | ✅ Done | id: lc16-warg-arep-0001 |
+| Atomantic Dispersion Shield | ✅ Done | id: lc16-warg-adsh-0001 |
+| Aspectum-Pattern Occularis Array | ✅ Done | id: lc16-warg-aoca-0001 |
+| Battle Servitor Control | ✅ Done | id: lc16-warg-bsvc-0001 |
+| Deredeo Atomantic Pavaise | ✅ Done | id: lc16-warg-datp-0001 |
+| Frag Launchers | ✅ Done | id: lc16-warg-frgl-0001 |
+| Hyperios Command Platform | ✅ Done | id: lc16-warg-hcpm-0001 |
+| Full-Spectra Comms Array | ✅ Done | id: lc16-warg-fsca-0001 |
+| Legion Saturnine Terminator Armour | ✅ Done | id: 74b4-fd32-bed6-439c |
+| Legion Estoc Jetbike | ✅ Done | id: lc16-warg-estj-0001 |
+| Oracle Array | ✅ Done | id: lc16-warg-oarr-0001 |
+| Teleportation Transponders | ✅ Done | id: lc16-warg-ttp-0001 |
+| Signum-Primus | ✅ Done | id: lc16-warg-sgpr-0001 |
+| Tarantula Deployment | ✅ Done | id: lc16-warg-tdep-0001 |
+| Skytracker Augury | ✅ Done | id: lc16-warg-skya-0001 |
 
 ## Phase 3: Generic HQ Units
 
@@ -264,72 +272,78 @@ All content is fanmade and does not violate any copyright law.
 | Legion Indomitus Centurion | 70 | ✅ Done | Already in catalog |
 | Legion Saturnine Centurion | 140 | ✅ Done | Already in catalog |
 | Legion Indomitus Command Squad | 100 | ✅ Done | Already in catalog |
-| Legion Contemptor Centurion | 225 | ⬜ Todo | Dreadnought HQ |
-| Legion Castra Ferrum Centurion | 175 | ⬜ Todo | Dreadnought HQ |
-| Legion Land Raider Dionysus | 300 | ⬜ Todo | Vehicle HQ |
-| Legion Land Raider Tartaros | varies | ⬜ Todo | Vehicle HQ |
+| Legion Contemptor Centurion | 225 | ✅ Done | id: cnt1-cc02-mode-5c8f |
+| Legion Castra Ferrum Centurion | 175 | ✅ Done | id: cf01-aa02-mode-5c8f |
+| Legion Land Raider Dionysus | 300 | ✅ Done | id: lc16-unit-dionysus-0001 |
+| Legion Land Raider Tartaros | varies | ✅ Done | id: lc16-unit-tartaros-0001 |
 
 ## Phase 4: Generic Elites Units
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Legion Terminator Saturnine Squad | 200 | ⬜ Todo | |
-| Legion Assault Veteran Squad | 135 | ⬜ Todo | |
-| Legion Contemptor-Cortus Dreadnought Talon | 150 | ⬜ Todo | |
-| Possessed Legionnaires | 150 | ⬜ Todo | Traitor only |
-| Legion Servo-Automata Maniple | 50 | ⬜ Todo | 0-3 |
+| Legion Terminator Saturnine Squad | 200 | ✅ Done | id: lc16-unit-saturnine-0001 |
+| Legion Assault Veteran Squad | 135 | ✅ Done | id: in catalog |
+| Legion Contemptor-Cortus Dreadnought Talon | 150 | ✅ Done | id: in catalog |
+| Possessed Legionnaires | 150 | ✅ Done | id: lc16-unit-posleg-0001 |
+| Legion Servo-Automata Maniple | 50 | ✅ Done | id: lc16-unit-servauto-0001 |
 
 ## Phase 5: Generic Troops Units
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Legion Hussar Squadron | varies | ⬜ Todo | Cavalry |
-| Legion Sky-Seeker Squadron | varies | ⬜ Todo | Antigrav |
-| Legion Assault Support Squad | 90 | ⬜ Todo | Jump Pack |
-| Legion Novicii Squad | 90 | ⬜ Todo | Up to 30 models |
-| Legion Rhino Advancer | 80 | ⬜ Todo | Vehicle Transport |
-| Legion Whispercutter | 75 | ⬜ Todo | Cavalry Transport |
+| Legion Hussar Squadron | varies | ✅ Done | id: lc16-unit-hussar-0001 |
+| Legion Sky-Seeker Squadron | varies | ✅ Done | id: lc16-unit-skyseeker-0001 |
+| Legion Assault Support Squad | 90 | ✅ Done | id: lc16-unit-asssupp-0001 |
+| Legion Novicii Squad | 90 | ✅ Done | id: lc16-unit-novicii-0001 |
+| Legion Rhino Advancer | 80 | ✅ Done | id: in catalog |
+| Legion Whispercutter | 75 | ✅ Done | id: wcut-0001-unit-0001 |
 
 ## Phase 6: Generic Fast Attack Units
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Mutated Spawn | 40 | ⬜ Todo | Corrupted, Traitor |
-| Legion Storm Eagle Transporter | varies | ⬜ Todo | Flyer Transport |
+| Mutated Spawn | 40 | ✅ Done | id: lc16-unit-mutspawn-0001 |
+| Legion Storm Eagle Transporter | varies | ✅ Done | id: lc16-unit-stormtrans-0001 |
 
 ## Phase 7: Generic Heavy Support Units
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Legion Sicaran Incinerator Squadron | 200 | ⬜ Todo | |
-| Legion Vindicator Thunderer Squadron | 120 | ⬜ Todo | |
-| Legion Fire Raptor Destroyer | 300 | ⬜ Todo | |
-| Early Great Crusade Havoc Squad | 140 | ⬜ Todo | |
-| Legion Tartaros Heavy Destroyer Squad | 190 | ⬜ Todo | |
-| Legion Cataphractii Heavy Destroyer Squad | 210 | ⬜ Todo | |
+| Legion Sicaran Incinerator Squadron | 200 | ✅ Done | id: lc16-unit-sicaran-incin-0001 |
+| Legion Vindicator Thunderer Squadron | 120 | ✅ Done | id: lc16-unit-vindthun-0001 |
+| Legion Fire Raptor Destroyer | 300 | ✅ Done | id: frd1-0004-0001-0001 |
+| Early Great Crusade Havoc Squad | 140 | ✅ Done | id: in catalog |
+| Legion Tartaros Heavy Destroyer Squad | 190 | ✅ Done | id: thds-0001-unit-0001 |
+| Legion Cataphractii Heavy Destroyer Squad | 210 | ✅ Done | id: chds-0001-unit-0001 |
 
 ## Phase 8: Generic Lords of War
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Legion Banesword | 550 | ⬜ Todo | Super-Heavy |
-| Legion Doomhammer | 550 | ⬜ Todo | Super-Heavy Transport |
-| Legion Orthrus Destroyer Squadron | 425 | ⬜ Todo | Bombard |
+| Legion Banesword | 550 | ✅ Done | id: lc16-unit-banesword-0001 |
+| Legion Doomhammer | 550 | ✅ Done | id: in catalog |
+| Legion Orthrus Destroyer Squadron | 425 | ✅ Done | id: lc16-unit-orthrus-0001 |
 
 ## Phase 9: Fortifications
 
 | Unit | Pts | Status | Notes |
 |------|-----|--------|-------|
-| Basilisk Anti-Air Emplacement Battery | 125 | ⬜ Todo | |
+| Basilisk Anti-Air Emplacement Battery | 125 | ✅ Done | id: baae-0001-unit-0001 |
 
 ## Phase 10: Rites of War & Consularis
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Destroyer Company (RoW) | ⬜ Todo | Unaligned |
-| Modifications to existing RoW | ⬜ Todo | |
-| Generic Legiones Consularis | ⬜ Todo | |
-| Pater Consularis upgrades | ⬜ Todo | |
+| Destroyer Company (RoW) | ✅ Done | GST: lc16-row1-0001-0001 |
+| Breacher Spearhead (RoW) | ✅ Done | GST: lc16-row2-0001-0001 |
+| Tactica Obliqua (RoW) | ✅ Done | GST: lc16-row3-0001-0001 |
+| Storm-Lance Tumen (RoW) | ✅ Done | GST: lc16-row4-0001-0001 |
+| Modifications to Angel's Wrath | ✅ Done | Caestus Assault Ram as DT |
+| Modifications to Sky-Hunter Phalanx | ✅ Done | Sky-Seeker loses Support Squad |
+| Modifications to Pride of the Legion | ✅ Done | Assault Veteran + Saturnine as HS |
+| Modifications to Fury of the Ancients | ✅ Done | Castra Ferrum/Cortus Troops + Dread HQ |
+| Generic Legiones Consularis | ✅ Done | Terran-Born Crusader + Lodgemaster |
+| Pater Consularis upgrades | ✅ Done | 7 types in Contemptor/Castra Ferrum Centurion |
 
 ## Phase 11-28: Legion-Specific Content
 
@@ -494,10 +508,11 @@ All content is fanmade and does not violate any copyright law.
 
 ---
 
-## Current Implementation Status (v1)
-- **Shared Special Rules added:** 18 new rules
-- **Shared Weapons/Wargear added:** 24 new profiles
-- **Generic Units added:** 15 units (6 Elites, 4 Troops, 2 Fast Attack, 3 Heavy Support, 2 Lords of War)
-- **Remaining Generic Units:** ~8 (Contemptor/Castra Ferrum Centurion HQ, Rhino Advancer, Whispercutter, Fire Raptor Destroyer, Heavy Destroyer Squads, Basilisk AA)
-- **Legion-Specific content:** ~80+ items across 18 legions (not yet started)
-- **Total estimated remaining items:** ~90+
+## Current Implementation Status (v2)
+- **Shared Special Rules added:** 22 new rules (Phase 1 complete)
+- **Shared Weapons/Wargear added:** 38+ new profiles (Phase 2 complete)
+- **Generic Units added:** All 28 generic units complete (Phases 3-9 complete)
+- **Rites of War:** 4 new RoW + 4 existing RoW modified (Phase 10 complete)
+- **Consularis:** Terran-Born Crusader, Lodgemaster, all 7 Pater Consularis types complete
+- **Legion-Specific content:** ~80+ items across 18 legions (Phases 11-28 — not yet started)
+- **Total estimated remaining items:** ~80+
