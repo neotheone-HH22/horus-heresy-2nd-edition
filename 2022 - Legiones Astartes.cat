@@ -73547,6 +73547,174 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="lc16-warg-arep-0001" name="Atomantic Repulsor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-arep-0001" name="Atomantic Repulsor" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Atomantic Repulsor gains a 6+ Invulnerable save, and any model with an Atomantic Repulsor and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death Special Rule is not immediately removed as a casualty, but instead loses D3 Wounds for each unsaved Wound with the Instant Death Special Rule inflicted on it. In addition, when a model with an Atomantic Repulsor loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a wreck, all models both friendly and enemy within D3+3&quot; suffer an automatic hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-adsh-0001" name="Atomantic Dispersion Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-adsh-0001" name="Atomantic Dispersion Shield" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model armed with this wargear has a 5+ Invulnerable Save - but this can never be improved by any effects of Wargear, Special Rules, or Psychic Powers. In addition, when a model with an Atomantic Dispersion Shield loses its last Hull Point, increase the explosion radius by 3&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-aoca-0001" name="Aspectum-Pattern Occularis Array" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-aoca-0001" name="Aspectum-Pattern Occularis Array" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model armed with this wargear has the Night Vision Special Rule, and any enemy model targeted by a Shooting Attack from this model suffers a -1 penalty to all Cover Saves it makes as a result of attacks made by this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-bsvc-0001" name="Battle Servitor Control" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-bsvc-0001" name="Battle Servitor Control" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Battle Servitor Control gains the Sunder Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-datp-0001" name="Deredeo Atomantic Pavaise" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-datp-0001" name="Deredeo Atomantic Pavaise" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model armed with a Deredeo Atomantic Pavaise gains an Invulnerable Save of 4+ against Shooting Attacks (but note this does not replace the effects of an Atomantic Deflector). In addition, a Deredeo Atomantic Pavaise grants friendly infantry models wholly within 4&quot; of the model&apos;s base an Invulnerable Save of 6+ against Shooting Attacks or boosts an Invulnerable Save they already possess by +1, to a maximum of 4+. Note that the bonus granted by a Deredeo Atomantic Pavaise has no effect on Invulnerable saves in close combat, and its benefits do not stack with the effects of other Special Rules, Psychic Powers or items of Wargear (including other Atomantic Pavaises) which boost an existing Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-frgl-0001" name="Frag Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-frgl-0001" name="Frag Launchers" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">If a model charges a unit armed with Frag Launchers, that charge is counted as Disordered.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-hcpm-0001" name="Hyperios Command Platform" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-hcpm-0001" name="Hyperios Command Platform" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as it is on the table, a model armed with a Hyperios Command Platform grants the Split Fire Special Rule to all Hyperios Air-Defence Launchers in the same unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-fsca-0001" name="Full-Spectra Comms Array" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-fsca-0001" name="Full-Spectra Comms Array" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Full-Spectra Comms Array counts as an Augury Scanner, Nuncio Vox, and Vox Disruptor Array, as well as granting the following bonuses: A model equipped with a Full-Spectra Comms Array has the Night Vision Special Rule. In the Shooting Phase, a model equipped with a Full-Spectra Comms Array may grant a single friendly unit within 3&quot; +1 to their BS for that Shooting Phase. This benefit is not cumulative and cannot be stacked with the bonus provided by a Cognis Signum. In addition, at the start of your turn, a Pater Consularis Master of Signals may grant a single friendly unit within 3&quot; the ability to ignore the -1 penalty to Leadership imposed by the Night Fighting rules until the start of your next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-estj-0001" name="Legion Estoc Jetbike" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-estj-0001" name="Legion Estoc Jetbike" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Estoc Jetbike has a Twin-Linked Bolter and an Oracle Array. In addition, a model with a Legion Estoc Jetbike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Estoc Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 16, and gains the Firing Protocols (2), Battle-Hardened (1), and Hammer of Wrath (1) Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-oarr-0001" name="Oracle Array" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-oarr-0001" name="Oracle Array" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with an Oracle Array counts as having an Augury Scanner. In addition, a unit which has at least one model armed with an Oracle Array may designate a single enemy unit within 12&quot; and line of sight of the unit at the start of the controlling player&apos;s Shooting Phase. Until the start of the controlling player&apos;s next turn, all friendly units with the same Legiones Astartes (X) Special Rule as the unit may add +1 to all To Hit rolls made against the designated unit during the Shooting Phase. This effect is not cumulative, and if multiple units mark the same target unit, it has no additional effect. Designating a unit in this way counts as a Shooting Attack for the entire unit which designated an enemy unit in this way.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-ttp-0001" name="Teleportation Transponders" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-ttp-0001" name="Teleportation Transponders" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit equipped with Teleportation Transponders counts as having the Deep Strike Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-sgpr-0001" name="Signum-Primus" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-sgpr-0001" name="Signum-Primus" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">In the Shooting Phase, a model equipped with a Signum-Primus may grant a single friendly unit with the same Legiones Astartes (X) Special Rule within 3&quot; +1 to their BS for the duration of that Shooting Phase. This benefit is not cumulative and cannot be stacked with the bonus provided by a Cognis Signum.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-tdep-0001" name="Tarantula Deployment" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-tdep-0001" name="Tarantula Deployment" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit with this upgrade may choose one of three deployment options before deployment: Concealed Positions - the unit has the Shrouded (4+) Special Rule until it fires any of its weapons for the first time during the game. Drop Capsules - the unit has the Deep Strike Special Rule. Forward Deployment - the unit has the Scout Special Rule. Note that the unit cannot be placed into reserve.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="lc16-warg-skya-0001" name="Skytracker Augury" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="lc16-prof-skya-0001" name="Skytracker Augury" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model armed with a Skytracker Augury gains all of the following benefits: A model with a Skytracker Augury may always shoot its weapons as long as it is Claimed, even when unmanned. A model armed with a Skytracker Augury ignores the 24&quot; limit to line of sight when making Shooting Attacks, and the Ballistic Skill Penalty normally applied while the Night Fighting rules are in effect. When any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with a Skytracker Augury may make the Interceptor Advanced Reaction without expending a point of the Reactive Player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="61a2-7005-1e6c-c08e" name="Hexagrammaton Choice:" hidden="true" collective="false" import="true">
