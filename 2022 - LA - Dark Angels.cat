@@ -7,13 +7,13 @@
         <categoryLink id="73f2-8df7-0fa9-dd37" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="da-lc16-luther-link" name="Luther" hidden="true" collective="false" import="false" targetId="da-lc16-luther-0001" type="selectionEntry">
+    <entryLink id="da-lc16-luther-link" name="Luther" hidden="false" collective="false" import="false" targetId="da-lc16-luther-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="da-lc16-luther-link-cat1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="da-lc16-luther-link-cat2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="da-lc16-astelan-link" name="Merir Astelan" hidden="true" collective="false" import="false" targetId="da-lc16-astelan-0001" type="selectionEntry">
+    <entryLink id="da-lc16-astelan-link" name="Merir Astelan" hidden="false" collective="false" import="false" targetId="da-lc16-astelan-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="da-lc16-astelan-link-cat1" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="da-lc16-astelan-link-cat2" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
