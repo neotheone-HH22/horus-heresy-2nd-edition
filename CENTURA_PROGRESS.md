@@ -92,14 +92,14 @@
 - [ ] Lord Cypher Legiones Consularis
 - [ ] Inner Circle Indomitus Squad
 
-### III: Emperor's Children
+### III: Emperor's Children (🚧 In Progress)
 - [ ] Kakophonix Prime
 - [ ] Fabius Bile (Named Character)
 - [ ] Solomon Demeter (Named Character)
 - [ ] Marius Vairosean (Named Character)
 - [ ] Terata Enhanced Warriors
 
-### IV: Iron Warriors
+### IV: Iron Warriors (🚧 In Progress)
 - [ ] Rite of War: The Iron Without
 - [ ] Barabas Dantioch (Named Character)
 - [ ] Warsmith Variants
@@ -356,7 +356,7 @@ All content is fanmade and does not violate any copyright law.
 | Merir Astelan (175pts, HQ) | ⬜ Todo |
 | Inner Circle Indomitus Squad (260pts, Elites) | ⬜ Todo |
 
-### Phase 12: III - Emperor's Children
+### Phase 12: III - Emperor's Children (🚧 In Progress)
 | Item | Status |
 |------|--------|
 | Kakophonix Prime Consularis (+40pts) | ⬜ Todo |
@@ -366,7 +366,7 @@ All content is fanmade and does not violate any copyright law.
 | Marius Vairosean (160pts, HQ) | ⬜ Todo |
 | Terata Enhanced Warriors (130pts, Elites) | ⬜ Todo |
 
-### Phase 13: IV - Iron Warriors
+### Phase 13: IV - Iron Warriors (🚧 In Progress)
 | Item | Status |
 |------|--------|
 | The Iron Without (RoW) | ⬜ Todo |
