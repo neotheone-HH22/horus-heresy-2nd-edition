@@ -1,6 +1,6 @@
 # Liber Ingenium Implementation Progress
 
-**Master Tracking Issue:** TBD (created by `create-all-ingenium-issues.sh`)
+**Master Tracking Issue:** #238
 
 **Source Document:** `Liber Ingenium.txt` (Liber Ingenium: The Marching Forge, v1.3)
 
@@ -11,25 +11,25 @@ This document tracks progress for implementing Liber Ingenium content in Horus H
 ## Implementation Status
 
 ### Taghmata Omnissiah — Army List
-- [ ] HQ Units (p6–17) - Issue: TBD
-- [ ] Elites Units (p20–29) - Issue: TBD
-- [ ] Troops & Dedicated Transports (p32–39) - Issue: TBD
-- [ ] Fast Attack Units (p42–51) - Issue: TBD
-- [ ] Heavy Support Units (p54–61) - Issue: TBD
-- [ ] Lords of War Units (p64–67) - Issue: TBD
+- [ ] HQ Units (p6–17) - Issue: #239
+- [ ] Elites Units (p20–29) - Issue: #240
+- [ ] Troops & Dedicated Transports (p32–39) - Issue: #241
+- [ ] Fast Attack Units (p42–51) - Issue: #242
+- [ ] Heavy Support Units (p54–61) - Issue: #243
+- [ ] Lords of War Units (p64–67) - Issue: #244
 
 ### Divisio Tactica
-- [ ] Questoris Households additions (p70–75) - Issue: TBD
-- [ ] Titan Legions additional options (p78–79) - Issue: TBD
+- [ ] Questoris Households additions (p70–75) - Issue: #252
+- [ ] Titan Legions additional options (p78–79) - Issue: #253
 
 ### Appendices
-- [ ] Mechanicum Unit Types (p82) - Issue: TBD
-- [ ] Orders of Lesser and Higher Techno-Arcana (p86–89) - Issue: TBD
-- [ ] Mechanicum Special Rules (p90–95) - Issue: TBD
-- [ ] Armoury of the Mechanicum — weapon profiles (p96–103) - Issue: TBD
-- [ ] Mechanicum Wargear (p104–109) - Issue: TBD
-- [ ] Legiones Skitarii Warlord Traits (p110–113) - Issue: TBD
-- [ ] Base Sizing Chart (p114–115) - Issue: TBD
+- [x] Mechanicum Unit Types (p82) - Issue: #245
+- [ ] Orders of Lesser and Higher Techno-Arcana (p86–89) - Issue: #246
+- [ ] Mechanicum Special Rules (p90–95) - Issue: #247
+- [ ] Armoury of the Mechanicum — weapon profiles (p96–103) - Issue: #248
+- [ ] Mechanicum Wargear (p104–109) - Issue: #249
+- [ ] Legiones Skitarii Warlord Traits (p110–113) - Issue: #250
+- [ ] Base Sizing Chart (p114–115) - Issue: #251
 
 ---
 
@@ -84,5 +84,5 @@ The original `Liber Ingenium.txt` has been split into focused reference files:
 
 ---
 
-**Last Updated:** 2026-04-15
-**Status:** Issues planned; implementation tracking initialized
+**Last Updated:** 2026-04-17
+**Status:** Issues created and linked; Mechanicum Unit Types implemented
