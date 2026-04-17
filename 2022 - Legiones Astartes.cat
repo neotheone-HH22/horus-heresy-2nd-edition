@@ -74747,6 +74747,21 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink id="lc16-vindthun-seg02-pho" name="Phosphex Canister Shot (Rapier)" hidden="true" collective="false" import="true" targetId="9bbe-701f-0a83-6ce8" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8247-54dc-9194-948f" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-vindthun-seg02-pho-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="lc16-vindthun-seg03" name="3) Pintle Mounted Weapon:" hidden="false" collective="false" import="true">
@@ -75012,6 +75027,17 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
                   </costs>
                 </entryLink>
+                <entryLink id="lc16-havoc-sgt-seg01-mcb" name="Bolter" hidden="false" collective="false" import="true" targetId="1ade-0c02-5612-252b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Master-crafted Bolter"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="lc16-havoc-sgt-seg01-mcb-il01" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="lc16-havoc-sgt-seg01-mcw" name="Minor Combi-Weapon" hidden="false" collective="false" import="true" targetId="605e-1b86-ca08-9226" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -75076,6 +75102,14 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <entryLink id="lc16-havoc-sgt-seg02-mb" name="Meltabombs" hidden="false" collective="false" import="true" targetId="b9dd-3b21-f3f8-78e3" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-havoc-sgt-seg02-mb-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="lc16-havoc-sgt-seg02-cf" name="Cyber-Familiar" hidden="false" collective="false" import="true" targetId="6c85-4601-cf58-7b35" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-havoc-sgt-seg02-cf-max" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -76244,6 +76278,40 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="lc16-saturnine-mdl01-seg03" name="Replace Combi-Bolter and Power Weapon:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-mdl01-seg03-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="lc16-saturnine-mdl01-seg03-2lc" name="Two Lightning Claws" hidden="false" collective="false" import="true" targetId="6923-4e42-5691-b13f" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="lc16-saturnine-mdl01-seg04" name="Heavy Weapon (1 per 3 models)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-mdl01-seg04-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="lc16-saturnine-mdl01-seg04-hfl" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="lc16-saturnine-mdl01-seg04-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="lc16-saturnine-mdl01-seg04-rac" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="b87f-48de-6ced-043b" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
@@ -76357,12 +76425,54 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="lc16-saturnine-mdl02-seg04" name="Replace Combi-Bolter and Power Weapon:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-mdl02-seg04-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="lc16-saturnine-mdl02-seg04-2lc" name="Two Lightning Claws" hidden="false" collective="false" import="true" targetId="6923-4e42-5691-b13f" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="lc16-saturnine-seg01" name="One model may take:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="lc16-saturnine-seg01-vex" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-seg01-vex-max" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="lc16-saturnine-seg01-as" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-seg01-as-max" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink id="lc16-saturnine-seg01-nv" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="lc16-saturnine-seg01-nv-max" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
       </costs>
