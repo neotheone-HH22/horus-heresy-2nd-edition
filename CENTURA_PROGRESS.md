@@ -93,7 +93,7 @@
 - [ ] Inner Circle Indomitus Squad
 
 ### III: Emperor's Children (🚧 In Progress)
-- [ ] Kakophonix Prime
+- [x] Kakophonix Prime
 - [ ] Fabius Bile (Named Character)
 - [ ] Solomon Demeter (Named Character)
 - [ ] Marius Vairosean (Named Character)
@@ -359,7 +359,7 @@ All content is fanmade and does not violate any copyright law.
 ### Phase 12: III - Emperor's Children (🚧 In Progress)
 | Item | Status |
 |------|--------|
-| Kakophonix Prime Consularis (+40pts) | ⬜ Todo |
+| Kakophonix Prime Consularis (+40pts) | ✅ Done |
 | Sonic Heavy Weapons (Blaster/Pulveriser/Decimator) | ⬜ Todo |
 | Fabius Bile (150pts, HQ) | ⬜ Todo |
 | Solomon Demeter (180pts, HQ) | ⬜ Todo |

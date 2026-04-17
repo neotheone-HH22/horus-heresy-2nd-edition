@@ -416,6 +416,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="ec-lc16-cen-kakophonix-link" name="Legiones Consularis: Kakophonix Prime" hidden="false" collective="false" import="true" targetId="ec-lc16-kakophonix-prime-0001" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="06e0-e2f5-0e4d-3189" name="Centurion, Cataphractii" hidden="false" collective="false" import="false" targetId="3766-ea98-0aa7-62d0" type="selectionEntry">
@@ -458,6 +459,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="ec-lc16-catp-kakophonix-link" name="Legiones Consularis: Kakophonix Prime" hidden="false" collective="false" import="true" targetId="ec-lc16-kakophonix-prime-0001" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="4838-9716-e041-d3d4" name="Centurion, Tartaros" hidden="false" collective="false" import="false" targetId="f806-8a4e-d0d6-beaa" type="selectionEntry">
@@ -490,6 +492,7 @@
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="ec-lc16-tart-kakophonix-link" name="Legiones Consularis: Kakophonix Prime" hidden="false" collective="false" import="true" targetId="ec-lc16-kakophonix-prime-0001" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="0254-0b4d-1f00-4c4c" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="fda4-5cdc-49a8-40e7" type="selectionEntry">
@@ -512,6 +515,7 @@
       <entryLinks>
         <entryLink id="79fb-5dda-f397-4509" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="0cb4-896e-a455-243b" type="selectionEntryGroup"/>
         <entryLink id="923f-b3c1-3f70-49db" name="Retinue" hidden="false" collective="false" import="true" targetId="30af-29e4-7637-73ea" type="selectionEntryGroup"/>
+        <entryLink id="ec-lc16-indo-kakophonix-link" name="Legiones Consularis: Kakophonix Prime" hidden="false" collective="false" import="true" targetId="ec-lc16-kakophonix-prime-0001" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="314a-6609-e3d9-e76b" name="Cerberus Squadron" hidden="false" collective="false" import="false" targetId="137a-e079-34cd-8161" type="selectionEntry">
@@ -6437,6 +6441,49 @@ A Warlord with this Trait and all models in a unit the Warlord has joined that h
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry id="ec-lc16-kakophonix-prime-0001" name="Legiones Consularis: Kakophonix Prime" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3edc-a1b9-6dc6-b1ea" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-kakophonix-cst1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec-lc16-kakophonix-prof1" name="Legiones Consularis: Kakophonix Prime" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Legion Centurion with the Legiones Astartes (Emperor&apos;s Children) Special Rule and the Traitor Allegiance may be upgraded to a Kakophonix Prime Consul instead of selecting any standard Consul upgrades. The Kakophonix Prime gains Rising Crescendo, Choir of Screams, Fearless, Heavy Sub-type, Leadership 10, Sonic Shriekers and a Cacophony weapon.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ec-lc16-kakophonix-rule1" name="Rising Crescendo" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false">
+          <description>A Kakophoni Squad containing the Kakophonix Prime may ignore the effect of the Gets Hot Special Rule, and gain the Shell Shock (2) Special Rule when using their Cacophony weaponry.</description>
+        </rule>
+        <rule id="ec-lc16-kakophonix-rule2" name="Choir of Screams" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false">
+          <description>Any unit composed entirely of models with the Legiones Astartes (Emperor&apos;s Children) Special Rule in a Detachment that contains a Kakophonix Prime may exchange all Heavy Bolters for Sonic Blasters at +5 points per weapon, may exchange a Gravis Bolt Cannon for a Sonic Pulveriser at +10 points per weapon, and may exchange a Gravis Heavy Bolter Battery or Anvilus Autocannon Battery for a Sonic Decimator at +10 points per weapon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ec-lc16-kakophonix-il01" name="Fearless" hidden="false" targetId="b48c-d7e1-2a83-2f5b" type="rule"/>
+        <infoLink id="ec-lc16-kakophonix-il02" name="Rising Crescendo" hidden="false" targetId="ec-lc16-kakophonix-rule1" type="rule"/>
+        <infoLink id="ec-lc16-kakophonix-il03" name="Choir of Screams" hidden="false" targetId="ec-lc16-kakophonix-rule2" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ec-lc16-kakophonix-wg01" name="Sonic Shriekers" hidden="false" collective="false" import="true" targetId="3f61-86fe-eecf-aed7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-kakophonix-cst2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-kakophonix-cst3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Rite of War" hidden="false" id="2494-402e-655d-d47f" collective="false">
       <constraints>
