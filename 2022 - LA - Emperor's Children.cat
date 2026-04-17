@@ -6259,6 +6259,81 @@ During a Reaction made in any Phase, a player may not choose to activate a model
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="600"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ec-lc16-sonic-blaster-0001" name="Sonic Blaster" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-blaster-cst1" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-blaster-cst2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec-lc16-sonic-blaster-prof1" name="Sonic Blaster" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Gets Hot, Pinning, Shell Shock (1), Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec-lc16-sonic-blaster-il01" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="ec-lc16-sonic-blaster-il02" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="ec-lc16-sonic-blaster-il03" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule"/>
+        <infoLink id="ec-lc16-sonic-blaster-il04" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec-lc16-sonic-pulveriser-0001" name="Sonic Pulveriser" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-pulveriser-cst1" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-pulveriser-cst2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec-lc16-sonic-pulveriser-prof1" name="Sonic Pulveriser" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 5, Gets Hot, Pinning, Shell Shock (1), Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec-lc16-sonic-pulveriser-il01" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="ec-lc16-sonic-pulveriser-il02" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="ec-lc16-sonic-pulveriser-il03" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule"/>
+        <infoLink id="ec-lc16-sonic-pulveriser-il04" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec-lc16-sonic-decimator-0001" name="Sonic Decimator" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-decimator-cst1" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec-lc16-sonic-decimator-cst2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec-lc16-sonic-decimator-prof1" name="Sonic Decimator" publicationId="c3a1-b2d4-e5f6-7890" page="104" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Gets Hot, Pinning, Shell Shock (1), Deflagrate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec-lc16-sonic-decimator-il01" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="ec-lc16-sonic-decimator-il02" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="ec-lc16-sonic-decimator-il03" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule"/>
+        <infoLink id="ec-lc16-sonic-decimator-il04" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="30af-29e4-7637-73ea" name="Retinue" hidden="false" collective="false" import="true">

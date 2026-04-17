@@ -360,7 +360,7 @@ All content is fanmade and does not violate any copyright law.
 | Item | Status |
 |------|--------|
 | Kakophonix Prime Consularis (+40pts) | ✅ Done |
-| Sonic Heavy Weapons (Blaster/Pulveriser/Decimator) | ⬜ Todo |
+| Sonic Heavy Weapons (Blaster/Pulveriser/Decimator) | ✅ Done |
 | Fabius Bile (150pts, HQ) | ⬜ Todo |
 | Solomon Demeter (180pts, HQ) | ⬜ Todo |
 | Marius Vairosean (160pts, HQ) | ⬜ Todo |
