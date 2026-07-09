@@ -1924,7 +1924,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Infantry (Character, Warboss); Battle-hardened (1); Bulky (2); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Biggest and Best</string>
+					<string>Infantry (Character, Warboss); Battle-hardened (1); Bulky (2); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Waaagh!; Biggest and Best</string>
 					<key>Stats</key>
 					<string>M7•WS6•BS2•S5•T5•W4•I4•A5•Ld10•Sv4+</string>
 				</dict>
@@ -3159,7 +3159,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Infantry (Character, Heavy, Warboss); Battle-hardened (1); Bulky (3); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Biggest and Best</string>
+					<string>Infantry (Character, Heavy, Warboss); Battle-hardened (1); Bulky (3); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Waaagh!; Biggest and Best</string>
 					<key>Stats</key>
 					<string>M6•WS6•BS2•S5•T5•W5•I4•A5•Ld10•Sv2+</string>
 				</dict>
@@ -5108,7 +5108,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Infantry (Character, Warboss); Battle-hardened (1); Bulky (2); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless</string>
+					<string>Infantry (Character, Warboss); Battle-hardened (1); Bulky (2); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Waaagh!</string>
 					<key>Stats</key>
 					<string>M7•WS6•BS2•S5•T5•W3•I4•A4•Ld9•Sv4+</string>
 				</dict>
@@ -6343,7 +6343,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Infantry (Character, Heavy, Warboss); Battle-hardened (1); Bulky (3); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless</string>
+					<string>Infantry (Character, Heavy, Warboss); Battle-hardened (1); Bulky (3); 'Ere We Go!; Fear (1); Furious Charge; Independent Character; Mob Rule; Relentless; Waaagh!</string>
 					<key>Stats</key>
 					<string>M6•WS6•BS2•S5•T5•W4•I4•A4•Ld9•Sv2+</string>
 				</dict>
