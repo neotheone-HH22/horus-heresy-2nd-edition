@@ -14282,7 +14282,8 @@ A unit with this special rule that has been joined by a model after or during de
     </rule>
     <rule id="orks-rule-tlbc-0001" name="Tellyport Beacon" hidden="false">
       <description>The controlling player may re-roll any Scatter rolls made as part of the deployment of a model or unit via a Deep Strike Assault, as long as a model with this special rule is within 12&quot; of the point chosen as the target of the deployment.
-In addition, whilst at least one model with this special rule is on the battlefield, the controlling player may re-roll the die to see if units performing a Deep Strike Assault arrive from reserves.</description>
+In addition, whilst at least one model with this special rule is on the battlefield, the controlling player may re-roll the die to see if units performing a Deep Strike Assault arrive from reserves.
+If the last model with this special rule on the controlling player&apos;s side is destroyed and removed as casualties, that player must immediately perform a Deep Strike Assault before that model is removed as a casualty if any unit on their side are held back in reserves as part of a Deep Strike Assault, but that Deep Strike Assault is automatically Disordered and, after deploying all models as part of that Deep Strike Assault, roll a D6 for each. On a 1, that model suffers a Wound/Glancing Hit with no saves or damage mitigation rolls of any kind allowed.</description>
     </rule>
     <rule id="orks-rule-cybk-0001" name="Cybork Body" hidden="false">
       <description>A model with a Cybork Body adds +1 to its Invulnerable Save (to a maximum of 3+), or gains an Invulnerable Save of 6+ if they do not already possess one. In addition, successful To Wound rolls made for weapons with the Poisoned or Fleshbane special rule must be re-rolled against models with a Cybork Body.
@@ -16461,14 +16462,13 @@ Limitations
           <rules>
             <rule id="orks-wagh-000b-r001" name="Tellyported Waaagh!" page="100" hidden="false">
               <description>Effects
-• All units in a Detachment using this Waaagh! Army that do not have the Super-Heavy Sub-type gain the Deep Strike special rule.
-• Units from a Detachment using this Waaagh! Army gain the Line Sub-type on the turn they arrive via Deep Strike Assault.
+• All units in the Detachment, except units with the Super-Heavy, Knight, or Titan unit Sub-type gain the Deep Strike special rule.
+• All units in the Detachment gain the Line unit Sub-type during a turn in which they arrive from reserves as part of a Deep Strike Assault.
 Limitations
-• The Warlord of an army using this Waaagh! Army must be a Big Mek with a Tellyport Beacon that is deployed on the battlefield.
-• At least half the units in a Detachment using this Waaagh! Army (rounding up) must be placed into Deep Strike Reserves.
-• A Detachment using this Waaagh! Army may not include any models with the Flyer Sub-type.
-
-^Manually check restrictions and limitations against source (Xenologica 2e p100)</description>
+• The Detachment must include a Big Mek or Big Mek in Mega-Armour. That model gains the Tellyport Beacon special rule. It must be deployed on the battlefield at the start of battle and cannot be held back in reserves.
+• Exactly half of the units in the Detachment, rounded up, must be held back in reserves and perform a Deep Strike Assault, ignoring all other rules and restrictions.
+• No units in the Detachment&apos;s army may be held back in reserves, except units performing a Deep Strike Assault, ignoring all other rules and restrictions.
+• The Detachment may not include any units with the Flyer unit Sub-Type.</description>
             </rule>
           </rules>
           <costs>
