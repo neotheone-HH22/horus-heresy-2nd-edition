@@ -926,6 +926,50 @@ Conversely, if an Independent Character joins a unit after that unit has been th
         </rule>
       </rules>
     </categoryEntry>
+    <categoryEntry id="d49a-0a11-5f62-9f7c" name="Crawler Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+      <rules>
+        <rule id="7b82-8ce6-7f43-e64f" name="Crawler Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+          <description>The following rules apply to all models with the Crawler Unit Sub-type:
+• Any model with this Sub-type may fire Heavy and Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase.
+• Any model with this Sub-type is never slowed by Difficult Terrain, and automatically passes Dangerous Terrain tests.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="cd0e-9e47-b194-5c6e" name="Servitor Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+      <rules>
+        <rule id="2c10-9929-8c08-8829" name="Servitor Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+          <description>The following rules apply to all models with the Servitor Unit Sub-type:
+• Successful Wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against models of the Servitor Unit Sub-type.
+• Any models with this Sub-type have the Fearless special rule.
+• Any model with this Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
+• Any model with this Sub-type may not use the Withdraw, Evade, or Hold the Line Reactions.
+• Models with this Sub-type may fire Heavy weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="fb64-7ab2-66d0-18ea" name="Skitarii Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+      <rules>
+        <rule id="7f1a-e734-9de6-7cf9" name="Skitarii Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="82" hidden="false">
+          <description>The following rules apply to all models with the Skitarii Unit Sub-type:
+• Any Infantry models with this Sub-type have the Feel No Pain (6+) special rule (unless they gain a better version of the Feel No Pain special rule from any other source).
+• Any Vehicle models with this Sub-type have the It Will Not Die (6+) special rule (unless they gain a better version of the It Will Not Die special rule from any other source).
+• Any models with this Sub-type may re-roll Feel No Pain Damage Mitigation rolls which are the result of attacks made by weapons with the Poisoned (X) or Rad-Phage special rules.
+• Any models with this Sub-type automatically have the Datasphere Uplink special rule.
+• A Detachment may not include more models with the Skitarii Unit Sub-type than without unless the Compulsory HQ choice in the same Detachment has the Skitarii Unit Sub-type themselves.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="8fdb-75f4-a95a-1c2d" name="Paragon Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
+      <rules>
+        <rule id="dc7e-7ca8-d344-1d36" name="Paragon Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
+          <description>The following rules apply to all models with the Paragon Unit Sub-type:
+• Models with the Paragon Unit Sub-type are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).
+• A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
+• Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+• A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
     <categoryEntry id="0ea2-efb5-b7af-226e" name="Fast Sub-type" hidden="false">
       <rules>
         <rule id="2cbf-c1a1-844a-6456" name="Fast Vehicles" hidden="true">
